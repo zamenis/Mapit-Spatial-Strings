@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="accuracyUnit">
+        <item>Meter</item>
+        <item>Zentimeter</item>
+    </string-array>
+    <string-array name="accuracyUnitValue">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="cords_sr">
+        <item>WGS84(lat,lon) - D.dddd</item>
+        <item>WGS84(lat,lon) - D\u00b0M.mm</item>
+        <item>WGS84(lat,lon) - D\u00b0M\'S.ss</item>
+        <item>Web mercator</item>
+        <item>British National Grid</item>
+        <item>Custom: EPSG code</item>
+    </string-array>
+    <string-array name="cords_sr_values">
+        <item>4326</item>
+        <item>43261</item>
+        <item>43262</item>
+        <item>3857</item>
+        <item>27700</item>
+        <item>2147483646</item>
+    </string-array>
+    <string-array name="areaUnits">
+        <item>Quadratmeter - [ m2 ]</item>
+        <item>Hektar - [ ha ]</item>
+        <item>Ar - [ a ]</item>
+        <item>Quadratkilometer - [ km2 ]</item>
+        <item>Quadratmeilen - [ mi2 ]</item>
+        <item>Morgen - [ ac ]</item>
+        <item>Quadratfuß - [ ft2 ]</item>
+        <item>Quadratseemeile - [ nmi2 ]</item>
+        <item>Quadratsazhen - [ saz2 ]</item>
+    </string-array>
+    <string-array name="areaUnitsValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+	 <string-array name="lengthUnits">
+         <item>Meter - [ m ]</item>
+         <item>Yards - [ yd ]</item>
+         <item>Kilometer - [ km ]</item>
+         <item>Meilen - [ mi ]</item>
+         <item>Fuß - [ ft ]</item>
+         <item>Seemeile - [ nmi ]</item>
+         <item>Sazhen - [ saz ]</item>
+    </string-array>
+    <string-array name="lengthUnitsValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="measureMethod">
+        <item>Tap on the map</item>
+        <item>GPS points</item>
+        <item>Map cursor</item>
+    </string-array>
+    <string-array name="measureMethodValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+     <string-array name="measureType">
+         <item>Längenmessung</item>
+         <item>Flächenmessung</item>
+    </string-array>
+    <string-array name="measureTypeValues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="layer_types_array">
+        <item>Punkt</item>
+        <item>Linie</item>
+        <item>Polygon</item>
+    </string-array>
+    <string-array name="picture_format">
+        <item>PNG</item>
+        <item>JPG</item>
+    </string-array>
+    <string-array name="picture_format_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    
+    
+</resources>
+

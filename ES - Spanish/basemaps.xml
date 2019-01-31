@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_section0" translatable="false">Google Map</string>
+    <string name="title_section1" translatable="false">Google Map Satellite</string>
+    <string name="title_section2" translatable="false">Google Map Hybrid</string>
+    <string name="title_section3" translatable="false">Google Map Terrain</string>
+    <string name="title_section4" translatable="false">Open Street Map</string>
+    <string name="title_section5" translatable="false">Bing Map Satellite</string>
+    <string name="title_section6" translatable="false">Bing Map Hybrid</string>
+    <string name="title_section7" translatable="false">Bing Map</string>
+	<string name="title_section8" translatable="false">OSM Cycle</string>
+    <string name="title_section9" translatable="false">Open See Map</string>
+    <string name="title_section10" translatable="false">Open Topo Map</string>
+</resources>

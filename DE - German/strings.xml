@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="about_message">Mapit Spatial Version {0}\n\nDiese Version sollte stabil laufen. Wenn doch Probleme auftauchen sollten, bitte hier https://spatial.mapitgis.com/contact melden.\n\nAlternativ auch per E-Mail:\nfeedback@mapitgis.com </string>
+    <string name="pm_list_empty3">Um ein Attribut-Feld anzulegen, bitte einen Namen festlegen und einen oder mehrere Werte vorgeben.\nBitte auf den \'Hinzufügen\'-Button tippen, um der Auswahlliste einen Wert hinzuzufügen.</string>
+    <string name="field_value_blank">Der Wert des Feldes darf nicht leer sein.</string>
+    <string name="deleteAttWarning">Es gibt {0} Layer, die dieses Attribut-Set verwenden. Der Vorgang kann nicht abgeschlossen werden.</string>
+    <string name="editProjectWarning">Das Projekt enthält schon Daten! Es wird empfohlen, die Attribute jetzt nicht zu verändern.\n\nDie existierenden Daten könnten mit neu definierten Attributen unbrauchbar werden.\n\nWirklich fortfahren?</string>
+    <string name="editAttributeSet">Attribut bearbeiten</string>
+    <string name="defaultAttributeSet">Standard-Attribut-Set</string>
+    <string name="addField">Feld hinzufügen</string>
+    <string name="addLayer">Layer hinzufügen</string>
+    <string name="addFeature">Feature hinzufügen</string>
+    <string name="drawer_section1">Existierenden Layer öffnen</string>
+    <string name="drawer_section3">Datenverwaltung</string>
+    <string name="noPoints">Dieser Layer enthält derzeit keine Features.\nBitte den Status dieses Layers zu \'Aktiv\' ändern, dann zurück zur Karte wechseln und dort einige Features hinzufügen.</string>
+    <string name="layerType">Layer-Typ</string>
+    <string name="none">Nichts</string>
+    <string name="layerActive">Diesen Layer aktivieren.</string>
+    <string name="navigation_drawer_open">Navigationsleiste öffnen</string>
+    <string name="navigation_drawer_close">Navigationsleiste schließen</string>
+    <string name="action_example">Beispiel-Aktion</string>
+    <string name="generalSum">Allgemeine Einstellungen für die Benutzeroberfläche</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="deleteLayer">Layer löschen</string>
+    <string name="deleteLayerInfo">Der ausgewählte Layer enthält {0} Feature.\n\nDiesen Layer mit allen Daten und Anlagendateien wirklich löschen?</string>
+    <string name="noLayers">Es gibt keine Layer dieses Typs. Bitte den \'Hinzufügen\'-Button antippen, um einen neuen Layer zu erstellen.</string>
+    <string name="layerPoint">Punkt</string>
+    <string name="editLayer">Layer editieren</string>
+    <string name="exportSubscription">Die Exportmöglichkeit ist nur als kostenpflichtige Erweiterung verfügbar. Erweiterung jetzt kaufen, um Daten zu exportieren und zu teilen?</string>
+    <string name="layerLine">Linie</string>
+    <string name="localExport">SD-Karte</string>
+    <string name="shareExport">Exportierte Datei teilen.</string>
+    <string name="surveySettings">Vermessungseinstellungen</string>
+    <string name="surveySettingsSum">Einstellungen von Vermessungsparametern.</string>
+    <string name="rememberLast">Zuletzt hinzugefügtes Feature als Standard setzen.</string>
+    <string name="rememberLastSum">Setzt die Attribute des zuletzt hinzugefügten Features als Standard-Einstellung.</string>
+    <string name="layerPoly">Polygon</string>
+    <string name="editFeature">Feature bearbeiten</string>
+    <string name="map_problem">Die Karte konnte nicht geladen werden.</string>
+    <string name="drawer_newLayer">Neuen Layer erstellen</string>
+    <string name="fields">Attribute</string>
+    <string name="field">Attribut</string>
+    <string name="activeLayer">Aktiver Layer</string>
+    <string name="fieldValues">Attributwerte</string>
+    <string name="fieldsList">Attributliste</string>
+    <string name="layerFeatures">Layer-Features</string>
+    <string name="toggleActive">Aktiven Layer wechseln.</string>
+    <string name="toggleLayerActive">Layer-Status zu \'Aktiv\' ändern?\nNeue Features die auf der Karte erstellt werden, werden diesem Layer hinzugefügt. Fortfahren? </string>
+    <string name="toggleLayerActive1">\'Aktiv\'-Status des selektierten Layers abwählen?\nNeue Features, die auf der Karte erstellt werden, werden diesem Layer nicht länger hinzugefügt. Fortfahren? </string>
+    <string name="drawer_manageLayers">Layer verwalten</string>
+    <string name="drawer_manageAttributes">Attribute verwalten</string>
+    <string name="featuresList">Features</string>
+    <string name="addPicture">Bild hinzufügen</string>
+    <string name="zoomTo">Zoomen zu</string>
+    <string name="addAttributeSet">Attribut-Set hinzufügen</string>
+    <string name="pm_add_info">Speichere den Namen und die Beschreibung des Attribut-Sets, um eine ID zu erstellen. Nach dem Speichern kann es aus der Liste ausgewählt und mit \'Editieren\' Attribut-Felder hinzugefügt werden.</string>
+    <string name="noFeatures">Dieser Layer besitzt derzeit keine Features.\nUm Features hinzuzufügen, diesen Layers auf \'Aktiv\' setzen und ein paar Features auf der Karte erstellen.</string>
+    <string name="whatsNewText">Mapit in der eigenen Mutter-Sprache? Dazu bitte https://mapitgis.com/translations besuchen, um mehr Einzelheiten zu erfahren.\n\nChangelog:\nhttps://spatial.mapitgis.com/changelog\n\n</string>
+    <string name="txt_aboutMapIt">Über Mapit Spatial</string>
+    <string name="txt_aboutMapItSum">Versions - und Kontaktinformationen</string>
+
+    <string name="addAttributeAsFreeText">Dieses Feld kann als TextBox hinzugefügt werden - in diesem Fall werden keine Werte benötigt.</string>
+    <string name="txtScalar">Dieses Feld ist eine TextBox.</string>
+    <string name="txtGPSLost">Kein GPS-Signal.</string>
+    <string name="productExtensions">Verfügbare Erweiterungen</string>
+    <string name="tools">Werkzeuge</string>
+    <string name="toolsPL">Punkt-Layer</string>
+    <string name="noAttributes">Keine Attribute</string>
+    <string name="noAttributesDesc">Auswählen, um ein Feature nur mit Namen und Beschreibung zu erstellen.</string>
+    <string name="sampleSurvey">Beispiel - Baumkataster 2018</string>
+    <string name="sampleSurveyDesc">Beispiel-Attribut-Set mit einer DropDown-Auswahlliste für Art und Höhe.</string>
+    <string name="samplePointLayer">Beispiel-Punkt-Layer</string>
+    <string name="samplePointLayerDesc">Beispiel-Punkt-Layer mit DropDown-Auswahlliste.</string>
+    <string name="sampleNoAttributesLayer">Beispiel-Layer ohne Attribute</string>
+    <string name="sampleNoAttributesLayerDesc">Das erstellte Feature erhält nur einen Namen und eine Beschreibung.</string>
+
+    <string name="pictureGallery">Bildergalerie</string>
+    <string name="deleteAreYouSure">Diese Daten wirklich löschen?\nDiese Operation kann nicht rückgängig gemacht werden!\n</string>
+    <string name="deleteAreYouSureValue">Diesen Wert löschen?\nAlle bisher für dieses Projekt aufgenommenen Daten werden davon betroffen sein!\n</string>
+    <string name="deleteAreYouSureAttribute">Dieses Attribut mit allen Werten wirklich löschen?\nAlle bisher für dieses Projekt aufgenommenen Daten werden davon betroffen sein!\n</string>
+    <string name="txt_import_no_files">Um Daten aus einer Datei zu importieren, diese bitte nach\n\nGeräte-Ordner → Mapit-Spatial → Import kopieren.\n\n</string>
+    <string name="txt_imported_info">{0} Daten wurden in den Layer {1} importiert</string>
+    <string name="txt_loading_info">Die Features auf der Karte werden aktualisiert, bitte warten.</string>
+    <string name="txt_use_overlay">Dieses Overlay hinzufügen.</string>
+    <string name="txt_dialog_pref">Warnung-Anzeige</string>
+    <string name="txt_dialog_pref_sum">Warnung bei einem Layer-Wechsel.</string>
+    <string name="ov_menu_title">Google Maps-Overlays</string>
+    <string name="ov_dialog_message">Zur Verwendung von Google Maps-Overlays (WMS und andere Services) ist die Mapit Pro-Lizenz erforderlich. \nMapit Pro-Lizenz jetzt kaufen?</string>
+
+    <string name="eulaTitle">Endnutzer-Lizenzvertrag</string>
+    <string name="importValues">Werte importieren</string>
+    <string name="importValuesOK">Der Import der Werte war erfolgreich.</string>
+    <string name="importValuesError">Ein Fehler ist aufgetreten. Die Werte wurden nicht importiert!</string>
+    <string name="txt_import_no_files_att">Um Attribut-Werte aus einer Datei zu importieren, diese nach \n\nGeräte-Ordner → Mapit-Spatial → AttributeSets kopieren.\n\n</string>
+    <string name="xyzServices">Andere Geo-Dienste</string>
+    <string name="addPolyline">Neues Polylinien-Feature</string>
+    <string name="addPolygon">Neues Polygon-Feature</string>
+    <string name="addVertex">Stützpunkt hinzufügen</string>
+    <string name="lineName">Linie</string>
+    <string name="polygonName">Polygon</string>
+    <string name="pointName">Punkt</string>
+    <string name="creating">Erstellen</string>
+    <string name="mode">Modus</string>
+    <string name="stopEditing">Bearbeitung beenden</string>
+    <string name="end">Beenden</string>
+    <string name="removeLast">Letztes Feature entfernen.</string>
+    <string name="sampleLineLayer">Beispiel-Linien-Layer</string>
+    <string name="samplePolygonLayer">Beispiel-Polygon-Layer</string>
+    <string name="editFeatureEnd">Die Bearbeitung dieses Features beenden?</string>
+    <string name="deleteFeature">Feature entfernen?</string>
+    <string name="shapesTitle">Linien und Polygone</string>
+    <string name="shapesDesc">Um einem Layer mehr als 2 Linien oder Polygon-Features hinzufügen zu können, wird eine Erweiterung benötigt. Erweiterung jetzt kaufen?\n\nhttps://mapitgis.com/line-polygon-layers\n</string>
+    <string name="shapesLimit">Ohne die \'Mapit Pro\'-Lizenz können dem Layer maximal 10 Punkte hinzugefügt werden. Lizenz jetzt kaufen?\n</string>
+
+    <string name="offlineMapsMapBox">Mapbox &amp; Offline-Karten</string>
+    <string name="offlineMaps">Offline-Karten</string>
+    <string name="mapBox">Mapbox</string>
+    <string name="mapBoxToken">Mapbox Zugangs-Token</string>
+    <string name="goToSettings">Zu Einstellungen gehen.</string>
+    <string name="addMapboxMap">Eine neu Mapbox-Karte hinzufügen.</string>
+    <string name="mapsOptions">Karten-Einstellungen</string>
+    <string name="mapBoxTokenHint">Bitte Mapbox Zugangs-Token hier einfügen.</string>
+    <string name="mapBoxValidToken">Das Mapbox Zugangs-Token wurde erkannt. Die Mapbox-Karten können jetzt genutzt werden.</string>
+    <string name="mapBoxTokenSum">Ein Mapbox Zugangs-Token ist erforderlich, damit auf die Mapbox-Karten zugegriffen werden kann.</string>
+    <string name="mapBoxTokenError">Das angegebene Token ist nicht gültig oder kann nicht validiert werden.</string>
+    <string name="mapboxTokenSettings">\nBitte ein gültiges Mapbox-Token unter Einstellungen → Cloud Accounts eingeben.</string>
+    <string name="offlineMapsExt">Für die Nutzung von Offline-Karten und den Zugriff auf Mapbox-Karten wird eine Erweiterung benötigt. Erweiterung jetzt erwerben?</string>
+    <string name="mapBoxMapId">Mapbox MapId (e.g. osedok.l4pfam2o):</string>
+    <string name="mapBoxRequired">Name und MapId müssen angegen werden.</string>
+    <string name="offlineFiles">Bitte die .mbtiles Dateien nach\nGeräte-Ordner → Mapit-Spatial → Offline Verzeichnis kopieren.</string>
+
+
+    <string name="file_type_Geo_JSON">GeoJSON-Datei</string>
+    <string name="importError">Fehler: Es gab ein Problem beim Importieren der Features aus der Datei.</string>
+    <string name="importNull">Diese Datei enthält keine {0} Features, die importiert werden könnten.\nBitte Import-Datei prüfen oder einen anderen Layer wählen.</string>
+    <string name="mapit_extensions">Mapit-Erweiterungen</string>
+    <string name="mapit_ext_exportData">Daten exportieren</string>
+    <string name="more">Weitere Informationen</string>
+    <string name="available">Verfügbar</string>
+    <string name="mapitPro_ext">Mapit Pro</string>
+    <string name="mapitPro_extSum">"Mapit Pro jetzt kaufen, um das volle Potenzial der App zu nutzen."</string>
+    <string name="exportErrorNoFeatures">Der Export ist fehlgeschlagen.\nDer Layer ist leer.\nBitte dem Layer einige Features hinzufügen und erneut versuchen.</string>
+    <string name="loadingGeneralShort">Laden</string>
+    <string name="loadingGeneral">Lade Daten, bitte warten.</string>
+
+    <string name="line_color_transparency">Linienfarbe &amp; -transparenz</string>
+    <string name="poly_color_transparency">Polygonfarbe &amp; -transparenz</string>
+    <string name="color_line">Linienfarbe</string>
+    <string name="lineSize">Linien- und Polygon-Linienbreite</string>
+    <string name="color_poly">Polygon-Füllfarbe</string>
+    <string name="active_color_line">Erstelle Linienfarbe</string>
+    <string name="active_color_poly">Erstelle Polygon-Füllfarbe</string>
+    <string name="polygonOutlineColor">Polygon-Konturfarbe</string>
+    <string name="layerColor">Layer-Farbe</string>
+    <string name="layerVisible">Layer Sichtbarkeit</string>
+    <string name="layerVisibleToggle">Wechsle die Sichtbarkeit.</string>
+
+    <string name="pictureFormat">Standard-Bildformat</string>
+    <string name="themeType">Dunkles Design</string>
+    <string name="setActiveLayer">Aktiven Layer wählen.</string>
+    <string name="setActiveLayerNoLayers">Bitte einige Layer erstellen, damit sie hier aufgelistet werden können.</string>
+    <string name="themeTypeInfo">Der Wechsel des Designs wirkt sich erst nach einem Neustart der Anwendung aus.</string>
+
+    <string name="geoidHeight">Geoid-Höhe für GPS</string>
+    <string name="geoidHeightSum">EGM96 - ungefährer mittlerer Meeresspiegel</string>
+    <string name="extensionDesc">Um die EGM96 (Earth Gravitational Model 1996) GPS-Höhenkorrektur zu aktivieren, ist eine Mapit Pro-Lizenz notwendig.\nLizenz jetzt kaufen?</string>
+    <string name="extensionDesc1">Mapit Pro-Lizenz notwendig.\nLizenz jetzt kaufen?</string>
+    <string name="downloadingResources">Daten werden heruntergeladen - bitte warten.</string>
+    <string name="downloadError">Beim Herunterladen ist ein Fehler aufgetreten. Bitte erneut versuchen.</string>
+
+    <string name="txt_showWaypointsLabels">Beschriftung für Wegpunkte</string>
+    <string name="txt_LinesAndPolysLabels">Beschriftung für Linien und Polygone</string>
+    <string name="maxCharacters">Maximal {0} Zeichen</string>
+    <string name="txt_label">Beschriftung</string>
+
+    <string name="clearLayer">Layer entfernen</string>
+    <string name="clearLayerInfo">Der ausgewählte Layer hat {0} Features.\n\nWirklich alle Features und Anlagendateien löschen?\n\nDer Layer wird geleert, aber nicht entfernt.</string>
+
+    <string name="getItNow">Jetzt kaufen!</string>
+    <string name="locationProblem">Standortermittlungsproblem</string>
+    <string name="locationProblemAlert">GPS ist nicht aktiviert. Soll zu den Einstellungen gewechselt werden?</string>
+    <string name="gpsStopped">Standortermittlung ist nicht aktiv. Bitte auf den \'Zentriere auf GPS\'-Button tippen, um sie zu aktivieren.</string>
+    <string name="gpsWaiting">Warte auf ein gültiges GPS-Signal.</string>
+    <string name="export_full_path_to_pictures">Exportiere den Dateipfad zu den Bildern.</string>
+    <string name="miscellaneous_settings">Sonstige Einstellungen</string>
+    <string name="miscellaneous_settings_sum">Diverse Einstellungen zu verschiedenen Bereichen der App</string>
+    <string name="txt_sort_active_first">Aktivierte zuerst anzeigen.</string>
+    <string name="txt_newPointAsDistanceAndBearing">Entfernung &amp; Richtung</string>
+    <string name="txt_newPointAsDistanceAndBearingSum">Neuen Punkt basierend auf Entfernung &amp; Richtung von der aktuellen GPS-Position, der Basis oder dem Cursor Standort erstellen.</string>
+    <string name="txt_currentGPSLocation">Aktueller Standort</string>
+    <string name="txt_currentCursorLocation">Cursor-Standort auf der Karte</string>
+    <string name="txt_or">oder</string>
+    <string name="txt_useLastPoint">Verwende letzten Punkt.</string>
+    <string name="txt_useBaseLocation">Verwende die Basis-Position.</string>
+    <string name="setAsBaseLocation">Markiere diesen Punkt als Basis-Position.</string>
+
+    <string name="fieldDataType">Datentyp des Feldes:</string>
+    <string name="fieldDefaultValue">Standardwert:</string>
+    <string name="noFieldsForAttribute">Es scheint, dass versucht wird, ein Attribut-Set zu verwenden, welches keine Attribute besitzt.\nDer Vorgang kann nicht abgeschlossen werden.\n\nBitte die Attribute im \'Attribute verwalten\'-Menü der Anwendung prüfen.</string>
+    <string name="labelFeatures">Beschriftungen anzeigen</string>
+    <string name="usesAttributes">Attribute:</string>
+    <string name="LabelField">Beschriftung basiert auf dem Feld:</string>
+    <string name="defaultText">Standardwert</string>
+
+    <string name="stop">Stopp</string>
+    <string name="trackingInfoPro">Tracking ist nur für Anwender mit der Mapit Pro-Lizenz verfügbar. Es kann jederzeit ein Upgrade erworben oder wahlweise dieser Button in \'Sonstige Einstellungen\' ausgeblendet werden.\n\nSoll die Mapit Pro-Lizenz jetzt erworben werden?</string>
+    <string name="notificationTitle">Mapit Spatial - Trackaufzeichnung</string>
+    <string name="showTrackRecordingButton">Zeige \'Trackaufzeichnung\'-Button.</string>
+    <string name="notificationText">Trackaufzeichnung ist aktiv.</string>
+    <string name="backupManagement">Backups verwalten</string>
+    <string name="backupManagementRestore">Die Haupt-Datenbank soll aus einer Sicherungsdatei wiederhergestellt werden. Alle derzeitigen Daten-, Layer- und Attribut-Einstellungen werden gelöscht. Bevor fortgefahren wird, sollten die aktuellen Daten gesichert werden.\n\nDieser Vorgang kann nicht rückgängig gemacht werden!\n\nTrotzdem fortfahren?</string>
+    <string name="backupManagementBillingInfo">Die Backupverwaltung ist nur für Mapit Pro-Anwender verfügbar.\n\nDie Backupverwaltung ermöglicht es, eine Kopie der Haupt-Datenbank zu erstellen und sie bei Bedarf wiederherzustellen.\n\nAlle Backupdateien werden im Geräte-Ordner → Mapit-Spatial → Backups gespeichert. Von dort aus können sie auch einfach zwischen verschiedenen Geräten weitergegeben/geteilt werden.\n\nSoll die Mapit Pro-Lizenz jetzt erworben werden?\n</string>
+    <string name="creatingBackupFile">Backup erstellen.</string>
+    <string name="createBackup">Neues Backup erstellen.</string>
+    <string name="restoreFrombackup">Aus Backup wiederherstellen.</string>
+    <string name="noBackups">Kein Backup gefunden. Bitte den \'Backup erstellen\'-Button verwenden, um die aktuelle Datenbank zu sichern.\n\nAlle Attribute, Layer und Daten darin werden gesichert.\n\nDie Backup-Dateien können bei Bedarf auch auf andere Geräte verteilt werden.</string>
+    <string name="restoreBackupFileOK">Die Datenbank wurde aus dem Backup wiederhergestellt.</string>
+    <string name="restoreBackupFileError">Die Wiederherstellung der Datenbank aus dem Backup ist fehlgeschlagen.</string>
+    <string name="creatingBackupError">Die Erstellung des Backups ist fehlgeschlagen.\nBitte erneut versuchen und/oder dieses Problem melden.</string>
+
+
+    <string name="showBasePoints">Zeige Basis-Punkte auf der Karte</string>
+    <string name="inludeBasePointsLayer">Verwaltung der Basis-Punkte-Layer</string>
+    <string name="inludeBasePointsLayerSum">Basis-Punkte-Layer wird im \'Layer verwalten\'-Menü angezeigt.</string>
+    <string name="basePoints">Basis-Punkte</string>
+    <string name="basePointsDesc">Die Punkte in diesem Layer sind die Grundlage für die Basis-Punkte-Auswahlliste, wenn das \'Richtung &amp; Entfernung\'-Verfahren verwendet wird.</string>
+    <string name="baseName">BASIS</string>
+    <string name="rememberLastName">Letzten vergebenen Namen als Standard-Einstellung verwenden.</string>
+    <string name="rememberLastNameSum">Zuletzt hinzugefügten Feature-Namen als Standard-Einstellung verwenden.</string>
+    <string name="displayDescField">Beschreibungsfeld anzeigen</string>
+    <string name="displayDescFieldSum">Beschreibungsfeld für die Layer anzeigen lassen, die das Attribut-Set verwenden.</string>
+
+    <string name="checkNameOnSaveText">Prüfe auf doppelten Namen</string>
+    <string name="checkNameOnSaveTextSum">Prüft beim Speichern eines Features, ob der Name schon existiert.</string>
+    <string name="duplicatedName">Das Feature mit dem Namen {0} existiert schon. Bitte einen anderen Namen wählen, oder die Überprüfung in den Einstellungen zur Vermessung deaktiveren.</string>
+    <string name="exportToDxf">DXF (nur Geometrien)</string>
+    <string name="defaultPointFeaturePrefixText">Standard-Prefix für Punkt-Features</string>
+    <string name="defaultLineFeaturePrefixText">Standard-Prefix für Linien-Features</string>
+    <string name="defaultPolygonFeaturePrefixText">Standard-Prefix für Polygon-Features</string>
+    <string name="importAttributeSetText">Attribut-Set importieren</string>
+    <string name="txt_import_no_files_AS">Um ein Attribut-Set als Datei zu importieren, bitte die Importdatei in den Ordner:&lt;br>&lt;br>Geräte-Ordner → Mapit-Spatial → AttributeSets kopieren.&lt;br>&lt;br>Das Attribut-Set kann aus einer JSON-Datei importiert werden.</string>
+    <string name="importAttributeSetNoName">Die Datei enthält keine Name-Feld.</string>
+    <string name="importAttributeSetNoFields">Die Datei enthält keine Attribut-Felder, die importiert werden können.</string>
+    <string name="importAttributeSetNoFieldName">Bei mindestens einem Feld ist kein Name angegeben.</string>
+    <string name="importAttributeSetNoValues">Mindestens ein Feld enthält keinen Wert.</string>
+    <string name="importAttributeSetNotValid">Export fehlgeschlagen. Dieses Attribut-Set enthält derzeit keine Attribut-Felder.</string>
+    <string name="importAttributeSetBadFileStructure">Die Import-Datei des Attribut-Sets ist fehlerhaft oder nicht im JSON-Format.\n\nImport fehlgeschlagen.</string>
+    <string name="addsInfoText">Eine beliebige Erweiterung kaufen, um die Werbung zu entfernen.</string>
+    <string name="addOSMTypeService">OSM-Dienst hinzufügen</string>
+    <string name="navigateto">Zu Feature navigieren</string>
+    <string name="navTo">Zu:</string>
+    <string name="turnRight">Rechts abbiegen</string>
+    <string name="goAhead">Geradeaus</string>
+    <string name="turnLeft">Links abbiegen</string>
+    <string name="rotateMapNav">Navigation - Karte drehen</string>
+    <string name="navigatetoDistance">Entfernung: {0}</string>
+    <string name="navigatetoBearing">{0}</string>
+    <string name="navigatetoWaiting">Auf genaue Positionsdaten warten, um die Navigation zu starten.</string>
+    <string name="addOSMTypeServiceInfo">Um einen Open Street Map-Dienst hinzuzufügen, bitte den Namen und die URL eingeben. Der Dienst muss die Web-Mercator-Projektion (ESPG: 3857) unterstützen.\nDie URL für einen OSM Kachel-Dienst sieht beispielsweise wie folgt aus:\n\nhttp://b.tile.openstreetmap.org/17/63963/40837.png\n\n,wobei der letzte Teil der URL die Zoomstufe und die x,y Koordinaten der Kachel angibt.\n\nUm den Dienst hinzuzufügen, muss nur der erste Teil der URL angeben werden. Die URL sollte so aussehen:\n\nhttp://b.tile.openstreetmap.org oder \nhttp://tile.waymarkedtrails.org/hiking\n\nMehr Informationen dazu findet man auf unserer Webseite.</string>
+    <string name="selectActiveOnly">Karten-Selektion - Nur der aktive Layer</string>
+    <string name="selectActiveOnlySum">Nur Features des aktiven Layer können auf der Karte ausgewählt werden.</string>
+    <string name="alt_text">Höhe</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="pm_clear">Leeren</string>
+    <string name="yes">Ja</string>
+    <string name="measureModeLine">Entfernungsmessung</string>
+    <string name="measureModeArea">Flächenmessung</string>
+    <string name="pref_measureModeButton">Button für Messwerkzeug anzeigen</string>
+    <string name="unitsSettings">Maßeinheiten &amp; Koordinaten</string>
+    <string name="unitsSettingsSum">Maßeinheiten &amp; Kartenkoordinaten</string>
+    <string name="measureInfo">Lange tippen, um den Modus zu ändern (Entfernung/Fläche).</string>
+
+    <string name="mapscreenshot">Karten-Screenshot aufnehmen.</string>
+    <string name="mapscreenshotInfo"> Ein Screenshot der Karte wird vorbereitet.</string>
+    <string name="removeVertex">Ausgewählten Stützpunkt entfernen.</string>
+    <string name="insertVertex">Stützpunkt einfügen</string>
+    <string name="useRangeFinderTitle">Bluetooth Laser-Entfernungsmesser</string>
+    <string name="useRangeFinderToAddPoints">Den gekoppelten Laser-Entfernungsmesser nutzen, um Punkte hinzuzufügen.</string>
+    <string name="generalError">Fehler</string>
+    <string name="generalBusy">Beschäftigt</string>
+    <string name="generalRequired">Erforderlich</string>
+    <string name="generalInvalid">Ungültig</string>
+    <string name="generalBTConnected">Verbunden mit: </string>
+    <string name="generalBTDisConnected">Getrennt von: </string>
+    <string name="noPairedDevices">Um fortzufahren, bitte den Entfernungsmesser in den System-Einstellungen mit diesem Gerät koppeln.</string>
+    <string name="txt_selected">Ausgewählt</string>
+    <string name="saveToRemovableSD">Speicherort für Bilder</string>
+    <string name="saveToRemovableSDSum">Bilder auf die externe SD-Karte speichern.</string>
+    <string name="changeLayer">Feature-Layer wechseln.</string>
+    <string name="moveFeatureFrom">Verschiebe dieses Feature von: </string>
+    <string name="moveFeatureTo">Nach: </string>
+    <string name="trackPoints">Für Punkt-Layer aktivieren.</string>
+    <string name="trackPointsSum">Alle aufgezeichneten Punkte erhalten die gleichen Attribute wie der erste aufgezeichnete Punkt.</string>
+    <string name="externalBTGPS">Externes Bluetooth GPS</string>
+    <string name="externalBTGPSSum">Externen Bluetooth GPS-Empfänger konfigurieren.</string>
+    <string name="enableBTGPS">Aktiviere \'Externes GPS\'.</string>
+    <string name="enableBTGPSSum">Aktiviere \'Externes GPS\' und wähle es aus den gekoppelten Geräten aus.</string>
+    <string name="notAvailableExternalGPS">Der gewählte externe GPS-Empfänger ist nicht verfügbar. Bitte die Einstellungen überprüfen oder das externe Gerät einschalten und die Anwendung neu starten.</string>
+    <string name="forceMockLoc">Erzwinge Pseudo-Standort (Mock Location)</string>
+    <string name="forceMockLocSum">Sollte standardmäßig AUS sein. Wenn es Verbindungsprobleme gibt, mit geänderter Einstellung erneut probieren.</string>
+    <string name="errorMockLoc">Es scheint, dass der Pseudo-Standort (Mock Location) in den Android-Einstellungen nicht aktiviert ist.\nDie aktuelle Position vom externen GPS-Gerät kann nicht ermittelt werden.\n\nBitte den Pseudo-Standort (Mock Location) aktivieren und die Anwendung neu starten, um das exteren GPS-Gerät als Standort-Quelle nutzen zu können.</string>
+    <string name="externalGPSInstruction">Externes GPS - Anleitung</string>
+    <string name="externalGPSInstructionSum">1. Sicherstellen, dass das Gerät (externes GPS) in den Android-Bluetooth-Einstellungen als gekoppelt angezeigt wird.\n2. Aktivieren des Pseudo-Standorts (Mock Location) in den Android Entwickler-Einstellungen (In Android 6: Mapit Spatial als Pseudo-Standort-Anwendung setzen.)\n3. Tippen auf \'Externes GPS\' und externes GPS-Geräts auswählen.\n4. Bei Rückkehr zur Karte wechselt die Positions-Quellen-Anzeige automatisch auf externes GPS. Es kann sein, dass die Anwendung dafür neu gestartet werden muss.</string>
+    <string name="customEPSGCodeTxt">Verwende den EPSG-Code, der unten aufgeführt ist.</string>
+    <string name="customEPSGCodeTxt1">EPSG-Code</string>
+    <string name="customEPSGCodeTxt2">Bitte den EPSG-Code (z.B. EPSG:25832 für D ETRS89/UTM Zone 32N) eingeben.</string>
+
+    <string name="customEPSGCodeSum">Bitte \'Custom: EPSG code\' aus der Dropdown-Liste unter \'Standardkoordinatensystem\' wählen, um das Textfeld zu aktivieren.</string>
+    <string name="gpsLock">GPS Fix</string>
+    <string name="generalNMEAdevice">Gerät muss NMEA-Standard unterstützen.</string>
+    <string name="sattelitesTxt">Satelliten</string>
+    <string name="sattelitesInSky">am Himmel</string>
+    <string name="sattelitesInFix">in Fix</string>
+    <string name="receivedLocation">Standort ermittelt</string>
+    <string name="trackingNotificationText">Track-Aufzeichnung läuft im Hintergrund.</string>
+    <string name="trackingNotificationTitle">Track-Aufzeichnung</string>
+    <string name="trackingProblem">Tracking-Dienst - Probleme mit den Track-Details…</string>
+    <string name="trackingStopped">Tracking-Dienst angehalten…</string>
+    <string name="trackingStarted">Tracking-Dienst gestartet…</string>
+    <string name="trackingRunning">Tracking-Dienst läuft…</string>
+    <string name="importErrorCRS">Import abgebrochen:\nDie zu importierende Datei liegt nicht in der WGS84-Projektion (EPSG:4326) vor.</string>
+    <string name="file_type_arcjson">ArcJSON Dateien</string>
+
+    <string name="formatSHP">SHP</string>
+    <string name="formatCSV">CSV</string>
+    <string name="formatKML">KML</string>
+    <string name="formatGeoJSON">GeoJSON</string>
+    <string name="formatArcJSON">ArcJSON</string>
+    <string name="formatGPX">GPX</string>
+    <string name="formatCSVNoGeometry">CSV (keine Geometrien)</string>
+    <string name="formatDXFGeometryOnly">DXF (keine Geometrien)</string>
+    <string name="formatOV2">TomTom OV2 (nur Geometrien)</string>
+
+    <string name="navigateWaze">Waze</string>
+    <string name="txtInfo">Info</string>
+    <string name="featureProperties">Einstellungen</string>
+    <string name="minElevation">min. Höhe (Elevation)</string>
+    <string name="maxElevation">max. Höhe (Elevation)</string>
+    <string name="nVertices">Anzahl der Stützpunkte</string>
+    <string name="trackLength">Track-Länge</string>
+    <string name="currentElevation">momentane Höhe</string>
+    <string name="featureInfoError">Einstellungen zu diesem Feature sind nicht möglich.</string>
+    <string name="navigateWazeSettings">Waze Navigation</string>
+    <string name="navigateWazeSettingsSum">Aktiviere die Waze Navigation für Punkte und Stützpunkte.</string>
+    <string name="blockPointsShifting">Das Verschieben von Punkten blockieren.</string>
+    <string name="blockPointsShiftingSum">Deaktiviert die Möglichkeit, Punkte zu verschieben (Neustart erforderlich).</string>
+
+    <string name="addVideo">Video hinzufügen</string>
+    <string name="addAudio">Audio-Aufzeichnung hinzufügen</string>
+    <string name="addAttachment">Anhang hinzufügen</string>
+
+    <string name="no_location">Standort ist nicht verfügbar.</string>
+    <string name="quickActions">Schnellzugriff</string>
+    <string name="datamanagement">Datenverwaltung</string>
+    <string name="drawer_open">Öffne das Navigationsmenü</string>
+    <string name="drawer_close">Schließe das Navigationsmenü</string>
+    <string name="pm_add_point">Punkt hinzufügen</string>
+    <string name="pref_0">Allgemeine Einstellungen</string>
+    <string name="txt_about">Über Mapit Spatial &amp; Feedback</string>
+    <string name="txt_aboutSum">Allgemeine Informationen über die App &amp; Support</string>
+    <string name="txt_Credits">Credits</string>
+    <string name="txt_CreditsSum">Danke an alle Leute, die mir halfen, die App zu übersetzen.</string>
+    <string name="whatsNewTitle">Was gibt es Neues?</string>
+    <string name="txt_rate_title">Bewertung</string>
+    <string name="txt_remind_me_later">Später erneut erinneren.</string>
+    <string name="txt_no_thanks">Nein, Danke.</string>
+    <string name="close">Schließen</string>
+    <string name="txt_user_guide">Benutzerhandbuch</string>
+    <string name="txt_user_guide_sum">Detaillierte Beschreibung der App.</string>
+    <string name="txt_report_issue">Einen Fehler berichten.</string>
+    <string name="txt_report_issue_sum">Einen Fehler berichten oder neue Funktionen vorschlagen.</string>
+    <string name="txt_whatsnew">Was gibt\'s Neues?</string>
+    <string name="txt_whatsnew_sum">Neue Funktionen und Werkzeuge</string>
+    <string name="facebook_title">Like MappIt auf Facebook.</string>
+    <string name="facebook_sum">Neuigkeiten und Angebote erhalten.</string>
+    <string name="txt_openURL">Tippen, um die Seite im Browser zu öffnen.</string>
+    <string name="txt_aboutTwitter">Auf Twitter folgen.</string>
+    <string name="pref_1">Auf GPS-Standort zentrieren</string>
+    <string name="pref_10">Zoomsteuerung</string>
+    <string name="allow_gmap_rotation">Google Maps Karten-Drehung</string>
+    <string name="allow_gmap_rotation_on">Karte kann jetzt gedreht werden.</string>
+    <string name="allow_gmap_rotation_off">Karten-Drehung ist deaktiviert.</string>
+    <string name="pref_on">An</string>
+    <string name="pref_off">Aus</string>
+    <string name="pref_enable">Diese Einstellung aktivieren.</string>
+    <string name="pref_disable">Diese Einstellung deaktivieren.</string>
+    <string name="pref_2">Bildschirm anlassen</string>
+    <string name="pref_3">Standard-Koordinatensystem</string>
+    <string name="pref_4">Standard-Längeneinheit</string>
+    <string name="pref_5">Standard-Flächeneinheit</string>
+    <string name="pref_6">Standard-Maßeinheiten</string>
+    <string name="txt_remember_map">Speichere den Kartentyp beim Beenden.</string>
+    <string name="txt_restart">App neu starten, um Änderungen zu übernehmen.</string>
+    <string name="txt_ok">OK</string>
+    <string name="txt_no">Nein</string>
+    <string name="content_desc1">Neue Funktionen</string>
+    <string name="like_us">Like us!</string>
+    <string name="txt_rate">Falls Ihnen die App gefällt {0}, nehmen Sie sich bitte ein wenig Zeit um sie zu bewerten. \nIhr Feedback hilft uns, die Funktionalität zu verbessern und Neuerungen zu implementieren. \n\nDanke für Ihre Unterstützung!</string>
+    <string name="generic_confirm_title">Sind Sie sicher?</string>
+    <string name="pm_list_empty2">Um eine oder mehrere Eigenschaften hinzuzufügen, einfach auf den \'Hinzufügen\'-Button oben rechts tippen.</string>
+    <string name="txt_edit">Bearbeiten</string>
+    <string name="txt_delete">Löschen</string>
+    <string name="txt_save">Speichern</string>
+    <string name="warning">Warnung</string>
+    <string name="txt_cancel">Abbrechen</string>
+    <string name="txt_name">Name</string>
+    <string name="txt_desc">Beschreibung: </string>
+    <string name="pm_Name_Error">Parameter \'Name\' darf nicht leer sein.</string>
+    <string name="pm_add_v">Wert hinzufügen</string>
+    <string name="pm_edit_value">Wert bearbeiten</string>
+    <string name="pm_attribute_values">Werte:</string>
+    <string name="attention">Achtung</string>
+    <string name="really_quit">Möchten Sie die Anwendung beenden?</string>
+    <string name="default_waypoint_name">WPT</string>
+    <string name="txt_srInfo">SR-Info</string>
+    <string name="pm_attributes_p">Punkteigenschaften:</string>
+    <string name="share">Teilen</string>
+    <string name="txt_export">Exportieren</string>
+    <string name="cannot_find">Nicht gefunden </string>
+    <string name="calling_ws">Webdienst aufrufen</string>
+    <string name="no_network">Eine Internetverbindung wird benötigt.</string>
+    <string name="searching_for">Suche nach </string>
+    <string name="export_type">Exporttyp</string>
+    <string name="txt_export_format">Exportformat</string>
+    <string name="search">Suche</string>
+    <string name="gps_lat">Breite</string>
+    <string name="gps_lon">Länge</string>
+    <string name="gps_alt">Höhe</string>
+    <string name="gps_accuracy">Genauigkeit</string>
+    <string name="gps_unit_degree">Grad</string>
+    <string name="gps_unit_m">m</string>
+    <string name="gps_speed">Geschwindigkeit</string>
+    <string name="gps_time">GPS-Zeit</string>
+    <string name="gps_device_time">Gerätezeit</string>
+    <string name="gps_insky">Satelitten am Himmel</string>
+    <string name="gps_infix">Satelitten in Fix</string>
+    <string name="gps_time_firs_fix">Zeit für ersten Fix</string>
+    <string name="gps_time_last_fix">Zeit seit letztem Fix</string>
+    <string name="noGPSSignal">GPS-Signal</string>
+    <string name="noGPSSignalText">Der aktuelle Standort kann nicht ermittelt werden. Bitte auf das GPS-Signal warten oder Wegpunkte manuell hinzufügen. Dazu auf die Karte tippen oder den Kartencursor nutzen.\n\nBitte die Standardmethode in den Einstellungen ändern.</string>
+    <string name="gpsinfoOption">GPS-Info</string>
+    <string name="txt_bearing">Richtung:</string>
+    <string name="file_type_dxf">DXF-Dateien</string>
+    <string name="file_type_gpx">GPX-Dateien</string>
+    <string name="file_type_kml">KML-Dateien</string>
+    <string name="file_type_csv">CSV-Dateien</string>
+    <string name="txt_import1">Import</string>
+    <string name="txt_import">Daten importieren</string>
+    <string name="txt_import_file">Import aus Datei</string>
+    <string name="wms_title"> Google Overlays verwalten</string>
+    <string name="wms_clear">Aktuelles Overlay entfernen</string>
+    <string name="wms_manage">Overlay-Quellen verwalten</string>
+    <string name="wms_services">WMS</string>
+    <string name="ESRI_maps">ArcGIS-Server-Dienste</string>
+    <string name="hide">Ausblenden</string>
+    <string name="show_predefined">Alle vordefinierten Dienste wiederherstellen</string>
+    <string name="add_ags">ArcGIS-Server-Dienst hinzufügen</string>
+    <string name="please_provide">Bitte eingeben:</string>
+    <string name="add_ags_url">Service-URL</string>
+    <string name="add_ags_info">Nur ArcGIS-Server Tiled-Dienste können hinzugefügt werden. Als Koordinatenreferenzsystem muss Web Mercator (ESPG:3857) genutzt werden.\nBeispiel Service-URL:\nhttp://services.arcgisonline.com/ArcGIS/rest/services/USA_Topo_Maps/MapServer \n\nBitte besuchen Sie unsere Webseite für weitere Details, oder kontaktieren Sie uns im Falle eines Problems.\nZur Zeit werden gesicherte Dienste (Secure Services) nicht unterstützt.</string>
+    <string name="add_no_url">Eine Service URL wird benötigt.</string>
+    <string name="add_no_name">Ein Name wird benötigt.</string>
+    <string name="time">Zeit</string>
+    <string name="layers">Layer</string>
+    <string name="add_wms">WMS-Dienst hinzufügen</string>
+    <string name="add_wms_info">Der Dienst muss im Koordinatenreferenzsystem Web Mercator (ESPG:3857) zur Verfügung stehen\nBeispiel WMS-URL: \n\nhttps://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSserver \n\nBitte besuchen Sie unsere Webseite für weitere Details, oder kontaktieren Sie uns im Falle eines Problems.\nZur Zeit werden gesicherte Dienste (Secure Services) nicht unterstützt.</string>
+    <string name="connect">Verbinde</string>
+    <string name="connect_error">Dienst nicht verfügbar</string>
+    <string name="available_layers"> Einen oder mehrere Layer wählen:</string>
+    <string name="save_wms_details">Diesen Dienst zu Mapit hinzufügen</string>
+    <string name="overlay_transparency">Overlay-Transparenz</string>
+    <string name="wms_info">WMS-Dienst Info</string>
+    <string name="contact_point">Ansprechpartner:</string>
+    <string name="contact_org">Organisation:</string>
+    <string name="contact_address">Adresse:</string>
+    <string name="contact_city">Stadt:</string>
+    <string name="contact_province">Bundesland oder Kanton:</string>
+    <string name="contact_post_code">Postleitzahl:</string>
+    <string name="contact_country">Land:</string>
+    <string name="contact_phone">Telefon:</string>
+    <string name="contact_email">E-Mail:</string>
+    <string name="wms_fees">Kosten:</string>
+    <string name="wms_access">Zugriffsbeschränkungen:</string>
+    <string name="wms_connect">Ermittle WMS-Details - Bitte warten…</string>
+    <string name="edit_wms"> WMS-Dienst bearbeiten</string>
+
+    <string name="share_wms_url">WMS-URL</string>
+    <string name="wms_service">WMS-Dienst</string>
+    <string name="tab_title_2">Optionen</string>
+    <string name="txt_perimeter">Umfang:</string>
+    <string name="txt_points_no">Anzahl der Punkte:</string>
+    <string name="txt_length">Strecke</string>
+    <string name="txt_area">Fläche</string>
+    <string name="txt_bingpref">Bing Maps</string>
+    <string name="pref_16">Bing Maps-Schlüssel</string>
+    <string name="txt_bingnokey">Für bessere Performance, eigenen Bing-Maps-Schlüssel hinterlegen.</string>
+    <string name="txt_bingprefterms">Nutzungsbedingungen</string>
+    <string name="txt_bingprefabout">Über den Data-Provider</string>
+    <string name="txt_bingkeyok">Die App nutzt Ihren persönlichen Bing Maps-Schlüssel.</string>
+    <string name="txt_bingkeycheck">Bitte prüfen, ob der Schlüssel gültig ist.</string>
+    <string name="txt_bingkeyerror">Der Schlüssel ist ungültig oder kann nicht überprüft werden.</string>
+    <string name="txt_bingkeyrequired">Für Bing Maps-Layer ist ein Schlüssel notwendig. Bitte diesen in den allgemeinen Einstellungen hinterlegen.</string>
+    <string name="cloudAccounts">Cloud-Konten</string>
+    <string name="cloudAccountsSum">Bing Maps- und MapBox-Einstellungen</string>
+    <string name="txt_import_cat">Importiert</string>
+    <string name="dragModeActive">Marker zur gewünschten Position bewegen.</string>
+    <string name="trace_no_gps">GPS ist nicht verfügbar. Bitte sicherstellen, dass es eingeschaltet ist.</string>
+
+    <string name="txt_sort">Sortiere</string>
+    <string name="txt_sort_name_asc">Sortiere aufsteigend nach Namen: A-Z</string>
+    <string name="txt_sort_name_desc">Sortiere absteigend nach Name: Z-A</string>
+    <string name="txt_sort_date_asc">Älteste zuerst</string>
+    <string name="txt_sort_date_desc">Neueste zuerst</string>
+
+    <string name="project_point">Projektpunkt</string>
+    <string name="from_point">Start von: </string>
+    <string name="distance">Entfernung zu neuem Punkt [Meter]: </string>
+    <string name="truebearing">Echte Peilung [Grad]: </string>
+    <string name="greaterthenzero">Größer oder gleich 0</string>
+    <string name="noDistance">Die Entfernung darf nicht leer sein.</string>
+    <string name="noBearing">Der Peilungswinkel darf nicht leer sein.</string>
+    <string name="wrongValues">Der Peilungswinkel oder die Entfernung enthält ungültige Werte.</string>
+
+    <string name="txt_tracking">Track-Aufzeichnung</string>
+    <string name="txt_tracking_min_time">Zeitinterval für die Speicherung von Track-Punkten.</string>
+    <string name="txt_tracking_time">Tracking-Zeitinterval.</string>
+    <string name="txt_seconds">Sekunden</string>
+    <string name="txt_tracking_min_distance">Mindestdistanz zwischen zwei Track-Punkten.</string>
+    <string name="txt_tracking_distance">Abstandsintervall zwischen zwei Track-Punkten.</string>
+    <string name="txt_info10">Diese Meldung nicht mehr anzeigen.</string>
+    <string name="intermediateDistance">Teilstrecken-Labels</string>
+    <string name="intermediateDistanceSumOn">Teilstrecken-Labels anzeigen</string>
+    <string name="intermediateDistanceSumOff">Teilstrecken-Labels ausblenden</string>
+
+    <string name="savedTo">Gespeichert in:</string>
+    <string name="exportError">Der Export ist fehlgeschlagen.\nBitte erneut versuchen. Wenn das Problem weiterhin besteht, bitte melden.</string>
+    <string name="exporting">Exportieren</string>
+    <string name="txt_processing_sum">Die Daten werden verarbeitet;</string>
+
+
+
+
+    <string name="remoteExport">Remote Export</string>
+    <string name="remoteExportSum">Die notwendigen Parameter festlegen, um den Export in eine PostgreSQL-Datenbank oder ein FTP-Verzeichnis zu aktivieren.</string>
+    <string name="remoteExportSum1">Die notwendigen Parameter festlegen, um den Export in ein FTP-Verzeichnis zu aktivieren.</string>
+
+    <string name="postgresSettings">PostgreSQL-Einstellungen</string>
+    <string name="ftpSettings">FTP-Einstellungen</string>
+    <string name="serverIPTitle">Server (IP-Adresse)</string>
+    <string name="serverIPSum">Servername oder IP-Adresse angeben.</string>
+    <string name="serverPort">Port</string>
+    <string name="serverPortSum">Server Listening-Port angeben</string>
+    <string name="serverUsername">Benutzername</string>
+    <string name="serverPassword">Passwort</string>
+    <string name="pgDbNameText">Datenbankname</string>
+
+    <string name="exportToFTP">Export in FTP-Verzeichnis</string>
+    <string name="measuringPosition">Messe Position</string>
+    <string name="averagingText">Mittelwert &amp; Genauigkeit</string>
+    <string name="averagingTextTitle">Mittelwertbildung für die Positionierung</string>
+    <string name="averagingPositions">Gemittelte Positionen</string>
+    <string name="averagingPositionsSum">Anzahl der für die Mittelwertbildung verwendeten Positionen.</string>
+    <string name="maxHDOPAllowedText">Maximaler HDOP-Wert</string>
+    <string name="maxHDOPAllowedSum">Position nur übernehmen, wenn der HDOP-Wert kleiner ist als </string>
+    <string name="minAccuracyAllowedText">Minimaler Genauigkeitswert (m)</string>
+    <string name="minAccuracyAllowedSum">Position nur übernehmen, wenn die Genauigkeit größer ist als </string>
+    <string name="horizontalAccuracyRMS">HRMS</string>
+    <string name="verticalAccuracyRMS">VRMS</string>
+    <string name="fixType">Fix-Typ</string>
+    <string name="stationID">Station-ID</string>
+    <string name="correctionAge">Korrektur-Alter</string>
+    <string name="importWMS">Import WMS</string>
+    <string name="WMSShareText">Alternativ kann die JSON-Datei heruntergeladen und in die {0} Anwendung importiert werden, indem man die \'Import\'-Option im WMS-Services Menü verwendet.</string>
+    <string name="noWMSFiles">Es existieren keine WMS-Konfigurationsdateien, die importiert werden können. Bitte sicherstellen, dass die JSON-Datei, die WMS-Konfiguration beinhaltet, im Android Download or {0} → Import Verzeichnis liegt. Der Dateiname sollte mit "WMS" beginnen und die Dateiendung sollte ".json" lauten.</string>
+    <string name="exportToFTPInfo">Der Export in ein FTP-Verzeichnis beinhaltet auch alle Layer-Zusatzdaten und kann viel Zeit in Anspruch nehmen. Eine große Menge an Daten wird dabei über das Netzwerk übertragen. Deswegen wird empfohlen, eine WLAN-Verbindung dafür zu verwenden. </string>
+    <string name="exportToFTPInfoLayerOnly">Export in FTP-Verzeichnis läuft…</string>
+    <string name="exportToProgressFailed">Der Export in die Postgres-Datenbank ist fehlgeschlagen. Bitte die Verbindungseinstellungen unter Einstellungen → Remote Export prüfen und erneut versuchen.</string>
+    <string name="exportToFTPFailed">Der Export via FTP ist fehlgeschlagen. Bitte die Verbindungseinstellungen unter Einstellungen → Remote Export prüfen und erneut versuchen.</string>
+    <string name="includeGPSInfoText">Exportiere GPS-Informationen</string>
+    <string name="includeGPSInfoSummary">HDOP-, VDOP-, PDOP-, HRMS-, VRMS-Informationen werden in den Punkt-Layer exportiert.</string>
+    <string name="positionBelowMinAccuracy">Die Positionsgenauigkeit liegt unterhalb der eingestellten Mindest-Grenze.</string>
+
+    <!-- Geoid model -->
+    <string name="solopt_geoid_model_title">Geoid-Modell</string>
+    <string name="solopt_geoid_model_dialog_title">Bitte Geoid-Modell wählen</string>
+    <string name="EGM2008Info"> 1.  Bitte die Datei des National Geospatial Intelligence Agency Modells vom August 2014 herunterladen.Die Datei finden Sie unter\n http://earth-info.nga.mil/GandG/wgs84/gravitymod/egm2008/Small_Endian/Und_min2.5x2.5_egm2008_isw=82_WGS84_TideFree_SE.gz   \n\n2. Die heruntergeladene Datei extrahieren: \n\nUnd_min2.5x2.5_egm2008_isw=82_WGS84_TideFree_SE\n\n 3. Die Datei umbenennen in: \n\nEGM2008_M25.geoid\n\n4. Dieses Modell in den Ordner {0} → Resources speichern.</string>
+    <string name="dontUseINternalGPSUnit">Internes GPS nicht verwenden.</string>
+    <string name="dontUseINternalGPSUnitSum">Diese Einstellung sollte deaktiviert sein. Falls Probleme mit der Verbindung des externen GPS auftreten, bitte versuchen, den Standort in den Android-Einstellungen auszuschalten und DIESE Option zu aktivieren.</string>
+    <string name="testConnection">Testverbindung</string>
+    <string name="testConnectionSuccess">Verbindung mit {0} war erfolgreich!</string>
+    <string name="testConnectionError">Fehler: \nVerbindung zu {0} ist fehlgeschlagen! \nBitte die Einstellungen überprüfen.</string>
+
+
+    <string name = "searchForFeature">Feature suchen</string>
+    <string name = "searchForFeature1">Feature nach Namen suchen</string>
+    <string name = "searchForFeatureSum">Maximal 10 Ergebnisse werden angezeigt.</string>
+    <string name = "searchForFeatureResults"> Gefundene Ergebnisse: </string>
+    <string name = "searchForFeatureResultsSum">Feature auswählen, um dorthin zu zoomen.</string>
+    <string name = "zoomToFeatureSum">Ausgewähltes Objekt befindet sich auf einer nicht sichtbaren Ebene. Bitte Ebene sichtbar schalten, um deren Objekte auf der Karte zu sehen.</string>
+
+
+    <string name="importLayer">Layer importieren</string>
+    <string name="duplicateLayerName">Der Name des Layers existiert schon.</string>
+    <string name="editPointGeometry">Punktgeometrie bearbeiten</string>
+    <string name="txt_usenegative">Bitte negative Werte für die südliche und westliche Hemisphäre verwenden.</string>
+    <string name="txt_provideXY">Bitte unten den Rechtswert und den Hochwert eingeben.</string>
+    <string name="txt_wrong_coords">Ungültige Koordinaten!</string>
+    <string name="txt_X">X</string>
+    <string name="txt_Y">Y</string>
+    <string name="utm_gridzone">Gitternetz-Zone:</string>
+    <string name="utm_square">Rechteck:</string>
+    <string name="invalid_lat">Ungültiger Breitengrad</string>
+    <string name="invalid_lon">Ungültiger Längengrad</string>
+    <string name="txtMeters">Meter</string>
+    <string name="txtEasting">Rechtswert</string>
+    <string name="txtNorthing">Hochwert</string>
+    <string name="txtUtmZone">UTM-Zone</string>
+
+    <string name="ImportWithAttributes">Einen Layer mit allen existierenden Attributen importieren.\nDas Attribut-Set wird automatisch erstellt, jedoch werden alle Felder als freie Texteingabefelder definiert.\n Wenn bestehende Geometrien in einen Layer mit einem definierten Attribut-Set importiert werden sollen, bitte den Layer von der Liste wählen und die Geometrien in den Layer importieren.</string>
+
+
+    <string name="dropboxConnect">Mit Dropbox verbinden</string>
+    <string name="dropboxConnectSum">Hier tippen, um dieser App zu erlauben, sich mit der Dropbox zu verbinden.</string>
+    <string name="dropboxTokenProblem">Nicht autorisiert. Bitte zu \"Cloud Einstellungen\" gehen und auf "\Mit Dropbox verbinden\" tippen.</string>
+
+    <string name="useEOSConnectTitle">Eos Tools Pro - Eos Arrow-Empfänger</string>
+    <string name="useEOSConnectSum">Speise den Standort der Eos Tools Pro-App und des Eos Arrow GNSS-Empfängers in Mapit ein.</string>
+    <string name="useZenoConnectTitle">Zeno Connect - Leica Zeno-Empfänger</string>
+    <string name="useZenoConnectSum">Speise den Standort der Zeno Connect-App und des Leica GNSS-Empfängers in Mapit ein.</string>
+    <string name="internalGPS">Internes GPS</string>
+    <string name="mockProvider">Pseudo-Standort Anbieter</string>
+    <string name="printPDF">In PDF drucken.</string>
+    <string name="geoid_custom">Um ein lokales Geoid-Modell in Mapit zu nutzen, braucht man eine Datei in einem binären (little-endian) Format, die mit dem US National Geodetic Survey-Format (*.bin) kompatibel ist. Die kompatible Datei muss in LOCAL_GEOID.bin umbenannt und in den Ordner {0} → Resources gespeichert werden. Bitte unter https://mapitgis.com/geoid-height-extension nachschauen, um mehr Informationen zu bekommen! </string>
+    <string name="geoidHeightInfo">Geoid-Höhe</string>
+    <string name="orthometric">Orthometrische Höhe</string>
+    <string name="externalGNSSTCP">Direkte Verbindung über TCP</string>
+    <string name="externalGNSSTCPSum">Hier tippen, um  einen externen GNSS-Empfänger über das TCP-Protokoll zu aktivieren. Der Empfänger muss NMEA Daten über TCP streamen können.</string>
+    <string name="externalGNSSTCPInfo">GNSS via TCP</string>
+    <string name="newPointsAddCoordinates">Punkt durch Eingabe von Koordinaten hinzufügen.</string>
+    <string name="newPointsAddCoordinatesSum">Neue Punkt Features oder Polygon- und Linien-Stützpunkte durch Eingabe von Koordinaten hinzufügen.</string>
+
+    <string name="wfs_service">WFS</string>
+    <string name="wfs_service_add">WFS-Layer hinzufügen</string>
+    <string name="wfs_service_add_URL">WFS-Service URL</string>
+    <string name="wfs_service_add_Name">WFS-Layer Name</string>
+    <string name="wfs_service_add_max">WFS-Layer - Maximale Anzahl an Features</string>
+    <string name="wfs_service_add_min">WFS-Layer - Minimale Zoomstufe, um den Layer darzustellen (Standard = 16)</string>
+    <string name="wfs_service_add_Info">Der WFS-Service muss die Version 2.0.0 oder 1.1.0 des WFS-Standards unterstützen. Die Standard-Projektion der Layer muss auf EPSG: 4326 (WGS84) gesetzt werden und der Dienst muss Antworten im JSON-Format senden können.\nBeispiel URL: https://ahocevar.com/geoserver/wfs\n\nFür mehr Informationen besuchen Sie bitte unsere Website oder kontaktieren Sie uns im Falle von Problemen. Im Moment werden Secure Services nicht unterstützt. t;</string>
+    <string name="wfs_service_edit">WFS-Layer bearbeiten</string>
+    <string name="wfs_service_connecting">Mit WFS-Service verbinden…</string>
+    <string name="wfs_error_version">Die WFS-Version muss 1.1.0 oder 2.0.0 sein. Bitte kontaktieren Sie den WFS-Service-Provider, um mehr Informationen zu bekommen.</string>
+    <string name="wfs_select_layer">Bitte unten einen WFS-Layer auswählen und \'Einstellung speichern\' antippen - danach den Layer auswählen und auf \'Layer bearbeiten\' tippen, um den Layer-Stil wie Farbe und Konturbreite zu ändern. </string>
+    <string name="wfs_add_selected">Ausgewählten WFS-Layer hinzufügen</string>
+    <string name="wfs_edit_selected">WFS-Layer bearbeiten</string>
+    <string name="layer_marker_size">Marker-Breite</string>
+    <string name="layer_marker_shape">Marker-Form</string>
+    <string name="layer_line_size">Linien-Breite</string>
+    <string name="layer_polygon_outline">Polygon - Konturbreite</string>
+    <string name="txt_circle">Kreis</string>
+    <string name="txt_square">Quadrat</string>
+    <string name="txt_triangle">Dreieck</string>
+    <string name="wfs_maxLayers">Maximal {0} WFS-Layer können gleichzeitig sichtbar sein. Bitte die Sichtbarkeit der anderen Layer ändern, um den gewünschten Layer sichtbar zu machen.</string>
+    <string name="wfs_no_json">Dieser WFS-Service unterstützt keinen JSON-Output und kann in Mapit nicht eingefügt werden. Bitte den Service-Provider kontaktieren.</string>
+    <string name="wfs_no_WGS84Layers">Dieser WFS-Service enthält keine Layer im Standard WGS84-Format. Bitte den Service-Provider kontaktieren.</string>
+
+    <string name="useTrimbleMMConnectTitle">Trimble Mobile-Manager</string>
+    <string name="useTrimbleMMConnectSum">Speise den Standort der TMM-App und der Trimble-Antenne (z.B. Trimble Catalyst) in Mapit ein.</string>
+
+    <string name="geoImagesEmpty">Bitte die Geo-Images (Offline Karten) auf die SD Card im Geräte-Ordner → Mapit-Spatial → OfflineMaps abspeichern. Bitte sicherstellen, dass die World-Files, die Kartengrenzen beschreiben, im selben Ordner wie die Karten selbst abgelegt sind.</string>
+    <string name="txtRequired">Dieses Feld muss ausgefüllt werden.</string>
+    <string name="txtMultiselect">Dieses Feld erlaubt eine Mehrfachauswahl.</string>
+    <string name="txtUnableToSave">Es konnte nicht gespeichert werden, da es unausgefüllte Pflichtfelder gibt.</string>
+    <string name="txtMultiselectSelect">Bitte auswählen.</string>
+    <string name="txtMultiselectFirst">Mehrfachauswahl</string>
+    <string name="txtMultiselectFirstItemSelected">Beim Erstellen eines neuen Features, dieses als \'ausgewählt\' setzen.</string>
+
+    <string name="barcodeScanner">Barcode Scanner</string>
+
+    <string name="enableNTRIPMenu">NTRIP-Client</string>
+    <string name="enableNTRIPConnectionSum">Tippen, um den Mapit NTRIP-Client als Standortquelle zu aktivieren.</string>
+    <string name="enableNTRIPConnection">Mapit NTRIP-Client</string>
+    <string name="enableNTRIPConnectionLost">Mapit kann den NTRIP-Client Output Stream nicht erkennen. Bitte den NTRIP Service STOPPEN und NEUSTARTEN, um die Verbindung wieder herzustellen.</string>
+    <string name="ntripClientNotInstalled">Die Mapit GIS NTRIP-Client App ist nicht installiert. Der Client ist eine eigene Anwendung, die es erlaubt, RTK korrigierte Standortdaten in Mapit zu nutzen. Um den NTRIP-Client für 7 Tage kostenlos auszuprobieren, installieren Sie bitte die App. Mehr Informationen unter https://mapitgis.com/mapit-gis-ntrip-client \n</string>
+    <string name="clearPicturesOnClear"> Bilder werden beim Tippen auf \"Layer bereinigen\" entfernt.</string>
+    <string name="rmsMultiplayerForAccuracy">Genauigkeit als Vielfaches des HRMS: {0}</string>
+    <string name="accuracyAsHRMS">Genauigkeit als HRMS</string>
+    <string name="enableMultiplayerForAccuracy">HRMS als angezeigte Genauigkeit aktivieren</string>
+    <string name="enableMultiplayerForAccuracySum">Wenn verfügbar, HRMS als angezeigte Genauigkeit aktivieren.</string>
+    <string name="exportDistanceBearingDetailsTitle">Export der Range Finder Mess-Details</string>
+
+    <string name="txtExportToPostgres">In PostgreSQL exportieren. </string>
+    <string name="txtpgAppend">Eine neue Tabelle erstellen oder an eine schon bestehende anhängen. </string>
+    <string name="txtpgOverwrite">Eine neue Tabelle erstellen oder eine existierende Tabelle überschreiben.</string>
+    <string name="createAppenddPgTable">Die Daten wurden exportiert. Tabelle {0} wurde erfolgreich {1} in der PostgreSQL Datenbank erstellt.</string>
+    <string name="txtCreated">erstellt</string>
+    <string name="txtAppended">angehängt</string>
+    <string name="createPostgresInfoGeneral">Beide Optionen erstellen eine neue PostgreSQL-Tabelle {0}, wenn sie noch nicht existiert. Bitte Option 1 auswählen, wenn bestehende Daten nur angehängt werden sollen und Option 2, um eine existierende Tabelle zu überschreiben.</string>
+    <string name="txtSelectOption">Bitte eine der obigen Optionen auswählen, um fortzufahren.</string>
+    <string name="txtExportToPostgresExtInfo">Der Export in eine PostgreSQL ist ein kostenpflichtiges Add-In, das nicht in Mapit Pro vorhanden ist. Erhöhen Sie Ihre Produktivität und exportieren Sie Ihre Daten direkt in eine Geo-Datenbank, um sie von dort gleich in ein GIS-Programm (z.B. QGIS) laden zu können. Bitte den \'Ja\' Button antippen, um diese Erweiterung hinzuzufügen. Daran denken, eine Datenbankverbindung in den Mapit-Einstellungen → Remote Connections herzustellen!</string>
+
+    <string name="txtGDrive">Google Drive</string>
+    <string name="txtGDriveLink">Mit Google Drive verbinden</string>
+    <string name="txtGDriveLinkSub">Tippen, um dieser App zu erlauben, sich mit Google Drive zu verbinden.</string>
+    <string name="txtGDriveLinkRemove">Google Drive-Verbindung entfernen.</string>
+    <string name="txtGDriveLinkRemoveSub">Antippen, um bestehende Google Drive-Einstellungen zu löschen.</string>
+    <string name="importGDriveNone">Dateien in Google Drive hochladen → MapitGIS Ordner (nach Upload dort aufgelistet)</string>
+    <string name="txtGdriveConnect">Mit Google Drive verbinden</string>
+    <string name="exportGDriveSuccess">Die Daten wurden erfolgreich in Google Drive hochgeladen → Ordner {0}.</string>
+
+    <string name="displayGNSSInfoOnTheMap">Anzeige von Genauigkeit &amp; GPS-Qualität in der Karte</string>
+    <string name="averagingPositionsTime">Zeit für Mittelwertbildung</string>
+    <string name="averagingPositionsSumTime">Anzahl der Sekunden für die Mittelwertbildung angeben.</string>
+    <string name="secureService">Dies ist ein Secure Service.</string>
+    <string name="gstyleSum" translatable="false">Google Maps-Style wählen</string>
+
+    <!-- Mapit SPATIAL Specific Below-->
+     <string name="spatialSubscription">Mapit Spatial Aboplan</string>
+     <string name="attributeSetExported">Das Attribut-Set wurde exportiert und gespeichert in:</string>
+     <string name="isSelectable">Features können in der Karte ausgewählt werden map</string>
+     <string name="spatialSubscriptionInfo">Diese Mapit Spatial-Funktion benötigt eine gültige Google-Lizenz. Das Abo läuft ein Kalenderjahr und schaltet alle Software-Funktionen frei. Einfach OK drücken, um die 7-tägige KOSTENFREIE Testversion zu starten.</string>
+     <string name="type_tinyInt">Wertebereich: -127 bis 127</string>
+     <string name="type_smallInt">Wertebereich: -32767 bis 32767</string>
+     <string name="type_integer">Wertebereich: -2147483647 bis 2147483647</string>
+     <string name="type_long">Wertebereich: -9223372036854775807 bis 9223372036854775807</string>
+     <string name="selectBasemap" >Hintergrundkarte auswählen</string>
+     <string name="basemaps" >Hintergrundkarten verwalten</string>
+     <string name="geopackages" >Geopackages</string>
+     <string name="noGooglePlayServices">Diese Gerät wird nicht unterstützt. Bitte versuchen, Google Play zu installieren oder upzudaten.</string>
+     <string name="permissionsError">Folgende Rechte müssen gewährt werden, um Mapit ausführen zu können.  Bitte die App neu starten und die geforderten Rechte akzeptieren.</string>
+     <string name="geopackegesFiles">Bitte die .gpkg-Files in den \nGeräte-Ordner → Mapit-Spatial → Geopackages kopieren.</string>
+     <string name="setActiveGeopackage">Bitte ein Geopackage im "Geopackages" Tab aktiv schalten, um die enthaltenen Layer zu sehen.</string>
+     <string name="geopackageNoLayers">Das gewählte Geopackage enthält keine Layer.</string>
+     <string name="geoType">Geometrie-Typ</string>
+     <string name="txtLayer">Layer</string>
+     <string name="txtLinkField">Link</string>
+     <string name="createLayerSR">Das räumliche Bezugssystem ist standardmässig WGS84 EPSG:4326). Bitte hier das Koordinatensystem umstellen auf {0}.</string>
+     <string name="enableZ">Z-Dimension hinzufügen</string>
+     <string name="featuresCount">Feature-Anzahl</string>
+     <string name="createGeopackage">Geopackage erstellen</string>
+     <string name="valueOutOfRange">Der Wert entspricht nicht dem gewählten Daten-Typ des Feldes.</string>
+     <string name="linkFieldTitle">Feld mit einem Attribut-Set verknüpfen</string>
+     <string name="linkedFieldTitle">Verknüpftes Attribut-Set Feld</string>
+     <string name="linkFieldRemove">Link löschen</string>
+     <string name="dbFieldRequired">Bitte einen Standard-Wert für das NOT NULL-Feld wählen.</string>
+     <string name="selectAttSet">Attribut-Set auswählen:</string>
+     <string name="selectAttField">Attribut-Set Feld auswählen:</string>
+     <string name="selectedAttSet">Gewähltes Attribut-Set:</string>
+     <string name="selectedAttField">Gewähltes Attribut-Set Feld:</string>
+     <string name="selectedAttFieldDelete">Das ausgewählte Feld wird aus dem Layer gelöscht. Diese Aktion kann
+         nicht rückgängig gemacht werden. Sind Sie sicher?</string>
+     <string name="removeAttributeSetFieldError">Diese Feld kann nicht gelöscht werden, da es momentan mit
+     folgenden Layern verknüpft ist:\n\n</string>
+     <string name="removeAttributeSetError">Bitte alle Felder löschen, bevor das Attribut-Set gelöscht werden kann.</string>
+     <string name="selectAttFieldLinkNotPossible">Der Feld-Datentyp des gewählten Attribut-Sets entspricht nicht dem
+               zugeordneten Datenbank-Feldtyp. Bitte ein anderes Feld auswählen, oder ein neues Feld unter \'Attribute-Verwaltung\'  erstellen.\nDieser Link kann nicht gespeichert werden.</string>
+     <string name="geopackageNoAttributeSets">Das gewählte Geopackage enthält keine definierten Attribut-Sets. Bitte
+          in der \'Attribute-Verwaltung\' ein neues Attribut-Set mit definierten Feldern erstellen, um diese dann hier zu verlinken.</string>
+     <string name="geopackageAttributeSetsNoFields">Es kann kein gültiges Attribut-Set gefunden werden. Bitte
+     sicherstellen, dass ein Attribut-Set erstellt wurde und dieses gültige Felder definiert hat.</string>
+
+     <string name="geopackageAttributeSetsEmpty">Bis jetzt wurde noch kein Attribut-Set für das gewählte Geopackage
+     erstellt. Bitte unten auf \'Hinzufügen\' oder \'Importieren\' (Knopf mit Pfeil) drücken.</string>
+     <string name="shareGeopackage">Geopackage teilen</string>
+     <string name="geopackage_table_index_features_createIndex">Wiederherstellen</string>
+
+     <string  name="geopackage_table_index_features_index_create_label">Erstellen</string>
+
+     <string name="geopackage_table_index_features_index_title">Index</string>
+
+     <string name="geopackage_table_index_features_index">Index wiederherstellen</string>
+     <string name="updating_layer_metadata"> Layer-Metadaten updaten</string>
+     <string name="updating_layer_indicies">Layer-Indizes updaten</string>
+
+     <string name="gettingFeaturesToImport">Features importieren…</string>
+     <string name="positionInfo">Positions-Information</string>
+
+     <string name="projectionNotSupported">Die gewählte Projektion wird nicht unterstützt - das Koordinatensystem wird  auf WGS84 zurückgestellt.</string>
+
+
+     <string name="deleteField">Feld löschen</string>
+
+     <string name="deleteFieldProblem">Das Feld kann aus der Tabelle nicht gelöscht werden. Es gab
+     ein Problem mit dem Primär-Schlüssel und der Geometrie-Feld Spalten-Index-ID.</string>
+
+</resources>
