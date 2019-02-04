@@ -85,7 +85,6 @@
     <string name="txt_dialog_pref">Warnung-Anzeige</string>
     <string name="txt_dialog_pref_sum">Warnung bei einem Layer-Wechsel.</string>
     <string name="ov_menu_title">Google Maps-Overlays</string>
-    <string name="ov_dialog_message">Zur Verwendung von Google Maps-Overlays (WMS und andere Services) ist die Mapit Pro-Lizenz erforderlich. \nMapit Pro-Lizenz jetzt kaufen?</string>
 
     <string name="eulaTitle">Endnutzer-Lizenzvertrag</string>
     <string name="importValues">Werte importieren</string>
@@ -108,9 +107,6 @@
     <string name="samplePolygonLayer">Beispiel-Polygon-Layer</string>
     <string name="editFeatureEnd">Die Bearbeitung dieses Features beenden?</string>
     <string name="deleteFeature">Feature entfernen?</string>
-    <string name="shapesTitle">Linien und Polygone</string>
-    <string name="shapesDesc">Um einem Layer mehr als 2 Linien oder Polygon-Features hinzufügen zu können, wird eine Erweiterung benötigt. Erweiterung jetzt kaufen?\n\nhttps://mapitgis.com/line-polygon-layers\n</string>
-    <string name="shapesLimit">Ohne die \'Mapit Pro\'-Lizenz können dem Layer maximal 10 Punkte hinzugefügt werden. Lizenz jetzt kaufen?\n</string>
 
     <string name="offlineMapsMapBox">Mapbox &amp; Offline-Karten</string>
     <string name="offlineMaps">Offline-Karten</string>
@@ -133,12 +129,9 @@
     <string name="file_type_Geo_JSON">GeoJSON-Datei</string>
     <string name="importError">Fehler: Es gab ein Problem beim Importieren der Features aus der Datei.</string>
     <string name="importNull">Diese Datei enthält keine {0} Features, die importiert werden könnten.\nBitte Import-Datei prüfen oder einen anderen Layer wählen.</string>
-    <string name="mapit_extensions">Mapit-Erweiterungen</string>
     <string name="mapit_ext_exportData">Daten exportieren</string>
     <string name="more">Weitere Informationen</string>
     <string name="available">Verfügbar</string>
-    <string name="mapitPro_ext">Mapit Pro</string>
-    <string name="mapitPro_extSum">"Mapit Pro jetzt kaufen, um das volle Potenzial der App zu nutzen."</string>
     <string name="exportErrorNoFeatures">Der Export ist fehlgeschlagen.\nDer Layer ist leer.\nBitte dem Layer einige Features hinzufügen und erneut versuchen.</string>
     <string name="loadingGeneralShort">Laden</string>
     <string name="loadingGeneral">Lade Daten, bitte warten.</string>
@@ -163,8 +156,6 @@
 
     <string name="geoidHeight">Geoid-Höhe für GPS</string>
     <string name="geoidHeightSum">EGM96 - ungefährer mittlerer Meeresspiegel</string>
-    <string name="extensionDesc">Um die EGM96 (Earth Gravitational Model 1996) GPS-Höhenkorrektur zu aktivieren, ist eine Mapit Pro-Lizenz notwendig.\nLizenz jetzt kaufen?</string>
-    <string name="extensionDesc1">Mapit Pro-Lizenz notwendig.\nLizenz jetzt kaufen?</string>
     <string name="downloadingResources">Daten werden heruntergeladen - bitte warten.</string>
     <string name="downloadError">Beim Herunterladen ist ein Fehler aufgetreten. Bitte erneut versuchen.</string>
 
@@ -203,20 +194,9 @@
     <string name="defaultText">Standardwert</string>
 
     <string name="stop">Stopp</string>
-    <string name="trackingInfoPro">Tracking ist nur für Anwender mit der Mapit Pro-Lizenz verfügbar. Es kann jederzeit ein Upgrade erworben oder wahlweise dieser Button in \'Sonstige Einstellungen\' ausgeblendet werden.\n\nSoll die Mapit Pro-Lizenz jetzt erworben werden?</string>
     <string name="notificationTitle">Mapit Spatial - Trackaufzeichnung</string>
     <string name="showTrackRecordingButton">Zeige \'Trackaufzeichnung\'-Button.</string>
     <string name="notificationText">Trackaufzeichnung ist aktiv.</string>
-    <string name="backupManagement">Backups verwalten</string>
-    <string name="backupManagementRestore">Die Haupt-Datenbank soll aus einer Sicherungsdatei wiederhergestellt werden. Alle derzeitigen Daten-, Layer- und Attribut-Einstellungen werden gelöscht. Bevor fortgefahren wird, sollten die aktuellen Daten gesichert werden.\n\nDieser Vorgang kann nicht rückgängig gemacht werden!\n\nTrotzdem fortfahren?</string>
-    <string name="backupManagementBillingInfo">Die Backupverwaltung ist nur für Mapit Pro-Anwender verfügbar.\n\nDie Backupverwaltung ermöglicht es, eine Kopie der Haupt-Datenbank zu erstellen und sie bei Bedarf wiederherzustellen.\n\nAlle Backupdateien werden im Geräte-Ordner → Mapit-Spatial → Backups gespeichert. Von dort aus können sie auch einfach zwischen verschiedenen Geräten weitergegeben/geteilt werden.\n\nSoll die Mapit Pro-Lizenz jetzt erworben werden?\n</string>
-    <string name="creatingBackupFile">Backup erstellen.</string>
-    <string name="createBackup">Neues Backup erstellen.</string>
-    <string name="restoreFrombackup">Aus Backup wiederherstellen.</string>
-    <string name="noBackups">Kein Backup gefunden. Bitte den \'Backup erstellen\'-Button verwenden, um die aktuelle Datenbank zu sichern.\n\nAlle Attribute, Layer und Daten darin werden gesichert.\n\nDie Backup-Dateien können bei Bedarf auch auf andere Geräte verteilt werden.</string>
-    <string name="restoreBackupFileOK">Die Datenbank wurde aus dem Backup wiederhergestellt.</string>
-    <string name="restoreBackupFileError">Die Wiederherstellung der Datenbank aus dem Backup ist fehlgeschlagen.</string>
-    <string name="creatingBackupError">Die Erstellung des Backups ist fehlgeschlagen.\nBitte erneut versuchen und/oder dieses Problem melden.</string>
 
 
     <string name="showBasePoints">Zeige Basis-Punkte auf der Karte</string>
@@ -584,8 +564,6 @@
     <string name="solopt_geoid_model_title">Geoid-Modell</string>
     <string name="solopt_geoid_model_dialog_title">Bitte Geoid-Modell wählen</string>
     <string name="EGM2008Info"> 1.  Bitte die Datei des National Geospatial Intelligence Agency Modells vom August 2014 herunterladen.Die Datei finden Sie unter\n http://earth-info.nga.mil/GandG/wgs84/gravitymod/egm2008/Small_Endian/Und_min2.5x2.5_egm2008_isw=82_WGS84_TideFree_SE.gz   \n\n2. Die heruntergeladene Datei extrahieren: \n\nUnd_min2.5x2.5_egm2008_isw=82_WGS84_TideFree_SE\n\n 3. Die Datei umbenennen in: \n\nEGM2008_M25.geoid\n\n4. Dieses Modell in den Ordner {0} → Resources speichern.</string>
-    <string name="dontUseINternalGPSUnit">Internes GPS nicht verwenden.</string>
-    <string name="dontUseINternalGPSUnitSum">Diese Einstellung sollte deaktiviert sein. Falls Probleme mit der Verbindung des externen GPS auftreten, bitte versuchen, den Standort in den Android-Einstellungen auszuschalten und DIESE Option zu aktivieren.</string>
     <string name="testConnection">Testverbindung</string>
     <string name="testConnectionSuccess">Verbindung mit {0} war erfolgreich!</string>
     <string name="testConnectionError">Fehler: \nVerbindung zu {0} ist fehlgeschlagen! \nBitte die Einstellungen überprüfen.</string>
@@ -696,7 +674,6 @@
     <string name="txtAppended">angehängt</string>
     <string name="createPostgresInfoGeneral">Beide Optionen erstellen eine neue PostgreSQL-Tabelle {0}, wenn sie noch nicht existiert. Bitte Option 1 auswählen, wenn bestehende Daten nur angehängt werden sollen und Option 2, um eine existierende Tabelle zu überschreiben.</string>
     <string name="txtSelectOption">Bitte eine der obigen Optionen auswählen, um fortzufahren.</string>
-    <string name="txtExportToPostgresExtInfo">Der Export in eine PostgreSQL ist ein kostenpflichtiges Add-In, das nicht in Mapit Pro vorhanden ist. Erhöhen Sie Ihre Produktivität und exportieren Sie Ihre Daten direkt in eine Geo-Datenbank, um sie von dort gleich in ein GIS-Programm (z.B. QGIS) laden zu können. Bitte den \'Ja\' Button antippen, um diese Erweiterung hinzuzufügen. Daran denken, eine Datenbankverbindung in den Mapit-Einstellungen → Remote Connections herzustellen!</string>
 
     <string name="txtGDrive">Google Drive</string>
     <string name="txtGDriveLink">Mit Google Drive verbinden</string>
@@ -712,6 +689,34 @@
     <string name="averagingPositionsSumTime">Anzahl der Sekunden für die Mittelwertbildung angeben.</string>
     <string name="secureService">Dies ist ein Secure Service.</string>
     <string name="gstyleSum" translatable="false">Google Maps-Style wählen</string>
+
+    <string name="resetLicence">Lizenz zurücksetzen</string>
+    <string name="expiryDate">Ablaufdatum</string>
+    <string name="show_alt_speed_text">Geschwindigkeit &amp; Höhe anzeigen</string>
+    <string name="speed_text">Geschwindigkeit</string>
+    <string name="txt_aboutMapItGplus">Schliesse Dich uns in Google+</string>
+    <string  name="notAbleToPurchase">Der Kauf kann nicht abgeschlossen werden. Bitte die Internetverbindung und die Google-Kontoeinstellungen prüfen.</string>
+    <string name="show_pictures">Anhänge anzeigen</string>
+    <string name="descHint">Feature Beschreibung hier eingeben…</string>
+    <string name="pics_info">Dieser Feature hat {0} Bilder angehängt. Sie sind im Ordner: {1} gespeichert.</string>
+
+    <string name="exportSuccess">Die Daten wurden erfolgreich in den Dropbox → Apps Ordner hochgeladen..</string>
+    <string name="remote_operation">Hintergrund-Operation</string>
+    <string name="remote_operation_delete">Datei entfernen…</string>
+    <string name="remote_operation_error">Bei der Hintergrund-Operation ist ein Fehler aufgetreten.</string>
+    <string name="importDropBox">DropBox</string>
+
+    <string name="importDropBoxConnect">Verbinden mit der Dropbox</string>
+    <string name="dropBoxRemove">Dropbox-Link entfernen</string>
+    <string name="dropBoxRemoveSettings">Drücken, um die aktuellen Einstellungen für die Dropbox-Verbindung zu löschen.</string>
+    <string name="dropBoxRemoveAlert">Die aktuellen Einstellungen für die Dropbox-Verbindung wirklich löschen?</string>
+    <string name="exportDropBox">ie ausgewählte Datei wird in die Dropbox hochgeladen…\nBitte warten.</string>
+    <string name="importDropBoxLoading">Dateien werden importiert…\nBitte warten.</string>
+    <string name="DropBoxLinked">Das Dropbox-Konto is nun verknüpft. Bitte den Export in die Dropbox jetzt erneut probieren.</string>
+    <string name="importDropBoxNone">itte Dateien in den Dropbox → Apps Ordner hochladen, um sie hier angezeigt zu bekommen.</string>
+    <string name="exportAttributes">Attribute</string>
+    <string name="minAccuracyUnitText">Einheit der Mindestgenauigkeit</string>
+    <string name="antenna_height_title">GNSS-Antennen-Höhe: {0} m</string>
 
     <!-- Mapit SPATIAL Specific Below-->
      <string name="spatialSubscription">Mapit Spatial Aboplan</string>
@@ -757,29 +762,22 @@
           in der \'Attribute-Verwaltung\' ein neues Attribut-Set mit definierten Feldern erstellen, um diese dann hier zu verlinken.</string>
      <string name="geopackageAttributeSetsNoFields">Es kann kein gültiges Attribut-Set gefunden werden. Bitte
      sicherstellen, dass ein Attribut-Set erstellt wurde und dieses gültige Felder definiert hat.</string>
-
      <string name="geopackageAttributeSetsEmpty">Bis jetzt wurde noch kein Attribut-Set für das gewählte Geopackage
      erstellt. Bitte unten auf \'Hinzufügen\' oder \'Importieren\' (Knopf mit Pfeil) drücken.</string>
      <string name="shareGeopackage">Geopackage teilen</string>
      <string name="geopackage_table_index_features_createIndex">Wiederherstellen</string>
-
      <string  name="geopackage_table_index_features_index_create_label">Erstellen</string>
-
      <string name="geopackage_table_index_features_index_title">Index</string>
-
      <string name="geopackage_table_index_features_index">Index wiederherstellen</string>
      <string name="updating_layer_metadata"> Layer-Metadaten updaten</string>
      <string name="updating_layer_indicies">Layer-Indizes updaten</string>
-
      <string name="gettingFeaturesToImport">Features importieren…</string>
      <string name="positionInfo">Positions-Information</string>
-
      <string name="projectionNotSupported">Die gewählte Projektion wird nicht unterstützt - das Koordinatensystem wird  auf WGS84 zurückgestellt.</string>
-
-
      <string name="deleteField">Feld löschen</string>
-
      <string name="deleteFieldProblem">Das Feld kann aus der Tabelle nicht gelöscht werden. Es gab
      ein Problem mit dem Primär-Schlüssel und der Geometrie-Feld Spalten-Index-ID.</string>
-
+    
+    <!-- Mapit SPATIAL Missing German Translation Below-->
+    <string name="geoid_bin">Custom geoid *.bin format</string> <!--US National Geodetic Survey (*.bin) format -->
 </resources>
