@@ -779,5 +779,9 @@
     <string name="deleteField">Eliminar campo de atributos</string>
     <string name="deleteFieldProblem">El campo no se puede quitar para esta tabla. Hubo un problema con la clave principal y el ID de columna del campo de geometría.</string>
 
+   <!-- Mapit SPATIAL - Missing Spanish Translation-->
+    <string name="exportToFTPInfoLayerOnly">Export to FTP in progress...</string>
+    <string name="ImportWithAttributes">Imports Layer with all the existing attributes.\nAttribute set will be created automatically, however all fields will be defined as free entry TextBox.\n If you want to import existing geometries into the layer with AttributeSet defined please select the layer from the list and Import the geometries into the layer.</string>
+    <string name="geoid_bin">Custom geoid *.bin format</string> <!--US National Geodetic Survey (*.bin) format -->
 
 </resources>
