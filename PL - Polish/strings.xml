@@ -78,7 +78,7 @@
     <string name="deleteAreYouSureValue">Czy chcesz usunąć tą wartość?\nDane zebrane do tej chwili mogą mogą być zniekształcone!\n</string>
     <string name="deleteAreYouSureAttribute">Jesteś pewien że chcesz usunąć ten atrybut i powiązane z nim wartości?\nDane zebrane do tej pory mogą zostać zniekształcone!\n</string>
 
-    <string name="txt_import_no_files">Aby zaimportować pliki, prosimy skopiować je do katalogu\n\nPAMIEC URZADZENIA->Mapit-Spatial>Import.\n\nW chwili obecnej można importować pliki:\n\n-CSV (szerokość,długość,nazwa) dla punktów oraz KML i geojson dla punktów, lini i poligonów.\n\nProsimy o odwiedzenie naszej strony www aby uzyskać więcej informacji na temat importu danych.</string>
+    <string name="txt_import_no_files">Aby zaimportować pliki, prosimy skopiować je do katalogu\n\nPAMIEC URZADZENIA->Mapit-Spatial>Import.</string>
     <string name="txt_imported_info">{0} został zaimportowany do wasrtwy {1}</string>
     <string name="txt_loading_info">Odświerzanie elementów na mapie, proszę czekać&#8230;</string>
     <string name="txt_use_overlay">Użyj tej warstwy</string>
@@ -86,7 +86,6 @@
     <string name="txt_dialog_pref_sum">Pokaż ostrzeżenie przy przełączaniu warstw</string>
 
     <string name="ov_menu_title">Wartwy dla Google Maps</string>
-    <string name="ov_dialog_message">Aby korzystać z nakładek Google Maps (WMS i inne serwisy) konieczne jest rozszerzenie Mapit Pro. \nCzy chcesz teraz kupić rozszerzenie MapIt Pro?</string>
 
     <string name="eulaTitle">End User License Agreement</string>
     <string name="importValues">Importuj wartości</string>
@@ -109,9 +108,6 @@
     <string name="samplePolygonLayer">Warstwa Poligonowa - Przykład</string>
     <string name="editFeatureEnd">Czy chcesz zakończyć edycję tego elementu?</string>
     <string name="deleteFeature">Czy chcesz usunąć ten element?</string>
-    <string name="shapesTitle">Mapit - Linie i Poligony</string>
-    <string name="shapesDesc">Aby dodać więcej niż 2 elementy liniowe lub poligonowe na warstwie wymagany jest płatny dodatek. Czy chcesz dokonać zakupu rozszerzenia w tej chwili?\n\nhttps://mapitgis.com/line-polygon-layers\n</string>
-    <string name="shapesLimit">Bez aktywnego dodatku \'Mapit Pro\' można dodać maksymalnie 10 punktów. Czy chcesz dokonać zakupu rozszerzenia w tej chwili?\n\n</string>
 
     <string name="offlineMapsMapBox">MapBox i Mapy Offline</string>
     <string name="offlineMaps">Mapy Offline</string>
@@ -133,12 +129,9 @@
     <string name="file_type_Geo_JSON">Geojson files</string>
     <string name="importError">Error: There was a problem with importing features from file.</string>
     <string name="importNull">This file does not contain any {0} features to import.\nPlease check your import file or select another layer.</string>
-    <string name="mapit_extensions">Rozrzerzenia Mapit</string>
     <string name="mapit_ext_exportData">Export data</string>
     <string name="more">More information</string>
     <string name="available">Dostępne</string>
-    <string name="mapitPro_ext">Mapit Pro</string>
-    <string name="mapitPro_extSum">" Kup teraz Mapit Pro, aby w pełni wykorzystać potencjał aplikacji."</string>
     <string name="exportErrorNoFeatures">Export has failed.\nThe layer is empty.\nPlease add some features to the layer then try again.</string>
     <string name="loadingGeneralShort">Loading</string>
     <string name="loadingGeneral">Loading data please wait.</string>
@@ -163,10 +156,8 @@
 
     <string name="geoidHeight">Wysokość geoidy dla GPS</string>
     <string name="geoidHeightSum">EGM96 - przybliżona wysokość npm</string>
-    <string name="extensionDesc">Aby włączyć EGM96 (Earth Gravitational Model 1996) korekcję odczytów wysokośći GPS nalezy zainstalować płatny dodatek Mapit Pro.\nCzy chcesz nabyć ten dodatek teraz?</string>
-    <string name="extensionDesc1">Rozszerzenie Mapit Pro jest wymagane aby aktywować tę funkcję.\nCzy chcesz dokonać zakupu potrzebnego dodatku w tej chwili?</string>
     <string name="downloadError">Błąd sciągnięcia pliku. Prosimy spróbować ponownie.</string>
-
+    <string name="geoid_bin">Plik geoidy w formacie *.bin</string>
     <string name="txt_showWaypointsLabels">Etykiety punktów</string>
     <string name="txt_LinesAndPolysLabels">Etykiety lini i poligonów</string>
     <string name="maxCharacters">Maksimum {0} znaków</string>
@@ -202,20 +193,9 @@
     <string name="defaultText">Domyślnie</string>
 
     <string name="stop">Stop</string>
-    <string name="trackingInfoPro">Możliwość zapisu trasy jest dostępna dla użytkowników posiadających rozszerzenie Mapit Pro. Rozszerzenie można nabyć w dowolnym czasie lub opcjonalnie ukryć ten przycisk w sekcji \'Pozostałe ustawienia\'.\n\nCzy chcesz dokonać zakupu Mapit Pro teraz?</string>
     <string name="notificationTitle">Mapit Spatial- Rejestracja trasy</string>
     <string name="showTrackRecordingButton">Pokaż przycisk \'Zapis trasy\'</string>
     <string name="notificationText">Mapit Spatial - Rejestracja trasy.</string>
-    <string name="backupManagement">Kopie zapasowe</string>
-    <string name="backupManagementRestore">Czy jesteś pewien że chcesz odtworzyć bazę danych z kopii zapasowej? Wszystkie dane oraz ustawienia wartsw i atrybutów zostaną usunięte. Zalecane jest utworzenie kopii zapasowej bierzącej bazy danych przed kontynuacją tego kroku.\n\nTa operacja jest nieodwracalna.\n\nCzy chesz kontynuować?</string>
-    <string name="backupManagementBillingInfo">Zarządzanie kopiami zapasowymi jest dostępne jedynie dla użytkowników posiadających rozszerzenie Mapit Pro.\n\nZarządzanie kopiami zapasowymi pozwala na utworzenie kopii bierzącej bazy danych oraz możliwość odtworzenia jej jeżeli zajdzie taka konieczność.\n\nPliki kopii zapasowych zapisywane są w folderze Mapit->Backups, są łatwo dostępne i mogą być przenoszone na inne urządzenia.\n\nCzy chesz dokonać zakupu rozszerzenia Mapit Pro teraz?\n</string>
-    <string name="creatingBackupFile">Tworzenie kopii zapasowej</string>
-    <string name="createBackup">Utwórz kopię zapasową</string>
-    <string name="restoreFrombackup">Przywróć z kopii zapasowej</string>
-    <string name="noBackups">Brak kopii zapasowych. Proszę użyć przycisku \'Dodaj\' aby utworzyć kopię bierzącej bazy danych.\n\nWszystkie definicje atrybutów, warstw i dane zostaną skopiowane.\n\nKopie bazy danych w razie konieczności mogą być przenoszone pomiędzy urządzeniami.</string>
-    <string name="restoreBackupFileOK">Baza danych została odtworzona z kopii zapasowej.</string>
-    <string name="restoreBackupFileError">Bza danych nie mogła zostać odtworzona.</string>
-    <string name="creatingBackupError">Operacja tworzenia kopii zapasowej nie możę być dokończona.\nProsimy spróbować ponownie lub zgłosić problem.</string>
 
     <string name="showBasePoints">Pokaż punkty bazy na mapie</string>
     <string name="inludeBasePointsLayer">Zarządzanie punktami bazy</string>
@@ -605,11 +585,11 @@
     <string name="WMSShareText">Alternatywnie prosimy zapisać załączony plik i zaimportować go do aplikacji {0} używając opcji \'Import\' w menu serwisów WMS.</string>
     <string name="noWMSFiles">Brak plików konfiguracyjnych WMS do zaimportowania. Prosimy upewnić się że pliki JSON zawierające konfigurację WMS znajdują się w folderze Download lub {0} -> Import. Nazwa pliku powinna zaczynać się od "WMS" i powinna posiadać rozszerzenie ".json".  </string>
     <string name="exportToFTPInfo">Eksport na server FTP z załącznikami może zająć dłuższy okres czasu. Znaczna ilość danych może być przesyłana przez sieć i zalecane jest połączenie Wi-Fi podczas tego procesu. </string>
-    <string name="exportToFTPInfoLayerOnly">Eksport do serwera FTP...</string>
+    <string name="exportToFTPInfoLayerOnly">Eksport do serwera FTP…</string>
     <string name="exportToProgressFailed">Eksport do bazy danych PostgreSQL nie powiódł się. Proszę sprawdzić ustawienia połączenia w Ustawieniach->Eksport Zdalny i sproóbować ponownie.</string>
     <string name="exportToFTPFailed">Eksport do serwera FTP nie powiódł się. Proszę sprawdzić ustawienia połączenia w Ustawieniach->Eksport Zdalny i sproóbować ponownie.</string>
     <string name="includeGPSInfoText">Eksportuj statystyki GNSS</string>
-    <string name="includeGPSInfoSummary">Dołącz wartości HDOP, VDOP, PDOP, HRMS, VRMS... do eksportu warstw punktowych.</string>
+    <string name="includeGPSInfoSummary">Dołącz wartości HDOP, VDOP, PDOP, HRMS, VRMS… do eksportu warstw punktowych.</string>
     <string name="positionBelowMinAccuracy">Dokładność pozycji jest poniżej zdefiniowanego w ustawieniach minimum..</string>
     <string name="antenna_height_title">Wysokość anteny GPS: {0} m</string>
     <string name="resetLicence">Zresetuj licencję</string>
@@ -622,8 +602,6 @@
     <string name="solopt_geoid_model_dialog_title">Wybierz model geoidy</string>
     <string name="EGM2008Info"> 1.  Prosimy ściągnąć plik z National Geospatial Intelligence Agency model
             z Sierpnia 2014. Plik jest dostępny na http://earth-info.nga.mil/GandG/wgs84/gravitymod/egm2008/Small_Endian/Und_min2.5x2.5_egm2008_isw=82_WGS84_TideFree_SE.gz   \n\n2.  Rozpakuj ściągnięty plik: \n\nUnd_min2.5x2.5_egm2008_isw=82_WGS84_TideFree_SE\n\n i zmień nazwę na: \n\nEGM2008_M25.geoid\n\n3.  Skopiuj plik do folderu {0}->Resources.</string>
-    <string name="dontUseINternalGPSUnit">Nie korzystaj z wbudowanego GPS</string>
-    <string name="dontUseINternalGPSUnitSum">To ustawienie powinno być wyłączone, jeżeli jednak doświadczasz problemów przy połączeniu zewnętrznego odbiornika GNSS możesz spróbować wyłączyć Lokalizację w ustawieniach Androida i włączyć tę opcję. Bespośredni strumień NMEA z odbiornika zewnętrznego GNSS zostanie użyty jako źródło pozycji GPS w Mapit Spatial.</string>
     <string name="testConnection">Testuj połączenie</string>
     <string name="testConnectionSuccess">Połączenie do {0} - pomyślne!</string>
     <string name="testConnectionError">Błąd: \nPołączenie do {0} nie powiodło się! \nProszę sprawdzić ustawienia..</string>
@@ -686,7 +664,7 @@
     <string name="wfs_service_add_min">Warstwa WFS - Minimalny Zoom dla wyświetlenia warstwy (Domyślnie 16)</string>
     <string name="wfs_service_add_Info">Serwis WFS musi być zgodny ze standardem WFS  2.0.0 or 1.1.0, domyślny układ wsółrzędnych dla warstw powinien być EPSG: 4326 (WGS84) oraz serwis musi wspierać odpowiedź w formacie JSON.\n\nPrzykładowy URL: https://ahocevar.com/geoserver/wfs\n\nWięcej informacji jest dostępne na mapit-gis.com.\nSerwisy zabezpieczone przez nazwę użytkownika i hasło nie są obecnie wspierane.&#8230;</string>
     <string name="wfs_service_edit">Edytuj warstwę WFS</string>
-    <string name="wfs_service_connecting">Połączenie z serwisem WFS...</string>
+    <string name="wfs_service_connecting">Połączenie z serwisem WFS…</string>
     <string name="wfs_error_version">Serwis WFS musi być zgodny ze standardem 1.1.0 or 2.0.0 - Proszę skontaktować sie z dostawcą serwisu.</string>
     <string name="wfs_select_layer">Wybierz warstwę poniżej i naciśnij \'Zapisz Konfigurację\' powyżej - Po zapisaniu edytuj warstwę aby zmienić kolor lub typ markera.</string>
     <string name="wfs_add_selected">Dodaj wybraną warstwę WFS</string>
@@ -736,7 +714,6 @@
     <string name="txtAppended">zmodyfikowana</string>
     <string name="createPostgresInfoGeneral">Obie opcje poniżej utworzą nową tablicę w bazie danych PostgreSQL {0} jeżeli jeszce ona nie istnieje. Proszę wybrać pierwszą opcję poniżej aby dopisać dane do istniejącej tabeli olub wybrać opcję drugą zstąpić istniejącą tabelę.</string>
     <string name="txtSelectOption">Proszę wybrać jedną z opcji powyżej aby kontynuować.</string>
-    <string name="txtExportToPostgresExtInfo">Eksport do bazy PostgreSQL wymaga platnego dodatku i nie jest częścią Mapit Pro. Zwiększ wydajność pracy i zespołu i uzyskaj dostęp do danych poprzez bazę danych bezpośrednio z aplikacji GIS jak np. qGIS. Proszę nacisnąć przycisk \'Tak\' aby aktywowac rozszerzenie.\n\nProszę ustawić połączenie z bazą danych w Ustawiniach aplikacji->Połączenia zewnętrzne.</string>
 
     <string name="txtGDrive">Dysk Google</string>
     <string name="txtGDriveLink">Połącz Mapit z dyskiem Google</string>
