@@ -782,6 +782,8 @@
    <!-- Mapit SPATIAL - Missing Spanish Translation-->
     <string name="exportToFTPInfoLayerOnly">Export to FTP in progress...</string>
     <string name="ImportWithAttributes">Imports Layer with all the existing attributes.\nAttribute set will be created automatically, however all fields will be defined as free entry TextBox.\n If you want to import existing geometries into the layer with AttributeSet defined please select the layer from the list and Import the geometries into the layer.</string>
-    <string name="geoid_bin">Custom geoid *.bin format</string> <!--US National Geodetic Survey (*.bin) format -->
+    <string name="geoid_bin">Custom geoid *.bin format</string>
+    <string name="deviceMemory">Device</string>
+    <string name="setServerPath">Server Path</string>
 
 </resources>
