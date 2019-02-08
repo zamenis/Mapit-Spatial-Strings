@@ -1,0 +1,251 @@
+<resources>
+
+    <!-- TO BE TRANSLATED INTO PORTUGUESE BELLOW -->
+    <string name="geoid_bin">Custom geoid *.bin format</string> <!--US National Geodetic Survey (*.bin) format -->
+    <string name="receivedLocation">Location acquired</string>
+    <string name="importErrorCRS">Import cancelled:\nThe file you are trying to import is not in WGS84 (EPSG:4326) projection.</string>
+    <string name="exportToFTPInfoLayerOnly">Export to FTP in progress…</string>
+
+    <string name="file_type_arcjson">ArcJSON Files</string>
+    <string name="addVideo">Add Video</string>
+    <string name="addAudio">Add Audio Recording</string>
+    <string name="addAttachment">Add Attachment</string>
+    <string name="txt_aboutMapItGplus">Join us on Google+</string>
+    <string name="descHint">Input feature description here&#8230;</string>
+    <string name="ImportWithAttributes">Imports Layer with all the existing attributes.\nAttribute set will be created automatically, however all fields will be defined as free entry TextBox.\n If you want to import existing geometries into the layer with AttributeSet defined please select the layer from the list and Import the geometries into the layer.</string>
+
+    <string name="resetLicence">Reset Licence</string>
+    <string name="expiryDate">Expiry Date</string>
+    <string name="exportSuccess">The data has been successfully uploaded to Dropbox APPS folder.</string>
+    <string name="remote_operation">Remote operation</string>
+    <string name="remote_operation_delete">Removing file&#8230;</string>
+    <string name="remote_operation_error">An error has occurred during the remote operation.</string>
+    <string name="importDropBox">DropBox</string>
+    <string name="importDropBoxConnect">Connect to DropBox</string>
+    <string name="dropBoxRemove">Remove DropBox link</string>
+    <string name="dropBoxRemoveSettings">Press to clear current DropBox connection settings.</string>
+    <string name="dropBoxRemoveAlert">Do you want to clear current DropBox connection settings?</string>
+    <string name="exportDropBox">Selected file is being uploaded to DropBox&#8230;\nPlease wait.</string>
+    <string name="importDropBoxLoading">Getting files.&#8230;\nPlease wait.</string>
+    <string name="DropBoxLinked">DropBox account is now linked, please re-try the DropBox Export.</string>
+    <string name="importDropBoxNone">Upload files to DropBox->Apps folder to get them listed here.</string>
+    <string name="exportAttributes">Attributes</string>
+    <string name="remoteExport">Remote Connections</string>
+    <string name="remoteExportSum">Set necessary parameters to enable export to PostgreSQL database or FTP location</string>
+    <string name="remoteExportSum1">Set necessary parameters to enable export to FTP location</string>
+    <string name="postgresSettings">PostgreSQL Settings</string>
+    <string name="ftpSettings">FTP Settings</string>
+    <string name="serverIPTitle">Server (IP Address)</string>
+    <string name="serverIPSum">Provide server name or IP address</string>
+    <string name="serverPort">Port</string>
+    <string name="serverPortSum">Provide server listening port</string>
+    <string name="serverUsername">Username</string>
+    <string name="serverPassword">Password</string>
+    <string name="pgDbNameText">Database name</string>
+    <string name="exportToFTP">Export to {0}</string>
+    <string name="measuringPosition">Averaging position</string>
+    <string name="averagingText">Position averaging &amp; accuracy</string>
+    <string name="averagingTextTitle">Activate position averaging.</string>
+    <string name="averagingPositions">Averaging positions</string>
+    <string name="averagingPositionsSum">Set number of positions used for averaging.</string>
+    <string name="maxHDOPAllowedText">Maximum HDOP value</string>
+    <string name="maxHDOPAllowedSum">Count position only if HDOP is lower than </string>
+    <string name="minAccuracyAllowedText">Minimum accuracy</string>
+    <string name="minAccuracyAllowedSum">Count position if accuracy is greater than </string>
+    <string name="horizontalAccuracyRMS">HRMS</string>
+    <string name="verticalAccuracyRMS">VRMS</string>
+    <string name="fixType">Quality</string>
+    <string name="stationID">Station ID</string>
+    <string name="correctionAge">Correction age</string>
+    <string name="importWMS">Import WMS</string>
+    <string name="WMSShareText">Alternatively you can download the JSON file attached and import it into {0} application using \'Import\' option on WMS Services menu.</string>
+    <string name="noWMSFiles">No WMS config files are available for import. Please make sure the JSON files containing WMS configuration are present in Android Download or {0} -> Import folder. The file name should start with "WMS" and the extension should be ".json".  </string>
+    <string name="exportToFTPInfo">Export to FTP includes all the layer attachments and may take long time. Large number of data might be transferred over the network and it is recommended to do it using the Wi-Fi connection. </string>
+    <string name="exportToProgressFailed">Export to Postgres database has failed. Please check the database connection in Settings->Remote Export and try again.</string>
+    <string name="exportToFTPFailed">Export to FTP has failed. Please check connection details in Settings->Remote Export and try again.</string>
+    <string name="includeGPSInfoText">Export GPS Information</string>
+    <string name="includeGPSInfoSummary">Include HDOP, VDOP, PDOP, HRMS, VRMS&#8230; with point layers export.</string>
+    <string name="positionBelowMinAccuracy">Position accuracy is below the minimum accuracy settings&#8230;</string>
+
+    <string name="minAccuracyUnitText">Minimum accuracy unit</string>
+
+    <string name="solopt_geoid_model_title">Geoid Model</string>
+    <string name="solopt_geoid_model_dialog_title">Select geoid Model</string>
+    <string name="EGM2008Info"> 1.  Please download a file from National Geospatial Intelligence Agency model
+        from August 2014. File can be found at http://earth-info.nga.mil/GandG/wgs84/gravitymod/egm2008/Small_Endian/Und_min2.5x2.5_egm2008_isw=82_WGS84_TideFree_SE.gz   \n\n2.  Extract downloaded file: \n\nUnd_min2.5x2.5_egm2008_isw=82_WGS84_TideFree_SE\n\n and rename it to: \n\nEGM2008_M25.geoid\n\n3.  Place this model in {0}->Resources folder.</string>
+    <string name="testConnection">Test Connection</string>
+    <string name="testConnectionSuccess">Connection to {0} was successful!</string>
+    <string name="testConnectionError">Error: \nConnection to {0} failed! \nPlease check your settings…</string>
+
+    <string name="antenna_height_title">GPS Antenna Height: {0} m</string>
+
+    <string name="importLayer">Import Layer</string>
+    <string name="duplicateLayerName">Layer name already exist.</string>
+    <string name="editPointGeometry">Edit Point Geometry</string>
+    <string name="txt_usenegative">Please use negative values for South and West hemisphere.</string>
+    <string name="txt_provideXY">Please input the Easting and Northing below.</string>
+    <string name="txt_wrong_coords">Coordinates are not correct.</string>
+    <string name="txt_X">X</string>
+    <string name="txt_Y">Y</string>
+    <string name="utm_gridzone">Grid zone:</string>
+    <string name="utm_square">Square:</string>
+    <string name="invalid_lat">Invalid Latitude</string>
+    <string name="invalid_lon">Invalid Longitude</string>
+    <string name="txtMeters">meters</string>
+    <string name="txtEasting">Easting</string>
+    <string name="txtNorthing">Northing</string>
+    <string name="txtUtmZone">UTM zone</string>
+
+
+    <string name="dropboxConnect">Connect to Dropbox</string>
+    <string name="dropboxConnectSum">Press to authorize this app use Dropbox…</string>
+    <string name="dropboxTokenProblem">Not authorized. Please go to \"Cloud Settings\" and press \"Connect to Dropbox\" option.</string>
+
+    <string name="useEOSConnectTitle">Eos Tools Pro - Eos Arrow Receivers</string>
+    <string name="useEOSConnectSum">Feed Mapit with location provided by Eos Tools Pro app and your Eos Arrow GNSS receiver.</string>
+    <string name="useZenoConnectTitle">Zeno Connect - Leica Zeno receiver</string>
+    <string name="useZenoConnectSum">Feed Mapit with location provided by Zeno Connect app and your Leica GNSS receiver. </string>
+    <string name="internalGPS">Internal GPS</string>
+    <string name="mockProvider">Mock Provider</string>
+    <string name="printPDF">Share as PDF</string>
+    <string name="geoid_custom">To use local geoid model in Mapit you need to have a file available in binary (little-endian) format compatible with US National Geodetic Survey (*.bin) format.\n\nCompatible file should be renamed to LOCAL_GEOID.bin and placed in {0}->Resources folder.</string>
+    <string name="geoidHeightInfo">Geoid height</string>
+    <string name="orthometric">Orthometric</string>
+    <string name="externalGNSSTCP">Direct Connection over TCP</string>
+    <string name="externalGNSSTCPSum">Click to enable external GNSS receiver and access location source over TCP protocol. Receiver must stream NMEA sentences over TCP.</string>
+    <string name="externalGNSSTCPInfo">TCP GNSS</string>
+    <string name="newPointsAddCoordinates">Add Point typing coordinates.</string>
+    <string name="newPointsAddCoordinatesSum">Create new point features or polygon or line vertices by typing in coordinates.</string>
+
+    <string name="wfs_service">WFS</string>
+    <string name="wfs_service_add">Add WFS Layer</string>
+    <string name="wfs_service_add_URL">WFS Service URL</string>
+    <string name="wfs_service_add_Name">WFS Layer Name</string>
+    <string name="wfs_service_add_max">WFS Layer - Max number of features</string>
+    <string name="wfs_service_add_min">WFS Layer - Minimum zoom level to draw the layer (default 16)</string>
+    <string name="wfs_service_add_Info">WFS Service must support version 2.0.0 or 1.1.0 of the WFS standard, layers default projection must be set as EPSG: 4326 (WGS84) and must be able to return responses in JSON format.\n\nSample URL: https://ahocevar.com/geoserver/wfs\n\nPlease visit our website for more details or contact us directly in case of problems.\nAt the moment secure services are not supported&#8230;</string>
+    <string name="wfs_service_edit">Edit WFS Layer</string>
+    <string name="wfs_service_connecting">Connecting to WFS service…</string>
+    <string name="wfs_error_version">WFS version must be 1.1.0 or 2.0.0 - Please contact the WFS service provider to get more information.</string>
+    <string name="wfs_select_layer">Please select WFS layer below and \'Save Configuration\' - afterwards select and edit the layer to change the layer style like color and outline size.</string>
+    <string name="wfs_add_selected">Add selected WFS Layer</string>
+    <string name="wfs_edit_selected">Edit WFS Layer</string>
+    <string name="layer_marker_size">Marker Size</string>
+    <string name="layer_marker_shape">Layer marker shape</string>
+    <string name="layer_line_size">Line width</string>
+    <string name="layer_polygon_outline">Polygon outline width</string>
+    <string name="txt_circle">Circle</string>
+    <string name="txt_square">Square</string>
+    <string name="txt_triangle">Triangle</string>
+    <string name="wfs_maxLayers">Maximum {0} WFS layers can be visible at the same time. Please change visibility of other layers to make this layer visible.</string>
+    <string name="wfs_no_json">This WFS service does not support JSON output and cannot be used in Mapit. Please contact service provider.</string>
+    <string name="wfs_no_WGS84Layers">This WFS service does not contain any layers with default projection set to WGS84. Please contact service provider.</string>
+
+    <string name="useTrimbleMMConnectTitle">Trimble Mobile Manager</string>
+    <string name="useTrimbleMMConnectSum">Feed Mapit with location provided by TMM app and your Trimble antenna e.g. Trimble Catalyst</string>
+
+    <string name="geoImagesEmpty">Please copy your geo-images to\n\nDevice Memory->Mapit-Spatial->OfflineMaps folder.\nMake sure the world files describing the image bounds are placed in the same folder with the same name as the image itself.</string>
+    <string name="txtRequired">This field is required.</string>
+    <string name="txtMultiselect">This field allows multiple selection.</string>
+    <string name="txtUnableToSave">Unable to save. There are blank required fields on the form:\n\n</string>
+    <string name="txtMultiselectSelect">Please select</string>
+    <string name="txtMultiselectFirst">Multiple Selection Field</string>
+    <string name="txtMultiselectFirstItemSelected">Make first item selected when creating new feature.</string>
+    <string name="barcodeScanner">Barcode Scanner</string>
+
+    <string name="enableNTRIPMenu">NTRIP Client</string>
+    <string name="enableNTRIPConnectionSum">Click to enable Mapit NTRIP Client as location source.</string>
+    <string name="enableNTRIPConnection">Mapit NTRIP Client</string>
+    <string name="enableNTRIPConnectionLost">Mapit is not able to detect NTRIP Client Output Stream. Please STOP and START NTRIP Service to reconnect.</string>
+    <string name="ntripClientNotInstalled">Mapit GIS NTRIP Client application is not installed. It is a separate application allowing you to use RTK corrected locations in Mapit. If you want to try it out for free for 7 days please install the app now.\n\nMore information:\nhttps://mapitgis.com/mapit-gis-ntrip-client</string>
+    <string name="clearPicturesOnClear">Remove pictures when \"Clear Layer\" pressed</string>
+    <string name="rmsMultiplayerForAccuracy">Accuracy as multiplication of HRMS: {0}</string>
+    <string name="accuracyAsHRMS">Accuracy as HRMS</string>
+    <string name="enableMultiplayerForAccuracy">Set accuracy as HRMS</string>
+    <string name="enableMultiplayerForAccuracySum">Set accuracy as HRMS when available.</string>
+    <string name="exportDistanceBearingDetailsTitle">Export range finder measurement details</string>
+
+    <string name="txtExportToPostgres">Export to PostgreSQL</string>
+    <string name="txtpgAppend">Create new or Append existing table</string>
+    <string name="txtpgOverwrite">Create new or Overwrite existing table</string>
+    <string name="createAppenddPgTable">Data has been exported.\nTable {0} has been successfully {1} in PostgreSQL database.</string>
+    <string name="txtCreated">created</string>
+    <string name="txtAppended">appended</string>
+    <string name="createPostgresInfoGeneral">Both options will create new PostgreSQL table named {0} if it does not exist yet. Please select option one if you would like to append existing data or option two to overwrite and replace existing table.</string>
+    <string name="txtSelectOption">Please select option above to continue.</string>
+
+    <string name="txtGDrive">Google Drive</string>
+    <string name="txtGDriveLink">Connect to Google Drive</string>
+    <string name="txtGDriveLinkSub">Press to authorize this app to use Google Drive.</string>
+    <string name="txtGDriveLinkRemove">Remove Google Drive Link</string>
+    <string name="txtGDriveLinkRemoveSub">Press to clear current GDrive connection settings</string>
+    <string name="importGDriveNone">Upload files to Gdrive->MapitGIS folder to get them listed here.</string>
+    <string name="txtGdriveConnect">Connect to GDrive</string>
+    <string name="exportGDriveSuccess">The data has been successfully uploaded to Google Drive->{0} folder.</string>
+
+    <string name="displayGNSSInfoOnTheMap">Accuracy &amp; GPS Quality on the map.</string>
+    <string name="averagingPositionsTime">Averaging time</string>
+    <string name="averagingPositionsSumTime">Set number of seconds used for averaging.</string>
+    <string name="secureService">This is secure service</string>
+
+
+    <!-- Mapit SPATIAL Specific Below-->
+    <string name="gstyleSum" >Select Google Map Style</string>
+    <string name="spatialSubscription">Mapit Spatial Subscription</string>
+    <string name="attributeSetExported">Attribute set has been exported and saved to:</string>
+    <string name="isSelectable">Features can be selected on the map</string>
+    <string name="spatialSubscriptionInfo">This function of Mapit Spatial does require a valid Google subscription to run. The subscription is valid for a period of 1 calendar year and provides access to all software functionality. Please press \'OK\' to continue and start 7 days FREE trial period.</string>
+    <string name="type_tinyInt">Values range: -127 to 127</string>
+    <string name="type_smallInt">Values range: -32767 to 32767</string>
+    <string name="type_integer">Values range: -2147483647 to 2147483647</string>
+    <string name="type_long">Values range: -9223372036854775807 to 9223372036854775807</string>
+    <string name="selectBasemap" >Select Basemap</string>
+    <string name="basemaps" >Basemap Management</string>
+    <string name="geopackages" >Geopackages</string>
+    <string name="noGooglePlayServices">This device is not supported. Try to install or update Google Play Services.</string>
+    <string name="permissionsError">You need to accept permissions to get MapIt running.
+        Please restart the app and accept required permissions…</string>
+    <string name="geopackegesFiles">Please copy your .gpkg files to\nDevice Memory->Mapit-Spatial->Geopackages folder.</string>
+    <string name="setActiveGeopackage">Please set active geopackage on \"Geopackages\" tab to see the layers listed here.</string>
+    <string name="geopackageNoLayers">Selected geopackage does not contains any layers.</string>
+    <string name="geoType">Geometry Type</string>
+    <string name="txtLayer">Layer</string>
+    <string name="txtLinkField">Link</string>
+    <string name="createLayerSR">Spatial reference will be set as WGS84(EPSG:4326), please check this option to set layer coordinate system as {0}.</string>
+    <string name="enableZ">Include Z dimension</string>
+    <string name="featuresCount">Number of Features</string>
+    <string name="createGeopackage">Create Geopackage</string>
+    <string name="valueOutOfRange">Provided value doesn\'t match selected field type.</string>
+    <string name="linkFieldTitle">Link field with Attribute Set</string>
+    <string name="linkedFieldTitle">Linked Attribute Set Field</string>
+    <string name="linkFieldRemove">Remove link</string>
+    <string name="dbFieldRequired">Please set default value for NOT NULL field.</string>
+    <string name="selectAttSet">Select Attribute Set:</string>
+    <string name="selectAttField">Select Attribute Set Field:</string>
+    <string name="selectedAttSet">Selected Attribute Set:</string>
+    <string name="selectedAttField">Selected Attribute Set Field:</string>
+    <string name="selectedAttFieldDelete">Selected Field will be removed from layer. This cannot be undone.\nAre you sure?</string>
+    <string name="removeAttributeSetFieldError">This field cannot be removed - it is currently linked in following layers:\n\n</string>
+    <string name="removeAttributeSetError">Please remove all fields before removing the attribute set.</string>
+    <string name="selectAttFieldLinkNotPossible">Selected Attribute Set field data type does not match the underlying Database field type. Please select another field or create valid field in \'Attributes Management\'. \nThis link cannot be saved!</string>
+    <string name="geopackageNoAttributeSets">Selected geopackage does not contain any Attribute Sets defined, please use \'Attributes Management\' to create new attribute set and define fields, which then can be linked in here.</string>
+    <string name="geopackageAttributeSetsNoFields">Not able to find valid attribute set. Please make sure you have created the attribute set and it contains valid fields defined.</string>
+    <string name="geopackageAttributeSetsEmpty">You have not yet created any \'Attribute Set\' for selected geopackage. Please press the \'Add\' or \'Import\' (button with arrow) below.</string>
+    <string name="shareGeopackage">Share geopackage</string>
+
+    <string name="geopackage_table_index_features_createIndex">Rebuild</string>
+    <string name="geopackage_table_index_features_index_create_label">Create</string>
+    <string name="geopackage_table_index_features_index_title">index</string>
+    <string name="geopackage_table_index_features_index">Rebuild Index</string>
+    <string name="updating_layer_metadata">Updating layer metadata</string>
+    <string name="updating_layer_indicies">Updating layer indices</string>
+    <string name="gettingFeaturesToImport">Getting features to import…</string>
+    <string name="positionInfo">Position Information</string>
+    <string name="projectionNotSupported">Selected projection is not supported - the coordinate system will be reset to WGS84</string>
+
+    <string name="deleteField">Delete Field</string>
+    <string name="deleteFieldProblem">Field cannot be removed for this table. There was a problem with primary key and geometry field column index id.</string>
+
+    <string name="deviceMemory">Device</string>
+    <string name="setServerPath">Server Path</string>
+</resources>

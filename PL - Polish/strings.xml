@@ -787,4 +787,10 @@
 
     <string name="deleteField">Usuń pole</string>
     <string name="deleteFieldProblem">Wybrane pole nie może zostać usunięte. Wystąpił problem związany z indexami dla columny zawierajacej klucz główny oraz geometrii.</string>
+	<string name="deviceMemory">Urządzenie</string>
+    <string name="setServerPath">Scieżka servera</string>
+	
+	<!-- Mapit SPATIAL - Missing Spanish Translation -->
+    
+    <!-- Missing End -->
 </resources>

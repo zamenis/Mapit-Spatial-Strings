@@ -1,0 +1,61 @@
+<resources>
+    <!-- Mapit SPATIAL Specific Below-->
+
+    <string name="spatialSubscription">Mapit Spatial Subscription</string>
+    <string name="attributeSetExported">Attribute set has been exported and saved to:</string>
+    <string name="isSelectable">Features can be selected on the map</string>
+    <string name="spatialSubscriptionInfo">This function of Mapit Spatial does require a valid Google subscription to run. The subscription is valid for a period of 1 calendar year and provides access to all software functionality. Please press \'OK\' to continue and start 7 days FREE trial period.</string>
+    <string name="type_tinyInt">Values range: -127 to 127</string>
+    <string name="type_smallInt">Values range: -32767 to 32767</string>
+    <string name="type_integer">Values range: -2147483647 to 2147483647</string>
+    <string name="type_long">Values range: -9223372036854775807 to 9223372036854775807</string>
+    <string name="selectBasemap" >Select Basemap</string>
+    <string name="basemaps" >Basemap Management</string>
+    <string name="geopackages" >Geopackages</string>
+    <string name="noGooglePlayServices">This device is not supported. Try to install or update Google Play Services.</string>
+    <string name="permissionsError">You need to accept permissions to get MapIt running.
+        Please restart the app and accept required permissions…</string>
+    <string name="geopackegesFiles">Please copy your .gpkg files to\nDevice Memory->Mapit-Spatial->Geopackages folder.</string>
+    <string name="setActiveGeopackage">Please set active geopackage on \"Geopackages\" tab to see the layers listed here.</string>
+    <string name="geopackageNoLayers">Selected geopackage does not contains any layers.</string>
+    <string name="geoType">Geometry Type</string>
+    <string name="txtLayer">Layer</string>
+    <string name="txtLinkField">Link</string>
+    <string name="createLayerSR">Spatial reference will be set as WGS84(EPSG:4326), please check this option to set layer coordinate system as {0}.</string>
+    <string name="enableZ">Include Z dimension</string>
+    <string name="featuresCount">Number of Features</string>
+    <string name="createGeopackage">Create Geopackage</string>
+    <string name="valueOutOfRange">Provided value doesn\'t match selected field type.</string>
+    <string name="linkFieldTitle">Link field with Attribute Set</string>
+    <string name="linkedFieldTitle">Linked Attribute Set Field</string>
+    <string name="linkFieldRemove">Remove link</string>
+    <string name="dbFieldRequired">Please set default value for NOT NULL field.</string>
+    <string name="selectAttSet">Select Attribute Set:</string>
+    <string name="selectAttField">Select Attribute Set Field:</string>
+    <string name="selectedAttSet">Selected Attribute Set:</string>
+    <string name="selectedAttField">Selected Attribute Set Field:</string>
+    <string name="selectedAttFieldDelete">Selected Field will be removed from layer. This cannot be undone.\nAre you sure?</string>
+    <string name="removeAttributeSetFieldError">This field cannot be removed - it is currently linked in following layers:\n\n</string>
+    <string name="removeAttributeSetError">Please remove all fields before removing the attribute set.</string>
+    <string name="selectAttFieldLinkNotPossible">Selected Attribute Set field data type does not match the underlying Database field type. Please select another field or create valid field in \'Attributes Management\'. \nThis link cannot be saved!</string>
+    <string name="geopackageNoAttributeSets">Selected geopackage does not contain any Attribute Sets defined, please use \'Attributes Management\' to create new attribute set and define fields, which then can be linked in here.</string>
+    <string name="geopackageAttributeSetsNoFields">Not able to find valid attribute set. Please make sure you have created the attribute set and it contains valid fields defined.</string>
+    <string name="geopackageAttributeSetsEmpty">You have not yet created any \'Attribute Set\' for selected geopackage. Please press the \'Add\' or \'Import\' (button with arrow) below.</string>
+    <string name="shareGeopackage">Share geopackage</string>
+
+    <string name="geopackage_table_index_features_createIndex">Rebuild</string>
+    <string name="geopackage_table_index_features_index_create_label">Create</string>
+    <string name="geopackage_table_index_features_index_title">index</string>
+    <string name="geopackage_table_index_features_index">Rebuild Index</string>
+    <string name="updating_layer_metadata">Updating layer metadata</string>
+    <string name="updating_layer_indicies">Updating layer indices</string>
+    <string name="gettingFeaturesToImport">Getting features to import…</string>
+    <string name="positionInfo">Position Information</string>
+    <string name="projectionNotSupported">Selected projection is not supported - the coordinate system will be reset to WGS84</string>
+
+    <string name="deleteField">Delete Field</string>
+    <string name="deleteFieldProblem">Field cannot be removed for this table. There was a problem with primary key and geometry field column index id.</string>
+
+    <string name="deviceMemory">Device</string>
+    <string name="setServerPath">Server Path</string>
+</resources>
