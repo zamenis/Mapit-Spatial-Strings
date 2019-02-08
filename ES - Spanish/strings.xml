@@ -779,11 +779,15 @@
     <string name="deleteField">Eliminar campo de atributos</string>
     <string name="deleteFieldProblem">El campo no se puede quitar para esta tabla. Hubo un problema con la clave principal y el ID de columna del campo de geometría.</string>
 
-   <!-- Mapit SPATIAL - Missing Spanish Translation-->
-    <string name="exportToFTPInfoLayerOnly">Export to FTP in progress...</string>
-    <string name="ImportWithAttributes">Imports Layer with all the existing attributes.\nAttribute set will be created automatically, however all fields will be defined as free entry TextBox.\n If you want to import existing geometries into the layer with AttributeSet defined please select the layer from the list and Import the geometries into the layer.</string>
-    <string name="geoid_bin">Custom geoid *.bin format</string>
-    <string name="deviceMemory">Device</string>
-    <string name="setServerPath">Server Path</string>
+    <string name="exportToFTPInfoLayerOnly">Exportación a FTP en progreso…</string>
+    <string name="ImportWithAttributes">Importar capa con todos los atributos existentes.\nEl conjunto de atributos se creará automáticamente, sin embargo, todos los campos se definirán de tipo Entrada de Texto.\n Si desea importar objetos existentes a la capa con los atributos previamente definidos, seleccione la capa de la lista e importe las geometrías a la capa.</string>
+    <string name="geoid_bin">Formato personalizado geoid .bin</string> <!--US National Geodetic Survey (.bin) format -->
+    <string name="deviceMemory">Dispositivo</string>
+    <string name="setServerPath">Ruta del servidor</string>
+    
+    
+    <!-- Mapit SPATIAL - Missing Spanish Translation -->
+    
+    <!-- Missing End -->
 
 </resources>
