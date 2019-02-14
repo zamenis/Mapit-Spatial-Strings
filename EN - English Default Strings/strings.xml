@@ -789,4 +789,7 @@
 
     <string name="deleteField">Delete Field</string>
     <string name="deleteFieldProblem">Field cannot be removed for this table. There was a problem with primary key and geometry field column index id.</string>
+    <string name="startLayerNumberingFrom">Feature\'s numbering start:</string>
+    <string name="startLayerNumberingFromInfo">This value can be set only when the layer is empty.</string>
+
 </resources>
