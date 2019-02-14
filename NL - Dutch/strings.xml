@@ -254,9 +254,9 @@
     <string name="trackPoints">Tracking aanzetten voor Punten laag</string>
     <string name="trackPointsSum">Alle opgenomen punten zullen dezelfde attributen krijgen als het eerste punt in de opnamesessie.</string>
     <string name="externalBTGPS">Externe GNSS</string>
-    <string name="externalBTGPSSum">Configureer Externe Bluetooth GNSS-ontvanger.</string>
-    <string name="enableBTGPS">Direct Connect met Externe GNSS</string>
-    <string name="enableBTGPSSum">Klik om externe GNSS-ontvanger aan te zetten en selecteer de bron voor plaatsbepaling uit de gekoppelde toestellen. De ontvanger moet NMEA sentences streamen over bluetooth.</string>
+    <string name="externalBTGPSSum">Configureer Externe GNSS-ontvanger.</string>
+    <string name="enableBTGPS">Directe Verbinding via Bluetooth</string>
+    <string name="enableBTGPSSum">Tik om Bluetooth verbinding te maken met externe GNSS-ontvanger en deze als bron voor de plaatsbepaling te gebruiken. De ontvanger moet NMEA sentences streamen over bluetooth.</string>
     <string name="notAvailableExternalGPS">Gekozen externe GNSS-ontvanger is niet beschikbaar. Controleer aub uw instellingen of zet extern toestel AAN en herstart de toepassing.</string>
     <string name="forceMockLoc">Onechte Locaties afdwingen</string>
     <string name="forceMockLocSum">Staat standaard UIT. Je kan het echter proberen als je problemen hebt met de verbinding.</string>
@@ -668,8 +668,8 @@
     <string name="geoid_custom">Om een lokaal geoïde model in Mapit te gebruiken, heb je een bestand nodig in binair (little-endian) formaat compatibel met US National Geodetic Survey (*.bin) formaat.\n\nCompatibel bestand moet hernoemd worden naar LOCAL_GEOID.bin en in de map {0}->Resources geplaatst worden.</string>
     <string name="geoidHeightInfo">Geoïde hoogte</string>
     <string name="orthometric">Orthometrisch</string>
-    <string name="externalGNSSTCP">Directe Verbinding over TCP</string>
-    <string name="externalGNSSTCPSum">Klik om externe GNSS ontvanger aan te zetten en toegang te verkrijgen tot locatie bron over TCP protocol. Ontvanger moet NMEA sentences over TCP streamen.</string>
+    <string name="externalGNSSTCP">Directe Verbinding via TCP</string>
+    <string name="externalGNSSTCPSum">Tik om verbinding te maken via TCP-protocol met externe GNSS-ontvanger en deze als bron voor de plaatsbepaling te gebruiken. Ontvanger moet NMEA sentences over TCP streamen.</string>
     <string name="externalGNSSTCPInfo">TCP GNSS</string>
     <string name="newPointsAddCoordinates">Voeg Punt toe via coördinaten.</string>
     <string name="newPointsAddCoordinatesSum">Maak nieuw punt kaartobject of vertices voor lijnen of vlakken via invoer van coördinaten.</string>
@@ -712,7 +712,7 @@
     <string name="barcodeScanner">Barcode Scanner</string>
 
     <string name="enableNTRIPMenu">NTRIP Client</string>
-    <string name="enableNTRIPConnectionSum">Klik om Mapit NTRIP Client te gebruiken als bron voor locatie.</string>
+    <string name="enableNTRIPConnectionSum">Tik om Mapit NTRIP Client te gebruiken als bron voor locatie.</string>
     <string name="enableNTRIPConnection">Mapit NTRIP Client</string>
     <string name="enableNTRIPConnectionLost">Mapit is niet in staat om NTRIP Client Output Stream te detecteren. STOP en START NTRIP Service om opnieuw verbinding te maken.</string>
     <string name="ntripClientNotInstalled">Mapit NTRIP Client applicatie is niet geïnstalleerd. Het is een aparte applicatie die u toelaat RTK-gecorrigeerde locaties te gebruiken in Mapit. Als je het gratis wil uitproberen voor 7 dagen, installeer aub nu de app.\n\nMeer informatie:\nhttps://mapitgis.com/mapit-gis-ntrip-client</string>
