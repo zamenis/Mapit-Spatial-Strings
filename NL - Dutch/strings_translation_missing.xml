@@ -1,8 +1,0 @@
-<resources>
-    <!-- Mapit SPATIAL Missing in Dutch Below-->
-    
-    <string name="startLayerNumberingFrom">Start nummering kaartobjecten met:</string>
-    <string name="startLayerNumberingFromInfo">Deze waarde kan enkel ingesteld worden als de laag leeg is.</string>
-
-    <!-- END of missing -->
-</resources>
