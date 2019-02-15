@@ -1,8 +1,8 @@
 <resources>
     <!-- Mapit SPATIAL Missing in Dutch Below-->
     
-    <string name="startLayerNumberingFrom">Feature\'s numbering start:</string>
-    <string name="startLayerNumberingFromInfo">This value can be set only when the layer is empty.</string>
+    <string name="startLayerNumberingFrom">Start nummering kaartobjecten met:</string>
+    <string name="startLayerNumberingFromInfo">Deze waarde kan enkel ingesteld worden als de laag leeg is.</string>
 
     <!-- END of missing -->
 </resources>
