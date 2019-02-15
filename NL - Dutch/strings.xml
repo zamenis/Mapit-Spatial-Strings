@@ -803,5 +803,13 @@
 
     <string name="deviceMemory">Apparaat</string>
     <string name="setServerPath">Server Path</string>
+    <string name="startLayerNumberingFrom">Start nummering kaartobjecten met:</string>
+    <string name="startLayerNumberingFromInfo">Deze waarde kan enkel ingesteld worden als de laag leeg is.</string>
+    
+    <!-- Mapit SPATIAL Missing in Dutch Below-->
+    
+        
+
+    <!-- END of missing -->
 
 </resources>
