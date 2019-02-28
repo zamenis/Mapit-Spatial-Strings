@@ -1,0 +1,40 @@
+Mapit Spatial - Geopackage Manager
+
+Collect GIS data using powerful geopackage data management
+
+
+This application aim is to replicate our popular Mapit GIS data collector functionality with completely redesigned data management approach.
+
+The app is designed to be simple and light, driven by new OGC file format for storing spatial data called geopackage. 
+
+Directly from the app you can access existing multiple geopackages data sources and their content presented as tiled or feature layers. 
+
+You can also create new geopackage databases and feature layers and link their fields with the attribute set fields, so the data can be then collected using forms containing dropdown-lists, multiselect list, barcode scanner etc. Please see our website for more details.
+
+The collected data can be accessed immediately by simply copying the whole geopackage file to the PC and linking to it from GIS Software like qGIS.
+
+The application is supporting multiple coordinates projections and you can specify your default coordinate system by providing the EPSG code in the settings - PRJ4 library is used to convert coordinates. 
+
+The application is capable to link with high precision GNSS systems - so you can get down to centimeter accuracy if required. 
+
+We are looking for constructive feedback and new ideas, so please email us if you feel the app can be improved in any way. 
+
+Mapit Spatial can be used in number of applications including:
+
+- environmental surveys,
+- woodland surveys,
+- forestry planning and woodland management surveys,
+- agriculture and soils' types surveys,
+- road constructions,
+- land surveying,
+- solar panels applications,
+- roofing and fencing, 
+- tree surveys,
+- GPS and GNSS surveying,
+- site surveying and soil samples gathering
+- snow removal 
+
+
+PLEASE NOTE:
+This application is under constant development and currently covering 85% of the original Mapit app functionality. 
+Please do consider this when you use original Mapit application and you plan to move your workflow to the new app.
