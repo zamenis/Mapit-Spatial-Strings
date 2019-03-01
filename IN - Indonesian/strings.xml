@@ -633,6 +633,85 @@
     <string name="averagingPositionsSumTime">Set waktu rata-rata dalam detik.</string>
 
     <!-- MISSING INDONESIAN TRANSLATION BELLOW -->
+
+    <string name="minAccuracyUnitText">Minimum accuracy unit</string>
+   <string name="solopt_geoid_model_title">Geoid Model</string>
+    <string name="solopt_geoid_model_dialog_title">Select geoid Model</string>
+    <string name="EGM2008Info"> 1.  Please download a file from National Geospatial Intelligence Agency model
+        from August 2014. File can be found at http://earth-info.nga.mil/GandG/wgs84/gravitymod/egm2008/Small_Endian/Und_min2.5x2.5_egm2008_isw=82_WGS84_TideFree_SE.gz   \n\n2.  Extract downloaded file: \n\nUnd_min2.5x2.5_egm2008_isw=82_WGS84_TideFree_SE\n\n and rename it to: \n\nEGM2008_M25.geoid\n\n3.  Place this model in {0}->Resources folder.</string>
+    <string name="testConnection">Test Connection</string>
+    <string name="testConnectionSuccess">Connection to {0} was successful!</string>
+    <string name="testConnectionError">Error: \nConnection to {0} failed! \nPlease check your settings…</string>
+
+    <string name="antenna_height_title">GPS Antenna Height: {0} m</string>
+    <string name="intermediateDistance">Distance labels</string>
+    <string name="intermediateDistanceSumOn">Show Intermediate distance labels</string>
+    <string name="intermediateDistanceSumOff">Hide Intermediate distance labels</string>
+    <string name="customEPSGCodeSum">Please select \'Custom: EPSG code\' from the dropdown above to activate text field below.</string>
+    <string name="gpsLock">GPS Lock</string>
+    <string name="generalNMEAdevice">General device supporting NMEA standard</string>
+    <string name="sattelitesTxt">Satellites</string>
+    <string name="sattelitesInSky">In sky</string>
+    <string name="sattelitesInFix">In fix</string>
+    <string name="receivedLocation">Location acquired</string>
+    <string name="trackingNotificationText">MapIt track recording service is running in background.</string>
+    <string name="trackingNotificationTitle">MapIt - Track Recording</string>
+    <string name="trackingProblem">Tracking service - Problem with track details…</string>
+    <string name="trackingStopped">Tracking service stopped…</string>
+    <string name="trackingStarted">Tracker service started…</string>
+    <string name="trackingRunning">Service is running…</string>
+    <string name="importErrorCRS">Import cancelled:\nThe file you are trying to import is not in WGS84 (EPSG:4326) projection.</string>
+    <string name="file_type_arcjson">ArcJSON Files</string>
+    <string name="formatSHP">SHP File</string>
+    <string name="formatCSV">CSV</string>
+    <string name="formatKML">KML</string>
+    <string name="formatGeoJSON">GeoJSON</string>
+    <string name="formatArcJSON">ArcGIS JSON</string>
+    <string name="formatGPX">GPX</string>
+    <string name="formatCSVNoGeometry">CSV - No Geometry</string>
+    <string name="formatDXFGeometryOnly">DXF - Geometry Only</string>
+    <string name="formatOV2">TomTom OV2 - Geometry Only</string>
+
+    <string name="navigateWaze">Waze</string>
+    <string name="txtInfo">Info</string>
+    <string name="featureProperties">Properties</string>
+    <string name="minElevation">Min elevation</string>
+    <string name="maxElevation">Max elevation</string>
+    <string name="nVertices">Number of vertices</string>
+    <string name="trackLength">Track length</string>
+    <string name="currentElevation">Last elevation</string>
+    <string name="featureInfoError">Properties of this feature are not available.</string>
+    <string name="navigateWazeSettings">Waze Navigation</string>
+    <string name="navigateWazeSettingsSum">Enable Waze Navigation for points and vertices.</string>
+    <string name="blockPointsShifting">Block drag for Points</string>
+    <string name="blockPointsShiftingSum">Blocks possibility to drag point features (restart required).</string>
+
+    <string name="addVideo">Add Video</string>
+    <string name="addAudio">Add Audio Recording</string>
+    <string name="addAttachment">Add Attachment</string>
+    <string name="changeLayer">Change Feature Layer</string>
+    <string name="moveFeatureFrom">Move this feature from: </string>
+    <string name="moveFeatureTo">To: </string>
+    <string name="trackPoints">Enable tracking for Points layer</string>
+    <string name="trackPointsSum">All recorded points will get same attributes as the first point in the recording session.</string>
+    <string name="externalBTGPS">External GNSS</string>
+    <string name="externalBTGPSSum">Configure External Bluetooth GPS receiver.</string>
+    <string name="enableBTGPS">Direct Connection to External GNSS</string>
+    <string name="enableBTGPSSum">Click to enable external GNSS receiver and select the location source from the paired devices. Receiver must stream NMEA sentences over bluetooth.</string>
+    <string name="notAvailableExternalGPS">Selected external GPS receiver is not available. Please checked your settings or switch ON external device and re-start the application.</string>
+    <string name="forceMockLoc">Force Mock Location</string>
+    <string name="forceMockLocSum">Should be OFF as default. However you may try it when having problems with connection.</string>
+    <string name="errorMockLoc">It looks like the MOCK location is not enabled in Android settings.\nThe current position from external GPS device cannot be acquired.\n\nPlease enable MOCK locations and restart the application to use external GPS as the location source.</string>
+    <string name="externalGPSInstruction">Instructions</string>
+    <string name="externalGPSInstructionSum">1. Make sure the device (External GPS) is paired in Android Bluetooth settings.\n2. Enable Mock Location in Android Developer Settings (In Android 6 please set MapIt as Mock Location application)\n3. Switch ON the External GPS switch above and choose the external GPS receiver.\n4. When getting back to map the location source will be automatically swapped to External GPS however you may need to restart application.</string>
+    <string name="customEPSGCodeTxt">Use EPSG code provided below</string>
+    <string name="customEPSGCodeTxt1">EPSG Code</string>
+    <string name="customEPSGCodeTxt2">Please type your EPSG code e.g. EPSG:3007</string>
+    <string name="resetLicence">Reset Licence</string>
+    <string name="expiryDate">Expiry Date</string>
+
+
+
     <!-- Mapit SPATIAL Specific Below-->
 
     <string name="secureService">This is secure service</string>
