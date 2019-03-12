@@ -773,8 +773,12 @@
 
     <string name="deviceMemory">Device</string>
     <string name="setServerPath">Server Path</string>
-    <string name="startLayerNumberingFrom">Feature\'s numbering start:</string>
+    <string name="exportShapeFilesAs2D">Export SHP file as 2D geometry</string>
+    <string name="setAsDefaultValue">Set as default value</string>
+    <string name="geoid_bin">Custom geoid *.bin format</string>
+    <string name="startLayerNumberingFrom">Custom geoid *.bin format</string>
     <string name="startLayerNumberingFromInfo">This value can be set only when the layer is empty.</string>
+
 
     <!-- END of missing -->
 </resources>
