@@ -1,16 +1,16 @@
 <resources>
-      <string name="about_message">Versi Mapit Spatial {0}\n\nIni versi yang stabil, namun jika anda
-         mengalami masalah beritahu kami.\n\nMasalah terkait aplikasi dapat
-         dilaporkan kesini:\nhttps://spatial.mapitgis.id/contact\n\nJika anda ingin menghubungi
-         lewat email kirimkan ke:\nlayanan.pelanggan@mapitgis.id
+    <string name="about_message">Versi Mapit Spatial {0}\n\nIni versi yang stabil, namun jika anda
+        mengalami masalah beritahu kami.\n\nMasalah terkait aplikasi dapat
+        dilaporkan kesini:\nhttps://spatial.mapitgis.id/contact\n\nJika anda ingin menghubungi
+        lewat email kirimkan ke:\nlayanan.pelanggan@mapitgis.id
     </string>
-    <string name="pm_list_empty3">Untuk menyimpan field anda harus mengisi nama atau nilai.\nSilahkan tekan tombol \'Tambah\' untuk mengisi nilai .</string>
-    <string name="field_value_blank">Nilai Field tidak boleh kosong.</string>
+    <string name="pm_list_empty3">Untuk menyimpan kolom anda harus mengisi nama atau nilai.\nSilahkan tekan tombol \'Tambah\' untuk mengisi nilai .</string>
+    <string name="field_value_blank">Nilai Kolom tidak boleh kosong.</string>
     <string name="deleteAttWarning">Ada {0} layer menggunakan atibut ini - Perintah tidak dapat diselesaikan.</string>
-    <string name="editProjectWarning">Kamu mencoba mengubah laman yang berisi data. Penting\ untuk tidak mengubah atribut.\n\nData anda mungkin tidak cocok untuk definisi baru.\n\nApakah anda yakin untuk lanjut?</string>
+    <string name="editProjectWarning">Anda mencoba mengubah halaman yang berisi data. Penting\ untuk tidak mengubah atribut.\n\nData anda mungkin tidak cocok untuk definisi baru.\n\nApakah anda yakin untuk lanjut?</string>
     <string name="editAttributeSet">Ubah Atribut</string>
     <string name="defaultAttributeSet">Atribut Default:</string>
-    <string name="addField">Tambah Field</string>
+    <string name="addField">Tambah Kolom</string>
     <string name="addLayer">Tambah Layer</string>
     <string name="addFeature">Tambah Fitur</string>
     <string name="drawer_section1">Buka layer yang ada</string>
@@ -39,31 +39,31 @@
     <string name="rememberLastSum">Tampilkan fitur atribut Tambahan Terakhir sebagai Default</string>
     <string name="layerPoly">Poligon</string>
     <string name="editFeature">Fitur Editing</string>
-    <string name="map_problem">Peta tidak bisa dimuat&#8230;</string>
+    <string name="map_problem">Peta tidak dapat dimuat&#8230;</string>
     <string name="drawer_newLayer">Buat Layer Baru</string>
-    <string name="fields">Field</string>
-    <string name="field">Field</string>
+    <string name="fields">Kolom</string>
+    <string name="field">Kolom</string>
     <string name="activeLayer">Layer Aktif</string>
-    <string name="fieldValues">Nilai Field:</string>
-    <string name="fieldsList">Daftar Field</string>
+    <string name="fieldValues">Nilai Kolom:</string>
+    <string name="fieldsList">Daftar Kolom</string>
     <string name="layerFeatures">Fitur Layer</string>
     <string name="toggleActive">Toggle Aktif</string>
     <string name="toggleLayerActive">Apakah kamu ingin mengubah status layer menjadi \'Aktif\'?\nFitur baru terbentuk di peta akan ditambahkan pada layer. Apakah anda akan lanjut? </string>
-    <string name="toggleLayerActive1">Apakah kamu ingin menghilangkan status \'Aktif\' untuk layer terpilih?\nFitur baru terbentuk di peta tidak akan ditambahkan pada layer. Apakah anda akan lanjut? </string>
-    <string name="drawer_manageLayers">Menej layer</string>
-    <string name="drawer_manageAttributes">Menej atribut</string>
+    <string name="toggleLayerActive1">Apakah anda ingin menghilangkan status \'Aktif\' untuk layer terpilih?\nFitur baru terbentuk di peta tidak akan ditambahkan pada layer. Apakah anda akan lanjut? </string>
+    <string name="drawer_manageLayers">Pengaturan layer</string>
+    <string name="drawer_manageAttributes">Pengaturan atribut</string>
     <string name="featuresList">Fitur</string>
     <string name="addPicture">Tambah Gambar</string>
     <string name="zoomTo">Zoom Ke</string>
     <string name="addAttributeSet">Tambah Atribut\</string>
-    <string name="pm_add_info">Simpan nama dan deskripsi atribut untuk membuat ID. Ketika\ tersimpan silahkan pilih dari daftar dan tekan \'Ubah\' untuk mendefinisikan atribut\ field.</string>
+    <string name="pm_add_info">Simpan nama dan deskripsi atribut untuk membuat ID. Ketika\ tersimpan silahkan pilih dari daftar dan tekan \'Ubah\' untuk mendefinisikan atribut\ kolom.</string>
     <string name="noFeatures">Layer ini belum mempunyai fitur.\nUntuk menambahkan fitur silahkan aktifkan layer dan rekam data pada peta.</string>
-    <string name="whatsNewText">Changelog:\nhttps://spatial.mapitgis.com/changelog\n\n</string>
+    <string name="whatsNewText">Log Perubahan:\nhttps://spatial.mapitgis.com/changelog\n\n</string>
     <string name="txt_aboutMapIt">Tentang Mapit Spatial</string>
-    <string name="txt_aboutMapItSum">Informasi Versi dan Detil Kontak</string>
+    <string name="txt_aboutMapItSum">Informasi Versi dan Detail Kontak</string>
 
-    <string name="addAttributeAsFreeText">Kamu uga bisa menambahkan field sebagai TextBox - dalam kasus ini nilai tidak diperlukan.</string>
-    <string name="txtScalar">Field sebagai TextBox</string>
+    <string name="addAttributeAsFreeText">Kamu uga bisa menambahkan kolom sebagai TextBox - dalam kasus ini nilai tidak diperlukan.</string>
+    <string name="txtScalar">Kolom sebagai TextBox</string>
     <string name="txtGPSLost">Sinyal GPS hilang.</string>
     <string name="productExtensions">Ekstensi Tersedia</string>
     <string name="tools">Peralatan</string>
@@ -71,9 +71,9 @@
     <string name="noAttributes">Tanpa Atribut</string>
     <string name="noAttributesDesc">Pilih untuk membuat fitur dengan nama dan deskripsi simpel.</string>
     <string name="sampleSurvey">Survei Pohon 2018 - Contoh</string>
-    <string name="sampleSurveyDesc">Contoh kumpulan attribut - berisi dropdownlist untuk tinggi dan enis pohon.</string>
+    <string name="sampleSurveyDesc">Contoh kumpulan attribut - berisi daftar untuk tinggi dan jenis pohon.</string>
     <string name="samplePointLayer">Contoh Layer Titik</string>
-    <string name="samplePointLayerDesc">Contoh Layer Titik dengan atribut dropdownlists.</string>
+    <string name="samplePointLayerDesc">Contoh Layer Titik dengan daftar atribut.</string>
     <string name="sampleNoAttributesLayer">Contoh layer tanpa atribut</string>
     <string name="sampleNoAttributesLayerDesc">Hanya nama dan deskripsi yang dicantumkan untuk membuat fitur.</string>
 
@@ -94,11 +94,11 @@
     <string name="importValuesError">Terjadi kesalahan - nilai tidak dapat diimpor!</string>
     <string name="txt_import_no_files_att">Untuk mengimpor data dari berkas, silahkan salin ke\n\nKartuSD>Mapit-Spatial>Impor>Folder Attributes.\n\nUntuk saat ini jenis berkas yang didukung:\n\n-TXT (setiap nilai dalam garis baru)\n\nSilahkan kunjungi website kami untuk perintah impor atribut lebih lanjut.</string>
     <string name="xyzServices">Lain</string>
-    <string name="addPolyline">Fitur Poliline Baru</string>
-    <string name="addPolygon">Fitur Poligon Baru</string>
+    <string name="addPolyline">Fitur Garis Baru</string>
+    <string name="addPolygon">Fitur Area Baru</string>
     <string name="addVertex">Tambah Vertex</string>
     <string name="lineName">Garis</string>
-    <string name="polygonName">Poligon</string>
+    <string name="polygonName">Area</string>
     <string name="pointName">Titik</string>
     <string name="creating">Membuat</string>
     <string name="mode">Mode</string>
@@ -192,15 +192,15 @@
     <string name="notificationText">Mapit Spatial sedang melacak.</string>
 
     <string name="showBasePoints">Tampilkan Titik Asal pada Peta</string>
-    <string name="inludeBasePointsLayer">Manajemen Titik Asal Layer</string>
+    <string name="inludeBasePointsLayer">Mengatur Titik Asal Layer</string>
     <string name="inludeBasePointsLayerSum">Titik Asal Layer akan tampak pada bagian \'Menej Layer\'.</string>
     <string name="basePoints">Titik Asal</string>
     <string name="basePointsDesc">Titik dalam layer ini acuan bagi dropdown list Titik Asal ketika metode \'Bearing &amp; Jarak\' digunakan.</string>
     <string name="baseName">ASAL</string>
     <string name="rememberLastName">Nama Terakhir sebagai default</string>
     <string name="rememberLastNameSum">Gunakan nama terakhir\ sebagai default</string>
-    <string name="displayDescField">Tampilkan Deskripsi Field</string>
-    <string name="displayDescFieldSum">Tampilkan Deskripsi Field untuk layer menggunakan atribut terkait.</string>
+    <string name="displayDescField">Tampilkan Deskripsi Kolom</string>
+    <string name="displayDescFieldSum">Tampilkan Deskripsi Kolom untuk layer menggunakan atribut terkait.</string>
     <string name="checkNameOnSaveText">Periksa Duplikat Nama</string>
     <string name="checkNameOnSaveTextSum">Periksa apakah ada nama yang sama ketika simpan fitur.</string>
     <string name="duplicatedName">Nama Fitur {0} telah ada. Pilih nama lain atau nonaktifkan opsi pengecekan nama pada Pengaturan Survei.</string>
@@ -356,7 +356,7 @@
     <string name="gps_time_last_fix">Waktu sejak fix terakhir</string>
     <string name="noGPSSignal">Sinyal GPS</string>
     <string name="noGPSSignalText">Lokasi sekarang belum pasti, silahkan tunggu
-	    sinyal GPS atau cek Pengaturan Lokasi Android anda.
+        sinyal GPS atau cek Pengaturan Lokasi Android anda.
     </string>
 
     <string name="gpsinfoOption">Info GPS</string>
@@ -562,7 +562,7 @@
     <string name="newPointsAddCoordinatesSum">Membuat fitur titik, garis atau poligon menngunakan data koordinat.</string>
 
     <string name="wfs_service">WFS</string>
-    <string name="wfs_service_add">Add Layer WFS</string>
+    <string name="wfs_service_add">Tambahkan Layer WFS</string>
     <string name="wfs_service_add_URL">WFS Service URL</string>
     <string name="wfs_service_add_Name">Nama Layer WFS</string>
     <string name="wfs_service_add_max">WFS Layer - Jumlah fitur maksimal</string>
@@ -572,7 +572,7 @@
     <string name="wfs_service_connecting">Menghubukgkan ke WFS service...</string>
     <string name="wfs_error_version">Versi WFS harus 1.1.0 or 2.0.0 - Silahkan kontak ke WFS service provider untuk informasi lebih lanjut.</string>
     <string name="wfs_select_layer">Silahkan pilih layer WFS dan \'Rekam Konfigurasi\' - Setelah dipilih  dan edit layer untuk merubah tipe layer seperti warna dan ukuran garis tepinya.</string>
-    <string name="wfs_add_selected">Tambhakan WFS Layer terpilih</string>
+    <string name="wfs_add_selected">Tambahkan WFS Layer terpilih</string>
     <string name="wfs_edit_selected">Edit WFS Layer</string>
     <string name="layer_marker_size">Ukuran simbol</string>
     <string name="layer_marker_shape">Layer simbol</string>
@@ -582,8 +582,8 @@
     <string name="txt_square">Persegi Empat</string>
     <string name="txt_triangle">Segitiga</string>
     <string name="wfs_maxLayers">Maksimum {0} WFS layers yang dapat dilihat dalam waktu yang sama. silahkan rubah visibility dari layer lainnyas untuk membuat layer ini nampak/visible.</string>
-    <string name="wfs_no_json">WFS service inindoes tidak mendukung untuk format JSON dan tidak dapat digunakan dalam Mapit. Silahkan kontak service provider.</string>
-    <string name="wfs_no_WGS84Layers">WFS service tidak dapat terdiri dari beberapa layer dengan proyeksi yang di set pada WGS84. Silahkan kontak service provider.</string>
+    <string name="wfs_no_json">WFS service inindoes tidak mendukung untuk format JSON dan tidak dapat digunakan dalam Mapit. Silahkan kontak penyedia layanan.</string>
+    <string name="wfs_no_WGS84Layers">Layanan WFS tidak dapat terdiri dari beberapa layer dengan proyeksi yang di set pada WGS84. Silahkan kontak penyedia layanan.</string>
 
     <string name="useTrimbleMMConnectTitle">Pengelolaan Trimble Mobile</string>
     <string name="useTrimbleMMConnectSum">Berikan Mapit lokasi yang disiapkan oleh aplikasi TMM dan antena Trimble e.g. Trimble Catalyst</string>
@@ -596,7 +596,7 @@
     <string name="txtMultiselectFirst">Pemilihan multiple field</string>
     <string name="txtMultiselectFirstItemSelected">Buat item pertama sebagai item terpilih ketika pembuatan feature baru.</string>
 
-     <string name="barcodeScanner">Barcode Scanner</string>
+    <string name="barcodeScanner">Barcode Scanner</string>
 
     <string name="enableNTRIPMenu">NTRIP Client</string>
     <string name="enableNTRIPConnectionSum">Klik untuk aktifasi Mapit NTRIP Client sebagai sumber titik lokasi.</string>
@@ -632,7 +632,7 @@
     <string name="averagingPositionsTime">Waktu rata-rata</string>
     <string name="averagingPositionsSumTime">Set waktu rata-rata dalam detik.</string>
 
-  <string name="minAccuracyUnitText">Satuan Akurasi Minimum</string>
+    <string name="minAccuracyUnitText">Satuan Akurasi Minimum</string>
     <string name="solopt_geoid_model_title">Model Geoid</string>
     <string name="solopt_geoid_model_dialog_title">Pilih Model Geoid</string>
     <string name="EGM2008Info"> 1.  Silahkan unduh data file dari Agen model Intelligence Geospasial Nasional
@@ -687,8 +687,8 @@
     <string name="addVideo">Tambahkan Video</string>
     <string name="addAudio">Tambahkan Rekaman Suara</string>
     <string name="addAttachment">Tambahkan Lampiran</string>
-    <string name="changeLayer">Rubah Layer Feature</string>
-    <string name="moveFeatureFrom">Pindahkan feature ini dari: </string>
+    <string name="changeLayer">Rubah Fitur Layer</string>
+    <string name="moveFeatureFrom">Pindahkan fitur ini dari: </string>
     <string name="moveFeatureTo">Ke: </string>
     <string name="trackPoints">aktifkan perekaman untuk layer titik</string>
     <string name="trackPointsSum">Semua titik yang terekam akan mendapatkan atribute sama dengan titik pertama dalam sesi perekaman.</string>
