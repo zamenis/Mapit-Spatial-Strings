@@ -1,5 +1,5 @@
 <resources>
-    <string name="about_message">Mapit Spatial versión {0}\n\nEsta versión debería ser estable, pero si experimenta algún problema, por favor ponte en contacto con nosotros y háznoslo saber.\n\nPuedes reportar tus problemas aquí:\nhttps://spatial.mapitgis.com/contact\n\nO si lo prefieres, puedes mandarnos un correo electrónico a la dirección:\nclientes@mapitgis.es</string>
+    <string name="about_message">Mapit Spatial versión {0}\n\nEsta versión debería ser estable, pero si experimenta algún problema, por favor ponte en contacto con nosotros y háznoslo saber.\n\nPuedes reportar tus problemas aquí:\nhttps://spatial.mapitgis.es/contact\n\nO si lo prefieres, puedes mandarnos un correo electrónico a la dirección:\nclientes@mapitgis.es</string>
     <string name="pm_list_empty3">Para guardar campo es necesario proporcionar un nombre e introducir uno o más valores.\nPor favor, presiona el botón \'Añadir\' para añadir valores a la lista.</string>
     <string name="field_value_blank">El campo no puede quedar vacío.</string>
     <string name="deleteAttWarning">Hay {0} capa(s) que usan este conjunto de atributos - La operación no se puede completar.</string>
@@ -760,12 +760,14 @@
     <string name="geoid_bin">Formato personalizado geoid .bin</string> <!--US National Geodetic Survey (.bin) format -->
     <string name="deviceMemory">Dispositivo</string>
     <string name="setServerPath">Ruta del servidor</string>
+    <string name = "startLayerNumberingFrom">Iniciar numeración de la capa en:</string>
+    <string name = "startLayerNumberingFromInfo">Este valor solo se puede configurar cuando la capa está vacía.</string>
+    <string name = "exportShapeFilesAs2D">Exportar archivo SHP como geometría 2D</string>
+    <string name = "setAsDefaultValue">Establecer como valor predeterminado</string>
+    <string name = "removeGeopackage">Esta operación no se puede deshacer.\nArchivo de geopackage, todos los datos subyacentes (capas) y atributos serán eliminados.\n¿Estás seguro de que deseas continuar?</string>
 
     <!-- Mapit SPATIAL - Missing Spanish Translation -->
-    <string name="startLayerNumberingFrom">Feature\'s numbering start:</string>
-    <string name="startLayerNumberingFromInfo">This value can be set only when the layer is empty.</string>
-    <string name="exportShapeFilesAs2D">Export SHP file as 2D geometry</string>
-    <string name="setAsDefaultValue">Set as default value</string>
+
     <!-- Missing End -->
 
 </resources>
