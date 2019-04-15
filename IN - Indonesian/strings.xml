@@ -776,6 +776,7 @@
     <string name="geoid_bin">Sesuaikan format geoid *.bin</string>
     <string name="startLayerNumberingFrom">Sesuaikan format geoid *.bin</string>
     <string name="startLayerNumberingFromInfo">Nilai ini hanya dapat di atur ketika layer kosong.</string>
+    <string name="removeGeopackage">Perintah ini tidak dapat dibatalkan. File Geopackage, semua data (layers) dan atribut yang terdapat di dalamnya akan di hapus. Apakah anda yakin untuk menjalankan?</string>
 
     <!-- MISSING INDONESIAN TRANSLATION BELLOW -->
 
