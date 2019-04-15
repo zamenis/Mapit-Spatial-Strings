@@ -120,7 +120,6 @@
     <string name="mapBoxTokenSum">Ein Mapbox Zugangs-Token ist erforderlich, damit auf die Mapbox-Karten zugegriffen werden kann.</string>
     <string name="mapBoxTokenError">Das angegebene Token ist nicht gültig oder kann nicht validiert werden.</string>
     <string name="mapboxTokenSettings">\nBitte ein gültiges Mapbox-Token unter Einstellungen → Cloud Accounts eingeben.</string>
-    <string name="offlineMapsExt">Für die Nutzung von Offline-Karten und den Zugriff auf Mapbox-Karten wird eine Erweiterung benötigt. Erweiterung jetzt erwerben?</string>
     <string name="mapBoxMapId">Mapbox MapId (e.g. osedok.l4pfam2o):</string>
     <string name="mapBoxRequired">Name und MapId müssen angegen werden.</string>
     <string name="offlineFiles">Bitte die .mbtiles Dateien nach\nGeräte-Ordner → Mapit-Spatial → Offline Verzeichnis kopieren.</string>
@@ -377,7 +376,7 @@
     <string name="like_us">Like us!</string>
     <string name="txt_rate">Falls Ihnen die App gefällt {0}, nehmen Sie sich bitte ein wenig Zeit um sie zu bewerten. \nIhr Feedback hilft uns, die Funktionalität zu verbessern und Neuerungen zu implementieren. \n\nDanke für Ihre Unterstützung!</string>
     <string name="generic_confirm_title">Sind Sie sicher?</string>
-    <string name="pm_list_empty2">Um eine oder mehrere Eigenschaften hinzuzufügen, einfach auf den \'Hinzufügen\'-Button oben rechts tippen.</string>
+    <string name="pm_list_empty2">Um eine oder mehrere Eigenschaften hinzuzufügen, einfach auf den \'Hinzufügen\'-Button tippen.</string>
     <string name="txt_edit">Bearbeiten</string>
     <string name="txt_delete">Löschen</string>
     <string name="txt_save">Speichern</string>
@@ -534,7 +533,7 @@
     <string name="serverPassword">Passwort</string>
     <string name="pgDbNameText">Datenbankname</string>
 
-    <string name="exportToFTP">Export in FTP-Verzeichnis</string>
+    <string name="exportToFTP">Export in {0}</string>
     <string name="measuringPosition">Messe Position</string>
     <string name="averagingText">Mittelwert &amp; Genauigkeit</string>
     <string name="averagingTextTitle">Mittelwertbildung für die Positionierung</string>
@@ -762,22 +761,42 @@
           in der \'Attribute-Verwaltung\' ein neues Attribut-Set mit definierten Feldern erstellen, um diese dann hier zu verlinken.</string>
      <string name="geopackageAttributeSetsNoFields">Es kann kein gültiges Attribut-Set gefunden werden. Bitte
      sicherstellen, dass ein Attribut-Set erstellt wurde und dieses gültige Felder definiert hat.</string>
+
      <string name="geopackageAttributeSetsEmpty">Bis jetzt wurde noch kein Attribut-Set für das gewählte Geopackage
      erstellt. Bitte unten auf \'Hinzufügen\' oder \'Importieren\' (Knopf mit Pfeil) drücken.</string>
      <string name="shareGeopackage">Geopackage teilen</string>
      <string name="geopackage_table_index_features_createIndex">Wiederherstellen</string>
+
      <string  name="geopackage_table_index_features_index_create_label">Erstellen</string>
+
      <string name="geopackage_table_index_features_index_title">Index</string>
+
      <string name="geopackage_table_index_features_index">Index wiederherstellen</string>
      <string name="updating_layer_metadata"> Layer-Metadaten updaten</string>
      <string name="updating_layer_indicies">Layer-Indizes updaten</string>
+
      <string name="gettingFeaturesToImport">Features importieren…</string>
      <string name="positionInfo">Positions-Information</string>
+
      <string name="projectionNotSupported">Die gewählte Projektion wird nicht unterstützt - das Koordinatensystem wird  auf WGS84 zurückgestellt.</string>
+
+
      <string name="deleteField">Feld löschen</string>
+
      <string name="deleteFieldProblem">Das Feld kann aus der Tabelle nicht gelöscht werden. Es gab
      ein Problem mit dem Primär-Schlüssel und der Geometrie-Feld Spalten-Index-ID.</string>
-    
-    <!-- Mapit SPATIAL Missing German Translation Below-->
-    <string name="geoid_bin">Custom geoid *.bin format</string> <!--US National Geodetic Survey (*.bin) format -->
+
+    <string name="geoid_bin">Eigenes geoid*.bin Format</string> <!--US National Geodetic Survey (*.bin) format -->
+    <string name="deviceMemory">Gerät</string>
+    <string name="setServerPath">Server-Pfad</string>
+    <string name="startLayerNumberingFrom">Start der Feature-Nummerierung mit:</string>
+    <string name="startLayerNumberingFromInfo">Dieser Wert kann nur gesetzt werden, wenn der Layer leer ist.</string>
+    <string name="exportShapeFilesAs2D">Export des SHP-File als 2D-Geometrie</string>
+    <string name="setAsDefaultValue">Als Standard-Wert setzen</string>
+    <string name="removeGeopackage">Diese Operation kann nicht rückgängig gemacht werden. Das Geopackage-File und alle Daten und Attribute werden entfernt. Soll fortgefahren werden?</string>
+
+    <!-- Mapit SPATIAL - Missing German Translation -->
+
+    <!-- Missing End -->
+
 </resources>
