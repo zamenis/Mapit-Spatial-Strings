@@ -16,13 +16,13 @@
     <string name="permissionsError">Je moet bepaalde machtigingen toestaan om MapIt te laten werken.
         Herstart de app aub en accepteer de vereiste machtigingen…</string>
     <string name="geopackegesFiles">Kopieer aub jouw .gpkg bestanden naar de map \nApparaat Geheugen->Mapit-Spatial->Geopackages.</string>
-    <string name="setActiveGeopackage">Stel aub een actief geopakket in op de \"Geopakketten\" tab om de kaartlagen hier opgelijst te zien.</string>
+    <string name="setActiveGeopackage">Kies een actief geopakket op de \"Geopakketten\" tab om de kaartlagen hier opgelijst te zien.</string>
     <string name="geopackageNoLayers">Geselecteerd geopakket bevat geen kaartlagen.</string>
     <string name="geoType">Geometrie Type</string>
     <string name="txtLayer">Laag</string>
     <string name="txtLinkField">Koppeling</string>
-    <string name="createLayerSR">Ruimtelijk referentiesysteem wordt ingesteld op WGS84(EPSG:4326), controleer deze optie aub om coördinatensysteem van de kaartlaag in te stellen als {0}.</string>
-    <string name="enableZ">Aanzetten Z dimensie</string>
+    <string name="createLayerSR">Coördinatensysteem wordt standaard ingesteld op WGS84(EPSG:4326), kies deze optie om coördinatensysteem van de laag in te stellen als {0}.</string>
+    <string name="enableZ">Activeer Z dimensie</string>
     <string name="featuresCount">Aantal kaartobjecten</string>
     <string name="createGeopackage">Aanmaken Geopakket</string>
     <string name="valueOutOfRange">Opgegeven waarde komt niet overeen met geselecteerd veldtype.</string>
@@ -56,6 +56,6 @@
     <string name="deleteField">Verwijder Veld</string>
     <string name="deleteFieldProblem">Veld kan niet verwijderd worden voor deze tabel. Er was een probleem met kolomindex id van primaire sleutel en geometrie veld.</string>
 
-    <string name="deviceMemory">Apparaat</string>
+    <string name="deviceMemory">Apparaatopslag</string>
     <string name="setServerPath">Server Path</string>
 </resources>
