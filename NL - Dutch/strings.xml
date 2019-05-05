@@ -75,7 +75,7 @@
     <string name="deleteAreYouSure">Ben je zeker - wil je deze gegevens verwijderen?\nDeze bewerking kan niet ongedaan worden!\n</string>
     <string name="deleteAreYouSureValue">Ben je zeker dat je deze waarde wilt verwijderen?\nDit heeft gevolgen voor de gegevens die tot nu toe zijn verzameld voor dit project!\n</string>
     <string name="deleteAreYouSureAttribute">Ben je zeker dat je dit attribuut en de onderliggende waarden wilt verwijderen?\nDit heeft gevolgen voor de gegevens die tot nu toe zijn verzameld voor dit project!\n</string>
-    <string name="txt_import_no_files">Om gegevens uit bestanden te importeren, kopieer deze aub naar de map\n\nDevice Memory->Mapit-Spatial->Import.\n\n</string>
+    <string name="txt_import_no_files">Om gegevens uit bestanden te importeren, kopieer deze aub naar de map\n\nApparaatopslag->Mapit-Spatial->Import.\n\n</string>
     <string name="txt_imported_info">{0} is geïmporteerd naar laag{1}</string>
     <string name="txt_loading_info">Verversen van kaartobjecten op de kaart, even geduld&#8230;</string>
     <string name="txt_use_overlay">Gebruik deze overlay</string>
@@ -86,7 +86,7 @@
     <string name="importValues">Importeer waarden</string>
     <string name="importValuesOK">Waarden succesvol geïmporteerd.</string>
     <string name="importValuesError">Fout opgetreden - waarden niet geïmporteerd!</string>
-    <string name="txt_import_no_files_att">Om gegevens uit bestanden te importeren, kopieer deze aub naar de map\n\nDevice Memory->Mapit-Spatial->AttributeSets.\n\nMomenteel worden volgende bestanddtypes ondersteund:\n\n-TXT (elke waarde op nieuwe regel)\n\nBezoek onze website voor meer informatie over de importeer attributen bewerking.</string>
+    <string name="txt_import_no_files_att">Om gegevens uit bestanden te importeren, kopieer deze aub naar de map\n\nApparaatopslag->Mapit-Spatial->AttributeSets.\n\nMomenteel worden volgende bestanddtypes ondersteund:\n\n-TXT (elke waarde op nieuwe regel)\n\nBezoek onze website voor meer informatie over de importeer attributen bewerking.</string>
     <string name="xyzServices">Andere</string>
     <string name="addPolyline">Nieuw Lijn kaartobject</string>
     <string name="addPolygon">Nieuw Vlak kaartobject</string>
@@ -118,7 +118,7 @@
     <string name="offlineMapsExt">Om offline kaarten te gebruiken en toegang te hebben tot MapBox kaarten is een uitbreiding vereist. Wil je de uitbreiding nu aanschaffen?</string>
     <string name="mapBoxMapId">Mapbox MapId (e.g. osedok.l4pfam2o):</string>
     <string name="mapBoxRequired">Naam en MapId zijn vereist.</string>
-    <string name="offlineFiles">Kopieer jouw .mbtiles bestanden naar\nDevice Memory->Mapit-Spatial->OfflineMaps folder.</string>
+    <string name="offlineFiles">Kopieer jouw .mbtiles bestanden naar\nApparaatopslag->Mapit-Spatial->OfflineMaps folder.</string>
     <string name="file_type_Geo_JSON">Geojson bestanden</string>
     <string name="importError">Fout: Er was een probleem met het importeren van kaartobjecten uit bestand.</string>
     <string name="importNull">Dit bestand bevat geen {0} kaartobjecten om te importeren.\nControleer aub uw import bestand of selecteer een andere laag.</string>
@@ -201,7 +201,7 @@
     <string name="defaultLineFeaturePrefixText">Standaard prefix voor Lijn kaartobject</string>
     <string name="defaultPolygonFeaturePrefixText">Standaard prefix voor Vlak kaartobject</string>
     <string name="importAttributeSetText">Importeer Attributenset</string>
-    <string name="txt_import_no_files_AS">Om Attributenset van bestand te importeren, kopieer bestand naar map:&lt;br>&lt;br>Device Memory>Mapit-Spatial->AttributeSets.&lt;br>&lt;br>Attributenset kan geïmporteerd worden van gestructureerd JSON-bestand.&lt;br>&lt;br>Bezoek onze website voor meer informatie over het importeren van een attributenset.</string>
+    <string name="txt_import_no_files_AS">Om Attributenset van bestand te importeren, kopieer bestand naar map:&lt;br>&lt;br>Apparaatopslag>Mapit-Spatial->AttributeSets.&lt;br>&lt;br>Attributenset kan geïmporteerd worden van gestructureerd JSON-bestand.&lt;br>&lt;br>Bezoek onze website voor meer informatie over het importeren van een attributenset.</string>
     <string name="importAttributeSetNoName">Bestand bevat geen naam eigenschap.</string>
 
     <!--All below To be translated into IT-->
@@ -701,7 +701,7 @@
     <string name="useTrimbleMMConnectTitle">Trimble Mobile Manager</string>
     <string name="useTrimbleMMConnectSum">Mapit de locatie laten gebruiken voorzien door TMM app en uw Trimble antenne bvb. Trimble Catalyst</string>
 
-    <string name="geoImagesEmpty">Kopieer uw geo-images naar de map\n\nDevice Memory->Mapit-Spatial->OfflineMaps.\nLet erop dat de world bestanden die het geografisch bereik beschrijven in dezelfde map geplaatst worden en ook dezelfde naam hebben als de image zelf.</string>
+    <string name="geoImagesEmpty">Kopieer uw geo-images naar de map\n\nApparaatopslag->Mapit-Spatial->OfflineMaps.\nLet erop dat de world bestanden die het geografisch bereik beschrijven in dezelfde map geplaatst worden en ook dezelfde naam hebben als de image zelf.</string>
     <string name="txtRequired">Dit veld is vereist.</string>
     <string name="txtMultiselect">Dit veld laat meervoudige selecties toe.</string>
     <string name="txtUnableToSave">Kan niet opslaan. Er zijn verplichte velden niet ingevuld op het formulier:\n\n</string>
