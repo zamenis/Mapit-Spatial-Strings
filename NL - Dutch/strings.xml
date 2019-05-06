@@ -760,8 +760,8 @@
     <string name="noGooglePlayServices">Dit apparaat is niet ondersteund. Probeer om Google Play Services te installeren of bij te werken.</string>
     <string name="permissionsError">Je moet bepaalde machtigingen toestaan om MapIt te laten werken.
         Herstart de app aub en accepteer de vereiste machtigingen…</string>
-    <string name="geopackegesFiles">Kopieer aub jouw .gpkg bestanden naar de map \nApparaat Geheugen->Mapit-Spatial->Geopackages.</string>
-    <string name="setActiveGeopackage">Kies een actief geopakket op de \"Geopakketten\" tab om de kaartlagen hier opgelijst te zien.</string>
+    <string name="geopackegesFiles">Kopieer aub jouw .gpkg bestanden naar de map \nApparaatopslag->Mapit-Spatial->Geopackages.</string>
+    <string name="setActiveGeopackage">Stel aub een actief geopakket in op de \"Geopakketten\" tab om de kaartlagen hier opgelijst te zien.</string>
     <string name="geopackageNoLayers">Geselecteerd geopakket bevat geen kaartlagen.</string>
     <string name="geoType">Geometrie Type</string>
     <string name="txtLayer">Laag</string>
