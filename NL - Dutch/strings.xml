@@ -808,13 +808,13 @@
     
     <!-- Mapit SPATIAL Missing in Dutch Below-->
     
-    <string name="exportShapeFilesAs2D">Export SHP file as 2D geometry</string>
-    <string name="setAsDefaultValue">Set as default value</string>
-    <string name="removeGeopackage">This operation cannot be undone. Geopackage file, all underlying data (layers) and attributes will be removed. Are you sure you want to proceed?</string>
-    <string name="setAsDefaultValue">Set as default value</string>
-    <string name="removeGeopackage">This operation cannot be undone. Geopackage file, all underlying data (layers) and attributes will be removed. Are you sure you want to proceed?</string>
+    <string name="exportShapeFilesAs2D">Exporteer SHP file als 2D geometrie</string>
+    <string name="setAsDefaultValue">Instellen als standaard waarde</string>
+    <string name="removeGeopackage">Deze actie kan je niet ongedaan maken. Geopackage bestand en alle bijhorende kaartlagen en attributen zullen verwijderd worden. Ben je zeker dat je wilt verdergaan?</string>
+    <string name="setAsDefaultValue">Instellen als standaard waarde</string>
+    <string name="removeGeopackage">Deze actie kan je niet ongedaan maken. Geopackage bestand en alle bijhorende kaartlagen en attributen zullen verwijderd worden. Ben je zeker dat je wilt verdergaan?</string>
     <string name="useSxBlueTitle">SXblue ToolBox</string>
-    <string name="useSxBlueSum">Feed Mapit with location provided by SXblue ToolBox application.</string>
+    <string name="useSxBlueSum">Mapit de locatie laten gebruiken voorzien door SXblue ToolBox app en uw SXblue GNSS ontvanger.</string>
 
     <!-- END of missing -->
 
