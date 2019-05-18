@@ -1,5 +1,5 @@
 <resources>
-    <string name="about_message">Mapit Spatial versión {0}\n\nEsta versión debería ser estable, pero si experimenta algún problema, por favor ponte en contacto con nosotros y háznoslo saber.\n\nPuedes reportar tus problemas aquí:\nhttps://spatial.mapitgis.com/contact\n\nO si lo prefieres, puedes mandarnos un correo electrónico a la dirección:\nfeedback@mapitgis.com</string>
+    <string name="about_message">Mapit Spatial versión {0}\n\nEsta versión debería ser estable, pero si experimenta algún problema, por favor ponte en contacto con nosotros y háznoslo saber.\n\nPuedes reportar tus problemas aquí:\nhttps://spatial.mapitgis.es/contact\n\nO si lo prefieres, puedes mandarnos un correo electrónico a la dirección:\nclientes@mapitgis.es</string>
     <string name="pm_list_empty3">Para guardar campo es necesario proporcionar un nombre e introducir uno o más valores.\nPor favor, presiona el botón \'Añadir\' para añadir valores a la lista.</string>
     <string name="field_value_blank">El campo no puede quedar vacío.</string>
     <string name="deleteAttWarning">Hay {0} capa(s) que usan este conjunto de atributos - La operación no se puede completar.</string>
@@ -105,9 +105,6 @@
     <string name="samplePolygonLayer">Ejemplo de capa tipo Polígono</string>
     <string name="editFeatureEnd">¿Quieres dejar de editar esta característica?</string>
     <string name="deleteFeature">¿Quieres eliminar esta característica?</string>
-    <string name="shapesTitle">Mapit- Líneas y Polígonos</string>
-    <string name="shapesDesc">Para poder añadir más de 2 características a líneas o polígonos por capa es necesaria una ampliación de la licencia. ¿Quieres comprar la ampliación ahora?\n\nhttps://mapitgis.com/line-polygon-layers\n</string>
-    <string name="shapesLimit">" Sin la extensión 'Mapit Pro ' activa puede agregar un máximo de 10 puntos a las características. ¿Quieres comprar esta ampliación ahora?\n"</string>
 
     <string name="offlineMapsMapBox">MapBox &amp; Mapas offline</string>
     <string name="offlineMaps">Mapas offline </string>
@@ -121,19 +118,15 @@
     <string name="mapBoxTokenSum">Si quieres accede a los mapas de Mapbox necesitas tu Token de acceso a Mapbox.</string>
     <string name="mapBoxTokenError">El token introducido no es válido o no puede ser validado&#8230;</string>
     <string name="mapboxTokenSettings">\nPor favor, configure un Token válido de Mapbox en Ajustes->Cuentas Cloud (nube)</string>
-    <string name="offlineMapsExt">Para usar mapas offline y accede a mapas MapBox se require una ampliación de la licencia. ¿Quieres comprarla ahora?</string>
     <string name="mapBoxMapId">Mapbox MapId (ejemplo: osedok.l4pfam2o):</string>
     <string name="mapBoxRequired">Se require Nombre y MapId.</string>
     <string name="offlineFiles">Por favor, copia tus archivos .mbtiles en la carpeta :\nLa memoria del Dispositivo->Mapit-Spatial->OfflineMaps. \n\nPor favor, visita<a href="https://mapitgis.com/offline-maps-mapbox-extension">Offline Maps &amp; Mapbox extension</a> para más información.</string>
     <string name="file_type_Geo_JSON">Archivos Geojson</string>
     <string name="importError">Error: Hubo un problema con la importación de las características del archivo.</string>
     <string name="importNull">Este archivo no contiene {0} características para importar.\nPor favor, consulta el archivo de importación o selecciona otra capa.</string>
-    <string name="mapit_extensions">Extensiones de Mapit</string>
     <string name="mapit_ext_exportData">Exportar datos</string>
     <string name="more">Más información</string>
     <string name="available">Disponible</string>
-    <string name="mapitPro_ext">Mapit Pro</string>
-    <string name="mapitPro_extSum">" Compre Mapit Pro ahora para habilitar todo el potencial de la aplicación."</string>
     <string name="exportErrorNoFeatures">La exportación ha fallado.\nLa capa está vacia.\nPor favor, añade alguna de las características de la capa vuelve a intentarlo.</string>
     <string name="loadingGeneralShort">Cargando</string>
     <string name="loadingGeneral">Cargando datos, espera por favor.</string>
@@ -155,8 +148,6 @@
     <string name="themeTypeInfo">El cambio de tema se aplicará cuando se reinicie la aplicación de nuevo.</string>
     <string name="geoidHeight">Altura del geoide para GPS</string>
     <string name="geoidHeightSum">EGM96 - se aproxima a nivel medio del mar</string>
-    <string name="extensionDesc">Para tener disponible EGM96 (Earth Gravitational Model 1996) corrección de altitud GPS se requiere una suscripción de Mapit Spatial.\nQuieres obtener esta extensión ahora?</string>
-    <string name="extensionDesc1">Requiere una suscripción de Mapit Spatial.\nQuieres obtener esta extensión ahora?</string>
     <string name="downloadError">Ocurrió un error durante la descarga, por favor inténtalo de nuevo.</string>
     <string name="txt_showWaypointsLabels">Etiquetas de puntos</string>
     <string name="txt_LinesAndPolysLabels">Etiquetas de líneas y polígonos</string>
@@ -189,20 +180,9 @@
     <string name="LabelField">Etiqueta basado en campo:</string>
     <string name="defaultText">Por defecto</string>
     <string name="stop">Stop</string>
-    <string name="trackingInfoPro">Seguimiento de rutas está disponible sólo para usuarios con la extensión Mapit Pro. Usted puede actualizarla en cualquier momento u opcionalmente ocultar este botón en \'Miscellaneous settings\'.\n\n¿Quieres comprar la extensión Mapit Pro ahora?</string>
     <string name="notificationTitle">Mapit Spatial - Grabación de ruta</string>
     <string name="showTrackRecordingButton">Mostrar botones \'Track Recording\'</string>
     <string name="notificationText">Mapit Spatial está creando ruta.</string>
-    <string name="backupManagement">Gestión de copia de seguridad</string>
-    <string name="backupManagementRestore">Vas a restaurar la base de datos central de la copia de seguridad. Todos los datos actuales de ajustes y atributos de la capa serán borrados. Es muy recomendable que realices una copia de seguridad de la base de datos actual antes de continuar.\n\nEsta operación no es reversible.\n\n¿Quieres continuar?</string>
-    <string name="backupManagementBillingInfo">La gestión de copias de seguridad sólo está disponible para los usuarios de Mapit Pro.\n\nLa gestión de copia de seguridad te da la oportunidad de crear una copia de la base de datos central y la posibilidad de restaurarla en caso de necesidad.\n\nTodos los archivos de la copia de seguridad se almacenan en Mapit-> carpeta de copias de seguridad y se puede acceder fácilmente y compartirla entre múltiples dispositivos.\n\nQuieres comprar la extensión Mapit Pro ahora?\n</string>
-    <string name="creatingBackupFile">Creando copia de seguridad</string>
-    <string name="createBackup">Crear nueva copia de seguridad</string>
-    <string name="restoreFrombackup">Restaurar copia de seguridad</string>
-    <string name="noBackups">No han sido creadas copias de seguridad. Por favor usa el botón \'Add\' para crear una copia de seguridad de la actual base de datos.\n\nTodos los atributos, capsa y datos serán incluidos.\n\nPuedes mover archivos de copia de seguridad entre dispositivos si es necesario.</string>
-    <string name="restoreBackupFileOK">La base de datos se ha restaurado a partir de copia de seguridad.</string>
-    <string name="restoreBackupFileError">La base de datos no se pudo restaurar de la copia de seguridad.</string>
-    <string name="creatingBackupError">La operación de copia de seguridad no se pudo completar.\nPor favor, inténtalo de nuevo o informa del problema.</string>
     <string name="showBasePoints">Mostrar puntos base en el mapa</string>
     <string name="inludeBasePointsLayer">Gestión de capa de puntos base</string>
     <string name="inludeBasePointsLayerSum">La capa de puntos base puede hacerse visible eb la sección \'Manage Layers\'.</string>
@@ -382,7 +362,7 @@
     <string name="like_us">Me gusta</string>
     <string name="txt_rate">Si te esta gustando {0}, Por favor, tómate un momento y valóralo.\nTu opinión nos ayuda a mejorar la funcionalidad y a poner en práctica las cosas que puedas necesitar. \n\n¡Gracias por tu apoyo!</string>
     <string name="generic_confirm_title">Estas seguro?</string>
-    <string name="pm_list_empty2">Para añadir uno o más atributos, presiona el botón \'Añadir\' (+) en la esquina superior derecha.</string>
+    <string name="pm_list_empty2">Para añadir uno o más atributos, presiona el botón \'Añadir\' (+).</string>
     <string name="txt_edit">Editar</string>
     <string name="txt_delete">Borrar</string>
     <string name="txt_save">Salvar</string>
@@ -566,7 +546,7 @@
     <string name="serverUsername">Usuario</string>
     <string name="serverPassword">Contraseña</string>
     <string name="pgDbNameText">Nombre de la base de datos</string>
-    <string name="exportToFTP">Exportar a FTP</string>
+    <string name="exportToFTP">Exportar a {0}</string>
     <string name="measuringPosition">Posición promediada</string>
     <string name="averagingText">Promedio &amp; Exactitud</string>
     <string name="averagingTextTitle">Activar opción para promediar posiciones</string>
@@ -597,8 +577,6 @@
     <string name="solopt_geoid_model_dialog_title">Seleccione modelo Geoide</string>
     <string name="EGM2008Info"> 1.  Por favor descargue archivo del sitio de la Agencia Nacional de Inteligencia-Geoespacial
         de Agosto 2014. Puede descargar el archivo en este enlace http://earth-info.nga.mil/GandG/wgs84/gravitymod/egm2008/Small_Endian/Und_min2.5x2.5_egm2008_isw=82_WGS84_TideFree_SE.gz   \n\n2.  Extraiga el archivo descargado: \n\nUnd_min2.5x2.5_egm2008_isw=82_WGS84_TideFree_SE\n\n y renombre el archivo como: \n\nEGM2008_M25.geoid\n\n3.  Ubique el archivo en la carpeta {0}-> Resources folder (Recursos).</string>
-    <string name="dontUseINternalGPSUnit">No utilice GPS Interno</string>
-    <string name="dontUseINternalGPSUnitSum">Esta configuración debe estar desactivada, sin embargo, si experimenta problemas con GNSS conectado, puede intentar desactivar la ubicación en la configuración de Android y activar esta opción. La entrada directa en formato NMEA de antena GNSS externa será tratada como fuente de ubicación en MapTrack</string>
     <string name="testConnection">Prueba de conexión</string>
     <string name="testConnectionSuccess">Conexión a {0} fue exitosa!</string>
     <string name="testConnectionError">Error: \nConexión a {0} fallo! \nPor favor revise su configuración…</string>
@@ -706,7 +684,6 @@
     <string name="txtAppended">anexado</string>
     <string name="createPostgresInfoGeneral">Ambas opciones crearán una nueva tabla de PostgreSQL llamada {0} si aún no existe. Seleccione la opción uno si desea agregar datos existentes o la opción dos para sobrescribir y reemplazar la tabla existente.</string>
     <string name="txtSelectOption">Por favor, seleccione la opción de arriba para continuar.</string>
-    <string name="txtExportToPostgresExtInfo">La capacidad  de exportación de registros a PostgreSQL  es un complemento que se compra adicionalmente y no se incluye en Mapit Pro. Mejore su productividad y exporte sin problemas a la base de datos espacial y acceda a sus datos inmediatamente en el software Desktop GIS como QGis. Presione el botón "Sí" a continuación para habilitar esta extensión ahora. \n\n Recuerde configurar una conexión a su base de datos de PostgreSQL en el menú Configuración de Mapit -> Conexiones remotas.</string>
 
     <string name="txtGDrive">Google Drive</string>
     <string name="txtGDriveLink">Conectarse a Google Drive</string>
@@ -778,16 +755,19 @@
     <string name="projectionNotSupported">La proyección seleccionada no es compatible: el sistema de coordenadas se restablecerá a WGS84</string>
     <string name="deleteField">Eliminar campo de atributos</string>
     <string name="deleteFieldProblem">El campo no se puede quitar para esta tabla. Hubo un problema con la clave principal y el ID de columna del campo de geometría.</string>
-
     <string name="exportToFTPInfoLayerOnly">Exportación a FTP en progreso…</string>
     <string name="ImportWithAttributes">Importar capa con todos los atributos existentes.\nEl conjunto de atributos se creará automáticamente, sin embargo, todos los campos se definirán de tipo Entrada de Texto.\n Si desea importar objetos existentes a la capa con los atributos previamente definidos, seleccione la capa de la lista e importe las geometrías a la capa.</string>
     <string name="geoid_bin">Formato personalizado geoid .bin</string> <!--US National Geodetic Survey (.bin) format -->
     <string name="deviceMemory">Dispositivo</string>
     <string name="setServerPath">Ruta del servidor</string>
-    
-    
+    <string name = "startLayerNumberingFrom">Iniciar numeración de la capa en:</string>
+    <string name = "startLayerNumberingFromInfo">Este valor solo se puede configurar cuando la capa está vacía.</string>
+    <string name = "exportShapeFilesAs2D">Exportar archivo SHP como geometría 2D</string>
+    <string name = "setAsDefaultValue">Establecer como valor predeterminado</string>
+    <string name = "removeGeopackage">Esta operación no se puede deshacer.\nArchivo de geopackage, todos los datos subyacentes (capas) y atributos serán eliminados.\n¿Estás seguro de que deseas continuar?</string>
+
     <!-- Mapit SPATIAL - Missing Spanish Translation -->
-    
+
     <!-- Missing End -->
 
 </resources>

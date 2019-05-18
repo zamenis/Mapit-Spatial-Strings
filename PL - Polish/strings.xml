@@ -1,5 +1,5 @@
 <resources>
-    <string name="about_message">Mapit Spatial wersja {0}\n\nKontakt\n\nEmail: \nfeedback@mapitgis.com</string>
+    <string name="about_message">Mapit Spatial wersja {0}\n\nKontakt\n\nEmail: \nkontakt@mapitgis.pl\nwww: \nhttps://spatial.mapitgis.pl</string>
     <string name="pm_list_empty3">Aby zapisaś pole proszę podać nazwę i dodać przynajmniej jedną wartość.\nProszę nacisnąć przycisk \'Dodaj\' aby dodać nową wartość do listy.</string>
     <string name="field_value_blank">Wartość pola nie może być pusta.</string>
     <string name="deleteAttWarning">Istnieje {0} warstwa(warstw) używających ten zbiór atrybutów - operacja nie może być wykonana.</string>
@@ -25,7 +25,7 @@
     <string name="editLayer">Edytuj warstwę</string>
     <string name="exportSubscription">Eksport danych jest dostępny jako płatny dodatek. Czy chesz zakupić dodatek \'Export danych\' teraz?</string>
     <string name="layerLine">Linie</string>
-    <string name="localExport">Eksport localny</string>
+    <string name="localExport">Eksport lokalny</string>
     <string name="shareExport">Wyslij eksportowany plik</string>
     <string name="surveySettings">Pomiar</string>
     <string name="surveySettingsSum">Ustawienia pomiarów</string>
@@ -95,7 +95,7 @@
     <string name="xyzServices">Inne</string>
     <string name="addPolyline">Nowy element liniowy</string>
     <string name="addPolygon">Nowy element poligonowy</string>
-    <string name="addVertex">Dodaj vertex</string>
+    <string name="addVertex">Wstaw wierzchołek</string>
     <string name="lineName">Linia</string>
     <string name="polygonName">Poligon</string>
     <string name="pointName">Punkt</string>
@@ -121,12 +121,11 @@
     <string name="mapBoxTokenSum">Token dostępu do Mapboxa jest wymagany aby uzyskać dostęp do map Mapboxa.</string>
     <string name="mapBoxTokenError">Token jest nieprawidłowy lub nie może zostać zweryfikowany.&#8230;</string>
     <string name="mapboxTokenSettings">\nProszę ustawić poprawny token dostępu w Ustawieniach->Ustawienia kont w chmurze</string>
-    <string name="offlineMapsExt">Aby uzyskać dostęp do map offline i map Mapboxa wymagane jest rozszerzenie. Czy chcą państwo dokonać zakupu dodatku w tej chwili?</string>
     <string name="mapBoxMapId">Id mapy Mapbox (np. osedok.l4pfam2o):</string>
     <string name="mapBoxRequired">Nazwa i Id mapy jest wymagane.</string>
     <string name="offlineFiles">Proszę skopiować pliki .mbtiles do folderu\nPAMIEC URZADZENIA->Mapit-Spatial->OfflineMaps.</string>
 
-    <string name="file_type_Geo_JSON">Geojson files</string>
+    <string name="file_type_Geo_JSON">Pliki Geojson</string>
     <string name="importError">Error: There was a problem with importing features from file.</string>
     <string name="importNull">This file does not contain any {0} features to import.\nPlease check your import file or select another layer.</string>
     <string name="mapit_ext_exportData">Export data</string>
@@ -302,7 +301,7 @@
     <string name="trackingStopped">Serwis zapisu trasy - Stop</string>
     <string name="txt_import_cat">Zaimportowane</string>
 
-    <string name="formatSHP">SHP File</string>
+    <string name="formatSHP">Pliki SHP</string>
     <string name="formatCSVNoGeometry">CSV - bez geometrii</string>
     <string name="formatCSV">CSV</string>
     <string name="formatKML">KML</string>
@@ -384,7 +383,7 @@
     <string name="like_us">Polub</string>
     <string name="txt_rate">Jeżeli jesteś zadowolony z użytkowania {0}, będziemy wdzięczni jeżeli poświecisz swój czas aby ocenic aplikację. \nTwoja ocena pomoże nam udoskonalić aplikację i zaimplementować dodatkowe funkcje. \n\nDziękujemy za wsparcie!</string>
     <string name="generic_confirm_title">Jesteś pewny?</string>
-    <string name="pm_list_empty2">Aby dodać jeden lub więcej atrybutów proszę kliknąć przycisk \'Dodaj\' w prawym górnym rogu.</string>
+    <string name="pm_list_empty2">Aby dodać pole proszę kliknąć przycisk \'Dodaj\' w prawym dolnym rogu.</string>
     <string name="txt_edit">Edytuj</string>
     <string name="txt_delete">Usuń</string>
     <string name="txt_save">Zapisz</string>
@@ -403,7 +402,7 @@
     <string name="default_waypoint_name">WPT</string>
     <string name="txt_srInfo">Układ współrzędnych</string>
     <string name="pm_attributes_p">Atrybuty elementu:</string>
-    <string name="share">Share</string>
+    <string name="share">Eksport</string>
     <string name="txt_export">Eksport</string>
     <string name="cannot_find">Nie można odnaleźć</string>
     <string name="calling_ws">Łączenie z serwisem</string>
@@ -433,7 +432,7 @@
 
     <string name="file_type_dxf">Pliki DXF</string>
     <string name="file_type_gpx">Pliki GPX</string>
-    <string name="file_type_kml">PLiki KML</string>
+    <string name="file_type_kml">Pliki KML</string>
     <string name="file_type_csv">Pliki CSV</string>
     <string name="txt_import">Importuj Dane</string>
     <string name="txt_import_file">Importuj z pliku</string>
@@ -566,7 +565,7 @@
     <string name="serverUsername">Użytkownik</string>
     <string name="serverPassword">Hasło</string>
     <string name="pgDbNameText">Nazwa bazy danych</string>
-    <string name="exportToFTP">Eksport do FTP</string>
+    <string name="exportToFTP">Eksport do {0}</string>
     <string name="measuringPosition">Pozycja uśredniona</string>
     <string name="averagingText">Uśrednianie i Dokładność</string>
     <string name="averagingTextTitle">Aktywuj uśrednianie pozycji</string>
@@ -735,15 +734,15 @@
     <!-- Mapit SPATIAL Specific Below-->
     <string name="spatialSubscription">Subskrypcja Mapit Spatial</string>
     <string name="attributeSetExported">Eksport zestawu attrybutów zostal zapisany w:</string>
-    <string name="isSelectable">Elementy wartswy mogą być wybierane na mapie.</string>
+    <string name="isSelectable">Elementy warstwy mogą być wybierane na mapie.</string>
     <string name="spatialSubscriptionInfo">Wybrana funkcja aplikacji Mapit Spatial wymaga ważnej subskrypcji Google. Subskrypcja jest ważna przez okres 1 roku i wlącza dostęp do pełnej funkcjonalności w aplikacji. Proszę nacisnąć przycisk \'TAK\' aby kontynuować i aktywować 7 dniowy (darmowy) okres testowy.</string>
-    <string name="type_tinyInt">Zakres wartości: -127 to 127</string>
-    <string name="type_smallInt">Zakres wartości: -32767 to 32767</string>
-    <string name="type_integer">Zakres wartości: -2147483647 to 2147483647</string>
-    <string name="type_long">Zakres wartości: -9223372036854775807 to 9223372036854775807</string>
+    <string name="type_tinyInt">Zakres wartości: -127 do 127</string>
+    <string name="type_smallInt">Zakres wartości: -32767 do 32767</string>
+    <string name="type_integer">Zakres wartości: -2147483647 do 2147483647</string>
+    <string name="type_long">Zakres wartości: -9223372036854775807 do 9223372036854775807</string>
     <string name="selectBasemap">Wybierz mapę bazową</string>
     <string name="basemaps">Mapy bazowe</string>
-    <string name="geopackages">Zarządzanie danymi</string>
+    <string name="geopackages">Projekty geopackage</string>
     <string name="noGooglePlayServices">To urządzenie nie jest kompatybilne. Spróbuj zainstalować Google Play Services.</string>
     <string name="permissionsError">Musisz zaakceptować wymagany dostęp aby uruchomić aplikację Mapit Spatial.
         Wlącz aplikację ponownie i zaakceptuj wymagany dostęp…</string>
@@ -787,10 +786,15 @@
 
     <string name="deleteField">Usuń pole</string>
     <string name="deleteFieldProblem">Wybrane pole nie może zostać usunięte. Wystąpił problem związany z indexami dla columny zawierajacej klucz główny oraz geometrii.</string>
-	<string name="deviceMemory">Urządzenie</string>
+    <string name="deviceMemory">Urządzenie</string>
     <string name="setServerPath">Scieżka servera</string>
-	
-	<!-- Mapit SPATIAL - Missing Spanish Translation -->
-    
+    <string name="startLayerNumberingFrom">Zacznij numerację od:</string>
+    <string name="startLayerNumberingFromInfo">Ta wartość może zostać ustawiona jedynie kiedy wartwa jest pusta.</string>
+    <string name="exportShapeFilesAs2D">Eksportuj plik SHP jako geometrię 2D</string>
+    <string name="setAsDefaultValue">Ustaw jako domyślną wartość</string>
+    <string name="removeGeopackage">Ta operacja jest nieodwracalna. Plik GeoPackage oraz wszystkie dane (warstwy) oraz atrybuty zostaną usunięte. Czy jesteś pewny że chcesz kontynuować?</string>
+
+    <!-- Mapit SPATIAL - Missing Polish Translation -->
+
     <!-- Missing End -->
 </resources>

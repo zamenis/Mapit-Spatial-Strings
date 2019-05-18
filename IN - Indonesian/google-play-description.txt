@@ -1,0 +1,35 @@
+Mapit Spasial - Geopackage Manager
+
+Pengumpulan data GIS menggunakan management geopackage yang sangat powerfull.
+
+
+Mapit Spasial merupakan aplikasi android yang bertujuan untuk membuat ulang fungsi Mapit GIS - Data Collector dengan mendesain ulang tampilan data management secara lengkap.
+
+Aplikasi ini di desain sederhana dan ringan, didukung dengan format file OGC terbaru untuk penyimpanan data spasial berupa geopackage/geodatabase. 
+
+Langsung dari app anda dapat mengakses berbagai sumber data geopackage dan isinya untuk ditampilkan sebagai layer fitur.
+
+Anda juga dapat membuat geopackage/geodatabase baru dan layer fitur serta menghubungkan kolomnya dengan pengaturan kolom atribut, jadi kemudian data dapat dikumpulkan menggunakan form yang berisi daftar, barcode scanner, dll. Silahkan kunjungi website kami untuk detail lebih lanjut.
+
+Data yang terkumpul dapat di akses segera hanya dengan meng-copy keseluruhan file geopackage ke PC/Laptop dan jalankan melalui GIS software seperti Qgis.
+
+Aplikasi ini mendukung berbagai macam proyeksi koordinat dan anda dapat secara spesifik menentukan sistem koordinat default berdasarkan kode EPSG yang tersedia dalam pengaturan - pustaka PRJ4 digunakan untuk konversi koordinat. 
+
+Aplikasi ini mampu untuk dipasangkan dengan sistem presisi tinggi GNSS - jadi anda bisa mendapatkan akurasi sampai tingkat centimeter jika diperlukan. 
+
+Kami membutuhkan saran, dan ide baru yang membangun, jadi silahkan email kami jika anda merasa aplikasi ini dapat ditingkatkan dengan berbagai cara. 
+
+Mapit Spasial dapat digunakan dalam berbagai aplikasi termasuk:
+
+- Survei Lingkungan,
+- Survei kehutanan,
+- Perencanaan kehutanan dan pengaturan survei hutan,
+- Survei tipe tanah dan pertanian,
+- Konstruksi jalan,
+- Survei lahan,
+- Aplikasi tenaga surya,
+- Pembuatan atap dan pagar, 
+- Survei Kayu atau Timber Cruising,
+- Survey GPS and GNSS,
+- Survey situs dan pengambilan sampel tanah
+- Penghilangan Salju 
