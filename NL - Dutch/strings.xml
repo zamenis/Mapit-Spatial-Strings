@@ -810,13 +810,13 @@
     <string name="exportShapeFilesAs2D">Exporteer SHP file als 2D geometrie</string>
     <string name="setAsDefaultValue">Instellen als standaard waarde</string>
     <string name="removeGeopackage">Deze actie kan je niet ongedaan maken. Geopackage bestand en alle bijhorende kaartlagen en attributen zullen verwijderd worden. Ben je zeker dat je wilt verdergaan?</string>
-    <string name="setAsDefaultValue">Instellen als standaard waarde</string>
-    <string name="removeGeopackage">Deze actie kan je niet ongedaan maken. Geopackage bestand en alle bijhorende kaartlagen en attributen zullen verwijderd worden. Ben je zeker dat je wilt verdergaan?</string>
     <string name="useSxBlueTitle">SXblue ToolBox</string>
     <string name="useSxBlueSum">Mapit de locatie laten gebruiken voorzien door SXblue ToolBox app en uw SXblue GNSS ontvanger.</string>
 
 
     <!-- Mapit SPATIAL Missing in Dutch Below-->
+    
+    <string name="coordinatesAsFieldsSum">X,Y,Z (projected) or Lat, Lon, Alt (geographic) columns will be added to POINT layers export.</string>
 
     <!-- END of missing -->
 
