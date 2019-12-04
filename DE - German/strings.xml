@@ -826,6 +826,10 @@
     <string name="L_companyName">Company Name: </string>
     <string name="L_email">Contact e-mail: </string>
     <string name="activateNowQR">Activate Now with QR code</string>
+    
+    <string name="licenceTypeLabel">Please select licence type:</string>
+    <string name="L_licenceType_1a">One Year subscription</string>
+    <string name="L_licenceType_2a">Permanent Licence</string>
 
     <!-- LICENSING END -->
 
