@@ -804,8 +804,32 @@
     <!-- LICENSING END -->
 
 
+   <string name="sampleAttributeSet">Ejemplo de formulario de atributos</string>
+   <string name="sampleGeopackage">Geopaquete de muestra.gpkg</string>
+
     <!-- Mapit SPATIAL - Missing Spanish Translation -->
 
+    <string name="L_licenceType_2">Licence type: Permanent Licence (25 years)</string>
+    <string name="licenceTypeLabel">Please select licence type:</string>
+    <string name="L_licenceType_1a">One Year subscription</string>
+    <string name="L_licenceType_2a">Permanent Licence</string>
+
+    <string name="manageStyles">Manage Styles</string>
+    <string name="addStyle">Add Style</string>
+    <string name="setStyleColour">Set Style Colour - this colour will be use to style point and line features as well when used with polygon layer to style the polygon outline.</string>
+    <string name="setStyleFillColour">Set Style Fill Colour - used to style the polygon fill.</string>
+    <string name="setStyleColourLabel">Set Style Colour</string>
+    <string name="setStyleFillColourLabel">Set Style Fill Colour</string>
+    <string name="styleName">Style Name</string>
+    <string name="pressBack">Press \'Back\' to save the style.</string>
+    <string name="addStyleInfo">To add the style please press the \'Add\' button.</string>
+    <string name="editingStyle">Editing Style</string>
+    <string name="deleteStyleError">Delete Style - Error</string>
+    <string name="deletingStyleInfo">This style is currently being used in the attributes configuration. Operation has been cancelled.</string>
+    <string name="useForStyling">Use for styling</string>
+    <string name="useStyleInUse">This style is being used in fields configuration - Do you wish to continue?</string>
+    <string name="resetStyleAreYouSure">All styles set for the field values will be reset. Do you wish to continue?</string>
+    <string name="resetStyleAreYouSureTitle">Remove \"styled\" status.</string>
 
     <!-- Missing End -->
 
