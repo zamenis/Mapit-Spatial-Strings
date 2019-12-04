@@ -793,6 +793,67 @@
     <string name="exportShapeFilesAs2D">Eksportuj plik SHP jako geometrię 2D</string>
     <string name="setAsDefaultValue">Ustaw jako domyślną wartość</string>
     <string name="removeGeopackage">Ta operacja jest nieodwracalna. Plik GeoPackage oraz wszystkie dane (warstwy) oraz atrybuty zostaną usunięte. Czy jesteś pewny że chcesz kontynuować?</string>
+    <string name="useSxBlueTitle">SXblue ToolBox</string>
+    <string name="useSxBlueSum">Użyj pozycję przekazywaną przez aplikację SXblue ToolBox.</string>
+    <string name="coordinatesAsFieldsTitle">Exportuj współrzędne jako oddzielne pola.</string>
+    <string name="coordinatesAsFieldsSum">Pola X,Y,Z  lub Lat, Lon, Alt zostaną dodane podczas ekasportu warstw punktowych.</string>
+    <string name="enableMapitFieldsTitle">Dołącz pola Mapit [utworzono, zaktualizowano] dla warstwy.</string>
+    <string name="enableMapitFieldsSum">Następujące pola:\n\n- mapit_created_date\n- mapit_updated_date\n\nzostaną dodane do warstwy.\n\nTa opcja nie może być zmieniona po aktywacji.\n\nDodane pola nie mogą zostać usunięte i są aktualizowane jedynie przez aplikację podczas tworzenia lub edytowania recordów.\n\nCzy chcesz kontynuować?</string>
+    <string name="tableExists">Proszę użyć innej nazwy - warstwa o nazwie {0} już istnieje.</string>
+
+
+
+
+    <!-- STANDALONE LICENSING -->
+    <string name="notActive">Aplikacja Mapit Spatial musi zostać aktywowana na tym urządzeniu lub obecna licencja odnowiona.\n\nProszę skontaktować się z dostawcą oprogramowania poprzez naciśnięcie przycisku \"Prośba o aktywację\".</string>
+    <string name="requestLicenceNow">Prośba o aktywację</string>
+
+    <string name="licenceMailSubject">Mapit Spatial Pro - Prośba o aktywację urządzenia</string>
+    <string name="emailTextLicence">Jestem zainteresowany zakupem licencji Mapit Spatial Pro. Dane kontaktowe dostępne są poniżej.</string>
+
+    <string name="licenceMaintenance">Zarządzanie licencją</string>
+    <string name="licenceMaintenanceSub">Sprawdź ważność licencji lub wyślij żądanie odnowienia.</string>
+    <string name="licenceValidUntil">Ważna do: {0}</string>
+    <string name="licenceValidFor">Aplikacja pozostanie aktywna {0} dni.</string>
+    <string name="requestLicenceType">Typ licencji</string>
+    <string name="selectLicenceType">Wybrany typ licencji.</string>
+
+    <!-- Licence Request Form -->
+    <string name="uniqueDeviceId">ID Urzączenia: </string>
+    <string name="L_please_complete">Proszę uzupełnić brakujące dane…</string>
+    <string name="L_licenceType_1">Typ licencji: Subskrypcja 1 rok</string>
+    <string name="L_licenceType_2">Typ Licencji: Licencja stała</string>
+    <string name="L_firstName">Imię: </string>
+    <string name="L_lastName">Nazwisko: </string>
+    <string name="L_companyName">Nazwa Firmy: </string>
+    <string name="L_email">Adres e-mail: </string>
+    <string name="activateNowQR">Aktywuj kodem QR</string>
+
+    <string name="licenceTypeLabel">Proszę wybrać typ licencji:</string>
+    <string name="L_licenceType_1a">Subskrypcja 1 rok</string>
+    <string name="L_licenceType_2a">Licencja stała</string>
+
+    <!-- LICENSING END -->
+
+    <string name="sampleAttributeSet">Przykładowy zestaw atrybutów</string>
+    <string name="sampleGeopackage">Test Geopackage.gpkg</string>
+
+    <string name="manageStyles">Zarządzanie Stylami</string>
+    <string name="addStyle">Dodaj Styl</string>
+    <string name="setStyleColour">Kolor - wybrany kolor zostanie użyty do renderowania obiektów punktowych i liniowych jak również do renderowania granic obiektów polygonowych.</string>
+    <string name="setStyleFillColour">Kolor wypełnienia - wybrany kolor zostanie użyty do renderowania wypełnień obiektów polygonowych.</string>
+    <string name="setStyleColourLabel">Definiowanie kolorów stylu</string>
+    <string name="setStyleFillColourLabel">Ustaw kolor wypełnienia</string>
+    <string name="styleName">Nazwa stylu</string>
+    <string name="pressBack">Kliknij \'Wstecz\' aby zapisać definicję stylu.</string>
+    <string name="addStyleInfo">Aby dodać nowy styl proszę kliknąć przycisk \'Dodaj\'.</string>
+    <string name="editingStyle">Tryb edycji stylu</string>
+    <string name="deleteStyleError">Usuwanie stylu - Błąd</string>
+    <string name="deletingStyleInfo">Wybrany styl jest obecnie używany w konfiguracji atrybutów. Operacja została anulowana.</string>
+    <string name="useForStyling">Użyj do symbolizacji</string>
+    <string name="useStyleInUse">Wybrany styl jest używany w konfiguracji pola - Czy jesteś pewny że chcesz kontynuować?</string>
+    <string name="resetStyleAreYouSure">Style zdefiniowane dla wartości pola zostaną zresetowane. Czy jesteś pewny że chcesz kontynuować?</string>
+    <string name="resetStyleAreYouSureTitle">Usuć status \"pole symbolizacji\".</string>
 
     <!-- Mapit SPATIAL - Missing Polish Translation -->
 
