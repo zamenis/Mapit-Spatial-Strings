@@ -859,8 +859,8 @@
 
     <!-- LICENSING END -->
 
-    <string name="sampleAttributeSet">Sample attribute set</string>
-    <string name="sampleGeopackage">Sample geopackage.gpkg</string>
+    <string name="sampleAttributeSet">Voorbeeld attributen set</string>
+    <string name="sampleGeopackage">Voorbeeld geopackage.gpkg</string>
 
 
     <string name="manageStyles">Beheer Stijlen</string>
