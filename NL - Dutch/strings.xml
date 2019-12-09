@@ -1,5 +1,5 @@
 <resources>
-    <string name="about_message">Mapit Spatial version {0}\n\nContact us\n\nwww: https://mapitgis.com/contact\n\nemail:\nfeedback@mapitgis.com</string>
+    <string name="about_message">Mapit Spatial version {0}\n\nContact \n\nwww: https://mapitgis.com/contact\n\nemail:\nfeedback@mapitgis.com</string>
     <string name="pm_list_empty3">Om veld op te slaan, moet je een naam en één of meer waarden opgeven.\nDruk op de \'Plus\'-knop om waarden toe te voegen aan de lijst.</string>
     <string name="field_value_blank">Waarde voor veld kan niet leeg zijn.</string>
     <string name="deleteAttWarning">Er zijn {0} lagen die deze attributes set gebruiken - Bewerking kan niet voltooid worden.</string>
@@ -21,7 +21,7 @@
     <string name="generalSum">Algemene instellingen gerelateerd aan het uitzicht voor de gebruiker</string>
     <string name="action_settings">Instellingen</string>
     <string name="deleteLayer">Verwijder Laag</string>
-    <string name="deleteLayerInfo">Geselecteerde laag heeft  {0} onderliggende kaartobjecten.\nBen je zeker dat je deze laag en onderliggende gegevens wil verwijderen?</string>
+    <string name="deleteLayerInfo">Geselecteerde laag bevat  {0} kaartobjecten.\nBen je zeker dat je deze laag en bijhorende gegevens wil verwijderen?</string>
     <string name="noLayers">Er zijn geen beschikbare lagen van dit type. Druk aub op de \'Plus\'-knop om een nieuwe laag aan te maken.</string>
     <string name="layerPoint">Punten</string>
     <string name="editLayer">Bewerken Laag</string>
@@ -74,7 +74,7 @@
     <string name="pictureGallery">Afbeeldingen galerij</string>
     <string name="deleteAreYouSure">Ben je zeker - wil je deze gegevens verwijderen?\nDeze bewerking kan niet ongedaan worden!\n</string>
     <string name="deleteAreYouSureValue">Ben je zeker dat je deze waarde wilt verwijderen?\nDit heeft gevolgen voor de gegevens die tot nu toe zijn verzameld voor dit project!\n</string>
-    <string name="deleteAreYouSureAttribute">Ben je zeker dat je dit attribuut en de onderliggende waarden wilt verwijderen?\nDit heeft gevolgen voor de gegevens die tot nu toe zijn verzameld voor dit project!\n</string>
+    <string name="deleteAreYouSureAttribute">Ben je zeker dat je dit attribuut en de bijhorende waarden wilt verwijderen?\nDit heeft gevolgen voor de gegevens die tot nu toe zijn verzameld voor dit project!\n</string>
     <string name="txt_import_no_files">Om gegevens uit bestanden te importeren, kopieer deze aub naar de map\n\nApparaatopslag->Mapit-Spatial->Import.\n\n</string>
     <string name="txt_imported_info">{0} is geïmporteerd naar laag{1}</string>
     <string name="txt_loading_info">Verversen van kaartobjecten op de kaart, even geduld&#8230;</string>
@@ -152,7 +152,7 @@
     <string name="maxCharacters">Max {0} karakters</string>
     <string name="txt_label">label</string>
     <string name="clearLayer">Leegmaken Laag</string>
-    <string name="clearLayerInfo">Geselecteerde laag heeft {0} onderliggende kaartobjecten.\nBen je zeker dat je alle onderliggende gegevens wil verwijderen? De laag zal leeggemaakt worden maar niet verwijderd.</string>
+    <string name="clearLayerInfo">Geselecteerde laag bevat {0} kaartobjecten.\nBen je zeker dat je al deze gegevens wil verwijderen? De laag zal leeggemaakt worden maar niet verwijderd.</string>
     <string name="getItNow">Get it Now</string>
     <string name="locationProblem">Plaatsbepaling probleem</string>
     <string name="locationProblemAlert">\'Locatie\' staat niet aan. Dit kan je aanzetten in Android Instellingen</string>
@@ -275,7 +275,7 @@
     <string name="gpsLock">GPS Lock</string>
     <string name="generalNMEAdevice">Generiek toestel dat NMEA standaard ondersteunt</string>
     <string name="sattelitesTxt">Satellieten</string>
-    <string name="sattelitesInSky">In hemel</string>
+    <string name="sattelitesInSky">Aan hemel</string>
     <string name="sattelitesInFix">In fix</string>
     <string name="receivedLocation">Locatie verkregen</string>
     <string name="trackingNotificationText">Mapit opname track service draait op de achtergrond.</string>
@@ -390,12 +390,12 @@
     <string name="txt_srInfo">SR info</string>
     <string name="pm_attributes_p">Kaartobject attributen:</string>
     <string name="share">Deel</string>
-    <string name="txt_export">Export</string>
+    <string name="txt_export">Exporteer</string>
     <string name="cannot_find">Kan niet gevonden worden</string>
     <string name="calling_ws">Web service aanroepen</string>
     <string name="no_network">Internet verbinding vereist</string>
     <string name="searching_for">Zoeken naar </string>
-    <string name="export_type">Export Type</string>
+    <string name="export_type">Type Export</string>
     <string name="txt_export_format">Export Formaat</string>
     <string name="pics_info">Dit punt heeft {0} bijgevoegde afbeeldingen. Deze zijn opgeslaan in map: {1}.</string>
     <string name="search">Zoek</string>
@@ -496,7 +496,7 @@
     <string name="dragModeActive">Sleep merkpunt naar gewenste locatie.</string>
     <string name="trace_no_gps">GPS service is niet beschikbaar, zorg er aub voor dat Locatie ingeschakeld staat in Android Systeem Instellingen.</string>
 
-    <string name="pm_clear">Leegmaken</string>
+    <string name="pm_clear">Maak leeg</string>
     <string name="txt_sort">Sorteren</string>
     <string name="txt_sort_name_asc">Sorteer op Naam: a-z</string>
     <string name="txt_sort_name_desc">Sorteer op Naam: z-a</string>
@@ -782,7 +782,7 @@
     <string name="selectedAttFieldDelete">Geselecteerd Veld zal verwijderd worden uit de laag. Dit kan niet ongedaan gemaakt worden.\nBen je zeker?</string>
     <string name="removeAttributeSetFieldError">Dit veld kan niet verwijderd worden - het is momenteel gekoppeld in volgende lagen:\n\n</string>
     <string name="removeAttributeSetError">Verwijder aub alle velden vooraleer de attributenset te verwijderen.</string>
-    <string name="selectAttFieldLinkNotPossible">Het geselecteerde data type van het veld uit de Attributen Set komt niet overeen met het onderliggende veldtype van de databank. Selecteer aub een ander veld of maak een geldig veld aan in in \'Beheer attributen\'. \nDeze koppeling kan niet opgeslaan worden!</string>
+    <string name="selectAttFieldLinkNotPossible">Het geselecteerde data type van het veld uit de Attributen Set komt niet overeen met het bijhorende veldtype van de databank. Selecteer aub een ander veld of maak een geldig veld aan in in \'Beheer attributen\'. \nDeze koppeling kan niet opgeslaan worden!</string>
     <string name="geopackageNoAttributeSets">Geselecteerde geopakket heeft geen Attributen Sets gedefinieerd, gebruik aub \'Beheer attributen\' om nieuwe attributen set te maken en velden te definiëren, die vervolgens hier gekoppeld kunnen worden.</string>
     <string name="geopackageAttributeSetsNoFields">Kan geen geldige attributen set vinden. Verzeker je ervan dat je de attributen set aangemaakt hebt en dat het geldig gedefinieerde velden bevat.</string>
     <string name="geopackageAttributeSetsEmpty">Je hebt nog geen \'Attributen Set\' aangemaakt voor het geselecteerde geopakket. Druk aub op \'Voeg toe\' of \'Importeer\' (knop met pijl) hieronder.</string>
@@ -821,41 +821,41 @@
     
   <!-- Mapit SPATIAL Missing in Dutch Below-->
     
-    <string name="coordinatesAsFieldsTitle">Export coordinates as fields</string>
-    <string name="coordinatesAsFieldsSum">X,Y,Z (projected) or Lat, Lon, Alt (geographic) columns will be added to POINT layers export.</string>
-    <string name="enableMapitFieldsTitle">Enable Mapit fields [created, updated] for layer</string>
-    <string name="enableMapitFieldsSum">Following fields:\n\n- mapit_created_date\n- mapit_updated_date\n\nwill be added to the layer.\n\nThis option cannot be disabled.\n\nMapit fields cannot be removed and can be updated only by the application when records are created or edited.\n\nDo you wish to continue?</string>
-    <string name="tableExists">Please use different name - table named {0} already exists.</string>
+    <string name="coordinatesAsFieldsTitle">Exporteer coördinaten als velden</string>
+    <string name="coordinatesAsFieldsSum">X,Y,Z (geprojecteerd) of Lat, Lon, Alt (geografisch) kolommen zullen toegevoegd worden bij de export van een PUNTEN laag.</string>
+    <string name="enableMapitFieldsTitle">Inschakelen Mapit velden [aangemaakt, bijgewerkt] voor laag</string>
+    <string name="enableMapitFieldsSum">Volgende velden:\n\n- mapit_created_date\n- mapit_updated_date\n\nzullen toegevoegd worden aan de laag.\n\nDeze optie kan niet uitgeschakeld worden.\n\nMapit velden kunnen niet verwijderd worden en kunnen enkel bijgewerkt door de applictie als records worden aangemaakt of gewijzigd.\n\nWil je verdergaan?</string>
+    <string name="tableExists">Gebruik aub een andere naam - tabel met naam {0} bestaat al.</string>
 
 
     <!-- STANDALONE LICENSING -->
 
-    <string name="notActive">This application must be activated on this device or existing licence must be refreshed.\n\nPlease contact software provider by pressing \"Request License Now\" button.</string>
-    <string name="requestLicenceNow">Request Licence Now</string>
-    <string name="licenceMailSubject">Spatial Pro - Licence Request</string>
-    <string name="emailTextLicence">I would like to order Mapit Spatial Pro licence. Please find my contact details below.</string>
+    <string name="notActive">Deze applicatie moet geactiveerd worden op dit toestel of de bestaande licentie moet vernieuwd worden.\n\nContacteer aub de software leverancier door op de knop \"Licentie aanvragen\" te drukken.</string>
+    <string name="requestLicenceNow">Licentie aanvragen</string>
+    <string name="licenceMailSubject">Spatial Pro - Aanvraag Licentie</string>
+    <string name="emailTextLicence">Ik wil graag een Mapit Spatial Pro licentie bestellen. Hieronder vind je mijn contactgegevens.</string>
 
-    <string name="licenceMaintenance">Licence maintenance</string>
-    <string name="licenceMaintenanceSub">Check licence information or request new licence.</string>
-    <string name="licenceValidUntil">Valid until: {0}</string>
-    <string name="licenceValidFor">The application licence will expire in {0} days.</string>
-    <string name="requestLicenceType">Licence type</string>
-    <string name="selectLicenceType">Selected Licence type.</string>
+    <string name="licenceMaintenance">Licentie beheer</string>
+    <string name="licenceMaintenanceSub">Nakijken licentie informatie of aanvragen nieuwe licentie.</string>
+    <string name="licenceValidUntil">Geldig tot: {0}</string>
+    <string name="licenceValidFor">De licentie van de applicatie vervalt in {0} dagen.</string>
+    <string name="requestLicenceType">Licentie type</string>
+    <string name="selectLicenceType">Geselecteerd licentie type.</string>
 
     <!-- Licence Request Form -->
-    <string name="uniqueDeviceId">Device Id: </string>
-    <string name="L_please_complete">Please complete the details below...</string>
-    <string name="L_licenceType_1">Licence type: One Year subscription</string>
-    <string name="L_licenceType_2">Licence type: Long Term Licence (25 years)</string>
-    <string name="L_firstName">First Name: </string>
-    <string name="L_lastName">Last Name: </string>
-    <string name="L_companyName">Company Name: </string>
+    <string name="uniqueDeviceId">Toestel Id: </string>
+    <string name="L_please_complete">Vervolledig aub de details hieronder...</string>
+    <string name="L_licenceType_1">Licentie type: Jaarabonnement</string>
+    <string name="L_licenceType_2">Licentie type: Lange termijn Licentie (25 jaar)</string>
+    <string name="L_firstName">Voornaam: </string>
+    <string name="L_lastName">Achternaam: </string>
+    <string name="L_companyName">Naam bedrijf/organisatie: </string>
     <string name="L_email">Contact e-mail: </string>
-    <string name="activateNowQR">Activate Now with QR code</string>
+    <string name="activateNowQR">Activeer Nu met QR code</string>
     
-    <string name="licenceTypeLabel">Please select licence type:</string>
-    <string name="L_licenceType_1a">One Year subscription</string>
-    <string name="L_licenceType_2a">Permanent Licence</string>
+    <string name="licenceTypeLabel">Kies aub type licentie:</string>
+    <string name="L_licenceType_1a">Jaarabonnement</string>
+    <string name="L_licenceType_2a">Permanente Licentie</string>
 
     <!-- LICENSING END -->
 
@@ -863,22 +863,22 @@
     <string name="sampleGeopackage">Sample geopackage.gpkg</string>
 
 
-    <string name="manageStyles">Manage Styles</string>
-    <string name="addStyle">Add Style</string>
-    <string name="setStyleColour">Set Style Colour - this colour will be use to style point and line features as well when used with polygon layer to style the polygon outline.</string>
-    <string name="setStyleFillColour">Set Style Fill Colour - used to style the polygon fill.</string>
-    <string name="setStyleColourLabel">Set Style Colour</string>
-    <string name="setStyleFillColourLabel">Set Style Fill Colour</string>
-    <string name="styleName">Style Name</string>
-    <string name="pressBack">Press \'Back\' to save the style.</string>
-    <string name="addStyleInfo">To add the style please press the \'Add\' button.</string>
-    <string name="editingStyle">Editing Style</string>
-    <string name="deleteStyleError">Delete Style - Error</string>
-    <string name="deletingStyleInfo">This style is currently being used in the attributes configuration. Operation has been cancelled.</string>
+    <string name="manageStyles">Beheer Stijlen</string>
+    <string name="addStyle">Voeg Stijl toe</string>
+    <string name="setStyleColour">Stijl kleur - gebruikt voor kaartobjecten van het type PUNT en LIJN en voor de omranding bij het type VLAK.</string>
+    <string name="setStyleFillColour">Stijl opvul kleur - gebruikt voor de opvulling van een kaartobject van het type VLAK.</string>
+    <string name="setStyleColourLabel">Stijl Kleur</string>
+    <string name="setStyleFillColourLabel">Stijl Opvul Kleur</string>
+    <string name="styleName">Stijl Naam</string>
+    <string name="pressBack">Tik \'Terug\' om de stijl te bewaren.</string>
+    <string name="addStyleInfo">Om een stijl toe te voegen, tik op de \'Plus\' knop.</string>
+    <string name="editingStyle">Wijzigen van Stijl</string>
+    <string name="deleteStyleError">Verwijder Stijl - Fout</string>
+    <string name="deletingStyleInfo">Deze stijl wordt momenteel gebruikt in de attributen configuratie. Handeling is geannuleerd.</string>
     <string name="useForStyling">Use for styling</string>
-    <string name="useStyleInUse">This style is being used in fields configuration - Do you wish to continue?</string>
-    <string name="resetStyleAreYouSure">All styles set for the field values will be reset. Do you wish to continue?</string>
-    <string name="resetStyleAreYouSureTitle">Remove \"styled\" status.</string>
+    <string name="useStyleInUse">Deze stijl wordt gebruikt in configuratie van velden - Wil je verdergaan?</string>
+    <string name="resetStyleAreYouSure">Alle stijlen ingesteld voor de veldwaarden worden gereset. Wil je verdergaan?</string>
+    <string name="resetStyleAreYouSureTitle">Verwijder status \"styled\".</string>
     
     <!-- END of missing -->
 
