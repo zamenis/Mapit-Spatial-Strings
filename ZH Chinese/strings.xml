@@ -666,19 +666,19 @@
     <string name="txt_square">正方形</string>
     <string name="txt_triangle">三角形</string>
     <string name="wfs_maxLayers">最多可同时激活10个WFS图层.</string>
-    <string name="wfs_no_json">This WFS service does not support JSON output and cannot be used in Mapit. Please contact service provider.</string>
-    <string name="wfs_no_WGS84Layers">This WFS service does not contain any layers with default projection set to WGS84. Please contact service provider.</string>
+    <string name="wfs_no_json">该WFS服务不支持输出JSON, 因此无法在本软件使用. 请联系WFS服务提供商.</string>
+    <string name="wfs_no_WGS84Layers">该WFS服务不包含任何支持WGS84投影的图层. 请联系WFS服务提供商.</string>
 
     <string name="useTrimbleMMConnectTitle">Trimble Mobile Manager</string>
     <string name="useTrimbleMMConnectSum">Feed Mapit with location provided by TMM app and your Trimble antenna e.g. Trimble Catalyst</string>
 
-    <string name="geoImagesEmpty">Please copy your geo-images to\nDevice Memory->Mapit-Spatial->OfflineMaps folder.\nMake sure the world files describing the image bounds are placed in the same folder with the same name as the image itself.\n\nPlease visit <a href="http://mapit-gis.com/offline-maps-mapbox-extension">Offline Maps &amp; Mapbox extension</a> to get more information.</string>
-    <string name="txtRequired">This field is required.</string>
-    <string name="txtMultiselect">This field allows multiple selection.</string>
-    <string name="txtUnableToSave">Unable to save. There are blank required fields on the form:\n\n</string>
-    <string name="txtMultiselectSelect">Please select</string>
-    <string name="txtMultiselectFirst">Multiple Selection Field</string>
-    <string name="txtMultiselectFirstItemSelected">Make first item selected when creating new feature.</string>
+    <string name="geoImagesEmpty">请拷贝 geo-images 到\n设备存储->Mapit-Spatial->OfflineMaps 目录.\n确保同一目录下存在影像图边界描述文件.\n\n更多信息请访问 <a href="http://mapit-gis.com/offline-maps-mapbox-extension">Offline Maps &amp; Mapbox extension</a> .</string>
+    <string name="txtRequired">该字段必须填写.</string>
+    <string name="txtMultiselect">该字段允许多选.</string>
+    <string name="txtUnableToSave">无法保存, 因为部分必填字段空白:\n\n</string>
+    <string name="txtMultiselectSelect">请选择</string>
+    <string name="txtMultiselectFirst">多选字段</string>
+    <string name="txtMultiselectFirstItemSelected">创建特征点时使第一个选项自动被选定.</string>
 
 
     <string name="barcodeScanner">Barcode Scanner</string>
@@ -694,26 +694,26 @@
     <string name="enableMultiplayerForAccuracy">Set accuracy as HRMS</string>
     <string name="enableMultiplayerForAccuracySum">Set accuracy as HRMS when available.</string>
     <string name="exportDistanceBearingDetailsTitle">Export range finder measurement details</string>
-    <string name="txtExportToPostgres">Export to PostgreSQL</string>
-    <string name="txtpgAppend">Create new or Append existing table</string>
-    <string name="txtpgOverwrite">Create new or Overwrite existing table</string>
-    <string name="createAppenddPgTable">Data has been exported.\nTable {0} has been successfully {1} in PostgreSQL database.</string>
-    <string name="txtCreated">created</string>
-    <string name="txtAppended">appended</string>
-    <string name="createPostgresInfoGeneral">Both options will create new PostgreSQL table named {0} if it does not exist yet. Please select option one if you would like to append existing data or option two to overwrite and replace existing table.</string>
-    <string name="txtSelectOption">Please select option above to continue.</string>
+    <string name="txtExportToPostgres">导出到 PostgreSQL</string>
+    <string name="txtpgAppend">创建或者追加已存在的表</string>
+    <string name="txtpgOverwrite">创建或者覆盖已存在的表</string>
+    <string name="createAppenddPgTable">数据已经导出.\n表 {0} 已经成功的创建 {1} .</string>
+    <string name="txtCreated">创建</string>
+    <string name="txtAppended">追加</string>
+    <string name="createPostgresInfoGeneral">如果尚不存在，这两个选项都将创建名为 {0} 的新PostgreSQL表. 如果想追加现有数据，请选择选项一，或者选择二来覆盖和替换现有表.</string>
+    <string name="txtSelectOption">请选择上面的选项以继续.</string>
     <string name="txtGDrive">Google Drive</string>
-    <string name="txtGDriveLink">Connect to Google Drive</string>
-    <string name="txtGDriveLinkSub">Press to authorize this app to use Google Drive.</string>
-    <string name="txtGDriveLinkRemove">Remove Google Drive Link</string>
-    <string name="txtGDriveLinkRemoveSub">Press to clear current GDrive connection settings</string>
-    <string name="importGDriveNone">Upload files to Gdrive->MapitGIS folder to get them listed here.</string>
-    <string name="txtGdriveConnect">Connect to GDrive</string>
-    <string name="exportGDriveSuccess">The data has been successfully uploaded to Google Drive->{0} folder.</string>
-    <string name="displayGNSSInfoOnTheMap">Accuracy &amp; GPS Quality on the map.</string>
-    <string name="averagingPositionsTime">Averaging time</string>
-    <string name="averagingPositionsSumTime">Set number of seconds used for averaging.</string>
-    <string name="secureService">This is secure service</string>
+    <string name="txtGDriveLink">连接到 Google Drive</string>
+    <string name="txtGDriveLinkSub">授权本App链接到 Google Drive.</string>
+    <string name="txtGDriveLinkRemove">移除 Google Drive 链接</string>
+    <string name="txtGDriveLinkRemoveSub">清除当前 GDrive 连接设置</string>
+    <string name="importGDriveNone">上传到 Gdrive->MapitGIS 的文件将会显示在这里.</string>
+    <string name="txtGdriveConnect">连接到 GDrive</string>
+    <string name="exportGDriveSuccess">数据已经成功上传到Google Drive->{0} 目录.</string>
+    <string name="displayGNSSInfoOnTheMap">精度 &amp; 地图上显示GNSS质量.</string>
+    <string name="averagingPositionsTime">平均时间</string>
+    <string name="averagingPositionsSumTime">设置平均的时间.</string>
+    <string name="secureService">安全加密服务</string>
 
 
     <!-- Mapit SPATIAL Specific Below-->
@@ -722,10 +722,10 @@
     <string name="attributeSetExported">属性库导出成功，保存在:</string>
     <string name="isSelectable">特征点在地图上可选</string>
     <string name="spatialSubscriptionInfo">该功能需要订阅才可使用. 订阅后所有功能可用，一年有效. 请按 \'确定\'按钮继续，试用7天.</string>
-    <string name="type_tinyInt">Values range: -127 to 127</string>
-    <string name="type_smallInt">Values range: -32767 to 32767</string>
-    <string name="type_integer">Values range: -2147483647 to 2147483647</string>
-    <string name="type_long">Values range: -9223372036854775807 to 9223372036854775807</string>
+    <string name="type_tinyInt">数据范围: -127 to 127</string>
+    <string name="type_smallInt">数据范围: -32767 to 32767</string>
+    <string name="type_integer">数据范围: -2147483647 to 2147483647</string>
+    <string name="type_long">数据范围: -9223372036854775807 to 9223372036854775807</string>
     <string name="selectBasemap" >选择底图</string>
     <string name="basemaps" >底图管理</string>
     <string name="geopackages" >Geopackages</string>
@@ -739,54 +739,54 @@
     <string name="txtLinkField">Link</string>
     <string name="createLayerSR">空间椭球基准将被设置为 WGS84(EPSG:4326), 请检查并设置图层坐标系统为 {0}.</string>
     <string name="enableZ">Include Z dimension</string>
-    <string name="featuresCount">Number of Features</string>
-    <string name="createGeopackage">Create Geopackage</string>
-    <string name="valueOutOfRange">Provided value doesn\'t match selected field type.</string>
-    <string name="linkFieldTitle">Link field with Attribute Set</string>
-    <string name="linkedFieldTitle">Linked Attribute Set Field</string>
-    <string name="linkFieldRemove">Remove link</string>
-    <string name="dbFieldRequired">Please set default value for NOT NULL field.</string>
-    <string name="selectAttSet">Select Attribute Set:</string>
-    <string name="selectAttField">Select Attribute Set Field:</string>
-    <string name="selectedAttSet">Selected Attribute Set:</string>
-    <string name="selectedAttField">Selected Attribute Set Field:</string>
-    <string name="selectedAttFieldDelete">Selected Field will be removed from layer. This cannot be undone.\nAre you sure?</string>
-    <string name="removeAttributeSetFieldError">This field cannot be removed - it is currently linked in following layers:\n\n</string>
-    <string name="removeAttributeSetError">Please remove all fields before removing the attribute set.</string>
-    <string name="selectAttFieldLinkNotPossible">Selected Attribute Set field data type does not match the underlying Database field type. Please select another field or create valid field in \'Attributes Management\'. \nThis link cannot be saved!</string>
-    <string name="geopackageNoAttributeSets">Selected geopackage does not contain any Attribute Sets defined, please use \'Attributes Management\' to create new attribute set and define fields, which then can be linked in here.</string>
-    <string name="geopackageAttributeSetsNoFields">Not able to find valid attribute set. Please make sure you have created the attribute set and it contains valid fields defined.</string>
-    <string name="geopackageAttributeSetsEmpty">You have not yet created any \'Attribute Set\' for selected geopackage. Please press the \'Add\' or \'Import\' (button with arrow) below.</string>
-    <string name="shareGeopackage">Share geopackage</string>
+    <string name="featuresCount">特征点数量</string>
+    <string name="createGeopackage">创建 Geopackage</string>
+    <string name="valueOutOfRange">输入的值不符合当前字段类型.</string>
+    <string name="linkFieldTitle">链接字段到属性库</string>
+    <string name="linkedFieldTitle">已链接属性库的字段</string>
+    <string name="linkFieldRemove">移除链接</string>
+    <string name="dbFieldRequired">非空字段请设置缺省值.</string>
+    <string name="selectAttSet">选择属性库:</string>
+    <string name="selectAttField">选择属性库字段:</string>
+    <string name="selectedAttSet">已选属性库:</string>
+    <string name="selectedAttField">已选属性库字段:</string>
+    <string name="selectedAttFieldDelete">已选字段将被删除，该过程不可逆，\n是否确认？</string>
+    <string name="removeAttributeSetFieldError">该字段不能被删除 - 以下图层有链接到该字段:\n\n</string>
+    <string name="removeAttributeSetError">移除属性库前请先移除所有字段.</string>
+    <string name="selectAttFieldLinkNotPossible">所选属性库字段数据类型和数据库字段类型不匹配. 请选择另外的字段或者在 \'Attributes Management\' 创建新的有效字段. \n该链接无法保存!</string>
+    <string name="geopackageNoAttributeSets">所选 geopackage 不包含任何有效的属性库, 请在 \'Attributes Management\' 创建新的属性库和字段, 然后重新进行链接.</string>
+    <string name="geopackageAttributeSetsNoFields">找不到有效属性库. 请确保你已经创建属性库并且包含有效字段.</string>
+    <string name="geopackageAttributeSetsEmpty">针对所选 geopackage 你还没创建任何 \'属性库\' . 请按下方的 \'增加\' 或 \'导入\' 按钮.</string>
+    <string name="shareGeopackage">分享 geopackage</string>
 
-    <string name="geopackage_table_index_features_createIndex">Rebuild</string>
-    <string name="geopackage_table_index_features_index_create_label">Create</string>
-    <string name="geopackage_table_index_features_index_title">index</string>
-    <string name="geopackage_table_index_features_index">Rebuild Index</string>
-    <string name="updating_layer_metadata">Updating layer metadata</string>
-    <string name="updating_layer_indicies">Updating layer indices</string>
-    <string name="gettingFeaturesToImport">Getting features to import…</string>
-    <string name="positionInfo">Position Information</string>
-    <string name="projectionNotSupported">Selected projection is not supported - the coordinate system will be reset to WGS84</string>
+    <string name="geopackage_table_index_features_createIndex">重建</string>
+    <string name="geopackage_table_index_features_index_create_label">创建</string>
+    <string name="geopackage_table_index_features_index_title">索引</string>
+    <string name="geopackage_table_index_features_index">重建索引</string>
+    <string name="updating_layer_metadata">更新图层的 metadata</string>
+    <string name="updating_layer_indicies">更新图层的索引</string>
+    <string name="gettingFeaturesToImport">获取特征点并导入…</string>
+    <string name="positionInfo">位置信息</string>
+    <string name="projectionNotSupported">所选投影不支持 - 坐标系统必须为WGS84</string>
 
-    <string name="deleteField">Delete Field</string>
-    <string name="deleteFieldProblem">Field cannot be removed for this table. There was a problem with primary key and geometry field column index id.</string>
+    <string name="deleteField">删除字段</string>
+    <string name="deleteFieldProblem">该字段被用于索引ID或者主键值, 不能从表中移除.</string>
 
-    <string name="deviceMemory">Device</string>
-    <string name="setServerPath">Server Path</string>
-    <string name="startLayerNumberingFrom">Feature\'s numbering start:</string>
-    <string name="startLayerNumberingFromInfo">This value can be set only when the layer is empty.</string>
-    <string name="exportShapeFilesAs2D">Export SHP file as 2D geometry</string>
-    <string name="setAsDefaultValue">Set as default value</string>
-    <string name="removeGeopackage">This operation cannot be undone. Geopackage file, all underlying data (layers) and attributes will be removed. Are you sure you want to proceed?</string>
+    <string name="deviceMemory">设备</string>
+    <string name="setServerPath">服务器路径</string>
+    <string name="startLayerNumberingFrom">特征点计数开始于:</string>
+    <string name="startLayerNumberingFromInfo">只有图层为空时才可以设置该值.</string>
+    <string name="exportShapeFilesAs2D">作为2D geometry数据导出为 SHP 文件</string>
+    <string name="setAsDefaultValue">设置为缺省值</string>
+    <string name="removeGeopackage">该操作不可逆. Geopackage 文件, 图层和属性数据都会被移除. 确认操作吗?</string>
 
     <string name="useSxBlueTitle">SXblue ToolBox</string>
     <string name="useSxBlueSum">Feed Mapit with location provided by SXblue ToolBox application.</string>
-    <string name="coordinatesAsFieldsTitle">Export coordinates as fields</string>
-    <string name="coordinatesAsFieldsSum">X,Y,Z (projected) or Lat, Lon, Alt (geographic) columns will be added to POINT layers export.</string>
-    <string name="enableMapitFieldsTitle">Enable Mapit fields [created, updated] for layer</string>
-    <string name="enableMapitFieldsSum">Following fields:\n\n- mapit_created_date\n- mapit_updated_date\n\nwill be added to the layer.\n\nThis option cannot be disabled.\n\nMapit fields cannot be removed and will be updated only by the application when records are created or edited.\n\nDo you wish to continue?</string>
-    <string name="tableExists">Please use different name - table named {0} already exists.</string>
+    <string name="coordinatesAsFieldsTitle">输出坐标数据字段</string>
+    <string name="coordinatesAsFieldsSum">添加 X,Y,Z (投影) or Lat, Lon, Alt (地理)数据到导出的点图层.</string>
+    <string name="enableMapitFieldsTitle">为图层启用[已创建，更新]的 Mapit 字段</string>
+    <string name="enableMapitFieldsSum">随之的字段:\n\n- mapit创建日期\n- mapit更新日期\n\n会自动添加到图层.\n\n该选项必须启用.\n\nMapit 字段无法被移除, 只有程序本身在创建或编辑时才会更新该字段 .\n\n是否继续?</string>
+    <string name="tableExists">请更换名称 - 表的名字 {0} 已存在.</string>
 
 
 
@@ -823,23 +823,23 @@
 
     <!-- LICENSING END -->
 
-    <string name="sampleAttributeSet">Sample attribute set</string>
-    <string name="sampleGeopackage">Sample geopackage.gpkg</string>
+    <string name="sampleAttributeSet">属性库样例</string>
+    <string name="sampleGeopackage">geopackage.gpkg样例</string>
 
-    <string name="manageStyles">Manage Styles</string>
-    <string name="addStyle">Add Style</string>
-    <string name="setStyleColour">Set Style Colour - this colour will be use to style point and line features as well when used with polygon layer to style the polygon outline.</string>
-    <string name="setStyleFillColour">Set Style Fill Colour - used to style the polygon fill.</string>
-    <string name="setStyleColourLabel">Set Style Colour</string>
-    <string name="setStyleFillColourLabel">Set Style Fill Colour</string>
-    <string name="styleName">Style Name</string>
-    <string name="pressBack">Press \'Back\' to save the style.</string>
-    <string name="addStyleInfo">To add the style please press the \'Add\' button.</string>
-    <string name="editingStyle">Editing Style</string>
-    <string name="deleteStyleError">Delete Style - Error</string>
-    <string name="deletingStyleInfo">This style is currently being used in the attributes configuration. Operation has been cancelled.</string>
-    <string name="useForStyling">Use for styling</string>
-    <string name="useStyleInUse">This style is being used in fields configuration - Do you wish to continue?</string>
-    <string name="resetStyleAreYouSure">All styles set for the field values will be reset. Do you wish to continue?</string>
-    <string name="resetStyleAreYouSureTitle">Remove \"styled\" status.</string>
+    <string name="manageStyles">管理样式</string>
+    <string name="addStyle">增加样式</string>
+    <string name="setStyleColour">设置样式颜色 - 该颜色被用于点线面地物.</string>
+    <string name="setStyleFillColour">设置样式填充颜色 - 改颜色被用于面状地物填充色.</string>
+    <string name="setStyleColourLabel">设置样式颜色</string>
+    <string name="setStyleFillColourLabel">设置样式填充颜色</string>
+    <string name="styleName">样式名称</string>
+    <string name="pressBack">按 \'返回\' 保存样式.</string>
+    <string name="addStyleInfo">按 \'添加\' 添加新的样式To add the style please press the \'Add\' button.</string>
+    <string name="editingStyle">编辑样式</string>
+    <string name="deleteStyleError">删除样式 - 错误</string>
+    <string name="deletingStyleInfo">该样式当前被用于属性配置中, 操作被取消.</string>
+    <string name="useForStyling">用于样式</string>
+    <string name="useStyleInUse">该样式已使用在字段配置中 - 是否继续?</string>
+    <string name="resetStyleAreYouSure">所有的样式会被重置. 是否继续?</string>
+    <string name="resetStyleAreYouSureTitle">移除 \"styled\" 状态.</string>
 </resources>
