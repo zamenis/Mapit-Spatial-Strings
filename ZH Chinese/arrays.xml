@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="accuracyUnit">
+        <item>米</item>
+        <item>厘米</item>
+    </string-array>
+    <string-array name="accuracyUnitValue">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="cords_sr">
+        <item>WGS84(lat,lon) - D.dddd</item>
+        <item>WGS84(lat,lon) - D\u00b0M.mm</item>
+        <item>WGS84(lat,lon) - D\u00b0M\'S.ss</item>
+        <item>Web 墨卡托</item>
+        <item>British National Grid</item>
+        <item>自定义: EPSG 代码</item>
+    </string-array>
+    <string-array name="cords_sr_values">
+        <item>4326</item>
+        <item>43261</item>
+        <item>43262</item>
+        <item>3857</item>
+        <item>27700</item>
+        <item>2147483646</item>
+    </string-array>
+    <string-array name="areaUnits">
+        <item>平方米 - [ m2 ]</item>
+        <item>Hectars - [ ha ]</item>
+        <item>Ares - [ a ]</item>
+        <item>平方公里 - [ km2 ]</item>
+        <item>平方英里 - [ mi2 ]</item>
+        <item>Acres - [ ac ]</item>
+        <item>平方英尺 - [ ft2 ]</item>
+        <item>Square nautical mile - [ nmi2 ]</item>
+        <item>Square sazhen - [ saz2 ]</item>
+    </string-array>
+    <string-array name="areaUnitsValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+	 <string-array name="lengthUnits">
+        <item>米 - [ m ]</item>
+        <item>Yards - [ yd ]</item>
+        <item>千米 - [ km ]</item>
+        <item>英里 - [ mi ]</item>
+        <item>英尺 - [ ft ]</item>
+        <item>Nautical Mile - [ nmi ]</item>
+        <item>Sazhen - [ saz ]</item>
+    </string-array>
+    <string-array name="lengthUnitsValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="measureMethod">
+        <item>地图上点击</item>
+        <item>GNSS定位点</item>
+        <item>地图光标</item>
+    </string-array>
+    <string-array name="measureMethodValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+     <string-array name="measureType">
+        <item>量测长度</item>
+        <item>量测面积</item>
+    </string-array>
+    <string-array name="measureTypeValues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="layer_types_array">
+        <item>点</item>
+        <item>线</item>
+        <item>面</item>
+    </string-array>
+    <string-array name="picture_format">
+        <item>PNG</item>
+        <item>JPG</item>
+    </string-array>
+    <string-array name="picture_format_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    
+    
+</resources>
+
