@@ -26,7 +26,7 @@
         <item>27700</item>
         <item>2147483646</item>
     </string-array>
-    <string-array name="areaUnits">
+     <string-array name="areaUnits">
         <item>Square meters - [ m2 ]</item>
         <item>Hectars - [ ha ]</item>
         <item>Ares - [ a ]</item>
@@ -36,6 +36,7 @@
         <item>Square feet - [ ft2 ]</item>
         <item>Square nautical mile - [ nmi2 ]</item>
         <item>Square sazhen - [ saz2 ]</item>
+        <item>Chinese Mu - [ Mu ]</item>
     </string-array>
     <string-array name="areaUnitsValues">
         <item>0</item>
@@ -47,6 +48,7 @@
         <item>6</item>
         <item>7</item>
         <item>8</item>
+        <item>9</item>
     </string-array>
 	 <string-array name="lengthUnits">
         <item>Meters - [ m ]</item>
