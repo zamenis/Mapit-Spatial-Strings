@@ -11,9 +11,9 @@
     </string-array>
 
     <string-array name="cords_sr">
-        <item>WGS84(lat,lon) - D.dddd</item>
-        <item>WGS84(lat,lon) - D\u00b0M.mm</item>
-        <item>WGS84(lat,lon) - D\u00b0M\'S.ss</item>
+        <item>WGS84 - 度</item>
+        <item>WGS84 - 度分</item>
+        <item>WGS84 - 度分秒</item>
         <item>Web 墨卡托</item>
         <item>British National Grid</item>
         <item>自定义: EPSG 代码</item>
@@ -36,6 +36,7 @@
         <item>平方英尺 - [ ft2 ]</item>
         <item>Square nautical mile - [ nmi2 ]</item>
         <item>Square sazhen - [ saz2 ]</item>
+        <item>亩 - [ Mu ]</item>
     </string-array>
     <string-array name="areaUnitsValues">
         <item>0</item>
@@ -47,6 +48,7 @@
         <item>6</item>
         <item>7</item>
         <item>8</item>
+        <item>9</item>
     </string-array>
 	 <string-array name="lengthUnits">
         <item>米 - [ m ]</item>
