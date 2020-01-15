@@ -2,7 +2,7 @@
 <resources>
     <string name="title_section0" translatable="false">谷歌地图</string>
     <string name="title_section1" translatable="false">谷歌卫星图</string>
-    <string name="title_section2" translatable="false">谷歌地图卫星叠加图</string>
+    <string name="title_section2" translatable="false">谷歌混合地图</string>
     <string name="title_section3" translatable="false">谷歌地形图</string>
     <string name="title_section4" translatable="false">Open Street Map</string>
     <string name="title_section5" translatable="false">Bing Map 卫星图</string>

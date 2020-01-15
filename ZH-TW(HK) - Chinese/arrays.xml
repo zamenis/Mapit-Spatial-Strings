@@ -11,12 +11,12 @@
     </string-array>
 
     <string-array name="cords_sr">
-        <item>WGS84(lat,lon) - D.dddd</item>
-        <item>WGS84(lat,lon) - D\u00b0M.mm</item>
-        <item>WGS84(lat,lon) - D\u00b0M\'S.ss</item>
+        <item>WGS84 - D.dddd</item>
+        <item>WGS84 - D\u00b0M.mm</item>
+        <item>WGS84 - D\u00b0M\'S.ss</item>
         <item>Web 墨卡托</item>
         <item>British National Grid</item>
-        <item>自定义: EPSG 代码</item>
+        <item>自訂: EPSG 代碼</item>
     </string-array>
     <string-array name="cords_sr_values">
         <item>4326</item>
@@ -50,7 +50,7 @@
         <item>8</item>
         <item>9</item>
     </string-array>
-    <string-array name="lengthUnits">
+	 <string-array name="lengthUnits">
         <item>米 - [ m ]</item>
         <item>Yards - [ yd ]</item>
         <item>千米 - [ km ]</item>
@@ -69,26 +69,26 @@
         <item>6</item>
     </string-array>
     <string-array name="measureMethod">
-        <item>地图上点击</item>
-        <item>GNSS定位点</item>
-        <item>地图光标</item>
+        <item>地圖上點擊</item>
+        <item>GNSS定位點</item>
+        <item>地圖游標</item>
     </string-array>
     <string-array name="measureMethodValues">
         <item>0</item>
         <item>1</item>
         <item>2</item>
     </string-array>
-    <string-array name="measureType">
-        <item>量测长度</item>
-        <item>量测面积</item>
+     <string-array name="measureType">
+        <item>量測長度</item>
+        <item>量測面積</item>
     </string-array>
     <string-array name="measureTypeValues">
         <item>0</item>
         <item>1</item>
     </string-array>
     <string-array name="layer_types_array">
-        <item>点</item>
-        <item>线</item>
+        <item>點</item>
+        <item>線</item>
         <item>面</item>
     </string-array>
     <string-array name="picture_format">
@@ -99,7 +99,7 @@
         <item>0</item>
         <item>1</item>
     </string-array>
-
-
+    
+    
 </resources>
 

@@ -39,7 +39,7 @@
     <string name="map_problem">此地图无法被加载</string>
     <string name="drawer_newLayer">创建新图层</string>
     <string name="fields">字段</string>
-    <string name="field">字段</string>
+     <string name="field">字段</string>
     <string name="activeLayer">活动图层</string>
     <string name="fieldValues">域值:</string>
     <string name="fieldsList">字段列表</string>
@@ -55,7 +55,8 @@
     <string name="addAttributeSet">添加属性设置</string>
     <string name="pm_add_info">保存属性集名称和描述以创建一个ID。 保存时请从列表中选择，然后按“编辑”来定义属性的字段。</string>
     <string name="noFeatures">此图层还没有任何功能。\n要添加功能，请激活该图层，并在地图上记录一些数据。</string>
-    <string name="txt_aboutMapIt">关于Mapit</string>
+    <string name="whatsNewText">你喜欢用你自己的语言的MapIt吗？ 请访问http://mapit-gis.com/translations了解更多详情。\n\n更新日志：\nhttp://mapit-gis.com/changelog \n\n</string>
+    <string name="txt_aboutMapIt">关于MapIt</string>
     <string name="txt_aboutMapItSum">版本信息和联系方式</string>
     <string name="addAttributeAsFreeText">您也可以将此字段添加为文本框类型 - 在此情况下，值不是必需的.</string>
     <string name="txtScalar">这个字段是一个文本框</string>
@@ -79,7 +80,7 @@
     <string name="deleteAreYouSure">您确定要删除这个数据？\n此操作无法恢复!\n</string>
     <string name="deleteAreYouSureValue">您确定要删除这个值?\n迄今为止收集的这个项目的数据将受到影响！\n</string>
     <string name="deleteAreYouSureAttribute">您确定要删除此属性和基础值？\n迄今为止收集的此项目数据将受到影响！\n</string>
-    <string name="txt_import_no_files">要从文件中导入数据，请把文件拷贝到\n\nSD Card->Mapit-Spatial->Import 文件夹.\n\n目前支持的文件类型为:\n\n-CSV (纬度,经度,名称) 点数据, KML 与 geojson 点数据, 线和面.\n\n请访问我们的网站获取更多关于导入操作的信息。</string>
+    <string name="txt_import_no_files">要从文件中导入数据，请把文件拷贝到\n\nSD Card->MapIt->Import 文件夹.\n\n目前支持的文件类型为:\n\n-CSV (纬度,经度,名称) 点数据, KML 与 geojson 点数据, 线和面.\n\n请访问我们的网站获取更多关于导入操作的信息。</string>
     <string name="txt_loading_info">正在刷新地图上的特征，请稍等…</string>
     <string name="txt_use_overlay">使用此叠加图层</string>
     <string name="txt_dialog_pref">警告对话框</string>
@@ -89,7 +90,7 @@
     <string name="importValues">导入值</string>
     <string name="importValuesOK">值导入成功.</string>
     <string name="importValuesError">发生错误 - 值未被导入!</string>
-    <string name="txt_import_no_files_att">要从文件中导入数据，请把文件拷贝到\n\nSD Card->Mapit-Spatial->Import->AttributeSets 文件夹.\n\n前支持的文件类型为:\n\n-TXT (每个值一行)\n\n请访问我们的网站获取更多关于导入属性操作的信息.</string>
+    <string name="txt_import_no_files_att">要从文件中导入数据，请把文件拷贝到\n\nSD Card->MapIt->Import->Attributes 文件夹.\n\n前支持的文件类型为:\n\n-TXT (每个值一行)\n\n请访问我们的网站获取更多关于导入属性操作的信息.</string>
     <string name="xyzServices">其他</string>
     <string name="addPolyline">新的线特征</string>
     <string name="addPolygon">新的面特征</string>
@@ -118,7 +119,7 @@
     <string name="mapboxTokenSettings">\n请在 设置->云账户 里设置您的有效令牌</string>
     <string name="mapBoxMapId">Mapbox MapId (例如 osedok.l4pfam2o):</string>
     <string name="mapBoxRequired">需要名称和MapId.</string>
-    <string name="offlineFiles">请拷贝您的.mbtiles 文件到\nSD Card->Mapit-Spatial->OfflineMaps 文件夹.</string>
+    <string name="offlineFiles">请拷贝您的.mbtiles 文件到\nSD Card->MapIt->OfflineMaps 文件夹. \n\n请访问 <a href="http://mapit-gis.com/offline-maps-mapbox-extension">离线地图与Mapbox扩展程序</a> 获取更多信息.</string>
     <string name="file_type_Geo_JSON">Geojson文件</string>
     <string name="importError">错误：从文件中导入特征出错</string>
     <string name="importNull">此文件不包含任何可导入的 {0} 特征.\n请检查您的导入文件或者选择另一个图层.</string>
@@ -126,6 +127,7 @@
     <string name="more">更多信息</string>
     <string name="available">可用的</string>
     <string name="exportErrorNoFeatures">导出失败。\n图层为空。\n请增加一些特征到此图层后再尝试。</string>
+    <string name="loadingGeneralShort">加载中</string>
     <string name="loadingGeneralShort">加载中</string>
     <string name="loadingGeneral">数据加载中，请稍等。</string>
     <string name="line_color_transparency">线颜色和透明度</string>
@@ -160,7 +162,7 @@
     <string name="gpsWaiting">等待GPS位置</string>
     <string name="export_full_path_to_pictures">导出完整的图片路径</string>
     <string name="miscellaneous_settings">杂项设置</string>
-    <string name="miscellaneous_settings_sum">与应用程序的不同部分相关的混合设置</string>
+   <string name="miscellaneous_settings_sum">与应用程序的不同部分相关的混合设置</string>
     <string name="txt_sort_active_first">首先激活</string>
     <string name="txt_newPointAsDistanceAndBearing">距离与方位的方式</string>
     <string name="txt_newPointAsDistanceAndBearingSum">从当前的GPS，基准点或光标位置添加新的点提供距离与方位.</string>
@@ -181,13 +183,13 @@
     <string name="LabelField">基于此字段的标签:</string>
     <string name="defaultText">默认</string>
     <string name="stop">停止</string>
-    <string name="notificationTitle">Mapit - 正在记录轨迹</string>
+     <string name="notificationTitle">MapIt - 正在记录轨迹</string>
     <string name="showTrackRecordingButton">显示“正在记录轨迹”按钮</string>
-    <string name="notificationText">Mapit正在跟踪轨迹.</string>
-    <string name="showBasePoints">在地图上显示基准点</string>
+    <string name="notificationText">MapIt正在跟踪轨迹.</string>
+     <string name="showBasePoints">在地图上显示基准点</string>
     <string name="inludeBasePointsLayer">基准点层管理</string>
     <string name="inludeBasePointsLayerSum">“基准点图层”将在“管理图层”部分中显示.</string>
-    <string name="basePoints">基准点</string>
+   <string name="basePoints">基准点</string>
     <string name="basePointsDesc">当使用“方位与距离”方式时，此图层中的点将作为基准点下拉列表的数据来源.</string>
     <string name="baseName">基准</string>
     <string name="rememberLastName">默认为上一个名称</string>
@@ -200,9 +202,9 @@
     <string name="exportToDxf">DXF - 只有几何图形</string>
     <string name="defaultPointFeaturePrefixText">点特征的默认前缀</string>
     <string name="defaultLineFeaturePrefixText">线特征的默认前缀</string>
-    <string name="defaultPolygonFeaturePrefixText">面特征的默认前缀</string>
+     <string name="defaultPolygonFeaturePrefixText">面特征的默认前缀</string>
     <string name="importAttributeSetText">导入属性集</string>
-    <string name="txt_import_no_files_AS">要导入属性集表格文件请拷贝要导入的文件到:\n\nSD Card->Mapit-Spatial->Import->AttributeSets 文件夹.\n\n属性集可以从结构化的JSON文件中被导入.\n\n请访问我们的网站获取更多关于导入属性集的信息.</string>
+    <string name="txt_import_no_files_AS">要导入属性集表格文件请拷贝要导入的文件到:\n\nSD Card->MapIt->Import->Attributes 文件夹.\n\n属性集可以从结构化的JSON文件中被导入.\n\n请访问我们的网站获取更多关于导入属性集的信息.</string>
     <string name="importAttributeSetNoName">文件未包含名称属性.</string>
     <string name="importAttributeSetNoFields">文件未包含任何可导入的字段.</string>
     <string name="importAttributeSetNoFieldName">一个或多个字段缺少名称属性.</string>
@@ -220,14 +222,14 @@
     <string name="navigatetoDistance">距离: {0}</string>
     <string name="navigatetoBearing">{0}</string>
     <string name="navigatetoWaiting">正在等待准确的位置详细信息以开始导航…</string>
-    <string name="addOSMTypeServiceInfo">要添加Open Street Map类型服务，请在下面的字段中填写名称和网址属性。 该服务必须位于Web Mercator投影（ESPG：3857）中。OSM类型服务磁贴的示例网址如下所示：\n\nhttp://b.tile.openstreetmap.org/17/63963/40837.png  \n\n其中URL的最后部分包含缩放级别以及图块的x，y坐标。\n\n要添加服务，您只需提供URL的第一部分 - 应该像如下所示：\n\nhttp://b.tile.openstreetmap.org 或\nhttp://tile.waymarkedtrails.org/hiking \n\n可在我们的网站上找到更多信息.</string>
-    <string name="selectActiveOnly">地图选择 - 只选活动图层</string>
+     <string name="addOSMTypeServiceInfo">要添加Open Street Map类型服务，请在下面的字段中填写名称和网址属性。 该服务必须位于Web Mercator投影（ESPG：3857）中。OSM类型服务磁贴的示例网址如下所示：\n\nhttp://b.tile.openstreetmap.org/17/63963/40837.png  \n\n其中URL的最后部分包含缩放级别以及图块的x，y坐标。\n\n要添加服务，您只需提供URL的第一部分 - 应该像如下所示：\n\nhttp://b.tile.openstreetmap.org 或\nhttp://tile.waymarkedtrails.org/hiking \n\n可在我们的网站上找到更多信息.</string>
+   <string name="selectActiveOnly">地图选择 - 只选活动图层</string>
     <string name="selectActiveOnlySum">地图上只能选择活动图层的特征</string>
     <string name="measureModeLine">测量模式 - 距离</string>
     <string name="measureModeArea">测量模式 - 面积</string>
     <string name="pref_measureModeButton">显示测量按键</string>
     <string name="unitsSettings">单位与坐标</string>
-    <string name="unitsSettingsSum">测量单位与地图坐标</string>
+     <string name="unitsSettingsSum">测量单位与地图坐标</string>
     <string name="measureInfo">长按改变测量模式(距离/面积)</string>
     <string name="mapscreenshot">地图截屏</string>
     <string name="mapscreenshotInfo">地图截屏正在处理中…</string>
@@ -236,10 +238,10 @@
     <string name="useRangeFinderTitle">蓝牙测距仪</string>
     <string name="useRangeFinderToAddPoints">使用配对的激光测距仪添加点</string>
     <string name="generalError">错误</string>
-    <string name="generalBusy">工作中…</string>
+   <string name="generalBusy">工作中…</string>
     <string name="generalRequired">必须的</string>
     <string name="generalInvalid">无效的</string>
-    <string name="generalBTConnected">连接到: </string>
+   <string name="generalBTConnected">连接到: </string>
     <string name="generalBTDisConnected">断开连接: </string>
     <string name="noPairedDevices">请在系统设置中将您的测距仪与此设备配对,然后再继续.</string>
 
@@ -256,24 +258,24 @@
     <string name="externalBTGPSSum">配置外部蓝牙GNSS接收机.</string>
     <string name="enableBTGPS">直接连接到外部GNSS接收机</string>
     <string name="enableBTGPSSum">点击启用外部GNSS接收机，并从配对的设备中选择位置信号源。 接收机必须通过蓝牙传输NMEA语句.</string>
-    <string name="notAvailableExternalGPS">选定的外部GNSS接收机不可用。 请检查您的设置或打开外部接收机开关并重新启动应用程序.</string>
+     <string name="notAvailableExternalGPS">选定的外部GNSS接收机不可用。 请检查您的设置或打开外部接收机开关并重新启动应用程序.</string>
     <string name="forceMockLoc">强制模拟位置</string>
     <string name="forceMockLocSum">默认应为关闭。但您如果遇到连接问题，可以尝试打开.</string>
-    <string name="errorMockLoc">看起来模拟位置在Android设置中未启用。\n无法从外部GNSS接收机获取当前位置。\n\n请启用模拟位置并重新启动应用程序以使用外部GNSS接收机作为位置来源.</string>
+   <string name="errorMockLoc">看起来模拟位置在Android设置中未启用。\n无法从外部GNSS接收机获取当前位置。\n\n请启用模拟位置并重新启动应用程序以使用外部GNSS接收机作为位置来源.</string>
     <string name="externalGPSInstruction">说明</string>
-    <string name="externalGPSInstructionSum">1.确保设备（外部GNSS接收机）在Android蓝牙设置中配对。\n2. 在Android“开发者选项”设置中启用“允许模拟位置”（在Android 6中，请将Mapit设置为模拟位置应用程序）\n3. 打开上面的外部GNSS接收机开关并选择外部GNSS接收机。\n4. 返回地图时，位置信息源将自动切换到外部GNSS接收机，您可能需要重新启动应用程序.</string>
+   <string name="externalGPSInstructionSum">1.确保设备（外部GNSS接收机）在Android蓝牙设置中配对。\n2. 在Android“开发者选项”设置中启用“允许模拟位置”（在Android 6中，请将MapIt设置为模拟位置应用程序）\n3. 打开上面的外部GNSS接收机开关并选择外部GNSS接收机。\n4. 返回地图时，位置信息源将自动切换到外部GNSS接收机，您可能需要重新启动应用程序.</string>
     <string name="customEPSGCodeTxt">使用下面提供的EPSG Code</string>
     <string name="customEPSGCodeTxt1">EPSG Code</string>
     <string name="customEPSGCodeTxt2">请输入您的EPSG Code，比如 EPSG:3007</string>
-    <string name="customEPSGCodeSum">请从上面的下拉列表中选择 “Custom: EPSG code” 激活下面的文本字段.</string>
+   <string name="customEPSGCodeSum">请从上面的下拉列表中选择 “Custom: EPSG code” 激活下面的文本字段.</string>
     <string name="gpsLock">GNSS锁定</string>
     <string name="generalNMEAdevice">支持NMEA语句的通用设备</string>
     <string name="sattelitesTxt">卫星</string>
     <string name="sattelitesInSky">天空中可见</string>
     <string name="sattelitesInFix">定位中使用</string>
     <string name="receivedLocation">获得位置</string>
-    <string name="trackingNotificationText">Mapit 轨迹记录服务正在后台运行.</string>
-    <string name="trackingNotificationTitle">Mapit - 正在记录轨迹</string>
+    <string name="trackingNotificationText">MapIt 轨迹记录服务正在后台运行.</string>
+    <string name="trackingNotificationTitle">MapIt - 正在记录轨迹</string>
     <string name="trackingProblem">轨迹跟踪服务 - 轨迹跟踪细节的问题…</string>
     <string name="trackingStopped">轨迹跟踪服务已停止…</string>
     <string name="trackingStarted">轨迹跟踪服务已启动…</string>
@@ -304,7 +306,7 @@
     <string name="blockPointsShifting">阻止点的拖动</string>
     <string name="blockPointsShiftingSum">阻止拖动点特征的可能性（需要重新启动）.</string>
 
-    <string name="addVideo">增加视频</string>
+     <string name="addVideo">增加视频</string>
     <string name="addAudio">增加音频记录</string>
     <string name="addAttachment">增加附件</string>
 
@@ -336,7 +338,7 @@
     <string name="txt_report_issue_sum">报告问题，或者请求新的功能</string>
     <string name="txt_whatsnew">更新</string>
     <string name="txt_whatsnew_sum">新功能和工具…</string>
-    <string name="facebook_title">在Facebook上支持Mapit</string>
+    <string name="facebook_title">在Facebook上支持MapIt</string>
     <string name="facebook_sum">即时访问新闻和公告.</string>
     <string name="txt_aboutMapItGplus">在Google+加入我们</string>
     <string name="txt_openURL">请在浏览器中打开网站</string>
@@ -355,7 +357,7 @@
     <string name="pref_4">默认长度单位</string>
     <string name="pref_5">默认面积单位</string>
     <string name="pref_6">默认单位</string>
-    <string name="txt_remember_map">退出时提醒地图类型</string>
+     <string name="txt_remember_map">退出时提醒地图类型</string>
     <string name="txt_restart">重启应用程序以应用此更改。</string>
     <string name="txt_ok">OK</string>
     <string name="txt_no">No</string>
@@ -371,7 +373,7 @@
     <string name="txt_cancel">取消</string>
     <string  name="notAbleToPurchase">购买不能处理。请检查您的互联网连接或Google帐户设置.</string>
     <string name="show_pictures">显示图片</string>
-    <string name="txt_name">名称</string>
+   <string name="txt_name">名称</string>
     <string name="txt_desc">描述</string>
     <string name="pm_Name_Error">“名称”参数不能为空.</string>
     <string name="pm_add_v">添加值</string>
@@ -406,7 +408,7 @@
     <string name="gps_device_time">设备时间</string>
     <string name="gps_insky">可见卫星数</string>
     <string name="gps_infix">参与定位的卫星数</string>
-    <string name="gps_time_firs_fix">首次定位时间TTFF</string>
+   <string name="gps_time_firs_fix">首次定位时间TTFF</string>
     <string name="gps_time_last_fix">最后一次定位</string>
     <string name="noGPSSignal">GNSS信号</string>
     <string name="noGPSSignalText">目前无法定位，请等待定位信号，或者检查Android定位设置。</string>
@@ -437,7 +439,7 @@
     <string name="please_provide">请提供:</string>
     <string name="add_ags_url">服务链接</string>
     <string name="add_ags_info">只能添加ArcGIS 服务器分块服务。服务的空间参考坐标系必须是Web Mercator投影（ESPG：3857）\n示例服务网址：\nhttp：//services.arcgisonline.com/ArcGIS/rest/services/USA_Topo_Maps/MapServer \n \n若出现问题，请访问我们的网站了解更多详情或联系我们。\n目前不支持安全服务.</string>
-    <string name="add_no_url">必须有服务的链接</string>
+     <string name="add_no_url">必须有服务的链接</string>
     <string name="add_no_name">必须有名称</string>
 
     <string name="time">时间</string>
@@ -449,18 +451,18 @@
     <string name="available_layers">选择一个或多个图层:</string>
     <string name="save_wms_details">将此服务加入MapPad</string>
     <string name="overlay_transparency">重叠层的透明度</string>
-    <string name="wms_info">服务信息</string>
+     <string name="wms_info">服务信息</string>
     <string name="contact_point">联系点: </string>
     <string name="contact_org">组织: </string>
     <string name="contact_address">地址: </string>
     <string name="contact_city">城市: </string>
-    <string name="contact_province">州或省:</string>
+     <string name="contact_province">州或省:</string>
     <string name="contact_post_code">邮编:</string>
     <string name="contact_country">国家:</string>
     <string name="contact_phone">电话:</string>
     <string name="contact_email">电子邮件:</string>
     <string name="wms_fees">费用:</string>
-    <string name="wms_access">访问限制:</string>
+   <string name="wms_access">访问限制:</string>
     <string name="wms_connect">获取WMS细节 - 请稍等…</string>
 
     <string name="edit_wms">编辑WMS服务</string>
@@ -567,7 +569,7 @@
     <string name="averagingPositionsSum">设置用于平均的位置数.</string>
     <string name="maxHDOPAllowedText">最大 HDOP 值</string>
     <string name="maxHDOPAllowedSum">当HDOP小于此值时才计数位置 </string>
-    <string name="minAccuracyAllowedText">最小准确度</string>
+     <string name="minAccuracyAllowedText">最小准确度</string>
     <string name="minAccuracyAllowedSum">当准确度大于此值时才计数位置</string>
     <string name="horizontalAccuracyRMS">水平RMS</string>
     <string name="verticalAccuracyRMS">垂直RMS</string>
@@ -575,7 +577,7 @@
     <string name="stationID">基准站ID</string>
     <string name="correctionAge">数据龄期</string>
     <string name="importWMS">导入WMS</string>
-    <string name="WMSShareText">或者，您可以下载附件中的JSON文件，并使用WMS服务菜单上的“导入”选项将其导入到{0}应用程序中.</string>
+   <string name="WMSShareText">或者，您可以下载附件中的JSON文件，并使用WMS服务菜单上的“导入”选项将其导入到{0}应用程序中.</string>
     <string name="noWMSFiles">没有WMS配置文件可用于导入。请确保包含WMS配置的JSON文件存在于Android Download文件夹或{0}->Import文件夹中。 文件名应以“WMS”开头，扩展名应为“.json”。  </string>
     <string name="exportToFTPInfo">导出到FTP包括所有图层附件，可能需要很长时间。大量的数据可能通过网络传输，建议使用Wi-Fi连接.</string>
     <string name="exportToFTPInfoLayerOnly">正在导出到FTP…</string>
@@ -592,7 +594,7 @@
     <string name="solopt_geoid_model_dialog_title">选择大地水准面模型</string>
     <string name="EGM2008Info"> 1.2014年8月起，请从国家地理空间情报局模型下载文件。文件可以在http://earth-info.nga.mil/GandG/wgs84/gravitymod/egm2008/Small_Endian/Und_min2.5x2.5_egm2008_isw=82_WGS84_TideFree_SE.gz 找到\n\n2. 提取下载的文件：\n\nUnd_min2.5x2.5_egm2008_isw=82_WGS84_TideFree_SE \n\n并将其重命名为：\n\nEGM2008_M25.geoid \n\n3. 将此模型置于{0}->资源文件夹中。</string>
     <string name="testConnection">测试连接</string>
-    <string name="testConnectionSuccess">连接到 {0} 成功!</string>
+   <string name="testConnectionSuccess">连接到 {0} 成功!</string>
     <string name="testConnectionError">错误: \n连接到 {0} 失败! \n请检查您的设置…</string>
 
     <string name="antenna_height_title">天线高: {0} 米</string>
@@ -621,7 +623,7 @@
     <string name="txtNorthing">向北</string>
     <string name="txtUtmZone">UTM 区</string>
 
-    <string name="ImportWithAttributes">导入附带所有已有属性的图层.\n属性集将自动被创建，但所有字段都将被定义为自由输入的文本框。\n如果要将现有几何图形导入到定义了属性集的图层中，请从列表中选择图层并将几何图形导入图层.</string>
+     <string name="ImportWithAttributes">导入附带所有已有属性的图层.\n属性集将自动被创建，但所有字段都将被定义为自由输入的文本框。\n如果要将现有几何图形导入到定义了属性集的图层中，请从列表中选择图层并将几何图形导入图层.</string>
 
     <string name="dropboxConnect">连接到Dropbox</string>
     <string name="dropboxConnectSum">按此授权此应用程序使用DropBox…</string>
@@ -634,7 +636,7 @@
     <string name="internalGPS">内部的GPS</string>
     <string name="mockProvider">模拟位置来源</string>
     <string name="printPDF">作为PDF共享</string>
-    <string name="geoid_custom">要在Mapit中使用本地大地水准面模型，您需要有一个与美国国家大地测量局（* .bin）格式兼容的二进制（低字节序）格式的文件。\n\n兼容文件应重命名为LOCAL_GEOID.bin并放置 {0}->资源文件夹。\n\n请查看https://mapitgis.com/geoid-height-extension 获取更多详细信息.</string>
+    <string name="geoid_custom">要在MapIt中使用本地大地水准面模型，您需要有一个与美国国家大地测量局（* .bin）格式兼容的二进制（低字节序）格式的文件。\n\n兼容文件应重命名为LOCAL_GEOID.bin并放置 {0}->资源文件夹。\n\n请查看https://mapitgis.com/geoid-height-extension 获取更多详细信息.</string>
     <string name="geoidHeightInfo">大地水准面高度</string>
     <string name="orthometric">正交</string>
     <string name="externalGNSSTCP">通过TCP直接连接</string>
@@ -670,7 +672,7 @@
     <string name="useTrimbleMMConnectTitle">Trimble Mobile Manager</string>
     <string name="useTrimbleMMConnectSum">Feed Mapit with location provided by TMM app and your Trimble antenna e.g. Trimble Catalyst</string>
 
-    <string name="geoImagesEmpty">请拷贝 geo-images 到\n设备存储->Mapit-Spatial->OfflineMaps 目录.\n确保同一目录下存在影像图边界描述文件.</string>
+    <string name="geoImagesEmpty">请拷贝 geo-images 到\n设备存储->Mapit-Spatial->OfflineMaps 目录.\n确保同一目录下存在影像图边界描述文件.\n\n更多信息请访问 <a href="http://mapit-gis.com/offline-maps-mapbox-extension">Offline Maps &amp; Mapbox extension</a> .</string>
     <string name="txtRequired">该字段必须填写.</string>
     <string name="txtMultiselect">该字段允许多选.</string>
     <string name="txtUnableToSave">无法保存, 因为部分必填字段空白:\n\n</string>
@@ -685,7 +687,7 @@
     <string name="enableNTRIPConnectionSum">Click to enable Mapit NTRIP Client as location source.</string>
     <string name="enableNTRIPConnection">Mapit NTRIP Client</string>
     <string name="enableNTRIPConnectionLost">Mapit is not able to detect NTRIP Client Output Stream. Please STOP and START NTRIP Service to reconnect.</string>
-    <string name="ntripClientNotInstalled">Mapit GIS NTRIP Client application is not installed. It is a separate application allowing you to use RTK corrected locations in Mapit. If you want to try it out for free for 7 days please install the app now.\n\nMore information:\nhttps://mapitgis.com/mapit-gis-ntrip-client</string>
+    <string name="ntripClientNotInstalled">Mapit GIS NTRIP Client application is not installed. It is a separate application allowing you to use RTK corrected locations in Mapit. If you want to try it out for free for 7 days please install the app now.\n\nMore information:\nhttp://mapit-gis.com/mapit-gis-ntrip-client</string>
     <string name="clearPicturesOnClear">Remove pictures when \"Clear Layer\" pressed</string>
     <string name="rmsMultiplayerForAccuracy">Accuracy as multiplication of HRMS: {0}</string>
     <string name="accuracyAsHRMS">Accuracy as HRMS</string>
@@ -806,7 +808,7 @@
 
     <!-- Licence Request Form -->
     <string name="uniqueDeviceId">设备 Id: </string>
-    <string name="L_please_complete">请详细填写以下内容…</string>
+    <string name="L_please_complete">请详细填写以下内容...</string>
     <string name="L_licenceType_1">授权类型: 一年订阅</string>
     <string name="L_licenceType_2">授权类型: 永久授权</string>
     <string name="L_firstName">名: </string>
@@ -840,25 +842,23 @@
     <string name="useStyleInUse">该样式已使用在字段配置中 - 是否继续?</string>
     <string name="resetStyleAreYouSure">所有的样式会被重置. 是否继续?</string>
     <string name="resetStyleAreYouSureTitle">移除 \"styled\" 状态.</string>
+	
+	 <!-- MISSING CHINESE TRANSLATION -->
+   
+    <string name="wmts_add">添加 WMTS 服务</string>
+    <string name="wmts_add_info">服务必须符合Google缩放级别.\n请输入服务说明配置xml文件的url e.g.\n\nhttps://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/WMTS/1.0.0/WMTSCapabilities.xml\n\nhttp://maps.wien.gv.at/wmts/1.0.0/WMTSCapabilities.xml\n\n</string>
+    <string name="wmts_error_version">目前仅支持 WMTS version 1.0.0 - 请联系服务商获得更多信息.</string>
+    <string name="wmts_setLayer">请选择图层</string>
+    <string name="wmts_service_add">添加 WMTS 图层</string>
+    <string name="wmts_service_notCompatible">该服务和Google Maps不兼容. 请联系服务商获得更多信息.</string>
+    <string name="wmts_noLayers">该服务不包含任何支持的图层. 请联系服务商获得更多信息.</string>
+    <string name="wmts_service_add_URL">WMTS 服务器 URL</string>
+    <string name="wmts_service_connecting">正在连接到服务…</string>
+    <string name="wmts_add_selected">添加已选 WMTS 图层</string>
 
-
-    <!-- MISSING CHINESE TRANSLATION -->
-
-    <string name="wmts_add">Add WMTS service</string>
-    <string name="wmts_add_info">Service must comply with Google zoom levels.\nPlease use URL to the service capabilities e.g.\n\nhttps://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/WMTS/1.0.0/WMTSCapabilities.xml\n\nhttp://maps.wien.gv.at/wmts/1.0.0/WMTSCapabilities.xml\n\n</string>
-    <string name="wmts_error_version">Only WMTS version 1.0.0 is supported at the moment - Please contact the WMTS service provider to get more information.</string>
-    <string name="wmts_setLayer">Please select layer</string>
-    <string name="wmts_service_add">Add WMTS Layer</string>
-    <string name="wmts_service_notCompatible">This Service is not compatible with Google Maps. Please contact your service provider for more info.</string>
-    <string name="wmts_noLayers">This WMTS service does not contain any supported layers. Please contact service provider.</string>
-    <string name="wmts_service_add_URL">WMTS Service URL</string>
-    <string name="wmts_service_connecting">Connecting to service…</string>
-    <string name="wmts_add_selected">Add selected WMTS Layer</string>
-
-    <string name="txt_TianDiTu">Tianditu Basemaps</string>
-    <string name="txt_TianDiTuKey">Tianditu Basemaps Key</string>
-    <string name="txt_TianDiTuKeySub">Provide your own Tianditu Basemaps Key</string>
-
+    <string name="txt_TianDiTu">天地图</string>
+    <string name="txt_TianDiTuKey">天地图授权Key</string>
+    <string name="txt_TianDiTuKeySub">提供你自己的天地图授权Key</string>
+   
     <!-- END OF MISSING CHINESE TRANSLATION -->
-
 </resources>
