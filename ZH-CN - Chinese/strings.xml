@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name_short" translatable="false">Mapit</string>
-    <string name="about_message">Mapit Spatial - Geopackage Manager version {0}\n\nContact us\n\nemail:\nfeedback@mapitgis.com</string>
+    <string name="about_message">Mapit Spatial - Geopackage专业版 {0}\n\n联系我们\n\n邮箱:\nfeedback@mapitgis.com \n\n中文用户联系\n\n邮箱:\ninfo@datagnss.com</string>
     <string name="pm_list_empty3">此字段不能为空，请提供一个名称，并增加一个或多个值，才能保存此项.\n请按 “增加” 按钮将设定值加入列表中.</string>
     <string name="field_value_blank">此字段不能为空.</string>
     <string name="deleteAttWarning">有 {0} 个图层正在使用此属性集 - 操作无法完成.</string>
@@ -730,13 +730,13 @@
     <string name="noGooglePlayServices">不支持该设备，请安装或升级谷歌服务.</string>
     <string name="permissionsError">请授予相关系统权限给Mapit.请重启软件 …</string>
     <string name="geopackegesFiles">请拷贝 .gpkg 文件到\n设备存储根目录->Mapit-Spatial->Geopackages 文件夹.</string>
-    <string name="setActiveGeopackage">Please set active geopackage on \"Geopackages\" tab to see the layers listed here.</string>
+    <string name="setActiveGeopackage">请在 \"Geopackages\" 页面设置当前的 geopackage 后就可以在这里列出来.</string>
     <string name="geopackageNoLayers">选择的 geopackage 不包含任何图层.</string>
-    <string name="geoType">Geometry 类型</string>
-    <string name="txtLayer">Layer</string>
-    <string name="txtLinkField">Link</string>
+    <string name="geoType">地理几何类型</string>
+    <string name="txtLayer">图层</string>
+    <string name="txtLinkField">链接</string>
     <string name="createLayerSR">空间椭球基准将被设置为 WGS84(EPSG:4326), 请检查并设置图层坐标系统为 {0}.</string>
-    <string name="enableZ">Include Z dimension</string>
+    <string name="enableZ">包括Z数据</string>
     <string name="featuresCount">特征点数量</string>
     <string name="createGeopackage">创建 Geopackage</string>
     <string name="valueOutOfRange">输入的值不符合当前字段类型.</string>
@@ -832,7 +832,7 @@
     <string name="setStyleFillColourLabel">设置样式填充颜色</string>
     <string name="styleName">样式名称</string>
     <string name="pressBack">按 \'返回\' 保存样式.</string>
-    <string name="addStyleInfo">按 \'添加\' 添加新的样式To add the style please press the \'Add\' button.</string>
+    <string name="addStyleInfo">按 \'添加\' 添加新的样式.</string>
     <string name="editingStyle">编辑样式</string>
     <string name="deleteStyleError">删除样式 - 错误</string>
     <string name="deletingStyleInfo">该样式当前被用于属性配置中, 操作被取消.</string>
