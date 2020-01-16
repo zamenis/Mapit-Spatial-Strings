@@ -6,13 +6,13 @@ MapitGIS-Strings repository contains app strings for [Mapit Spatial - Geopackage
 Currently supported Languages:
 
 * **DE - German**
-* **ES - Spanish Translation**
-* **PL - Polish Translation**
+* **ES - Spanish**
+* **PL - Polish**
 * **FR - French**
+* **NL - Dutch**
+* **IN - Indonesian**
 
 * **PT - Portuguese** - [Please see missing strings](https://github.com/osedok/Mapit-Spatial-Strings/blob/master/PT%20-%20Portuguese/strings_translation_missing.xml)
 
-
-* **NL - Dutch**  - [Please see missing strings](https://github.com/osedok/Mapit-Spatial-Strings/blob/master/NL%20-%20Dutch/strings_translation_missing.xml) 
 
 If you would like to add new language - please use files from EN - Default English Strings and create new PULL Request or email us wia contact form on our website https://spatial.mapitgis.com/contact-us if you need some help with the process.

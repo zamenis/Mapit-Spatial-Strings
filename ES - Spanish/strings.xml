@@ -766,7 +766,70 @@
     <string name = "setAsDefaultValue">Establecer como valor predeterminado</string>
     <string name = "removeGeopackage">Esta operación no se puede deshacer.\nArchivo de geopackage, todos los datos subyacentes (capas) y atributos serán eliminados.\n¿Estás seguro de que deseas continuar?</string>
 
+
+    <string name="useSxBlueTitle">Herramientas receptor GPS SXblue</string>
+    <string name="useSxBlueSum">Provea localización a Mapit provista receptor GPS SXblue.</string>
+    <string name="coordinatesAsFieldsTitle">Incluya como campos de datos las coordenadas GNSS.</string>
+    <string name="coordinatesAsFieldsSum">Puede exportar en capas de puntos valores X,Y,Z (coordenadas métricas) o \n Latitud, Longitud y Altitud (coordenadas geográficas.</string>
+    <string name="enableMapitFieldsTitle">Active en Mapit opciones [creación y actualización] de campos para una capa</string>
+    <string name="enableMapitFieldsSum">Los siguientes campos :\n\n- fecha de creación,\n- fecha de actualización,\n\n pueden ser agregados a una capa en Mapit.\n\n Pero una vez agregados no pueden ser desabilitados.\n\n Los campos obligatorios en capas agregados por  Mapit no se pueden eliminar y solo la aplicación puede actualizarlos cuando se crean o editan registros.
+        .\n\n Tiene seguridad para continuar?</string>
+    <string name="tableExists">Por favor utilizar un nombre de tabla diferente  a este {0}, por ya exite una tabla con ese nombre.</string>
+
+
+    <!-- STANDALONE LICENSING -->
+
+    <string name="notActive">Puede activar o actualizar la licencia en este dispositivo.\n\ Contacte a su proveedor presionando botón \" Solicitar Licencia de Uso Ahora \".</string>
+    <string name="requestLicenceNow">Solicitar Licencia de Uso Ahora</string>
+    <string name="licenceMailSubject">Gestión de suscripción Licencia Mapit Spatial Pro</string>
+    <string name="emailTextLicence">Deseo ordenar licencia de Mapit Spatial Pro. Autorizo a usar mis siguientes datos de contacto.</string>
+
+    <string name="licenceMaintenance">Mantenimiento de Licencia</string>
+    <string name="licenceMaintenanceSub">Solicite una nueva licencia \n o revise información de su licencia.</string>
+    <string name="licenceValidUntil">Valida hasta: {0}</string>
+    <string name="licenceValidFor">La Suscripción vencerá en {0} dias.</string>
+    <string name="requestLicenceType">Tipo de Licencia</string>
+    <string name="selectLicenceType">Tipo Licencia Seleccionada.</string>
+
+    <!-- Licence Request Form -->
+    <string name="uniqueDeviceId">Identificador de dispositivo: </string>
+    <string name="L_please_complete">Por favor complete los siguientes datos...</string>
+    <string name="L_licenceType_1">Tipo de Licencia: Suscripción Anual</string>
+    <string name="L_firstName">Nombre: </string>
+    <string name="L_lastName">Apellido: </string>
+    <string name="L_companyName">Empresa o Negocio: </string>
+    <string name="L_email">correo electrónico: </string>
+    <string name="activateNowQR">Active ya con código QR</string>
+
+    <!-- LICENSING END -->
+
+
+   <string name="sampleAttributeSet">Ejemplo de formulario de atributos</string>
+   <string name="sampleGeopackage">Geopaquete de muestra.gpkg</string>
+
     <!-- Mapit SPATIAL - Missing Spanish Translation -->
+
+    <string name="L_licenceType_2">Licence type: Permanent Licence (25 years)</string>
+    <string name="licenceTypeLabel">Please select licence type:</string>
+    <string name="L_licenceType_1a">One Year subscription</string>
+    <string name="L_licenceType_2a">Permanent Licence</string>
+
+    <string name="manageStyles">Manage Styles</string>
+    <string name="addStyle">Add Style</string>
+    <string name="setStyleColour">Set Style Colour - this colour will be use to style point and line features as well when used with polygon layer to style the polygon outline.</string>
+    <string name="setStyleFillColour">Set Style Fill Colour - used to style the polygon fill.</string>
+    <string name="setStyleColourLabel">Set Style Colour</string>
+    <string name="setStyleFillColourLabel">Set Style Fill Colour</string>
+    <string name="styleName">Style Name</string>
+    <string name="pressBack">Press \'Back\' to save the style.</string>
+    <string name="addStyleInfo">To add the style please press the \'Add\' button.</string>
+    <string name="editingStyle">Editing Style</string>
+    <string name="deleteStyleError">Delete Style - Error</string>
+    <string name="deletingStyleInfo">This style is currently being used in the attributes configuration. Operation has been cancelled.</string>
+    <string name="useForStyling">Use for styling</string>
+    <string name="useStyleInUse">This style is being used in fields configuration - Do you wish to continue?</string>
+    <string name="resetStyleAreYouSure">All styles set for the field values will be reset. Do you wish to continue?</string>
+    <string name="resetStyleAreYouSureTitle">Remove \"styled\" status.</string>
 
     <!-- Missing End -->
 

@@ -1,5 +1,5 @@
 <resources>
-    <string name="about_message">Mapit Spatial version {0}\n\nContact us\n\nwww: https://mapitgis.com/contact\n\nemail:\nfeedback@mapitgis.com</string>
+    <string name="about_message">Mapit Spatial version {0}\n\nContact \n\nwww: https://mapitgis.com/contact\n\nemail:\nfeedback@mapitgis.com</string>
     <string name="pm_list_empty3">Om veld op te slaan, moet je een naam en één of meer waarden opgeven.\nDruk op de \'Plus\'-knop om waarden toe te voegen aan de lijst.</string>
     <string name="field_value_blank">Waarde voor veld kan niet leeg zijn.</string>
     <string name="deleteAttWarning">Er zijn {0} lagen die deze attributes set gebruiken - Bewerking kan niet voltooid worden.</string>
@@ -21,7 +21,7 @@
     <string name="generalSum">Algemene instellingen gerelateerd aan het uitzicht voor de gebruiker</string>
     <string name="action_settings">Instellingen</string>
     <string name="deleteLayer">Verwijder Laag</string>
-    <string name="deleteLayerInfo">Geselecteerde laag heeft  {0} onderliggende kaartobjecten.\nBen je zeker dat je deze laag en onderliggende gegevens wil verwijderen?</string>
+    <string name="deleteLayerInfo">Geselecteerde laag bevat  {0} kaartobjecten.\nBen je zeker dat je deze laag en bijhorende gegevens wil verwijderen?</string>
     <string name="noLayers">Er zijn geen beschikbare lagen van dit type. Druk aub op de \'Plus\'-knop om een nieuwe laag aan te maken.</string>
     <string name="layerPoint">Punten</string>
     <string name="editLayer">Bewerken Laag</string>
@@ -74,8 +74,8 @@
     <string name="pictureGallery">Afbeeldingen galerij</string>
     <string name="deleteAreYouSure">Ben je zeker - wil je deze gegevens verwijderen?\nDeze bewerking kan niet ongedaan worden!\n</string>
     <string name="deleteAreYouSureValue">Ben je zeker dat je deze waarde wilt verwijderen?\nDit heeft gevolgen voor de gegevens die tot nu toe zijn verzameld voor dit project!\n</string>
-    <string name="deleteAreYouSureAttribute">Ben je zeker dat je dit attribuut en de onderliggende waarden wilt verwijderen?\nDit heeft gevolgen voor de gegevens die tot nu toe zijn verzameld voor dit project!\n</string>
-    <string name="txt_import_no_files">Om gegevens uit bestanden te importeren, kopieer deze aub naar de map\n\nDevice Memory->Mapit-Spatial->Import.\n\n</string>
+    <string name="deleteAreYouSureAttribute">Ben je zeker dat je dit attribuut en de bijhorende waarden wilt verwijderen?\nDit heeft gevolgen voor de gegevens die tot nu toe zijn verzameld voor dit project!\n</string>
+    <string name="txt_import_no_files">Om gegevens uit bestanden te importeren, kopieer deze aub naar de map\n\nApparaatopslag->Mapit-Spatial->Import.\n\n</string>
     <string name="txt_imported_info">{0} is geïmporteerd naar laag{1}</string>
     <string name="txt_loading_info">Verversen van kaartobjecten op de kaart, even geduld&#8230;</string>
     <string name="txt_use_overlay">Gebruik deze overlay</string>
@@ -86,7 +86,7 @@
     <string name="importValues">Importeer waarden</string>
     <string name="importValuesOK">Waarden succesvol geïmporteerd.</string>
     <string name="importValuesError">Fout opgetreden - waarden niet geïmporteerd!</string>
-    <string name="txt_import_no_files_att">Om gegevens uit bestanden te importeren, kopieer deze aub naar de map\n\nDevice Memory->Mapit-Spatial->AttributeSets.\n\nMomenteel worden volgende bestanddtypes ondersteund:\n\n-TXT (elke waarde op nieuwe regel)\n\nBezoek onze website voor meer informatie over de importeer attributen bewerking.</string>
+    <string name="txt_import_no_files_att">Om gegevens uit bestanden te importeren, kopieer deze aub naar de map\n\nApparaatopslag->Mapit-Spatial->AttributeSets.\n\nMomenteel worden volgende bestanddtypes ondersteund:\n\n-TXT (elke waarde op nieuwe regel)\n\nBezoek onze website voor meer informatie over de importeer attributen bewerking.</string>
     <string name="xyzServices">Andere</string>
     <string name="addPolyline">Nieuw Lijn kaartobject</string>
     <string name="addPolygon">Nieuw Vlak kaartobject</string>
@@ -118,7 +118,7 @@
     <string name="offlineMapsExt">Om offline kaarten te gebruiken en toegang te hebben tot MapBox kaarten is een uitbreiding vereist. Wil je de uitbreiding nu aanschaffen?</string>
     <string name="mapBoxMapId">Mapbox MapId (e.g. osedok.l4pfam2o):</string>
     <string name="mapBoxRequired">Naam en MapId zijn vereist.</string>
-    <string name="offlineFiles">Kopieer jouw .mbtiles bestanden naar\nDevice Memory->Mapit-Spatial->OfflineMaps folder.</string>
+    <string name="offlineFiles">Kopieer jouw .mbtiles bestanden naar\nApparaatopslag->Mapit-Spatial->OfflineMaps folder.</string>
     <string name="file_type_Geo_JSON">Geojson bestanden</string>
     <string name="importError">Fout: Er was een probleem met het importeren van kaartobjecten uit bestand.</string>
     <string name="importNull">Dit bestand bevat geen {0} kaartobjecten om te importeren.\nControleer aub uw import bestand of selecteer een andere laag.</string>
@@ -152,7 +152,7 @@
     <string name="maxCharacters">Max {0} karakters</string>
     <string name="txt_label">label</string>
     <string name="clearLayer">Leegmaken Laag</string>
-    <string name="clearLayerInfo">Geselecteerde laag heeft {0} onderliggende kaartobjecten.\nBen je zeker dat je alle onderliggende gegevens wil verwijderen? De laag zal leeggemaakt worden maar niet verwijderd.</string>
+    <string name="clearLayerInfo">Geselecteerde laag bevat {0} kaartobjecten.\nBen je zeker dat je al deze gegevens wil verwijderen? De laag zal leeggemaakt worden maar niet verwijderd.</string>
     <string name="getItNow">Get it Now</string>
     <string name="locationProblem">Plaatsbepaling probleem</string>
     <string name="locationProblemAlert">\'Locatie\' staat niet aan. Dit kan je aanzetten in Android Instellingen</string>
@@ -201,7 +201,7 @@
     <string name="defaultLineFeaturePrefixText">Standaard prefix voor Lijn kaartobject</string>
     <string name="defaultPolygonFeaturePrefixText">Standaard prefix voor Vlak kaartobject</string>
     <string name="importAttributeSetText">Importeer Attributenset</string>
-    <string name="txt_import_no_files_AS">Om Attributenset van bestand te importeren, kopieer bestand naar map:&lt;br>&lt;br>Device Memory>Mapit-Spatial->AttributeSets.&lt;br>&lt;br>Attributenset kan geïmporteerd worden van gestructureerd JSON-bestand.&lt;br>&lt;br>Bezoek onze website voor meer informatie over het importeren van een attributenset.</string>
+    <string name="txt_import_no_files_AS">Om Attributenset van bestand te importeren, kopieer bestand naar map:&lt;br>&lt;br>Apparaatopslag>Mapit-Spatial->AttributeSets.&lt;br>&lt;br>Attributenset kan geïmporteerd worden van gestructureerd JSON-bestand.&lt;br>&lt;br>Bezoek onze website voor meer informatie over het importeren van een attributenset.</string>
     <string name="importAttributeSetNoName">Bestand bevat geen naam eigenschap.</string>
 
     <!--All below To be translated into IT-->
@@ -275,7 +275,7 @@
     <string name="gpsLock">GPS Lock</string>
     <string name="generalNMEAdevice">Generiek toestel dat NMEA standaard ondersteunt</string>
     <string name="sattelitesTxt">Satellieten</string>
-    <string name="sattelitesInSky">In hemel</string>
+    <string name="sattelitesInSky">Aan hemel</string>
     <string name="sattelitesInFix">In fix</string>
     <string name="receivedLocation">Locatie verkregen</string>
     <string name="trackingNotificationText">Mapit opname track service draait op de achtergrond.</string>
@@ -390,12 +390,12 @@
     <string name="txt_srInfo">SR info</string>
     <string name="pm_attributes_p">Kaartobject attributen:</string>
     <string name="share">Deel</string>
-    <string name="txt_export">Export</string>
+    <string name="txt_export">Exporteer</string>
     <string name="cannot_find">Kan niet gevonden worden</string>
     <string name="calling_ws">Web service aanroepen</string>
     <string name="no_network">Internet verbinding vereist</string>
     <string name="searching_for">Zoeken naar </string>
-    <string name="export_type">Export Type</string>
+    <string name="export_type">Type Export</string>
     <string name="txt_export_format">Export Formaat</string>
     <string name="pics_info">Dit punt heeft {0} bijgevoegde afbeeldingen. Deze zijn opgeslaan in map: {1}.</string>
     <string name="search">Zoek</string>
@@ -496,7 +496,7 @@
     <string name="dragModeActive">Sleep merkpunt naar gewenste locatie.</string>
     <string name="trace_no_gps">GPS service is niet beschikbaar, zorg er aub voor dat Locatie ingeschakeld staat in Android Systeem Instellingen.</string>
 
-    <string name="pm_clear">Leegmaken</string>
+    <string name="pm_clear">Maak leeg</string>
     <string name="txt_sort">Sorteren</string>
     <string name="txt_sort_name_asc">Sorteer op Naam: a-z</string>
     <string name="txt_sort_name_desc">Sorteer op Naam: z-a</string>
@@ -701,7 +701,7 @@
     <string name="useTrimbleMMConnectTitle">Trimble Mobile Manager</string>
     <string name="useTrimbleMMConnectSum">Mapit de locatie laten gebruiken voorzien door TMM app en uw Trimble antenne bvb. Trimble Catalyst</string>
 
-    <string name="geoImagesEmpty">Kopieer uw geo-images naar de map\n\nDevice Memory->Mapit-Spatial->OfflineMaps.\nLet erop dat de world bestanden die het geografisch bereik beschrijven in dezelfde map geplaatst worden en ook dezelfde naam hebben als de image zelf.</string>
+    <string name="geoImagesEmpty">Kopieer uw geo-images naar de map\n\nApparaatopslag->Mapit-Spatial->OfflineMaps.\nLet erop dat de world bestanden die het geografisch bereik beschrijven in dezelfde map geplaatst worden en ook dezelfde naam hebben als de image zelf.</string>
     <string name="txtRequired">Dit veld is vereist.</string>
     <string name="txtMultiselect">Dit veld laat meervoudige selecties toe.</string>
     <string name="txtUnableToSave">Kan niet opslaan. Er zijn verplichte velden niet ingevuld op het formulier:\n\n</string>
@@ -760,14 +760,14 @@
     <string name="noGooglePlayServices">Dit apparaat is niet ondersteund. Probeer om Google Play Services te installeren of bij te werken.</string>
     <string name="permissionsError">Je moet bepaalde machtigingen toestaan om MapIt te laten werken.
         Herstart de app aub en accepteer de vereiste machtigingen…</string>
-    <string name="geopackegesFiles">Kopieer aub jouw .gpkg bestanden naar de map \nApparaat Geheugen->Mapit-Spatial->Geopackages.</string>
+    <string name="geopackegesFiles">Kopieer aub jouw .gpkg bestanden naar de map \nApparaatopslag->Mapit-Spatial->Geopackages.</string>
     <string name="setActiveGeopackage">Stel aub een actief geopakket in op de \"Geopakketten\" tab om de kaartlagen hier opgelijst te zien.</string>
     <string name="geopackageNoLayers">Geselecteerd geopakket bevat geen kaartlagen.</string>
     <string name="geoType">Geometrie Type</string>
     <string name="txtLayer">Laag</string>
     <string name="txtLinkField">Koppeling</string>
-    <string name="createLayerSR">Ruimtelijk referentiesysteem wordt ingesteld op WGS84(EPSG:4326), controleer deze optie aub om coördinatensysteem van de kaartlaag in te stellen als {0}.</string>
-    <string name="enableZ">Aanzetten Z dimensie</string>
+    <string name="createLayerSR">Coördinatensysteem wordt standaard ingesteld op WGS84(EPSG:4326), kies deze optie om coördinatensysteem van de laag in te stellen als {0}.</string>
+    <string name="enableZ">Activeer Z dimensie</string>
     <string name="featuresCount">Aantal kaartobjecten</string>
     <string name="createGeopackage">Aanmaken Geopakket</string>
     <string name="valueOutOfRange">Opgegeven waarde komt niet overeen met geselecteerd veldtype.</string>
@@ -782,7 +782,7 @@
     <string name="selectedAttFieldDelete">Geselecteerd Veld zal verwijderd worden uit de laag. Dit kan niet ongedaan gemaakt worden.\nBen je zeker?</string>
     <string name="removeAttributeSetFieldError">Dit veld kan niet verwijderd worden - het is momenteel gekoppeld in volgende lagen:\n\n</string>
     <string name="removeAttributeSetError">Verwijder aub alle velden vooraleer de attributenset te verwijderen.</string>
-    <string name="selectAttFieldLinkNotPossible">Het geselecteerde data type van het veld uit de Attributen Set komt niet overeen met het onderliggende veldtype van de databank. Selecteer aub een ander veld of maak een geldig veld aan in in \'Beheer attributen\'. \nDeze koppeling kan niet opgeslaan worden!</string>
+    <string name="selectAttFieldLinkNotPossible">Het geselecteerde data type van het veld uit de Attributen Set komt niet overeen met het bijhorende veldtype van de databank. Selecteer aub een ander veld of maak een geldig veld aan in in \'Beheer attributen\'. \nDeze koppeling kan niet opgeslaan worden!</string>
     <string name="geopackageNoAttributeSets">Geselecteerde geopakket heeft geen Attributen Sets gedefinieerd, gebruik aub \'Beheer attributen\' om nieuwe attributen set te maken en velden te definiëren, die vervolgens hier gekoppeld kunnen worden.</string>
     <string name="geopackageAttributeSetsNoFields">Kan geen geldige attributen set vinden. Verzeker je ervan dat je de attributen set aangemaakt hebt en dat het geldig gedefinieerde velden bevat.</string>
     <string name="geopackageAttributeSetsEmpty">Je hebt nog geen \'Attributen Set\' aangemaakt voor het geselecteerde geopakket. Druk aub op \'Voeg toe\' of \'Importeer\' (knop met pijl) hieronder.</string>
@@ -801,15 +801,85 @@
     <string name="deleteField">Verwijder Veld</string>
     <string name="deleteFieldProblem">Veld kan niet verwijderd worden voor deze tabel. Er was een probleem met kolomindex id van primaire sleutel en geometrie veld.</string>
 
-    <string name="deviceMemory">Apparaat</string>
+    <string name="deviceMemory">Apparaatopslag</string>
     <string name="setServerPath">Server Path</string>
     <string name="startLayerNumberingFrom">Start nummering kaartobjecten met:</string>
     <string name="startLayerNumberingFromInfo">Deze waarde kan enkel ingesteld worden als de laag leeg is.</string>
     
-    <!-- Mapit SPATIAL Missing in Dutch Below-->
-    
-        
 
+    <string name="exportShapeFilesAs2D">Exporteer SHP file als 2D geometrie</string>
+    <string name="setAsDefaultValue">Instellen als standaard waarde</string>
+    <string name="removeGeopackage">Deze actie kan je niet ongedaan maken. Geopackage bestand en alle bijhorende kaartlagen en attributen zullen verwijderd worden. Ben je zeker dat je wilt verdergaan?</string>
+    <string name="useSxBlueTitle">SXblue ToolBox</string>
+    <string name="useSxBlueSum">Mapit de locatie laten gebruiken voorzien door SXblue ToolBox app en uw SXblue GNSS ontvanger.</string>
+
+
+    
+    
+    
+       
+    
+  <!-- Mapit SPATIAL Missing in Dutch Below-->
+    
+    <string name="coordinatesAsFieldsTitle">Exporteer coördinaten als velden</string>
+    <string name="coordinatesAsFieldsSum">X,Y,Z (geprojecteerd) of Lat, Lon, Alt (geografisch) kolommen zullen toegevoegd worden bij de export van een PUNTEN laag.</string>
+    <string name="enableMapitFieldsTitle">Inschakelen Mapit velden [aangemaakt, bijgewerkt] voor laag</string>
+    <string name="enableMapitFieldsSum">Volgende velden:\n\n- mapit_created_date\n- mapit_updated_date\n\nzullen toegevoegd worden aan de laag.\n\nDeze optie kan niet uitgeschakeld worden.\n\nMapit velden kunnen niet verwijderd worden en kunnen enkel bijgewerkt door de applictie als records worden aangemaakt of gewijzigd.\n\nWil je verdergaan?</string>
+    <string name="tableExists">Gebruik aub een andere naam - tabel met naam {0} bestaat al.</string>
+
+
+    <!-- STANDALONE LICENSING -->
+
+    <string name="notActive">Deze applicatie moet geactiveerd worden op dit toestel of de bestaande licentie moet vernieuwd worden.\n\nContacteer aub de software leverancier door op de knop \"Licentie aanvragen\" te drukken.</string>
+    <string name="requestLicenceNow">Licentie aanvragen</string>
+    <string name="licenceMailSubject">Spatial Pro - Aanvraag Licentie</string>
+    <string name="emailTextLicence">Ik wil graag een Mapit Spatial Pro licentie bestellen. Hieronder vind je mijn contactgegevens.</string>
+
+    <string name="licenceMaintenance">Licentie beheer</string>
+    <string name="licenceMaintenanceSub">Nakijken licentie informatie of aanvragen nieuwe licentie.</string>
+    <string name="licenceValidUntil">Geldig tot: {0}</string>
+    <string name="licenceValidFor">De licentie van de applicatie vervalt in {0} dagen.</string>
+    <string name="requestLicenceType">Licentie type</string>
+    <string name="selectLicenceType">Geselecteerd licentie type.</string>
+
+    <!-- Licence Request Form -->
+    <string name="uniqueDeviceId">Toestel Id: </string>
+    <string name="L_please_complete">Vervolledig aub de details hieronder...</string>
+    <string name="L_licenceType_1">Licentie type: Jaarabonnement</string>
+    <string name="L_licenceType_2">Licentie type: Lange termijn Licentie (25 jaar)</string>
+    <string name="L_firstName">Voornaam: </string>
+    <string name="L_lastName">Achternaam: </string>
+    <string name="L_companyName">Naam bedrijf/organisatie: </string>
+    <string name="L_email">Contact e-mail: </string>
+    <string name="activateNowQR">Activeer Nu met QR code</string>
+    
+    <string name="licenceTypeLabel">Kies aub type licentie:</string>
+    <string name="L_licenceType_1a">Jaarabonnement</string>
+    <string name="L_licenceType_2a">Permanente Licentie</string>
+
+    <!-- LICENSING END -->
+
+    <string name="sampleAttributeSet">Voorbeeld attributen set</string>
+    <string name="sampleGeopackage">Voorbeeld geopackage.gpkg</string>
+
+
+    <string name="manageStyles">Beheer Stijlen</string>
+    <string name="addStyle">Voeg Stijl toe</string>
+    <string name="setStyleColour">Stijl kleur - gebruikt voor kaartobjecten van het type PUNT en LIJN en voor de omranding bij het type VLAK.</string>
+    <string name="setStyleFillColour">Stijl opvul kleur - gebruikt voor de opvulling van een kaartobject van het type VLAK.</string>
+    <string name="setStyleColourLabel">Stijl Kleur</string>
+    <string name="setStyleFillColourLabel">Stijl Opvul Kleur</string>
+    <string name="styleName">Stijl Naam</string>
+    <string name="pressBack">Tik \'Terug\' om de stijl te bewaren.</string>
+    <string name="addStyleInfo">Om een stijl toe te voegen, tik op de \'Plus\' knop.</string>
+    <string name="editingStyle">Wijzigen van Stijl</string>
+    <string name="deleteStyleError">Verwijder Stijl - Fout</string>
+    <string name="deletingStyleInfo">Deze stijl wordt momenteel gebruikt in de attributen configuratie. Handeling is geannuleerd.</string>
+    <string name="useForStyling">Use for styling</string>
+    <string name="useStyleInUse">Deze stijl wordt gebruikt in configuratie van velden - Wil je verdergaan?</string>
+    <string name="resetStyleAreYouSure">Alle stijlen ingesteld voor de veldwaarden worden gereset. Wil je verdergaan?</string>
+    <string name="resetStyleAreYouSureTitle">Verwijder status \"styled\".</string>
+    
     <!-- END of missing -->
 
 </resources>

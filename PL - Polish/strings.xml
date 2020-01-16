@@ -1,13 +1,13 @@
 <resources>
     <string name="about_message">Mapit Spatial wersja {0}\n\nKontakt\n\nEmail: \nkontakt@mapitgis.pl\nwww: \nhttps://spatial.mapitgis.pl</string>
-    <string name="pm_list_empty3">Aby zapisaś pole proszę podać nazwę i dodać przynajmniej jedną wartość.\nProszę nacisnąć przycisk \'Dodaj\' aby dodać nową wartość do listy.</string>
+    <string name="pm_list_empty3">Aby zapisać pole proszę podać nazwę i dodać przynajmniej jedną wartość.\nProszę nacisnąć przycisk \'Dodaj\' aby dodać nową wartość do listy.</string>
     <string name="field_value_blank">Wartość pola nie może być pusta.</string>
     <string name="deleteAttWarning">Istnieje {0} warstwa(warstw) używających ten zbiór atrybutów - operacja nie może być wykonana.</string>
-    <string name="editProjectWarning">Ten projekt zostałużyty w istniejących już pomiarach. Jest zalecane aby nie zmieniać wartości atrybutów w tym momencie.\n\nDane zebrane wcześniej mogą stać się niekonsekwentne.\n\nCzy chcesz kontynuować?</string>
+    <string name="editProjectWarning">Ten projekt został użyty w istniejących już pomiarach. Jest zalecane aby nie zmieniać wartości atrybutów w tym momencie.\n\nDane zebrane wcześniej mogą utracić spójność.\n\nCzy chcesz kontynuować?</string>
     <string name="editAttributeSet">Atrybuty</string>
     <string name="defaultAttributeSet">Domyślny układ atrybutów:</string>
-    <string name="addField">Dodaj Pole</string>
-    <string name="addLayer">Dodaj Warstwę</string>
+    <string name="addField">Dodaj pole</string>
+    <string name="addLayer">Dodaj warstwę</string>
     <string name="drawer_section1">Otwórz istniejącą warstwę</string>
     <string name="drawer_section3">Zarządzanie danymi</string>
     <string name="noPoints">Ta warstwa nie zawiera jeszcze żadnych elementów.\nProszę ustawić warstwę jako \'Aktywną\' i dodać elementy.</string>
@@ -23,17 +23,17 @@
     <string name="noLayers">Brak dostępnych warstw. Naciśnij przycisk \'Dodaj\' aby utworzyć nową warstwę.</string>
     <string name="layerPoint">Punkty</string>
     <string name="editLayer">Edytuj warstwę</string>
-    <string name="exportSubscription">Eksport danych jest dostępny jako płatny dodatek. Czy chesz zakupić dodatek \'Export danych\' teraz?</string>
+    <string name="exportSubscription">Eksport danych jest dostępny jako płatny dodatek. Czy chcesz zakupić dodatek \'Export danych\' teraz?</string>
     <string name="layerLine">Linie</string>
     <string name="localExport">Eksport lokalny</string>
-    <string name="shareExport">Wyslij eksportowany plik</string>
+    <string name="shareExport">Wyślij eksportowany plik</string>
     <string name="surveySettings">Pomiar</string>
     <string name="surveySettingsSum">Ustawienia pomiarów</string>
     <string name="rememberLast">Ostatnio dodany domyślny</string>
     <string name="rememberLastSum">Użyj ostatnio dodanych wartości jako domyślnych</string>
     <string name="layerPoly">Poligony</string>
     <string name="editFeature">Edycja elementu</string>
-    <string name="map_problem">Mapa nie może zostać załądowana&#8230;</string>
+    <string name="map_problem">Mapa nie może zostać załadowana&#8230;</string>
     <string name="drawer_newLayer">Utwórz nową warstwę</string>
     <string name="fields">Pola</string>
     <string name="field">Pola</string>
@@ -42,7 +42,7 @@
     <string name="fieldsList">Lista pól</string>
     <string name="layerFeatures">Elementy warstwy</string>
     <string name="toggleActive">Przełącz status \'Aktywny\'</string>
-    <string name="toggleLayerActive">Czy chesz zmienić status warstwy na \'Aktywny\'?\nNowe elementy utworzone na mapiem zostaną dodane do tej warstwy. Czy chcesz kontynuować? </string>
+    <string name="toggleLayerActive">Czy chcesz zmienić status warstwy na \'Aktywny\'?\nNowe elementy utworzone na mapie zostaną dodane do tej warstwy. Czy chcesz kontynuować? </string>
     <string name="toggleLayerActive1">Czy chcesz usunąć status \'Aktywny\' dla wybranej warstwy?\n.Czy chcesz kontynuować? </string>
     <string name="drawer_manageLayers">Zarządzanie warstwami</string>
     <string name="drawer_manageAttributes">Zarządzanie atrybutami</string>
@@ -65,33 +65,33 @@
     <string name="toolsPL">Warstwa punktowa</string>
     <string name="noAttributes">Brak atrybutów</string>
     <string name="noAttributesDesc">Wybierz tą opcję aby tworzyć elementy posiadające jedynie tytuł i opis.</string>
-    <string name="sampleSurvey">Inwentaryzacja 2018 - Przykład</string>
+    <string name="sampleSurvey">Inwentaryzacja 2018 - przykład</string>
     <string name="sampleSurveyDesc">Przykładowy układ atrybutów - posiada listy dla gatunków i wysokości.</string>
     <string name="samplePointLayer">Przykładowa warstwa punktowa</string>
     <string name="samplePointLayerDesc">Przykładowa warstwa zawierająca listy atrybutów.</string>
-    <string name="sampleNoAttributesLayer">Przykład - wartwa bez atrybutów</string>
+    <string name="sampleNoAttributesLayer">Przykład - warstwa bez atrybutów</string>
     <string name="sampleNoAttributesLayerDesc">Jedynie tytuł i opis będzie dołączony do tworzonych elementów.</string>
 
 
     <string name="pictureGallery">Galeria</string>
     <string name="deleteAreYouSure">Jesteś pewny? - chcesz usunąć te dane?\nTa operacja jest nieodwracalna!\n</string>
-    <string name="deleteAreYouSureValue">Czy chcesz usunąć tą wartość?\nDane zebrane do tej chwili mogą mogą być zniekształcone!\n</string>
+    <string name="deleteAreYouSureValue">Czy chcesz usunąć tą wartość?\nDane zebrane do tej chwili mogą mogą zostać zniekształcone!\n</string>
     <string name="deleteAreYouSureAttribute">Jesteś pewien że chcesz usunąć ten atrybut i powiązane z nim wartości?\nDane zebrane do tej pory mogą zostać zniekształcone!\n</string>
 
     <string name="txt_import_no_files">Aby zaimportować pliki, prosimy skopiować je do katalogu\n\nPAMIEC URZADZENIA->Mapit-Spatial>Import.</string>
-    <string name="txt_imported_info">{0} został zaimportowany do wasrtwy {1}</string>
+    <string name="txt_imported_info">{0} został zaimportowany do warstwy {1}</string>
     <string name="txt_loading_info">Odświerzanie elementów na mapie, proszę czekać&#8230;</string>
     <string name="txt_use_overlay">Użyj tej warstwy</string>
     <string name="txt_dialog_pref">Okno dialogowe</string>
     <string name="txt_dialog_pref_sum">Pokaż ostrzeżenie przy przełączaniu warstw</string>
 
-    <string name="ov_menu_title">Wartwy dla Google Maps</string>
+    <string name="ov_menu_title">Warstwy dla Google Maps</string>
 
     <string name="eulaTitle">End User License Agreement</string>
     <string name="importValues">Importuj wartości</string>
     <string name="importValuesOK">Import zakończony pomyślnie.</string>
     <string name="importValuesError">Wystąpił błąd - wartości nie zostały zaimportowane!</string>
-    <string name="txt_import_no_files_att">Aby zaimportować wartości z pliku, należy skopiować go do folderu\n\nPAMIEC URZADZENIA->Mapit-Spatial>Import>Attributes.\n\nPlik musi posiadać rozszerzenie:\n\n-TXT (każda wartość w nowej lini)\n\nW celu uzyskania wiecej informacji na temat importu atrybutów prosimy o odwiedzenie naszej strony internetowej.</string>
+    <string name="txt_import_no_files_att">Aby zaimportować wartości z pliku, należy skopiować go do folderu\n\nPAMIEC URZADZENIA->Mapit-Spatial>Import>Attributes.\n\nPlik musi posiadać rozszerzenie:\n\n-TXT (każda wartość w nowej linii)\n\nW celu uzyskania więcej informacji na temat importu atrybutów prosimy o odwiedzenie naszej strony internetowej.</string>
     <string name="xyzServices">Inne</string>
     <string name="addPolyline">Nowy element liniowy</string>
     <string name="addPolygon">Nowy element poligonowy</string>
@@ -104,8 +104,8 @@
     <string name="stopEditing">Zatrzymaj edytowanie</string>
     <string name="end">END</string>
     <string name="removeLast">Usuń ostatni</string>
-    <string name="sampleLineLayer">Warstwa Liniowa - Przyklad</string>
-    <string name="samplePolygonLayer">Warstwa Poligonowa - Przykład</string>
+    <string name="sampleLineLayer">Warstwa Liniowa - przyklad</string>
+    <string name="samplePolygonLayer">Warstwa Poligonowa - przykład</string>
     <string name="editFeatureEnd">Czy chcesz zakończyć edycję tego elementu?</string>
     <string name="deleteFeature">Czy chcesz usunąć ten element?</string>
 
@@ -117,7 +117,7 @@
     <string name="addMapboxMap">Dodaj mapę Mapbox</string>
     <string name="mapsOptions">Opcje Mapy</string>
     <string name="mapBoxTokenHint">Wklej lub wpisz token dostępu do Mapboxa</string>
-    <string name="mapBoxValidToken">Mapbox - token dosępu poprawny.</string>
+    <string name="mapBoxValidToken">Mapbox - token dostępu jest poprawny.</string>
     <string name="mapBoxTokenSum">Token dostępu do Mapboxa jest wymagany aby uzyskać dostęp do map Mapboxa.</string>
     <string name="mapBoxTokenError">Token jest nieprawidłowy lub nie może zostać zweryfikowany.&#8230;</string>
     <string name="mapboxTokenSettings">\nProszę ustawić poprawny token dostępu w Ustawieniach->Ustawienia kont w chmurze</string>
@@ -126,21 +126,21 @@
     <string name="offlineFiles">Proszę skopiować pliki .mbtiles do folderu\nPAMIEC URZADZENIA->Mapit-Spatial->OfflineMaps.</string>
 
     <string name="file_type_Geo_JSON">Pliki Geojson</string>
-    <string name="importError">Error: There was a problem with importing features from file.</string>
-    <string name="importNull">This file does not contain any {0} features to import.\nPlease check your import file or select another layer.</string>
-    <string name="mapit_ext_exportData">Export data</string>
-    <string name="more">More information</string>
+    <string name="importError">Wystąpił błąd przy próbie importu obiektów geometrycznych z pliku.</string>
+    <string name="importNull">Plik nie posiada obiektów typu {0}.\nSprawdź plik lub wybierz warstwę o innym typie geometrii.</string>
+    <string name="mapit_ext_exportData">Eksportuj dane</string>
+    <string name="more">Więcej informacji</string>
     <string name="available">Dostępne</string>
-    <string name="exportErrorNoFeatures">Export has failed.\nThe layer is empty.\nPlease add some features to the layer then try again.</string>
-    <string name="loadingGeneralShort">Loading</string>
-    <string name="loadingGeneral">Loading data please wait.</string>
+    <string name="exportErrorNoFeatures">Błąd exportu.\nWarstwa nie posiada żadnych elementów.\nDodaj obiekty do warstwy i spróbuj ponownie.</string>
+    <string name="loadingGeneralShort">Trwa ładowanie</string>
+    <string name="loadingGeneral">Trwa ładowanie danych. Proszę czekać.</string>
 
-    <string name="line_color_transparency">Kolor lini &amp; przezroczystość</string>
+    <string name="line_color_transparency">Kolor linii &amp; przezroczystość</string>
     <string name="poly_color_transparency">Kolor poligonów &amp; przezroczystość</string>
-    <string name="color_line">Kolor lini</string>
-    <string name="lineSize">Linia i Poligon - grubość lini</string>
+    <string name="color_line">Kolor linii</string>
+    <string name="lineSize">Linia i Poligon - grubość linii</string>
     <string name="color_poly">Kolor wypełnienia poligonu</string>
-    <string name="active_color_line">Nowy element - kolor lini</string>
+    <string name="active_color_line">Nowy element - kolor linii</string>
     <string name="active_color_poly">Nowy element - wypełnienie</string>
     <string name="polygonOutlineColor">Kolor granicy poligonu</string>
     <string name="layerColor">Kolor elementów</string>
@@ -151,31 +151,31 @@
     <string name="themeType">Ciemny design</string>
     <string name="setActiveLayer">Zmień aktywną warstwę</string>
     <string name="setActiveLayerNoLayers">Brak dostępnych warstw. </string>
-    <string name="themeTypeInfo">Temat aplikacji zostanie zieniony po ponownym uruchomieniu aplikacji.</string>
+    <string name="themeTypeInfo">Temat aplikacji zostanie zmieniony po ponownym uruchomieniu aplikacji.</string>
 
     <string name="geoidHeight">Wysokość geoidy dla GPS</string>
-    <string name="geoidHeightSum">EGM96 - przybliżona wysokość npm</string>
+    <string name="geoidHeightSum">EGM96 - przybliżona wysokość n.p.m.</string>
     <string name="downloadError">Błąd sciągnięcia pliku. Prosimy spróbować ponownie.</string>
     <string name="geoid_bin">Plik geoidy w formacie *.bin</string>
     <string name="txt_showWaypointsLabels">Etykiety punktów</string>
-    <string name="txt_LinesAndPolysLabels">Etykiety lini i poligonów</string>
+    <string name="txt_LinesAndPolysLabels">Etykiety linii i poligonów</string>
     <string name="maxCharacters">Maksimum {0} znaków</string>
     <string name="txt_label">Etykieta</string>
 
     <string name="clearLayer">Wyczyść warstwę</string>
-    <string name="clearLayerInfo">Wybrana warstwa posiada {0} elementów.\n\nCzy jesteś pewien że chcesz usunąć wszystkie elementy wartswy oraz istniejące załączniki?\n\nDane zostaną usunięte posostawiając definicję warstwy.</string>
+    <string name="clearLayerInfo">Wybrana warstwa posiada {0} elementów.\n\nCzy jesteś pewien, że chcesz usunąć wszystkie elementy wartswy oraz istniejące załączniki?\n\nDane zostaną usunięte pozostawiając definicję warstwy.</string>
     <string name="getItNow">Kup teraz</string>
     <string name="locationProblem">Problem z lokalizacją</string>
     <string name="locationProblemAlert">Lokalizacja GPS jest wyłączona. Czy chcesz zmienić to ustawienie?</string>
     <string name="gpsStopped">Lokalizacja nie jest aktywna. Proszę nacisnąć przycisk \'Centruj na GPS\' aby aktywować ten panel.</string>
     <string name="gpsWaiting">Oczekiwanie na pozycję GPS&#8230;</string>
-    <string name="export_full_path_to_pictures">Exksportuj pełne ścieżki do zdjęć</string>
+    <string name="export_full_path_to_pictures">Eksportuj pełne ścieżki do zdjęć</string>
     <string name="miscellaneous_settings">Pozostałe ustawienia</string>
     <string name="miscellaneous_settings_sum">Inne ustawienia związane z różnymi elementami aplikacji</string>
     <string name="txt_sort_active_first">Aktywna pierwsza</string>
 
     <string name="txt_newPointAsDistanceAndBearing">Metoda domiarów kątowych</string>
-    <string name="txt_newPointAsDistanceAndBearingSum">Dodaj nowe punkty jako dystans i azymut z bieżącej pozycji GPS, punktu bazowego lub cursora mapy</string>
+    <string name="txt_newPointAsDistanceAndBearingSum">Dodaj nowe punkty jako dystans i azymut z bieżącej pozycji GPS, punktu bazowego lub kursora mapy</string>
     <string name="txt_currentGPSLocation">Bieżąca pozycja</string>
     <string name="txt_currentCursorLocation">Położenie kursora mapy</string>
     <string name="txt_or">lub</string>
@@ -185,7 +185,7 @@
 
     <string name="fieldDataType">Typ danych:</string>
     <string name="fieldDefaultValue">Domyślna wartość:</string>
-    <string name="noFieldsForAttribute">Ta warstwa próbuje użyć zestawu atrybutów który nie posiada zdefiniowanych pól.\nOperacje nie może zostać dokończona.\n\nProsimy o sprawdzenie definicji atrybutów w sekcji \'Zarządzaj atrybutami\'.</string>
+    <string name="noFieldsForAttribute">Ta warstwa próbuje użyć zestawu atrybutów, który nie posiada zdefiniowanych pól.\nOperacje nie może zostać dokończona.\n\nProsimy o sprawdzenie definicji atrybutów w sekcji \'Zarządzaj atrybutami\'.</string>
     <string name="labelFeatures">Pokaż etykiety</string>
     <string name="usesAttributes">Atrybuty:</string>
     <string name="LabelField">Etykieta oparta na polu:</string>
@@ -200,7 +200,7 @@
     <string name="inludeBasePointsLayer">Zarządzanie punktami bazy</string>
     <string name="inludeBasePointsLayerSum">Warstwa zawierająca punkty bazy będzie widoczna w sekcji \'Zarządzanie warstwami\'.</string>
     <string name="basePoints">Punkty bazowe</string>
-    <string name="basePointsDesc">Punkty z tej wartwy mogą zostać użyte jako baza dla metody domiarów kątowych.</string>
+    <string name="basePointsDesc">Punkty z tej warstwy mogą zostać użyte jako baza dla metody domiarów kątowych.</string>
     <string name="baseName">BAZA</string>
     <string name="rememberLastName">Ostatnia nazwa domyślna</string>
     <string name="rememberLastNameSum">Ostatnio użyta nazwa elementu dodanego do mapy będzie domyślna</string>
@@ -213,7 +213,7 @@
 
     <string name="exportToDxf">DXF - Tylko geometria</string>
     <string name="defaultPointFeaturePrefixText">Domyślny prefix dla punktów</string>
-    <string name="defaultLineFeaturePrefixText">Domyślny prefix dla lini</string>
+    <string name="defaultLineFeaturePrefixText">Domyślny prefix dla linii</string>
     <string name="defaultPolygonFeaturePrefixText">Domyślny prefix dla poligonów</string>
 
     <string name="importAttributeSetText">Importuj zestaw atrybutów</string>
@@ -225,18 +225,18 @@
     <string name="importAttributeSetNotValid">Eksport nie powiódł się. Ten zestaw atrybutów nie posiada zdefiniowanych pól.</string>
     <string name="importAttributeSetBadFileStructure">Plik importu atrybutów jest uszkodzony lub nie jest w formacie JSON.\n\nImport z pliku nie został zakończony pomyślnie.</string>
     <string name="addsInfoText">Dowolny zakup usunie reklamy.</string>
-    <string name="addOSMTypeService">Dodaj service typu OSM</string>
+    <string name="addOSMTypeService">Dodaj serwis typu OSM</string>
     <string name="navigateto">Naviguj do elementu</string>
     <string name="navTo">Do:</string>
     <string name="turnRight">Skręć w prawo</string>
     <string name="goAhead">Idź naprzód</string>
     <string name="turnLeft">Skręć w lewo</string>
-    <string name="rotateMapNav">Navigacja - Obracaj mapę</string>
+    <string name="rotateMapNav">Nawigacja - Obracaj mapę</string>
     <string name="navigatetoDistance">Dystans: {0}</string>
     <string name="navigatetoBearing">{0}</string>
     <string name="navigatetoWaiting">Oczekiwanie na pozycję GPS&#8230;</string>
-    <string name="addOSMTypeServiceInfo">Aby dodać serwis typu Open Street Map proszę podać nazwę i URL w polach poniżej. Serwis musi być zgodny z  projekcją Web Mercator (ESPG: 3857).\nPrzykłądowy URL dla serwisu typu OSM wygląda jak poniżej:\n\nhttp://b.tile.openstreetmap.org/17/63963/40837.png\n\ngdzie ostatnie sekcje URL zawierają zoom oraz współrzędne x i y dla obrazka.\n\nAby dodać serwis OSM proszę podać jedynie pierwszy człon URL - powinien on wyglądać jak:\n\nhttp://b.tile.openstreetmap.org lub \nhttp://tile.waymarkedtrails.org/hiking\n\nWięcej informacji jest dostępne na naszej stronie.</string>
-    <string name="selectActiveOnly">Selekcja na mapie - Jedynie aktywna wartwa</string>
+    <string name="addOSMTypeServiceInfo">Aby dodać serwis typu Open Street Map proszę podać nazwę i URL w polach poniżej. Serwis musi być zgodny z  projekcją Web Mercator (ESPG: 3857).\nPrzykładowy URL dla serwisu typu OSM wygląda jak poniżej:\n\nhttp://b.tile.openstreetmap.org/17/63963/40837.png\n\ngdzie ostatnie sekcje URL zawierają zoom oraz współrzędne x i y dla obrazka.\n\nAby dodać serwis OSM proszę podać jedynie pierwszy człon URL - powinien on wyglądać jak:\n\nhttp://b.tile.openstreetmap.org lub \nhttp://tile.waymarkedtrails.org/hiking\n\nWięcej informacji jest dostępne na naszej stronie.</string>
+    <string name="selectActiveOnly">Selekcja na mapie - Jedynie aktywna warstwa</string>
     <string name="selectActiveOnlySum">Jedynie elementy z aktywnej warstwy mogą zostać wybrane na mapie</string>
     <string name="measureModeLine">Tryb pomiaru - Odległość</string>
     <string name="measureModeArea">Tryb pomiaru - Powierzchnia</string>
@@ -249,7 +249,7 @@
     <string name="gpsinfoOption">Informacja o GPS</string>
     <string name="noGPSSignal">Sygnał GPS</string>
     <string name="noGPSSignalText">Pozycja GPS jest niedostępna. Sprawdź ustawienia GPS w ustawieniach urządzenia.</string>
-    <string name="trace_no_gps">Serwis GPS jest niedostępny, upewnij się że lokalizaja jest włączona w ustawieniach systemu.</string>
+    <string name="trace_no_gps">Serwis GPS jest niedostępny, upewnij się że lokalizacja jest włączona w ustawieniach systemu.</string>
     <string name="mapscreenshot">Zapisz zrzut ekranu</string>
     <string name="mapscreenshotInfo">Zrzut ekranu mapy jest przygotowywany&#8230;</string>
     <string name="removeVertex">Usuń wybrany wierzchołek</string>
@@ -262,7 +262,7 @@
     <string name="generalInvalid">Niepoprawne</string>
     <string name="generalBTConnected">Połączony z: </string>
     <string name="generalBTDisConnected">Nastąpiło rozłączenie z: </string>
-    <string name="noPairedDevices">Aby kontunuować należy sparowć dalmierz w ustawieniach systemowych.</string>
+    <string name="noPairedDevices">Aby kontynuować należy sparować dalmierz w ustawieniach systemowych.</string>
     <string name="saveToRemovableSD">Lokalizacja zdjęć</string>
     <string name="saveToRemovableSDSum">Zapisz zdjęcia do zewnętrznej karty SD</string>
     <string name="changeLayer">Zmień warstwę</string>
@@ -279,10 +279,10 @@
     <string name="forceMockLocSum">Domyślnie wyłączone. Jeżeli posiadasz problemy z połączeniem możesz spróbować włączyć tą opcję.</string>
     <string name="errorMockLoc">Lokalizacja MOCK nie jest włączona w ustawieniach Androida.\nPozycja z zewnętrznego odbiornika GPS jest niedostępna.\n\nProszę włączyć lokalizację MOCK i zrestartować aplikację.</string>
     <string name="externalGPSInstruction">Instrukcja:</string>
-    <string name="externalGPSInstructionSum">1. Upewnij się że zewnętrzny GPS jest sparowany w ustawieniach Bluetooth Androida.\n2. Włącz lokalizację MOCK w ustawieniach Androida (W Androidzie 6 proszę ustawić Mapit jako domyślną aplikację dla MOCK)\n3. Włącz opcję \'Zewnętrzny GPS\' powyżej i wybierz swój odbiornik z listy sparowanych urządzeń.\n4. Wróć do mapy. Mapit zacznie używać zewnętrzny odbiornik GPS. Czasami restart aplikacji jest konieczny aby nawiązać poprawne połączenie.</string>
+    <string name="externalGPSInstructionSum">1. Upewnij się, że zewnętrzny GPS jest sparowany w ustawieniach Bluetooth Androida.\n2. Włącz lokalizację MOCK w ustawieniach Androida (W Androidzie 6 proszę ustawić Mapit jako domyślną aplikację dla MOCK)\n3. Włącz opcję \'Zewnętrzny GPS\' powyżej i wybierz swój odbiornik z listy sparowanych urządzeń.\n4. Wróć do mapy. Mapit zacznie używać zewnętrznego odbiornika GPS. Czasami restart aplikacji jest konieczny aby nawiązać poprawne połączenie.</string>
     <string name="customEPSGCodeTxt">Użyj kodu EPSG:</string>
     <string name="customEPSGCodeTxt1">Kod EPSG</string>
-    <string name="customEPSGCodeTxt2">Wprowadź kod EPSG n.p. EPSG:3007</string>
+    <string name="customEPSGCodeTxt2">Wprowadź kod EPSG np. EPSG:3007</string>
     <string name="customEPSGCodeSum">Proszę wybrać \'Kod EPSG\' z listy powyżej, aby aktywować pole tekstowe</string>
     <string name="dragModeActive">Przesuń marker</string>
     <string name="file_type_arcjson">Pliki ArcJSON</string>
@@ -290,8 +290,8 @@
     <string name="gpsLock">GPS fix</string>
     <string name="importErrorCRS">Import anulowany:\nPlik który próbujesz zaimportować nie jest w układzie współrzędnych WGS84 (EPSG:4326).</string>
     <string name="receivedLocation">Pozycja</string>
-    <string name="sattelitesInFix">In fix</string>
-    <string name="sattelitesInSky">In sky</string>
+    <string name="sattelitesInFix">Używane</string>
+    <string name="sattelitesInSky">Widoczne</string>
     <string name="sattelitesTxt">Satelity</string>
     <string name="trackingNotificationText">Mapit Spatial - serwis zapisu trasy aktywny</string>
     <string name="trackingNotificationTitle">Mapit Spatial - Zapis trasy</string>
@@ -325,7 +325,7 @@
     <string name="blockPointsShifting">Zablokuj przeciąganie punktów</string>
     <string name="blockPointsShiftingSum">Blokuje możliwość przesuwania punktów na mapie (potrzebny restart)</string>
 
-    <string name="addVideo">Dodaj video</string>
+    <string name="addVideo">Dodaj wideo</string>
     <string name="addAudio">Dodaj nagranie audio</string>
     <string name="addAttachment">Dodaj załącznik</string>
 
@@ -339,7 +339,7 @@
     <string name="datamanagement">Zarządzanie danymi</string>
     <string name="drawer_open">Otwórz panel nawigacyjny</string>
     <string name="drawer_close">Zamknij panel nawigacyjny</string>
-    <string name="pm_add_point">Add point</string>
+    <string name="pm_add_point">Dodaj punkt</string>
     <string name="pref_0">Ustawienia ogólne</string>
     <string name="txt_about">Informacje o aplikacji</string>
     <string name="txt_aboutSum">Informacje ogólne i wsparcie dla aplikacji</string>
@@ -381,7 +381,7 @@
     <string name="txt_no">Nie</string>
     <string name="content_desc1">Nowe funkcje</string>
     <string name="like_us">Polub</string>
-    <string name="txt_rate">Jeżeli jesteś zadowolony z użytkowania {0}, będziemy wdzięczni jeżeli poświecisz swój czas aby ocenic aplikację. \nTwoja ocena pomoże nam udoskonalić aplikację i zaimplementować dodatkowe funkcje. \n\nDziękujemy za wsparcie!</string>
+    <string name="txt_rate">Jeżeli jesteś zadowolony z użytkowania {0}, będziemy wdzięczni jeżeli poświecisz swój czas aby ocenić aplikację. \nTwoja ocena pomoże nam udoskonalić aplikację i zaimplementować dodatkowe funkcje. \n\nDziękujemy za wsparcie!</string>
     <string name="generic_confirm_title">Jesteś pewny?</string>
     <string name="pm_list_empty2">Aby dodać pole proszę kliknąć przycisk \'Dodaj\' w prawym dolnym rogu.</string>
     <string name="txt_edit">Edytuj</string>
@@ -393,7 +393,7 @@
     <string name="show_pictures">Pokaż załączniki</string>
     <string name="txt_name">Nazwa</string>
     <string name="txt_desc">Opis</string>
-    <string name="pm_Name_Error">Parametr \'Nazwa\' nie możę pozostać pusty.</string>
+    <string name="pm_Name_Error">Parametr \'Nazwa\' jest wymagany.</string>
     <string name="pm_add_v">Dodaj wartość</string>
     <string name="pm_edit_value">Edytuj wartość</string>
     <string name="pm_attribute_values">Wartości:</string>
@@ -425,7 +425,7 @@
     <string name="gps_device_time">Czas urządzenia</string>
     <string name="gps_insky">Sat widoczne</string>
     <string name="gps_infix">Sat używane</string>
-    <string name="gps_time_firs_fix">Czas do pierwszego pozycji</string>
+    <string name="gps_time_firs_fix">Czas do pierwszej pozycji</string>
     <string name="gps_time_last_fix">Czas od ostatniej pozycji</string>
 
     <string name="txt_bearing">Azymut</string>
@@ -443,7 +443,7 @@
     <string name="wms_clear">Usuń nakładkę mapy</string>
     <string name="wms_manage">Zarządzaj serwisami</string>
     <string name="wms_services">WMS</string>
-    <string name="ESRI_maps">Serwisy esri</string>
+    <string name="ESRI_maps">Serwisy ESRI</string>
     <string name="hide">Ukryj</string>
     <string name="show_predefined">Przywróć zdefiniowane serwisy</string>
     <string name="add_ags">Dodaj AGS Tiled serwis</string>
@@ -463,12 +463,12 @@
     <string name="save_wms_details">Dodaj serwis do MapPad\'a</string>
     <string name="overlay_transparency">Przezroczystość warstw</string>
     <string name="wms_info">Informacja o serwisie</string>
-    <string name="contact_point">Punkt kontactowy: </string>
+    <string name="contact_point">Punkt kontaktowy: </string>
     <string name="contact_org">Organizacja: </string>
     <string name="contact_address">Adres: </string>
     <string name="contact_city">Miasto: </string>
     <string name="contact_province">Obszar administracyjny:</string>
-    <string name="contact_post_code">Kod Pocztowy:</string>
+    <string name="contact_post_code">Kod pocztowy:</string>
     <string name="contact_country">Państwo:</string>
     <string name="contact_phone">Telefon:</string>
     <string name="contact_email">E-mail:</string>
@@ -490,14 +490,14 @@
     <string name="txt_selected">Wybrana wartość</string>
 
     <string name="txt_bingpref">Mapy Bing</string>
-    <string name="pref_16">Klucz Bing Map</string>
+    <string name="pref_16">Klucz Map Bing</string>
     <string name="txt_bingnokey">Ustaw własny klucz Bing, aby przyspieszyć wczytywanie map typu Bing.</string>
     <string name="txt_bingprefterms">Zasady użytkowania</string>
     <string name="txt_bingprefabout">O dostawcy danych</string>
-    <string name="txt_bingkeyok">Aplikacja używa twojego klucza Bing Map.</string>
+    <string name="txt_bingkeyok">Aplikacja używa twojego klucza Map Bing.</string>
     <string name="txt_bingkeycheck">Sprawdzanie poprawności klucza.</string>
-    <string name="txt_bingkeyerror">Wprowadzony klucz jest niepoprawny lub nie może zostać zwaryfikowany.</string>
-    <string name="txt_bingkeyrequired">Bing Map key is required to use the Bing Maps layers. Please set one in the General Setting section.</string>
+    <string name="txt_bingkeyerror">Wprowadzony klucz jest niepoprawny lub nie może zostać zweryfikowany.</string>
+    <string name="txt_bingkeyrequired">Klucz Map Bing jest wymagany aby korzystać z podkłądów mapowych typu Bing. Klucz można ustawić w Ustawieniach Ogólnych aplikacji.</string>
 
 
     <string name="txt_sort">Sortuj</string>
@@ -521,7 +521,7 @@
     <string name="txt_seconds">sekund</string>
     <string name="txt_tracking_min_distance">Minimalna odlegość między punktami.</string>
     <string name="txt_tracking_distance">Interwał odległości.</string>
-    <string name="txt_info10">Nie pokazuj wiecej tej informacji.</string>
+    <string name="txt_info10">Nie pokazuj więcej tej informacji.</string>
 
     <string name="intermediateDistance">Etykiety pomiaru</string>
     <string name="intermediateDistanceSumOn">Pokaż etykiety cząstkowego pomiaru odległości. </string>
@@ -533,23 +533,23 @@
     <string name="exporting">Eksportowanie</string>
     <string name="txt_processing_sum">Trwa przetwarzanie danych&#8230;</string>
 
-    <string name="exportSuccess">Dane zostaly zapisane w serwisie Dropbox.</string>
+    <string name="exportSuccess">Dane zostały zapisane w serwisie Dropbox.</string>
     <string name="remote_operation">Operacja zdalna</string>
     <string name="remote_operation_delete">Trwa usuwanie pliku&#8230;</string>
     <string name="remote_operation_error">Wystąpił błąd podczas wykonywania operacji zdalnej.</string>
     <string name="importDropBox">Dropbox</string>
     <string name="cloudAccounts">Konta w chmurze</string>
-    <string name="cloudAccountsSum">Google, Bing, Dropbox settings&#8230;</string>
+    <string name="cloudAccountsSum">Ustawienia Google, Bing i Dropbox&#8230;</string>
     <string name="importDropBoxConnect">Połączenie Dropbox</string>
     <string name="dropBoxRemove">Usuń konfigurację Dropbox</string>
     <string name="dropBoxRemoveSettings">Naciśnij aby zresetować konfigurację serwisu.</string>
-    <string name="dropBoxRemoveAlert">Czy jesteś pewny że chcesz usunąć bierzące ustawienia?</string>
+    <string name="dropBoxRemoveAlert">Czy jesteś pewny że chcesz usunąć bieżące ustawienia?</string>
     <string name="exportDropBox">Wybrany plik jest wysyłany na konto Dropbox&#8230;\nProszę czekać.</string>
     <string name="importDropBoxLoading">Wczytywanie plików&#8230;\nProszę czekać.</string>
     <string name="DropBoxLinked">Konto dropbox zostało powiązane z aplikacją, spróbuj ponownie wysłać plik.</string>
     <string name="importDropBoxNone">Pliki zdalnego folderu Dropbox->Apps zostaną wylistowane.</string>
     <string name="exportAttributes">Atrybuty</string>
-    <string name="downloadingResources">Trwa sciąganie dodatkowych plików - Proszę czekać&#8230;</string>
+    <string name="downloadingResources">Trwa ściąganie dodatkowych plików - Proszę czekać&#8230;</string>
 
 
     <string name="remoteExport">Połączenia zdalne</string>
@@ -561,7 +561,7 @@
     <string name="serverIPTitle">Serwer (Adres IP)</string>
     <string name="serverIPSum">Nazwa serwera lub adres IP</string>
     <string name="serverPort">Port</string>
-    <string name="serverPortSum">Port nasłuch bazy danych</string>
+    <string name="serverPortSum">Port nasłuchu bazy danych</string>
     <string name="serverUsername">Użytkownik</string>
     <string name="serverPassword">Hasło</string>
     <string name="pgDbNameText">Nazwa bazy danych</string>
@@ -793,6 +793,67 @@
     <string name="exportShapeFilesAs2D">Eksportuj plik SHP jako geometrię 2D</string>
     <string name="setAsDefaultValue">Ustaw jako domyślną wartość</string>
     <string name="removeGeopackage">Ta operacja jest nieodwracalna. Plik GeoPackage oraz wszystkie dane (warstwy) oraz atrybuty zostaną usunięte. Czy jesteś pewny że chcesz kontynuować?</string>
+    <string name="useSxBlueTitle">SXblue ToolBox</string>
+    <string name="useSxBlueSum">Użyj pozycję przekazywaną przez aplikację SXblue ToolBox.</string>
+    <string name="coordinatesAsFieldsTitle">Exportuj współrzędne jako oddzielne pola.</string>
+    <string name="coordinatesAsFieldsSum">Pola X,Y,Z  lub Lat, Lon, Alt zostaną dodane podczas ekasportu warstw punktowych.</string>
+    <string name="enableMapitFieldsTitle">Dołącz pola Mapit [utworzono, zaktualizowano] dla warstwy.</string>
+    <string name="enableMapitFieldsSum">Następujące pola:\n\n- mapit_created_date\n- mapit_updated_date\n\nzostaną dodane do warstwy.\n\nTa opcja nie może być zmieniona po aktywacji.\n\nDodane pola nie mogą zostać usunięte i są aktualizowane jedynie przez aplikację podczas tworzenia lub edytowania recordów.\n\nCzy chcesz kontynuować?</string>
+    <string name="tableExists">Proszę użyć innej nazwy - warstwa o nazwie {0} już istnieje.</string>
+
+
+
+
+    <!-- STANDALONE LICENSING -->
+    <string name="notActive">Aplikacja Mapit Spatial musi zostać aktywowana na tym urządzeniu lub obecna licencja odnowiona.\n\nProszę skontaktować się z dostawcą oprogramowania poprzez naciśnięcie przycisku \"Prośba o aktywację\".</string>
+    <string name="requestLicenceNow">Prośba o aktywację</string>
+
+    <string name="licenceMailSubject">Mapit Spatial Pro - Prośba o aktywację urządzenia</string>
+    <string name="emailTextLicence">Jestem zainteresowany zakupem licencji Mapit Spatial Pro. Dane kontaktowe dostępne są poniżej.</string>
+
+    <string name="licenceMaintenance">Zarządzanie licencją</string>
+    <string name="licenceMaintenanceSub">Sprawdź ważność licencji lub wyślij żądanie odnowienia.</string>
+    <string name="licenceValidUntil">Ważna do: {0}</string>
+    <string name="licenceValidFor">Aplikacja pozostanie aktywna {0} dni.</string>
+    <string name="requestLicenceType">Typ licencji</string>
+    <string name="selectLicenceType">Wybrany typ licencji.</string>
+
+    <!-- Licence Request Form -->
+    <string name="uniqueDeviceId">ID Urzączenia: </string>
+    <string name="L_please_complete">Proszę uzupełnić brakujące dane…</string>
+    <string name="L_licenceType_1">Typ licencji: Subskrypcja 1 rok</string>
+    <string name="L_licenceType_2">Typ Licencji: Licencja stała</string>
+    <string name="L_firstName">Imię: </string>
+    <string name="L_lastName">Nazwisko: </string>
+    <string name="L_companyName">Nazwa Firmy: </string>
+    <string name="L_email">Adres e-mail: </string>
+    <string name="activateNowQR">Aktywuj kodem QR</string>
+
+    <string name="licenceTypeLabel">Proszę wybrać typ licencji:</string>
+    <string name="L_licenceType_1a">Subskrypcja 1 rok</string>
+    <string name="L_licenceType_2a">Licencja stała</string>
+
+    <!-- LICENSING END -->
+
+    <string name="sampleAttributeSet">Przykładowy zestaw atrybutów</string>
+    <string name="sampleGeopackage">Test Geopackage.gpkg</string>
+
+    <string name="manageStyles">Zarządzanie Stylami</string>
+    <string name="addStyle">Dodaj Styl</string>
+    <string name="setStyleColour">Kolor - wybrany kolor zostanie użyty do renderowania obiektów punktowych i liniowych jak również do renderowania granic obiektów polygonowych.</string>
+    <string name="setStyleFillColour">Kolor wypełnienia - wybrany kolor zostanie użyty do renderowania wypełnień obiektów polygonowych.</string>
+    <string name="setStyleColourLabel">Definiowanie kolorów stylu</string>
+    <string name="setStyleFillColourLabel">Ustaw kolor wypełnienia</string>
+    <string name="styleName">Nazwa stylu</string>
+    <string name="pressBack">Kliknij \'Wstecz\' aby zapisać definicję stylu.</string>
+    <string name="addStyleInfo">Aby dodać nowy styl proszę kliknąć przycisk \'Dodaj\'.</string>
+    <string name="editingStyle">Tryb edycji stylu</string>
+    <string name="deleteStyleError">Usuwanie stylu - Błąd</string>
+    <string name="deletingStyleInfo">Wybrany styl jest obecnie używany w konfiguracji atrybutów. Operacja została anulowana.</string>
+    <string name="useForStyling">Użyj do symbolizacji</string>
+    <string name="useStyleInUse">Wybrany styl jest używany w konfiguracji pola - Czy jesteś pewny że chcesz kontynuować?</string>
+    <string name="resetStyleAreYouSure">Style zdefiniowane dla wartości pola zostaną zresetowane. Czy jesteś pewny że chcesz kontynuować?</string>
+    <string name="resetStyleAreYouSureTitle">Usuć status \"pole symbolizacji\".</string>
 
     <!-- Mapit SPATIAL - Missing Polish Translation -->
 
