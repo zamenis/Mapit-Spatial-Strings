@@ -5,12 +5,15 @@ MapitGIS-Strings repository contains app strings for [Mapit Spatial - Geopackage
 
 Currently supported Languages:
 
+* **CS - Czech**
 * **DE - German**
 * **ES - Spanish**
 * **PL - Polish**
 * **FR - French**
 * **NL - Dutch**
 * **IN - Indonesian**
+* **ZH-CN - Chinese**
+* **ZH-TW(HK) - Chinese Traditional**
 
 * **PT - Portuguese** - [Please see missing strings](https://github.com/osedok/Mapit-Spatial-Strings/blob/master/PT%20-%20Portuguese/strings_translation_missing.xml)
 
