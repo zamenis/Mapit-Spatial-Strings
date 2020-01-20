@@ -1,0 +1,869 @@
+<resources>
+    <string name="app_name_short" translatable="false">Mapit</string>
+    <string name="about_message">Mapit Spatial - Geopackage Manager verze {0}\n\nKontaktujte nás\n\nemail:\nfeedback@mapitgis.com</string>
+    <string name="pm_list_empty3">Chcete-li uložit pole, musíte zadat jméno a přidat jednu nebo více hodnot.\nStiskněte tlačítko \'Přidat\' pro přidání hodnot do seznamu.</string>
+    <string name="field_value_blank">Pole hodnot nemůže být prázdné.</string>
+    <string name="deleteAttWarning">Existuje(í) {0} vrstva(y)používající toto nastavení atributů - Operace nemůže být dokončena.</string>
+    <string name="editProjectWarning">Pokoušíte se upravit projekt, který obsahuje podkladová data. Doporučuje se, abyste nyní neměnili atributy.\n\nVaše stávající data mohou být v rozporu s novými definicemi.\n\nOpravdu chcete pokračovat?</string>
+    <string name="editAttributeSet">Upravit atribut</string>
+    <string name="defaultAttributeSet">Výchozí nastavení atributu:</string>
+    <string name="addField">Přidat pole</string>
+    <string name="addLayer">Přidat vrstvu</string>
+    <string name="addFeature">Přidat funkci</string>
+    <string name="drawer_section1">Otevřít existující vrstvu</string>
+    <string name="drawer_section3">Správa dat</string>
+    <string name="noPoints">Tato vrstva neobsahuje žádné funkce.\nProsím změňte status této vrstvy na aktivní a poté se vraťe zpět do mapy a přidejte funkce.</string>
+    <string name="layerType">Typ vrstvy:</string>
+    <string name="none">Žádný</string>
+    <string name="layerActive">Aktivovat vrstvu</string>
+    <string name="navigation_drawer_open">Otevřít navigační panel</string>
+    <string name="navigation_drawer_close">Zavřít navigační panel</string>
+    <string name="action_example">Příklad akce</string>
+    <string name="generalSum">Obecné nastavení uživatelského prostředí</string>
+    <string name="action_settings">Nastavení</string>
+    <string name="deleteLayer">Vymazat vrstvu</string>
+    <string name="deleteLayerInfo">Vybraná vrstva obsahuje {0} prvků.\nOpravdu chcete tuto vrstvu a všechny její přílohy odstranit?</string>
+    <string name="noLayers">Žádné vrstvy tohoto typu nesjou k dispozici. Pro vytvoření nové vrstvy stiskněte tlačítko \'Přidat\'.</string>
+    <string name="layerPoint">Body</string>
+    <string name="editLayer">Upravit vrstvu</string>
+    <string name="exportSubscription">Export je k dispozici pouze jako placené rozšíření. Chcete nyní koupit toto rozšíření, aby jste mohli exportovat a sdílet data?</string>
+    <string name="layerLine">Linie</string>
+    <string name="localExport">Exportovat do lokálního zařízení</string>
+    <string name="shareExport">Sdílet exportovaný soubor</string>
+    <string name="surveySettings">Mapování</string>
+    <string name="surveySettingsSum">Nastavení související s mapováním</string>
+    <string name="rememberLast">Poslední přidané atributy jako výchozí</string>
+    <string name="rememberLastSum">Zobrazí poslední přidané atributy jako výchozí</string>
+    <string name="layerPoly">Polygony</string>
+    <string name="editFeature">Upravit prvek</string>
+    <string name="map_problem">Mapa nemůže být nahrána&#8230;</string>
+    <string name="drawer_newLayer">Vytvořit novou vrstvu</string>
+    <string name="fields">Pole</string>
+     <string name="field">Pole</string>
+    <string name="activeLayer">Aktivní vrstva</string>
+    <string name="fieldValues">Hodnoty pole:</string>
+    <string name="fieldsList">Seznam polí</string>
+    <string name="layerFeatures">Vlastnosti vrstvy</string>
+    <string name="toggleActive">Přepnout aktivní</string>
+    <string name="toggleLayerActive">Chcete změnit stav této vrstvy na \'Aktivní\'?\nNové prvky vytvořené na mapě budou přidány do této vrstvy.Přejete si pokračovat? </string>
+    <string name="toggleLayerActive1">Chcete odstranit status \'Aktivní\' pro vybranou vrstvu?\nNové prvky vytvořené na mapě nebudou přidány do této vrstvy.Přejete si pokračovat? </string>
+    <string name="drawer_manageLayers">Správa vrstev</string>
+    <string name="drawer_manageAttributes">Správa atributů</string>
+    <string name="featuresList">Vlastnosti</string>
+    <string name="addPicture">Přidat obrázek</string>
+    <string name="zoomTo">Přiblížit na</string>
+    <string name="addAttributeSet">Přidat sadu atributů</string>
+    <string name="pm_add_info">Uložte název a popis souboru atributů a vytvořte ID. Když je nový název uložen, vyberte jej ze seznamu a stiskem \'Upravit\' definujte pole atributů.</string>
+    <string name="noFeatures">Tato vrstva zatím nemá žádné prvky.\nPro přidání prosím aktivujte tuto vrstvu a zaznamenejte na mapě nějaká data.</string>
+    <string name="whatsNewText">Upřednostňujete MapIt ve vašem vlastním jazyce? Pak prosím navštivte http://mapit-gis.com/translations pro více detailů.\n\nChangelog:\nhttp://mapit-gis.com/changelog\n\n</string>
+    <string name="txt_aboutMapIt">O aplikaci MapIt</string>
+    <string name="txt_aboutMapItSum">Informace o verzi a kontaktní údaje</string>
+    <string name="addAttributeAsFreeText">Toto pole můžete také přidat jako textové - v tomto případě nejsou hodnoty vyžadovány.</string>
+    <string name="txtScalar">Toto pole je textové</string>
+    <string name="txtGPSLost">Signál GPS byl ztracen.</string>
+    <string name="productExtensions">Dostupná rozšíření</string>
+    <string name="tools">Nástroje</string>
+    <string name="toolsPL">Bodová vrstva</string>
+    <string name="noAttributes">Žádné atributy</string>
+    <string name="noAttributesDesc">Tuto možnost vyberte, chcete-li vytvořit prvek pouze s jednoduchým názvem a popisem.</string>
+    <string name="sampleSurvey">Průzkum stromů 2018 - ukázka</string>
+    <string name="sampleSurveyDesc">Vzorová sada atributů - obsahuje rozbalovací seznam pro druhy a výšku.</string>
+
+    <string name="samplePointLayer">Vzorová bodová vrstva</string>
+    <string name="sampleLineLayer">Vzorová liniová vrstva</string>
+    <string name="samplePolygonLayer">Vzorová polygonová vrstva</string>
+
+    <string name="samplePointLayerDesc">Vzorová bodová vrstva s rozablovacími atributy.</string>
+    <string name="sampleNoAttributesLayer">Vzorová vrstva bez atributů</string>
+    <string name="sampleNoAttributesLayerDesc">K vytvořeným prvkům bude připojeno pouze jmnéno a popis.</string>
+    <string name="pictureGallery">Obrázková galerie</string>
+    <string name="deleteAreYouSure">Opravdu chcete odstranit tato data?\nTato operace nemůže být vrácena!\n</string>
+    <string name="deleteAreYouSureValue">Opravdu chcete odstranit tuto hodnotu?\nBudou ovlivněna data dosud shromážděná pro tento projekt!\n</string>
+    <string name="deleteAreYouSureAttribute">Opravdu chcete smazat tento atribut a jeho podřízené hodnoty?\nBudou ovlivněna data dosud shromážděná pro tento projekt!\n</string>
+    <string name="txt_import_no_files">Chcete-li importovat data ze souborů, zkopírujte je do adresáře\n\nPaměť zařízení->Mapit-Spatial->Import.\n\nV současné době jsou podporovány tyto typy souborů:\n\n-CSV (lat,lon,name) pro body, KML a geojson pro body, linie a polygony.\n\nPro více informací o importu navštivte naše internetové stránky.</string>
+    <string name="txt_imported_info">{0} prvků bylo importováno do vrstvy {1}</string>
+    <string name="txt_loading_info">Obnovuji mapu, prosím čekejte&#8230;</string>
+    <string name="txt_use_overlay">Použít překryvnou vrstvu</string>
+    <string name="txt_dialog_pref">Varovné okno</string>
+    <string name="txt_dialog_pref_sum">Upozornění při přepínání vrstev</string>
+    <string name="ov_menu_title">Překryvné Google mapy</string>
+    <string name="eulaTitle">Licenční smlouva s koncovým uživatelem</string>
+    <string name="importValues">Import hodnot</string>
+    <string name="importValuesOK">Hodnoty byly úspěšně importovány.</string>
+    <string name="importValuesError">Došlo k chybě - hodnoty nebyly importovány!</string>
+    <string name="txt_import_no_files_att">Chcete-li importovat data ze souborů, zkopírujte je do adresáře\n\nPaměť zařízení->Mapit-Spatial->AttributeSets.\n\nV současné době jsou podporovány tyto typy souborů:\n\n-TXT (každá hodnota na novém řádku)\n\nPro více informací o importu navštivte naše internetové stránky.</string>
+    <string name="xyzServices">Ostatní</string>
+    <string name="addPolyline">Nová křivka</string>
+    <string name="addPolygon">Nový polygon</string>
+    <string name="addVertex">Přidat vrchol</string>
+    <string name="lineName">Linie</string>
+    <string name="polygonName">Polygon</string>
+    <string name="pointName">Bod</string>
+    <string name="creating">Vytváření</string>
+    <string name="mode">Režim</string>
+    <string name="stopEditing">Zastavit úpravy</string>
+    <string name="end">KONEC</string>
+    <string name="removeLast">Odstranit poslední</string>
+    <string name="editFeatureEnd">Chcete ukončit editování tohoto prvku?</string>
+    <string name="deleteFeature">Chcete odstranit tento prvek?</string>
+    <string name="offlineMapsMapBox">Offline mapy</string>
+    <string name="mapBox">Mapbox</string>
+    <string name="offlineMaps">Offline mapy</string>
+    <string name="mapBoxToken">Mapbox přístup</string>
+    <string name="goToSettings">Jdi do Nastavení</string>
+    <string name="addMapboxMap">Přidat novou mapu Mapboxu</string>
+    <string name="mapsOptions">Nastavení mapy</string>
+    <string name="mapBoxTokenHint">Vložte nebo zadejte typ přístupu Mapbox</string>
+    <string name="mapBoxValidToken">Přístup Mapbox byl nastaven. Nyní můžete používat mapy Mapbox.</string>
+    <string name="mapBoxTokenSum">Pro použití služeb Mapbox je vyžadován přístup.</string>
+    <string name="mapBoxTokenError">Poskytnuté informace nejsou platné nebo nemůžou být ověřeny&#8230;</string>
+    <string name="mapboxTokenSettings">\nProsím zadejte platný přístup Mapbox v Nastavení->Cloudové účty</string>
+    <string name="mapBoxMapId">Mapbox MapId (e.g. osedok.l4pfam2o):</string>
+    <string name="mapBoxRequired">Je vyžadováno jméno a MapID.</string>
+    <string name="offlineFiles">Prosím, zkopírujte soubor .mbtiles do adresáře\nPaměť zařízení->Mapit-Spatial->OfflineMaps.</string>
+    <string name="file_type_Geo_JSON">Soubory Geojson</string>
+    <string name="importError">Chyba: Problém s importováním prvků ze souboru.</string>
+    <string name="importNull">Tento soubor neobsahuje žádné {0} prvky k importu.\nProsím zkontrolujte importovaný soubor nebo vyberte jinou vrstvu.</string>
+    <string name="mapit_ext_exportData">Export dat</string>
+    <string name="more">Více informací</string>
+    <string name="available">Dostupné</string>
+    <string name="exportErrorNoFeatures">Export selhal.\nVrstva je prázdná.\nProsím přidejte prvky do vrstvy a zkuste to znovu.</string>
+    <string name="loadingGeneralShort">Načítám</string>
+    <string name="loadingGeneral">Načítám data, prosím čekejte.</string>
+    <string name="line_color_transparency">Barva &amp; průhlednost linie</string>
+    <string name="poly_color_transparency">Barva &amp; průhlednost polygonu</string>
+    <string name="color_line">Barva linie</string>
+    <string name="lineSize">Velikost linie a obrysu polygonu</string>
+    <string name="color_poly">Barva výplně</string>
+    <string name="active_color_line">Nastavit barvu linie</string>
+    <string name="active_color_poly">Nastavit barvu výplně</string>
+    <string name="polygonOutlineColor">Barva obrysu</string>
+    <string name="layerColor">Barva prvku</string>
+    <string name="layerVisible">Viditelná vrstva</string>
+    <string name="layerVisibleToggle">Přepnout na viditelné</string>
+    <string name="pictureFormat">Výchozí formát obrázků</string>
+    <string name="themeType">Tmavý vzhled</string>
+    <string name="setActiveLayer">Nastavit aktivní vrstvu</string>
+    <string name="setActiveLayerNoLayers">Prosím vytvořte vrstvy, které budou následně zobrazeny v tomto seznamu.</string>
+    <string name="themeTypeInfo">Změna vzhledu se projeví po restartu aplikace.</string>
+    <string name="geoidHeight">Výška geoidu pro GPS</string>
+    <string name="geoidHeightSum">Průměrná hladina moře (Ortometrická výška = GPS elipsovitá výška - výška geoidu)</string>
+    <string name="downloadError">Chyba při stahování, zkuste to znovu.</string>
+    <string name="txt_showWaypointsLabels">Značky bodů</string>
+    <string name="txt_LinesAndPolysLabels">Popis linií a polygonů</string>
+    <string name="maxCharacters">Maximálně {0} znaků</string>
+    <string name="txt_label">Popisky</string>
+    <string name="clearLayer">Vymazat vrstvu</string>
+    <string name="clearLayerInfo">Vybraná vrstva má {0} prvků.\nOpravdu chcete vymazat všechna data a přílohy? Vrstva bude vyprázdněna, ale ne odstraněna.</string>
+    <string name="getItNow">Získat hned</string>
+    <string name="locationProblem">Problém s polohou</string>
+    <string name="locationProblemAlert">GPS není povolena. Chcete změnit nastavení?</string>
+    <string name="gpsStopped">Poloha není aktivní. Prosím použijte tlačínko\'Centrování na GPS\' nebo začněte nahrávat trasu pro aktivaci tohoto panelu.</string>
+    <string name="gpsWaiting">Čekám na polohu z GPS&#8230;</string>
+    <string name="export_full_path_to_pictures">Exportovat celou cestu k obrázku</string>
+    <string name="miscellaneous_settings">Různé nastavení</string>
+    <string name="miscellaneous_settings_sum">Nastavení některých dalších funkcí aplikace</string>
+    <string name="txt_sort_active_first">Aktivní první</string>
+    <string name="txt_newPointAsDistanceAndBearing">Vzdálenost a metoda Bearing</string>
+    <string name="txt_newPointAsDistanceAndBearingSum">Přidat nové body poskytující vzdálenost a použít metodu Bearing z aktuální pozice GPS nebo z lokace kurzoru.</string>
+    <string name="txt_currentGPSLocation">Aktuální pozice GPS</string>
+    <string name="txt_currentCursorLocation">Pozice mapového kurzoru</string>
+    <string name="txt_or">nebo</string>
+    <string name="txt_useLastPoint">Použít poslední bod</string>
+    <string name="txt_useBaseLocation">Použít základní umístění</string>
+    <string name="setAsBaseLocation">Použít tento bod jako základní umístění</string>
+    <string name="fieldDataType">Typ datového pole:</string>
+    <string name="fieldDefaultValue">Výchozí hodnota</string>
+
+    <string name="resetLicence">Resetovat licenci</string>
+    <string name="expiryDate">Datum expirace</string>
+    <string name="noFieldsForAttribute">Zdá se, že tato vrstva se pokouší použít množinu atributů, která nemá žádné pole.\nOperace nemůže být dokončena.\n\nProsím zkontrolujte pole ve \'Správci atributů\'.</string>
+    <string name="labelFeatures">Zobrazit popisky</string>
+    <string name="usesAttributes">Atributy:</string>
+    <string name="LabelField">Označení podle pole:</string>
+    <string name="defaultText">Výchozí</string>
+    <string name="stop">Stop</string>
+    <string name="notificationTitle">Mapit GIS - Nahrávání trasy</string>
+    <string name="showTrackRecordingButton">Zobraz tlačítko \'Trasování\'</string>
+    <string name="notificationText">Trasování běží v pozadí aplikace.</string>
+    <string name="showBasePoints">Zobrazit základní body na mapě</string>
+    <string name="inludeBasePointsLayer">Správa základních bodů vrstvy</string>
+    <string name="inludeBasePointsLayerSum">Vrstva základních bodů bude viditelná v části \'Správa vrstev\'</string>
+    <string name="basePoints">Základní body</string>
+    <string name="basePointsDesc">Body v této vrstvě jsou zdrojem pro rozevírací seznam základních bodů v případě, že je použita pro vzdálenost metoda Bearing.</string>
+    <string name="baseName">BASE</string>
+    <string name="rememberLastName">Poslední název jako výchozí</string>
+    <string name="rememberLastNameSum">Použít název posledního přidaného prvku jako výchozí</string>
+    <string name="displayDescField">Zobrazit popisové pole</string>
+    <string name="displayDescFieldSum">Zobrazí popisové pole vrstvy za použití atributů.</string>
+    <string name="checkNameOnSaveText">Zkontrolovat duplicitu názvů</string>
+    <string name="checkNameOnSaveTextSum">Při ukládání prvku zkontrolujte, zda již název existuje.</string>
+    <string name="duplicatedName">Jméno prvku {0} již existuje. Prosím zvolte jiný název nebo v Nastavení mapování deaktivujte funkci zkontrolovat jméno.</string>
+    <string name="exportToDxf">DXF - Pouze geometrie</string>
+    <string name="defaultPointFeaturePrefixText">Výchozí jméno pro bodové prvky</string>
+    <string name="defaultLineFeaturePrefixText">Výchozí jméno pro liniové prvky</string>
+    <string name="defaultPolygonFeaturePrefixText">Výchozí jméno pro polygonové prvky</string>
+    <string name="importAttributeSetText">Import atributů</string>
+    <string name="txt_import_no_files_AS">Chcete-li importovat atributy, pak prosím zkopírujte atributový soubor do adresáře:&lt;br>&lt;br>Paměť zařízení->Mapit-Spatial->AttributeSets.&lt;br>&lt;br>Soubor atributů lze importovat ze strukturovaného souboru JSON.&lt;br>&lt;br>Další informace o importu atributů naleznete na našich webových stránkách.</string>
+    <string name="importAttributeSetNoName">Soubor neobsahuje jméno.</string>
+
+    <string name="importAttributeSetNoFields">Soubor neobsahuje žádné pole pro import.</string>
+    <string name="importAttributeSetNoFieldName">U jednoho nebo více polí schází název.</string>
+    <string name="importAttributeSetNoValues">U jednoho nebo více polí schází hodnoty.</string>
+    <string name="importAttributeSetNotValid">Export selhal. Tato množina atributů zatím neobsahuje žádná data.</string>
+    <string name="importAttributeSetBadFileStructure">Soubor importu atributů je poškozen nebo není ve formátu JSON.\n\nImport selhal.</string>
+    <string name="addsInfoText">Zakoupit rozšíření pro odstranění přidaných položek.</string>
+    <string name="addOSMTypeService">Přidat službu typu OSM</string>
+    <string name="navigateto">Navigovat na prvek</string>
+    <string name="navTo">Do:</string>
+    <string name="turnRight">Odbočit vpravo</string>
+    <string name="goAhead">Pokračuj rovně</string>
+    <string name="turnLeft">Odbočit vlevo</string>
+    <string name="rotateMapNav">Navigace - Otočení mapy</string>
+    <string name="navigatetoDistance">Vzdálenost: {0}</string>
+    <string name="navigatetoBearing">{0}</string>
+    <string name="navigatetoWaiting">Čekám na přesné informace o poloze pro spuštění navigace&#8230;</string>
+    <string name="addOSMTypeServiceInfo">Chcete-li přidat službu Open Street Map, vyplňte prosím jméno a adresu URL do níže uvedených polí. Služba musí být v projekci Web Mercator(ESPG: 3857).\nURL pro připojení služby typu OSM vypadá takto:\n\nhttp://b.tile.openstreetmap.org/17/63963/40837.png\n\nKde poslední části adresy URL obsahují úroveň zvětšení a souřadnice x a y.\n\nChcete-li službu přidat, můžete zadat pouze první část adresy URL - ta by měla vypadat takto:\n\nhttp://b.tile.openstreetmap.org \nnebo \nhttp://tile.waymarkedtrails.org/hiking.</string>
+    <string name="selectActiveOnly">Výběr mapy - pouze aktivní vrstva</string>
+    <string name="selectActiveOnlySum">V mapě lze vybrat pouze takové prvky, které se nachází v aktivní vrstvě</string>
+    <string name="measureModeLine">Režim měření - vzdálenost</string>
+    <string name="measureModeArea">Režim měření - plocha</string>
+    <string name="pref_measureModeButton">Zobrazit tlačítko měření</string>
+    <string name="unitsSettings">Souřadnice a jednotky</string>
+    <string name="unitsSettingsSum">Nastavení mapových jednotek a souřadnicového systému</string>
+    <string name="measureInfo">Dlouhým stisknutím změňte režim (Vzdálenost/Plocha)</string>
+    <string name="mapscreenshot">Vytvořit snímek mapy</string>
+    <string name="mapscreenshotInfo">Snímek mapy se připravuje&#8230;</string>
+    <string name="removeVertex">Odstranit vybrané vrcholy</string>
+    <string name="insertVertex">Vložit vrchol</string>
+    <string name="useRangeFinderTitle">Bluetooth dálkoměr</string>
+    <string name="useRangeFinderToAddPoints">Pro přidání bodů použijte spárovaný laserový dálkoměr</string>
+    <string name="generalError">Chyba</string>
+    <string name="generalBusy">Pracuji&#8230;</string>
+    <string name="generalRequired">Povinný</string>
+    <string name="generalInvalid">Neplatný</string>
+    <string name="generalBTConnected">Připojen k: </string>
+    <string name="generalBTDisConnected">Odpojen od: </string>
+    <string name="noPairedDevices">Pro pokračování prosím spárujte dálkoměr se zařízením.</string>
+
+
+
+    <string name="saveToRemovableSD">Umístění obrázku</string>
+    <string name="saveToRemovableSDSum">Uložit obrázky na kartu SD</string>
+    <string name="changeLayer">Změna vrstvy</string>
+    <string name="moveFeatureFrom">Přesunout tento prvek z: </string>
+    <string name="moveFeatureTo">Do: </string>
+    <string name="trackPoints">Povolit trasování pro vrstvu bodů</string>
+    <string name="trackPointsSum">Všechny zaznamenané body získají stejné atributy jako první bod nahrávání.</string>
+    <string name="externalBTGPS">Externí GPS</string>
+    <string name="externalBTGPSSum">Nastavení externího bluetooth GPS přijímače.</string>
+    <string name="enableBTGPS">Povolit externí GPS</string>
+    <string name="enableBTGPSSum">Povolte externí GPS a vyberte zdroj ze spárovaných zařízení.Přijímač musí podporovat NMEA přes bluetooth.</string>
+    <string name="notAvailableExternalGPS">Vybraný externí přijímač GPS není k dispozici. Zkontrolujte prosím nastavení nebo zapněte externí zařízení a znovu spusťte aplikaci.</string>
+    <string name="forceMockLoc">Vynutit Mock lokaci</string>
+    <string name="forceMockLocSum">Mělo by být jako výchozí vypnuto. V případě potíží s připojením můžete vyzkoušet.</string>
+    <string name="errorMockLoc">Zdá se, že v nastavení Android není povoleno umístění MOCK.\nAktuální pozici z externího zařízení GPS nelze získat.\n\nAktivujte MOCK umístění a restartujte aplikaci k použití externího GPS jako zdroje umístění.</string>
+    <string name="externalGPSInstruction">Instrukce</string>
+    <string name="externalGPSInstructionSum">1. Zkontrolujte, zda je zařízení (externí GPS) spárováno v nastavení telefonu Android - Bluetooth.\n2. Aktivujte Mock v nastavení pro vývojáře v zařízeních Android (ve verzi Android 6 nastavte MapIt jako aplikaci lokace Mock)\n3. Zapněte externí GPS a zvolte externí přijímač GPS.\n4. Při návratu k mapování bude zdroj umístění automaticky vyměněn za externí GPS, nicméně možná budete  muset restartovat aplikaci.</string>
+    <string name="customEPSGCodeTxt">Použít níže uvedený kód EPSG</string>
+    <string name="customEPSGCodeTxt1">Kód EPSG</string>
+    <string name="customEPSGCodeTxt2">Zadejte svůj kód EPSG např.: EPSG:3007</string>
+
+
+
+
+    <string name="customEPSGCodeSum">Prosím vyberte z rozbalovacího seznamu výše položku \'Custom: EPSG code\', tím aktivujete textové pole níže pro zadání vlastního kódu EPSG.</string>
+    <string name="gpsLock">GPS fix</string>
+    <string name="generalNMEAdevice">Obecné zařízení podporující standard NMEA</string>
+    <string name="sattelitesTxt">Satelity</string>
+    <string name="sattelitesInSky">Na obloze</string>
+    <string name="sattelitesInFix">Zachycené</string>
+    <string name="receivedLocation">Získaná poloha</string>
+    <string name="trackingNotificationText">Nahrávání trasy aplikace MapIt běží na pozadí.</string>
+    <string name="trackingNotificationTitle">MapIt - Nahrávání trasy</string>
+    <string name="trackingProblem">Nahrávání trasy - Problém s detaily…</string>
+    <string name="trackingStopped">Nahrávání trasy zastaveno…</string>
+    <string name="trackingStarted">Nahrávání trasy spuštěno…</string>
+    <string name="trackingRunning">Služba běží…</string>
+    <string name="importErrorCRS">Import zrušen:\nSoubor, který se pokoušíte importovat, není v projekci WGS84 (EPSG: 4326).</string>
+    <string name="file_type_arcjson">Soubory ArcJSON</string>
+    <string name="formatSHP">Soubor SHP</string>
+    <string name="formatCSV">CSV</string>
+    <string name="formatKML">KML</string>
+    <string name="formatGeoJSON">GeoJSON</string>
+    <string name="formatArcJSON">ArcGIS JSON</string>
+    <string name="formatGPX">GPX</string>
+    <string name="formatCSVNoGeometry">CSV - Žádná geometrie</string>
+    <string name="formatDXFGeometryOnly">DXF - Jen geometrie</string>
+    <string name="formatOV2">TomTom OV2 - Jen geometrie</string>
+
+    <string name="navigateWaze">Waze</string>
+    <string name="txtInfo">Informace</string>
+    <string name="featureProperties">Vlastnosti</string>
+    <string name="minElevation">Min nad.výška</string>
+    <string name="maxElevation">Max nad.výška</string>
+    <string name="nVertices">Počet vrcholů</string>
+    <string name="trackLength">Délka trasy</string>
+    <string name="currentElevation">Poslední nad.výška</string>
+    <string name="featureInfoError">Vlastnosti tohoto prvku nejsou k dispozici.</string>
+    <string name="navigateWazeSettings">Navigace Waze</string>
+    <string name="navigateWazeSettingsSum">Povolit navigaci Waze pro body a vrcholy.</string>
+    <string name="blockPointsShifting">Blokovat přetažení bodů</string>
+    <string name="blockPointsShiftingSum">Blokuje možnost přetahování bodových prvků (vyžadován restart).</string>
+
+    <string name="addVideo">Přidat video</string>
+    <string name="addAudio">Přidat záznam zvuku</string>
+    <string name="addAttachment">Přidat přílohu</string>
+
+    <!-- Existing in MapPad -->
+    <string name="cancel">Zrušit</string>
+    <string name="yes">Ano</string>
+    <string name="no_location">Poloha není dostupná</string>
+    <string name="show_alt_speed_text">Zobrazit rychlost a nad. výšku</string>
+    <string name="speed_text">Rychlost</string>
+    <string name="alt_text">Nad. výška</string>
+    <string name="quickActions">Rychlé akce</string>
+    <string name="datamanagement">Správa dat</string>
+    <string name="drawer_open">Otevřít navigační panel</string>
+    <string name="drawer_close">Zavřít navigační panel</string>
+    <string name="pm_add_point">Přidat bod</string>
+    <string name="pref_0">Obecné nastavení</string>
+    <string name="txt_about">Informace a zpětná vazba</string>
+    <string name="txt_aboutSum">Obecné informace a info o podpoře</string>
+    <string name="txt_Credits">Zásluhy</string>
+    <string name="txt_CreditsSum">TPoděkování lidem, kteří mi pomohli při překladu této aplikace.</string>
+    <string name="whatsNewTitle">Co je nového</string>
+    <string name="txt_rate_title">Hodnocení</string>
+    <string name="txt_remind_me_later">Připomenout později</string>
+    <string name="txt_no_thanks">Ne, děkuji</string>
+    <string name="close">Zavřít</string>
+    <string name="txt_user_guide">Uživatelská příručka</string>
+    <string name="txt_user_guide_sum">Detailní popis aplikace</string>
+    <string name="txt_report_issue">Nahlásit problém</string>
+    <string name="txt_report_issue_sum">Nahlásit problém nebo požádat o nové funkce</string>
+    <string name="txt_whatsnew">Co je nového</string>
+    <string name="txt_whatsnew_sum">Nové funkce a nástroje&#8230;</string>
+    <string name="facebook_title">MapIt na Facebooku</string>
+    <string name="facebook_sum">Získejte okamžitý přístup ke zprávám a novinkám.</string>
+    <string name="txt_aboutMapItGplus">Přidejte se k nám na Google+</string>
+    <string name="txt_openURL">Stisknutím tlačítka otevřete webové stránky v internetovém prohlížeči</string>
+    <string name="txt_aboutTwitter">Sledujte nás na Twitteru</string>
+    <string name="pref_1">Střed na GPS lokaci</string>
+    <string name="pref_10">Ovládací prvky zvětšení</string>
+    <string name="allow_gmap_rotation">Google Maps otáčení</string>
+    <string name="allow_gmap_rotation_on">Otáčení mapy je povoleno</string>
+    <string name="allow_gmap_rotation_off">Otáčení mapy je zakázáno</string>
+    <string name="pref_on">Zapnout</string>
+    <string name="pref_off">Vypnout</string>
+    <string name="pref_enable">Povolit toto nastavení</string>
+    <string name="pref_disable">Zakázat toto nastavení</string>
+    <string name="pref_2">Udržet obrazovku zapnutou</string>
+    <string name="pref_3">Výchozí systém souřadnic</string>
+    <string name="pref_4">Výchozí jednotky délky</string>
+    <string name="pref_5">Výchozí jednotky plochy</string>
+    <string name="pref_6">Výchozí jednotky</string>
+    <string name="txt_remember_map">Zapamatovat typ mapy při ukončení</string>
+    <string name="txt_restart">Restartovat aplikaci a použít změny.</string>
+    <string name="txt_ok">OK</string>
+    <string name="txt_no">Ne</string>
+    <string name="content_desc1">Nové funkce</string>
+    <string name="like_us">Like</string>
+    <string name="txt_rate">okud se vám líbí používání {0}, udělejte si prosím chvíli na ohodnocení. \nVaše zpětná vazba nám pomáhá zlepšit stávající funkčnost a realizovat věci, které budete potřebovat. \n\nDěkujeme za podporu!</string>
+    <string name="generic_confirm_title">Jste si jisti?</string>
+    <string name="pm_list_empty2">Chcete-li přidat jedno nebo více polí, stiskněte tlačítko \'Přidat\' v pravém horním rohu.</string>
+    <string name="txt_edit">Upravit</string>
+    <string name="txt_delete">Smazat</string>
+    <string name="txt_save">Uložit</string>
+    <string name="warning">Varování</string>
+    <string name="txt_cancel">Zrušit</string>
+    <string  name="notAbleToPurchase">Nákup nelze provést. Zkontrolujte prosím připojení k Internetu nebo nastavení účtu Google.</string>
+    <string name="show_pictures">Zobrazit přílohy</string>
+    <string name="txt_name">Jméno</string>
+    <string name="txt_desc">Popis</string>
+    <string name="pm_Name_Error">Parametr \'Název\' nesmí být prázdný.</string>
+    <string name="pm_add_v">Přidat hodnotu</string>
+    <string name="pm_edit_value">Upravit hodnotu</string>
+    <string name="pm_attribute_values">Hodnoty:</string>
+    <string name="attention">Pozor</string>
+    <string name="really_quit">Opravdu chcete vypnout MapIt?</string>
+    <string name="default_waypoint_name">Bod</string>
+    <string name="descHint">Popis vstupní vrstvy&#8230;</string>
+    <string name="txt_srInfo">SR info</string>
+    <string name="pm_attributes_p">Atributy prvků:</string>
+    <string name="share">Sdílet</string>
+    <string name="txt_export">Export</string>
+    <string name="cannot_find">Nemohu najít </string>
+    <string name="calling_ws">Volání webové služby</string>
+    <string name="no_network">Je nutné internetové spojení</string>
+    <string name="searching_for">Hledám </string>
+    <string name="export_type">Typ exportu</string>
+    <string name="txt_export_format">Formát exportu</string>
+    <string name="pics_info">Tento bod má {0} připojených obrázků. jsou uloženy v adresáři: {1} .</string>
+    <string name="search">Hledat</string>
+
+    <!-- GPS Info -->
+    <string name="gps_lat">Zem. šířka</string>
+    <string name="gps_lon">Zem. délka</string>
+    <string name="gps_alt">Nadm. výška</string>
+    <string name="gps_accuracy">Přesnost</string>
+    <string name="gps_unit_degree">stupně</string>
+    <string name="gps_unit_m">m</string>
+    <string name="gps_speed">Rychlost</string>
+    <string name="gps_time">Čas GPS</string>
+    <string name="gps_device_time">Čas zařízení</string>
+    <string name="gps_insky">Satelity na obloze</string>
+    <string name="gps_infix">Zafixované satelity</string>
+    <string name="gps_time_firs_fix">Čas do prvního fixu</string>
+    <string name="gps_time_last_fix">Čas od posledního fixu</string>
+    <string name="noGPSSignal">GPS signál ztracen</string>
+    <string name="noGPSSignalText">Aktuální polohu nelze zjistit, počkejte prosím na signál GPS nebo zkontrolujte nastavení polohy v systému Android.</string>
+
+    <string name="gpsinfoOption">GPS Info</string>
+    <string name="txt_bearing">Bearing</string>
+
+
+    <string name="file_type_dxf">Soubory DXF</string>
+    <string name="file_type_gpx">Soubory GPX</string>
+    <string name="file_type_kml">Soubory KML</string>
+    <string name="file_type_csv">Soubory CSV</string>
+
+    <string name="txt_import1">Import</string>
+    <string name="txt_import">Import Dat</string>
+    <string name="txt_import_file">Import ze souboru</string>
+
+
+    <!-- WMS & AGS Google Maps Overlays -->
+    <string name="wms_title">Správa překryvných vrstev</string>
+    <string name="wms_clear">Odstranit aktuální překryv</string>
+    <string name="wms_manage">Správa zdrojů překryvů</string>
+    <string name="wms_services">Služby WMS</string>
+    <string name="ESRI_maps">Služby esri</string>
+    <string name="hide">Skrýt</string>
+    <string name="show_predefined">Obnovit všechny předdefinované služby</string>
+    <string name="add_ags">Přidat službu AGS</string>
+    <string name="please_provide">Prosím:</string>
+    <string name="add_ags_url">URL služby</string>
+    <string name="add_ags_info">
+	K dispozici jsou pouze služby ArcGIS Server. Služba musí podporovat Web Mercator (ESPG: 3857)\nPříklad služby URL: \nhttp://services.arcgisonline.com/ArcGIS/rest/services/USA_Topo_Maps/MapServer\n\nPro více informací navštivte naše webové stránky nebo nás kontaktujte.\nV tento okamžik není služba podporována&#8230;</string>
+    <string name="add_no_url">Služba URL je vyžadována</string>
+    <string name="add_no_name">Je vyžadováno jméno</string>
+
+    <string name="time">Čas</string>
+    <string name="layers">Vrstvy</string>
+    <string name="add_wms">Přidat službu WMS</string>
+    <string name="add_wms_info">Služba musí podporovat Web Mercator (ESPG:3857)\nPříklad WMS URL: \n\nhttps://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer\n\n</string>
+    <string name="connect">Připojit</string>
+    <string name="connect_error">Služba není dostupná</string>
+    <string name="available_layers">SVyberte jednu nebo více vrstev:</string>
+    <string name="save_wms_details">Uložit nastavení služby</string>
+    <string name="overlay_transparency">Průhledný překryv</string>
+    <string name="wms_info">Infromace o službě</string>
+    <string name="contact_point">Kontaktní místo: </string>
+    <string name="contact_org">Organizace: </string>
+    <string name="contact_address">Adresa: </string>
+    <string name="contact_city">Město: </string>
+    <string name="contact_province">Stát nebo provincie:</string>
+    <string name="contact_post_code">PSČ:</string>
+    <string name="contact_country">Země:</string>
+    <string name="contact_phone">Telefon:</string>
+    <string name="contact_email">E-mail:</string>
+    <string name="wms_fees">Poplatky:</string>
+    <string name="wms_access">Přístupová omezení:</string>
+    <string name="wms_connect">Získávání podrobností o WMS - počkejte prosím&#8230;</string>
+
+    <string name="edit_wms">Upravit WMS službu</string>
+
+    <string name="share_wms_url">Služba URL</string>
+    <string name="wms_service">Služba WMS</string>
+
+    <string name="tab_title_2">Nastavení</string>
+
+    <string name="txt_perimeter">Obvod:</string>
+    <string name="txt_points_no">body</string>
+    <string name="txt_length">Délka</string>
+    <string name="txt_area">Plocha</string>
+    <string name="txt_selected">Vybraný</string>
+
+    <string name="txt_bingpref">Bing mapy</string>
+    <string name="pref_16">Bing mapy - klíč</string>
+    <string name="txt_bingnokey">Nastavte si vlastní klíč do Bing Map pro lepší výkon.</string>
+    <string name="txt_bingprefterms">Podmínky použití</string>
+    <string name="txt_bingprefabout">O poskytovateli dat</string>
+    <string name="txt_bingkeyok">Aplikace používá váš osobní klíč pro Bing mapy.</string>
+    <string name="txt_bingkeycheck">Kontroluji platnost klíče.</string>
+    <string name="txt_bingkeyerror">Zadaný klíč není platný nebo není k dispozici připojení k Internetu, které by ověřilo platnost klíče.</string>
+    <string name="txt_bingkeyrequired">Pro použití vrstev Bing map je vyžadován klíč pro Bing mapy. Aktivujte prosím tuto funkci v sekci Obecné nastavení.</string>
+
+
+    <string name="txt_import_cat">Importováno</string>
+
+    <string name="dragModeActive">Přetáhněte značku na požadované místo.</string>
+    <string name="trace_no_gps">Služba GPS není dostupná, ujistěte se, že je zapnuta v nastavení systému Android.</string>
+
+    <string name="pm_clear">Vyčistit</string>
+    <string name="txt_sort">Seřadit</string>
+    <string name="txt_sort_name_asc">Seřadit podle jména: A-Z</string>
+    <string name="txt_sort_name_desc">Seřadit podle jména: Z-A</string>
+    <string name="txt_sort_date_asc">Starší první</string>
+    <string name="txt_sort_date_desc">Nové první</string>
+
+    <string name="project_point">Projektovat nový bod</string>
+    <string name="from_point">Začít od: </string>
+    <string name="distance">Vzdálenost k novému bodu [metry]: </string>
+    <string name="truebearing">Směr k objektu [stupně]: </string>
+    <string name="greaterthenzero">větší nebo rovno 0</string>
+    <string name="zeroto360" translatable="false">0&#8211;359</string>
+    <string name="noDistance">Vzdálenost nesmí být prázdná</string>
+    <string name="noBearing">Směr k objektu nemůže být prázdný</string>
+    <string name="wrongValues">Směr nebo vzdálenost nemají správné hodnoty</string>
+
+    <string name="txt_tracking">Trasování</string>
+    <string name="txt_tracking_min_time">Časový interval mezi body.</string>
+    <string name="txt_tracking_time">Časový interval.</string>
+    <string name="txt_seconds">sekundy</string>
+    <string name="txt_tracking_min_distance">Minimální vzdálenost mezi body.</string>
+    <string name="txt_tracking_distance">Interval vzdálenosti.</string>
+
+    <string name="txt_info10">Tuto zprávu již nezobrazovat.</string>
+
+    <string name="intermediateDistance">Popis vzdálenosti</string>
+    <string name="intermediateDistanceSumOn">Zobrazit popis střední vzdálenosti</string>
+    <string name="intermediateDistanceSumOff">Skrýt popis střední vzdálenosti</string>
+
+    <string name="savedTo">Uložit do:</string>
+    <string name="exportError">Export selhal.\nProsím zkuste to znovu a pokud problémy přetrvají, prosím oznamte problém.</string>
+    <string name="exporting">Exportuji</string>
+    <string name="txt_processing_sum">Data jsou zpracovávána&#8230;</string>
+
+    <string name="exportSuccess">Data byla úspěšně odeslána do Dropboxu.</string>
+    <string name="remote_operation">Vzdálená obsluha</string>
+    <string name="remote_operation_delete">Odstraňuji soubor&#8230;</string>
+    <string name="remote_operation_error">Během vzdáleného přístupu došlo k chybě.</string>
+    <string name="importDropBox">DropBox</string>
+    <string name="cloudAccounts">Cloudové účty</string>
+    <string name="cloudAccountsSum">Google, Bing, Dropbox nastavení&#8230;</string>
+    <string name="importDropBoxConnect">Připojit k DropBoxu</string>
+    <string name="dropBoxRemove">Odebrat link pro DropBox</string>
+    <string name="dropBoxRemoveSettings">Stisknutím vymažete aktuálně nastavené připojení ke službě DropBox.</string>
+    <string name="dropBoxRemoveAlert">Chcete vymazat aktuálně nastavené připojení DropBox?</string>
+    <string name="exportDropBox">Vybraný soubor je nahráván do DropBox&#8230;\nProsím čekejte.</string>
+    <string name="importDropBoxLoading">Získávání souborů ze služby DropBox&#8230;\nProsím čekejte.</string>
+    <string name="DropBoxLinked">Účet DropBox je nyní propojen, zkuste znovu exportovat do DropBox.</string>
+    <string name="importDropBoxNone">Pro zobrazení souborů zde, nahrajte soubory do služby DropBox->Složky Apps.</string>
+
+    <string name="exportAttributes">Atributy</string>
+    <string name="downloadingResources">Stahuji zdroje - čekejte prosím &#8230;</string>
+
+
+    <string name="remoteExport">Vzdálený export</string>
+    <string name="remoteExportSum">Nastavte nezbytné parametry pro export do databáze PostgreSQL nebo do FTP</string>
+    <string name="remoteExportSum1">Nastavní parametrů pro export FTP</string>
+    <string name="postgresSettings">PostgreSQL nastavení</string>
+    <string name="ftpSettings">FTP nastavení</string>
+    <string name="serverIPTitle">Server (IP Adresa)</string>
+    <string name="serverIPSum">Uveďte název serveru nebo IP adresu</string>
+    <string name="serverPort">Port</string>
+    <string name="serverPortSum">Uveďte port serveru</string>
+    <string name="serverUsername">Uživatelské jméno</string>
+    <string name="serverPassword">Heslo</string>
+    <string name="pgDbNameText">Název databáze</string>
+    <string name="exportToFTP">Exportovat do {0}</string>
+    <string name="measuringPosition">Průměrování pozice</string>
+    <string name="averagingText">Přesnost a průměrování</string>
+    <string name="averagingTextTitle">Aktivovat průměrování pozice.</string>
+    <string name="averagingPositions">Průměrování pozic</string>
+    <string name="averagingPositionsSum">Nastavte počet pozic použitých pro zprůměrování.</string>
+    <string name="maxHDOPAllowedText">Maximální hodnota HDOP</string>
+    <string name="maxHDOPAllowedSum">Počítat polohu pouze v případě, že HDOP je nižší, než </string>
+    <string name="minAccuracyAllowedText">Minimální přesnost</string>
+    <string name="minAccuracyAllowedSum">Počítat polohu, pokud je přesnost větší, než </string>
+    <string name="horizontalAccuracyRMS">HRMS</string>
+    <string name="verticalAccuracyRMS">VRMS</string>
+    <string name="fixType">Kvalita</string>
+    <string name="stationID">ID stanice</string>
+    <string name="correctionAge">Stáří korekcí</string>
+    <string name="importWMS">Import WMS</string>
+    <string name="WMSShareText">Případně můžete stáhnout připojený soubor JSON a importovat ho do {0} pomocí možnosti \'Import\' v nabídce služeb WMS.</string>
+    <string name="noWMSFiles">Pro import nejsou k dispozici žádné konfigurační soubory WMS.Ujistěte se, že soubory JSON obsahující konfiguraci WMS jsou v zařízení ke stažení nebo {0} -> Importovat složku. Název souboru by měl začínat "WMS" a přípona by měla být ".json".  </string>
+    <string name="exportToFTPInfo">Export do FTP zahrnuje všechny přílohy vrstev a může trvat velmi dlouho. V síti také může být přenášeno velké množství dat. Doproučujeme připojení pomocí Wi-Fi. </string>
+    <string name="exportToFTPInfoLayerOnly">Probíhá export do FTP…</string>
+    <string name="exportToProgressFailed">Export do databáze Postgre selhal. Prosím zkontrolujte nastavení v Nastavení->Vzdálený export a zkuste to znovu.</string>
+    <string name="exportToFTPFailed">Export do FTP selhal. Prosím zkontrolujte nastavení v Nastavení->Vzdálený export a zkuste to znovu.</string>
+    <string name="includeGPSInfoText">Export GPS informací</string>
+    <string name="includeGPSInfoSummary">Zahrnuje HDOP, VDOP, PDOP, HRMS, VRMS… v exportu bodové vrstvy</string>
+    <string name="positionBelowMinAccuracy">Přesnost polohy je nižší než nastavená minimální přesnost…</string>
+
+    <string name="minAccuracyUnitText">Jednotka minimální přesnosti</string>
+
+    <!-- Geoid model -->
+    <string name="solopt_geoid_model_title">Model Geoid</string>
+    <string name="solopt_geoid_model_dialog_title">Vybrat Geoid model</string>
+    <string name="EGM2008Info"> 1.  Stáhněte si soubor modelu z National Geospatial Intelligence Agency (od srpna 2014). Soubor najdete na adrese
+ http://earth-info.nga.mil/GandG/wgs84/gravitymod/egm2008/Small_Endian/Und_min2.5x2.5_egm2008_isw=82_WGS84_TideFree_SE.gz   \n\n2.  Rozbalte stažený soubor: \n\nUnd_min2.5x2.5_egm2008_isw=82_WGS84_TideFree_SE\n\n a přejmenujte na: \n\nEGM2008_M25.geoid\n\n3.  Umístěte model do {0}->Složka Resources.</string>
+    <string name="testConnection">Test připojení</string>
+    <string name="testConnectionSuccess">Připojení k {0} bylo úspěšné!</string>
+    <string name="testConnectionError">Chyba: \nPřipojení k {0} selhalo! \nProsím zkontrolujte nastavení…</string>
+
+    <string name="antenna_height_title">Výška antény GPS: {0} m</string>
+
+    <string name="searchForFeature">Vyhledat prvek</string>
+    <string name="searchForFeature1">Vyhledat prvek podle názvu</string>
+    <string name="searchForFeatureSum">Bude vráceno maximálně 10 hodnot.</string>
+    <string name="searchForFeatureResults">Nalezené výsledky: </string>
+    <string name="searchForFeatureResultsSum">Zvolte prvek, který chcete přiblížit.</string>
+    <string name="zoomToFeatureSum">Vybraný objekt je ve skryté vrstvě. Pro zobrazení na mapě nastavte vrstvu jako viditelnou</string>
+
+    <string name="importLayer">Importovat vrstvu</string>
+    <string name="duplicateLayerName">Jméno vrstvy již existuje</string>
+    <string name="editPointGeometry">Upravit bodovou geometrii</string>
+    <string name="txt_usenegative">Použijte záporné hodnoty pro jižní a západní polokouli.</string>
+    <string name="txt_provideXY">Prosím níže zadejte východní a severní souřadnice.</string>
+    <string name="txt_wrong_coords">Souřadnice nejsou správné.</string>
+    <string name="txt_X">X</string>
+    <string name="txt_Y">Y</string>
+    <string name="utm_gridzone">Mřížka:</string>
+    <string name="utm_square">Čtverec:</string>
+    <string name="invalid_lat">Neplatná zeměpisná šířka</string>
+    <string name="invalid_lon">Neplatná zeměpisná délka</string>
+    <string name="txtMeters">metry</string>
+    <string name="txtEasting">Východně</string>
+    <string name="txtNorthing">Severně</string>
+    <string name="txtUtmZone">UTM zóna</string>
+
+    <string name="ImportWithAttributes">Importuje vrstvu se všemi existujícími atributy.\nSoubor atributů bude vytvořen automaticky, všechna pole budou definována jako textová.\n Chcete-li importovat existující geometrii do vrstvy s definovaným atributem, vyberte vrstvu ze seznamu a import geometrie do vrstvy.</string>
+
+    <string name="dropboxConnect">Připojit Dropbox</string>
+    <string name="dropboxConnectSum">Stisknutím tlačítka autorizujte tuto aplikaci do služby Dropbox…</string>
+    <string name="dropboxTokenProblem">Neautorizovaný. Přejděte do části „Nastavení cloudu“ a stiskněte možnost „Připojit k Dropboxu“.</string>
+
+    <string name="useEOSConnectTitle">Eos Tools Pro – Příjmače Eos Arrow</string>
+    <string name="useEOSConnectSum">Mapit bude pracovat s lokací poskytnutou aplikací Eos Tools Pro a příjmačem Eos Arrow GNSS.</string>
+    <string name="useZenoConnectTitle">Připojení Zeno – Přijímač Leica Zeno</string>
+    <string name="useZenoConnectSum">Mapit bude pracovat s lokací poskytnutou aplikací Zeno Connect a přijímačem Leica GNSS. </string>
+    <string name="internalGPS">Integrovaná GPS</string>
+    <string name="mockProvider">Mock Provider</string>
+    <string name="printPDF">Sdílet jako PDF</string>
+    <string name="geoid_custom">Chcete-li použít model geoid v Mapitu, musíte mít soubor k dispozici v binárním formátu(little-endian) kompatibilní s formátem US National Geodetic Survey (* .bin).\n\nKompatibilní soubor by měl být přejmenován na LOCAL_GEOID.bin a umístěn ve složce {0}->Sources.\n\nPro více informací přejděte na: https://mapitgis.com/geoid-height-extension.</string>
+    <string name="geoidHeightInfo">Výška geoidu</string>
+    <string name="orthometric">Orthometric</string>
+    <string name="externalGNSSTCP">Přímé spojení přes TCP</string>
+    <string name="externalGNSSTCPSum">Klepnutím aktivujete externí přijímač GNSS a přistoupíte k místnímu zdroji přes protokol TCP. Přijímač musí umět streamovat věty NMEA přes protokol TCP.</string>
+    <string name="externalGNSSTCPInfo">TCP GNSS</string>
+    <string name="newPointsAddCoordinates">Přidat souřadnice bodů.</string>
+    <string name="newPointsAddCoordinatesSum">Přidání bodové, liniové nebo polygonové vrstvy zadáním souřadnic.</string>
+
+    <string name="wfs_service">WFS</string>
+    <string name="wfs_service_add">Přidat vrstvu WFS</string>
+    <string name="wfs_service_add_URL">WFS URL</string>
+    <string name="wfs_service_add_Name">Jméno vrstvy WFS</string>
+    <string name="wfs_service_add_max">Vrstva WFS – Maximální počet prvků</string>
+    <string name="wfs_service_add_min">Vrstva WFS - Minimální úroveň přiblížení pro vykreslení vrstvy (výchozí 16)</string>
+    <string name="wfs_service_add_Info">Služba WFS musí podporovat verzi 2.0.0 nebo 1.1.0 standardu WFS, výchozí projekce vrstev musí být nastavena jako EPSG: 4326 (WGS84) a musí být schopna vrátit odpovědi ve formátu JSON.\n\nPříklad URL: https://ahocevar.com/geoserver/wfs\n\nProsím navštivte naše webové stránky pro více informací. V případě problémů nás prosím kontaktujte.\nV tuto chvíli není služba podporována&#8230;</string>
+    <string name="wfs_service_edit">Upravit WFS vrstvu</string>
+    <string name="wfs_service_connecting">Připojuji k službě WFS…</string>
+    <string name="wfs_error_version">Verze WFS musí být 1.1.0 nebo 2.0.0 - Obraťte se na poskytovatele služeb WFS, abyste získali další informace.</string>
+    <string name="wfs_select_layer">Vyberte prosím vrstvu WFS a \'Uložit konfiguraci\' - poté vyberte a upravte vrstvu, abyste změnili styl vrstvy, jako je barva a velikost obrysu.</string>
+    <string name="wfs_add_selected">Přidat vybranou vrstvu WFS</string>
+    <string name="wfs_edit_selected">Upravit vrstvu WFS</string>
+    <string name="layer_marker_size">Velikost značky</string>
+    <string name="layer_marker_shape">Formát značky vrstvy</string>
+    <string name="layer_line_size">Šířka čáry</string>
+    <string name="layer_polygon_outline">Šířka obrysu polygonu</string>
+    <string name="txt_circle">Kruh</string>
+    <string name="txt_square">Čtverec</string>
+    <string name="txt_triangle">Trojúhelník</string>
+    <string name="wfs_maxLayers">Maximálně může být {0} WFS vrstev zobrazených současně. Změňte viditelnost ostatních vrstev tak, aby byla tato vrstva viditelná.</string>
+    <string name="wfs_no_json">Tato služba WFS nepodporuje výstup JSON a nemůže být použita v aplikaci Mapit. Obraťte se prosím na poskytovatele služeb.</string>
+    <string name="wfs_no_WGS84Layers">Tato služba WFS neobsahuje žádné vrstvy s výchozí projekcí nastavenou na WGS84. Obraťte se prosím na poskytovatele služeb.</string>
+
+    <string name="useTrimbleMMConnectTitle">Trimble Mobile Manager</string>
+    <string name="useTrimbleMMConnectSum">Mapit bude pracovat s umístěním polohou poskytnutou aplikací TMM a vaší Trimble anténou, např. Trimble Catalyst</string>
+
+    <string name="geoImagesEmpty">Prosím zkopírujte geo-images do adrsáře \nPaměť zařízení->Mapit-Spatial->OfflineMaps.\nUjistěte se, že soubory s hranicí obrazu jsou umístěny ve stejné složce se stejným názvem jako samotný snímek.\n\nProsím navštivte <a href="https://mapit-gis.com/offline-maps-mapbox-extension">Offline Maps &amp; Mapbox extension</a> pro více informací.</string>
+    <string name="txtRequired">Toto pole je vyžadováno.</string>
+    <string name="txtMultiselect">Toto pole dovoluje vícenásobný výběr.</string>
+    <string name="txtUnableToSave">Nelze uložit. Ve formuláři jsou prázdná pole:\n\n</string>
+    <string name="txtMultiselectSelect">Prosím vyberte</string>
+    <string name="txtMultiselectFirst">Pole pro výběr více položek</string>
+    <string name="txtMultiselectFirstItemSelected">Při vytváření nové funkce vyberte první položku.</string>
+
+
+    <string name="barcodeScanner">Snímač čárových kódů</string>
+
+    <string name="enableNTRIPMenu">NTRIP klient</string>
+    <string name="enableNTRIPConnectionSum">Kliknutím povolíte Mapit NTRIP Client jako zdroj polohy.</string>
+    <string name="enableNTRIPConnection">Mapit NTRIP Client</string>
+    <string name="enableNTRIPConnectionLost">Mapit není schopen rozpoznat výstupní data klienta NTRIP. Prosím zvolte STOP a START služby NTRIP pro připojení.</string>
+    <string name="ntripClientNotInstalled">Aplikace Mapit GIS NTRIP Client není nainstalována. Jedná se o samostatnou aplikaci, která umožňuje používat v Mapitu korekce RTK. Chcete-li ji vyzkoušet zdarma po dobu 7 dní, nainstalujte prosím aplikaci.\n\nDalší informace:\nhttps://mapit-gis.com/mapit-gis-ntrip-client</string>
+    <string name="clearPicturesOnClear">Snímky odstraníte stisknutím tlačítka "Vyčistit vrstvu"</string>
+    <string name="rmsMultiplayerForAccuracy">Přesnost jako násobení HRMS: {0}</string>
+    <string name="accuracyAsHRMS">Přesnost HRMS</string>
+    <string name="enableMultiplayerForAccuracy">Nastavení přesnosti jako HRMS</string>
+    <string name="enableMultiplayerForAccuracySum">Nastaví přesnost jako HRMS, pokud je k dispozici.</string>
+    <string name="exportDistanceBearingDetailsTitle">Exportovat podrobnosti měření dálkoměrem</string>
+    <string name="txtExportToPostgres">Export do PostgreSQL</string>
+    <string name="txtpgAppend">Vytvořit novou nebo připojit existující tabulku</string>
+    <string name="txtpgOverwrite">Vytvořit novou nebo přepsat existující tabulku</string>
+    <string name="createAppenddPgTable">Data byla exportována.\nTabulka {0} byla úspěšně {1} v databázi PostgreSQL.</string>
+    <string name="txtCreated">vytvořeno</string>
+    <string name="txtAppended">připojeno</string>
+    <string name="createPostgresInfoGeneral">Obě možnosti vytvoří nové názvy tabulky PostgreSQL {0} pokud ještě neexistují. Zvolte možnost jedna, pokud chcete připojit existující data nebo možnost dvě, abyste přepsali a nahradili existující tabulku.</string>
+    <string name="txtSelectOption">Prosím, vyberte možnost výše, abyste mohli pokračovat.</string>
+    <string name="txtGDrive">Google Drive</string>
+    <string name="txtGDriveLink">Připojení do Google Drive</string>
+    <string name="txtGDriveLinkSub">Stisknutím tlačítka autorizujte tuto aplikaci k použití Google Drive.</string>
+    <string name="txtGDriveLinkRemove">Odstranit Google Drive link</string>
+    <string name="txtGDriveLinkRemoveSub">Stisknutím zrušíte aktuální nastavení připojení GDrive</string>
+    <string name="importGDriveNone">Nahrajte soubory do složky Gdrive->MapitGIS poté zde budou viditelné.</string>
+    <string name="txtGdriveConnect">Připojit do GDrive</string>
+    <string name="exportGDriveSuccess">Data byla úspěšně nahrána do adresáře Google Drive->{0} </string>
+    <string name="displayGNSSInfoOnTheMap">Přesnost &amp; Kvalita GPS na mapě.</string>
+    <string name="averagingPositionsTime">Doba průměrování</string>
+    <string name="averagingPositionsSumTime">Nastavte počet sekund, které budou používané pro zprůměrování.</string>
+    <string name="secureService">Toto je zabezpečená služba</string>
+
+
+    <!-- Mapit SPATIAL Specific Below-->
+    <string name="gstyleSum" >Vyberte styl Google Map</string>
+    <string name="spatialSubscription">Předplatné Mapit Spatial</string>
+    <string name="attributeSetExported">Atributy byly exportovány a uloženy do:</string>
+    <string name="isSelectable">Prvky mohou být vybrány na mapě</string>
+    <string name="spatialSubscriptionInfo">Tato funkce Mapit Spatial vyžaduje platné předplatné u společnosti Google. Předplatné je platné 1 kalendářní rok a poskytuje přístup ke všem funkcionalitám softwaru. Stiskněte \'OK\' pro zahájení 7 denní bezplatné zkušební doby.</string>
+    <string name="type_tinyInt">Rozsah hodnot: -127 to 127</string>
+    <string name="type_smallInt">Rozsah hodnot: -32767 to 32767</string>
+    <string name="type_integer">Rozsah hodnot: -2147483647 to 2147483647</string>
+    <string name="type_long">Rozsah hodnot: -9223372036854775807 to 9223372036854775807</string>
+    <string name="selectBasemap" >Vyberte podkladovou mapu</string>
+    <string name="basemaps" >Správa podkladových map</string>
+    <string name="geopackages" >Geopackages</string>
+    <string name="noGooglePlayServices">Toto zařízení není podporováno. Zkuste nainstalovat nebo aktualizovat služby Google Play.</string>
+    <string name="permissionsError">Pro chod aplikace musíte souhlasit s oprávněními.
+        Prosím restartujte aplikaci a souhlaste s oprávněními…</string>
+    <string name="geopackegesFiles">Zkopírujte vaše soubory .gpkg do adresáře\nPaměť zařízení->Mapit-Spatial->Geopackages.</string>
+    <string name="setActiveGeopackage">Pro zobrazení vrstev zde, nastavte aktivní geopackage na záložce \"Geopackages\".</string>
+    <string name="geopackageNoLayers">Vybraný geopackage neobsahuje žádné vrstvy.</string>
+    <string name="geoType">Typ geometrie</string>
+    <string name="txtLayer">Vrstva</string>
+    <string name="txtLinkField">Link</string>
+    <string name="createLayerSR">Prostorová reference bude nastavena jako WGS84(EPSG:4326), zkontrolujte tuto možnost pro nastavení souřadného systému vrstvy jako {0}.</string>
+    <string name="enableZ">Včetně rozměrů v ose Z</string>
+    <string name="featuresCount">Počet prvků</string>
+    <string name="createGeopackage">Vytvořit Geopackage</string>
+    <string name="valueOutOfRange">Hodnota nesouhlasí s vybraným typem pole.</string>
+    <string name="linkFieldTitle">Propojit pole se skupinou atributů</string>
+    <string name="linkedFieldTitle">Propojené pole skupiny atributů</string>
+    <string name="linkFieldRemove">Odstranit link</string>
+    <string name="dbFieldRequired">Prosím nastavte výchozí hodnotu pro pole, která nesmí být prázdná.</string>
+    <string name="selectAttSet">Vybrat skupinu atributů:</string>
+    <string name="selectAttField">Vybrat pole skupiny atributů:</string>
+    <string name="selectedAttSet">Vybraná skupina atributů:</string>
+    <string name="selectedAttField">Vybrané pole skupiny atributů:</string>
+    <string name="selectedAttFieldDelete">Vybrané pole bude odstraněno z vrstvy. Operace nemůže být vrácena zpět.\nJste si jisti?</string>
+    <string name="removeAttributeSetFieldError">Toto pole nemůže být odstraněno - v současnosti je propojeno s následujícími vrstvami:\n\n</string>
+    <string name="removeAttributeSetError">Prosím odstraňte všechna pole před odstraněním skupiny atributů.</string>
+    <string name="selectAttFieldLinkNotPossible">Vybraný typ pole skupiny atributů nesouhlasí s typem databázového pole. Prosím, vyberte jiné pole, nebo vytvořte platné pole v oblasti \'Správa atributů\'. \nToto propojení nemůže být uloženo!</string>
+    <string name="geopackageNoAttributeSets">Vybraný geopackage neobsahuje žádnou skupinu atributů, prosím použijte \'Správa atributů\' pro vytvoření nové skupiny atributů a definování polí.</string>
+    <string name="geopackageAttributeSetsNoFields">Nemohu najít platnou skupinu atributů. Ujištěte se, že jste vytvořili skupinu atributů, která obsahuje platná pole.</string>
+    <string name="geopackageAttributeSetsEmpty">Zatím jste nevytvořili žádnou \'Skupinu atributů\' pro vybraný geopackage. Zvolte, prosím \'Přidat\' nebo \'Importovat\' (tlačítko s šipkou) níže.</string>
+    <string name="shareGeopackage">Sdílet geopackage</string>
+
+    <string name="geopackage_table_index_features_createIndex">Obnovit</string>
+    <string name="geopackage_table_index_features_index_create_label">Vytvořit</string>
+    <string name="geopackage_table_index_features_index_title">index</string>
+    <string name="geopackage_table_index_features_index">Obnovit Index</string>
+    <string name="updating_layer_metadata">Aktualizuji metadata vrstvy</string>
+    <string name="updating_layer_indicies">Aktualizuji indexy vrstvy</string>
+    <string name="gettingFeaturesToImport">Získávám prvky pro import…</string>
+    <string name="positionInfo">Informace o pozici</string>
+    <string name="projectionNotSupported">Vybraná projekce není podporována - souřadný systém bude resetován na WGS84</string>
+
+    <string name="deleteField">Odstranit pole</string>
+    <string name="deleteFieldProblem">Pro tuto tabulku nemůže být pole odstraněno. Problém s primárním klíčem a sloupcem geometrie index id.</string>
+
+    <string name="deviceMemory">Zařízení</string>
+    <string name="setServerPath">Serverové připojení</string>
+    <string name="startLayerNumberingFrom">Začátek číslování prvků:</string>
+    <string name="startLayerNumberingFromInfo">Tato hodnota může být nastavena pouze když je vrstva prázdná.</string>
+    <string name="exportShapeFilesAs2D">Exportovat soubor SHP jako 2D geometrii</string>
+    <string name="setAsDefaultValue">Nastavit jako výchozí hodnotu</string>
+    <string name="removeGeopackage">Tato operace nemůže být vrácena zpět. Soubor geopackage , všechna související data (vrstvy) a atributy budou odstraněny. Jste si jisti, že chcete pokračovat?</string>
+
+    <string name="useSxBlueTitle">SXblue ToolBox</string>
+    <string name="useSxBlueSum">Použít pozici poskytnutou aplikací SXblue ToolBox.</string>
+    <string name="coordinatesAsFieldsTitle">Exportovat souřadnice jako jednotlivá pole</string>
+    <string name="coordinatesAsFieldsSum">Sloupce X,Y,Z (promítnuté) nebo zem.šířka, zem.délka a výška (geograficky) budou přidány do exportu bodových vrstev.</string>
+    <string name="enableMapitFieldsTitle">Pro vrstvu povolit pole aplikace Mapit [created, updated]</string>
+    <string name="enableMapitFieldsSum">Následující pole:\n\n- mapit_created_date\n- mapit_updated_date\n\nbudou přidána do vrstvy.\n\nTato možnost nemůže být vypnuta.\n\nPole Mapitu nemůžou být odstraněna a budou aktualizována pouze aplikací při vytvoření nebo aktualizaci záznamů.\n\nChcete pokračovat?</string>
+    <string name="tableExists">Prosím použijte jiný název - tabulka s názvem {0} již existuje.</string>
+
+
+
+
+    <!-- STANDALONE LICENSING -->
+
+    <string name="notActive">Aplikace musí být aktivována na tomto zařízení nebo musí být obnovena existující licence.\n\nStiskem \"Požádejte o licenci nyní\" kontaktujete poskytovale softwaru.</string>
+    <string name="requestLicenceNow">Požádejte o licenci nyní</string>
+
+    <string name="licenceMailSubject">Spatial Pro - Požadavek na licenci</string>
+    <string name="emailTextLicence">I would like to order Mapit Spatial Pro licence. Please find my contact details below.</string>
+
+    <string name="licenceMaintenance">Správa licencí</string>
+    <string name="licenceMaintenanceSub">Zkontrolujte informace o licenci nebo požádejte o novou licenci.</string>
+    <string name="licenceValidUntil">Platnost do: {0}</string>
+    <string name="licenceValidFor">Platnost licence aplikace vyprší za {0} dnů.</string>
+    <string name="requestLicenceType">Typ licence</string>
+    <string name="selectLicenceType">Vybraný typ licence.</string>
+
+    <!-- Licence Request Form -->
+    <string name="uniqueDeviceId">Id zařízení: </string>
+    <string name="L_please_complete">Prosím vyplňte údaje níže...</string>
+    <string name="L_licenceType_1">Typ licence: Předplatné na 1 rok</string>
+    <string name="L_licenceType_2">Typ licence: Permanentní licence</string>
+    <string name="L_firstName">Jméno: </string>
+    <string name="L_lastName">Příjmení: </string>
+    <string name="L_companyName">Firma: </string>
+    <string name="L_email">E-mail: </string>
+    <string name="activateNowQR">Aktivujte nyní pomocí QR kódu</string>
+
+    <string name="licenceTypeLabel">Prosím, vyberte typ licence:</string>
+    <string name="L_licenceType_1a">Předplatné na 1 rok</string>
+    <string name="L_licenceType_2a">Permanentní licence</string>
+
+    <!-- LICENSING END -->
+
+    <string name="sampleAttributeSet">Ukázkový soubor atributů</string>
+    <string name="sampleGeopackage">Ukázkový geopackage.gpkg</string>
+
+    <string name="manageStyles">Spravovat styly</string>
+    <string name="addStyle">Přidat styl</string>
+    <string name="setStyleColour">Nastavit barvu stylu - tato barva bude použita pro body, linie a také pro obrys polygonů.</string>
+    <string name="setStyleFillColour">Nastavit barvu výplně - bude použita pro výplň polygonů.</string>
+    <string name="setStyleColourLabel">Nastavit barvu stylu</string>
+    <string name="setStyleFillColourLabel">Nastavit barvu výplně stylu</string>
+    <string name="styleName">Jméno stylu</string>
+    <string name="pressBack">Pro uložení stylu stiskněte \'Zpět\'.</string>
+    <string name="addStyleInfo">Pro přidání stylu prosím stiskněte tlačítko \'Přidat\'.</string>
+    <string name="editingStyle">Upravuji styl</string>
+    <string name="deleteStyleError">Odstranit styl - Chyba</string>
+    <string name="deletingStyleInfo">Tento styl je používán v nastavení atributů. Operace byla zrušena.</string>
+    <string name="useForStyling">Použít pro aplikaci stylů</string>
+    <string name="useStyleInUse">Tento styl je používán v nastavení polí - Chcete pokračovat ?</string>
+    <string name="resetStyleAreYouSure">Všechny styly nastavení pro pole hodnot budou resetovány. Chcete pokračovat ?</string>
+    <string name="resetStyleAreYouSureTitle">Odstranit stav použití \"stylu\".</string>
+    
+     <string name="wmts_add">Přidat službu WMTS</string>
+    <string name="wmts_add_info">Služba se musí řídit úrovněmi přiblížení Google.\nProsím použijte např. URL \n\nhttps://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/WMTS/1.0.0/WMTSCapabilities.xml\n\nhttp://maps.wien.gv.at/wmts/1.0.0/WMTSCapabilities.xml\n\n</string>
+    <string name="wmts_error_version">Pouze WMTS verze 1.0.0 je momentálně podporována - Prosím kontaktujte poskytovatele služby WMTS pro více informací.</string>
+    <string name="wmts_setLayer">Prosím vyberte vrstvu</string>
+    <string name="wmts_service_add">Přidat vrstvu WMTS</string>
+    <string name="wmts_service_notCompatible">Tato služba není kompatibilní s Google Mapami. Prosím kontaktujte poskytovatele vaší služby pro více detailů.</string>
+    <string name="wmts_noLayers">Tato služba WMTS neobsahuje žádné podporované vrstvy. Prosím kontaktujte poskytovatele služby.</string>
+    <string name="wmts_service_add_URL">URL služby WMTS</string>
+    <string name="wmts_service_connecting">Připojování ke službě…</string>
+    <string name="wmts_add_selected">Přidat vybranou WMTS vrstvu</string>
+
+    <string name="txt_TianDiTu">Podkladové mapy Tianditu</string>
+    <string name="txt_TianDiTuKey">Klíč pro Tianditu podkladové mapy</string>
+    <string name="txt_TianDiTuKeySub">Vložte váš vlastní klíč pro Tianditu podkladové mapy</string>
+    
+</resources>
