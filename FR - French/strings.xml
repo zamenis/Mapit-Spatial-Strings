@@ -114,7 +114,6 @@
     <string name="mapBoxTokenSum">Un jeton d\'accès Mapbox est requis pour accéder aux cartes Mapbox.</string>
     <string name="mapBoxTokenError">Jeton fourni non valide ou ne peut être validé&#8230;</string>
     <string name="mapboxTokenSettings">\nMerci de renseigner un jeton Mapbox valide dans Paramètres>Comptes Cloud</string>
-    <string name="offlineMapsExt">Pour utiliser des cartes offline et accéder aux cartes MapBox une extension est requise. Souhaitez-vous acheter cette extension maintenant?</string>
     <string name="mapBoxMapId">Mapbox MapId (e.g. osedok.l4pfam2o):</string>
     <string name="mapBoxRequired">Nom et MapId sont requis.</string>
     <string name="offlineFiles">Copiez vos fichiers .mbtiles dans le dossier :\nDevice Memory->Mapit-Spatial->OfflineMaps.</string>
@@ -368,7 +367,7 @@
     <string name="like_us">Like</string>
     <string name="txt_rate">Si vous utilisez {0}, merci de laisser votre avis. \nVos retours nous aident à améliorer les fonctionnalités et en implémenter de nouvelles pour répondre à vos besoins. \n\nMerci de votre support!</string>
     <string name="generic_confirm_title">Etes-vous sûr?</string>
-    <string name="pm_list_empty2">Pour ajouter un ou plusieurs champs presser \'Ajouter\' en haut à droite.</string>
+    <string name="pm_list_empty2">Pour ajouter un ou plusieurs champs presser \'Ajouter\'.</string>
     <string name="txt_edit">Editer</string>
     <string name="txt_delete">Supprimer</string>
     <string name="txt_save">Sauver</string>
@@ -435,7 +434,7 @@
     <string name="wms_clear">Supprimer le fond actuelle</string>
     <string name="wms_manage">Gérer les sources des fonds</string>
     <string name="wms_services">WMS</string>
-    <string name="ESRI_maps">Esri Services</string>
+    <string name="ESRI_maps">ArcGIS</string>
     <string name="hide">Masquer</string>
     <string name="show_predefined">Restaurer tous les services pré-définis</string>
     <string name="add_ags">Ajouter AGS Tiled service</string>
@@ -800,9 +799,6 @@
     <string name="deleteField">Supprimer champ</string>
     <string name="deleteFieldProblem">Le champ ne peut pas être supprimé de cette table. Un problème est survenu avec la clé primaire et l\'id de l\'index de la colonne contenant le champ géométrie.</string>
 
-    
-    
-    
     <!-- Mapit SPATIAL - Missing Translation -->
 
     <string name="geoid_bin">Custom geoid *.bin format</string> <!--US National Geodetic Survey (*.bin) format -->
@@ -874,5 +870,23 @@
     <string name="resetStyleAreYouSure">All styles set for the field values will be reset. Do you wish to continue?</string>
     <string name="resetStyleAreYouSureTitle">Remove \"styled\" status.</string>
 
+
+    <string name="wmts_add">Add WMTS service</string>
+    <string name="wmts_add_info">Service must comply with Google zoom levels.\nPlease use URL to the service capabilities e.g.\n\nhttps://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/WMTS/1.0.0/WMTSCapabilities.xml\n\nhttp://maps.wien.gv.at/wmts/1.0.0/WMTSCapabilities.xml\n\n</string>
+    <string name="wmts_error_version">Only WMTS version 1.0.0 is supported at the moment - Please contact the WMTS service provider to get more information.</string>
+    <string name="wmts_setLayer">Please select layer</string>
+    <string name="wmts_service_add">Add WMTS Layer</string>
+    <string name="wmts_service_notCompatible">This Service is not compatible with Google Maps. Please contact your service provider for more info.</string>
+    <string name="wmts_noLayers">This WMTS service does not contain any supported layers. Please contact service provider.</string>
+    <string name="wmts_service_add_URL">WMTS Service URL</string>
+    <string name="wmts_service_connecting">Connecting to service…</string>
+    <string name="wmts_add_selected">Add selected WMTS Layer</string>
+
+    <string name="txt_TianDiTu">Tianditu Basemaps</string>
+    <string name="txt_TianDiTuKey">Tianditu Basemaps Key</string>
+    <string name="txt_TianDiTuKeySub">Provide your own Tianditu Basemaps Key</string>
+
     <!-- Missing End -->
+    
+    
 </resources>

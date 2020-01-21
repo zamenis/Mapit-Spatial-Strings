@@ -377,7 +377,7 @@
     <string name="wms_clear">Hilangkan tampilan sekarang</string>
     <string name="wms_manage">Atur sumber tampilan</string>
     <string name="wms_services">WMS</string>
-    <string name="ESRI_maps">Layanan ESRI</string>
+    <string name="ESRI_maps">ArcGIS</string>
     <string name="hide">Sembuyikan</string>
     <string name="show_predefined">Kembalikan standar semua layanan</string>
     <string name="add_ags">Tambah layanan AGS Tiled</string>
@@ -542,7 +542,7 @@
     <string name="ImportWithAttributes">Import Layer dengan semua atribut yang ada.\nSet atribut dibuat secara otomatis, Semua bidang didefinisikan sebagai entri bebas.\n Jika Anda ingin mengimpor geometri yang ada ke dalam layer dengan Atribut yang ditentukan, pilih layer dari daftar dan Impor geometri ke dalam layer tersebut .</string>
 
     <string name="dropboxConnect">Sambungkan ke Dropbox</string>
-    <string name="dropboxConnectSum">Otorisasi Untuk Menggunakan Dropbox...</string>
+    <string name="dropboxConnectSum">Otorisasi Untuk Menggunakan Dropbox…</string>
     <string name="dropboxTokenProblem">Tidak perlu otorisasi. Silahkan gunakan "Cloud Settings" kemudian tekan opsi "Sambungkan ke Dropbox".</string>
 
     <string name="useEOSConnectTitle">Eos Tools Pro - Eos Arrow Receivers</string>
@@ -569,7 +569,7 @@
     <string name="wfs_service_add_min">WFS Layer - Tingkat perbesaran minimum untuk tampilan layer(default 16)</string>
     <string name="wfs_service_add_Info">WFS Service harus mendukung version 2.0.0 or 1.1.0 dari WFS standar, proyeksi layer standar harus di set pada EPSG: 4326 (WGS84) dan harus mampu mendukung JSON format.\n\nSample URL: https://ahocevar.com/geoserver/wfs\n\nuntuk informasi lebih banyak silahkan kunjungi website kami atau kontak langsung.\ntiidak mendukung dalam hal pelayanan keamanan&#8230;</string>
     <string name="wfs_service_edit">Edit WFS Layer</string>
-    <string name="wfs_service_connecting">Menghubukgkan ke WFS service...</string>
+    <string name="wfs_service_connecting">Menghubukgkan ke WFS service…</string>
     <string name="wfs_error_version">Versi WFS harus 1.1.0 or 2.0.0 - Silahkan kontak ke WFS service provider untuk informasi lebih lanjut.</string>
     <string name="wfs_select_layer">Silahkan pilih layer WFS dan \'Rekam Konfigurasi\' - Setelah dipilih  dan edit layer untuk merubah tipe layer seperti warna dan ukuran garis tepinya.</string>
     <string name="wfs_add_selected">Tambahkan WFS Layer terpilih</string>
@@ -778,10 +778,46 @@
     <string name="startLayerNumberingFromInfo">Nilai ini hanya dapat di atur ketika layer kosong.</string>
     <string name="removeGeopackage">Perintah ini tidak dapat dibatalkan. File Geopackage, semua data (layers) dan atribut yang terdapat di dalamnya akan di hapus. Apakah anda yakin untuk menjalankan?</string>
 
-    
-    
-     <!-- MISSING INDONESIAN TRANSLATION BELLOW -->
-    
+
+    <string name="useSxBlueTitle">SXblue ToolBox</string>
+    <string name="useSxBlueSum">Feed Mapit dengan lokasi yang disediakan oleh aplikasi SXblue ToolBox.</string>
+    <string name="coordinatesAsFieldsTitle">Sertakan koordinat sebagai bidang.</string>
+    <string name="coordinatesAsFieldsSum">Kolom X, Y, Z (proyeksi) atau Lintang, Bujur, Ketinggian (geografis) akan ditambahkan ke ekspor lapisan TITIK.</string>
+    <string name="enableMapitFieldsTitle">Aktifkan bidang Mapit [dibuat, diperbarui] untuk lapisan</string>
+    <string name="enableMapitFieldsSum">Bidang-bidang berikut:\n\n- mapit_tanggal_terbuat\n- mapit_tanggal_terbaru\n\nakan ditambahkan ke layer.\n\nOpsi ini tidak dapat dinonaktifkan.\n\nBidang-bidang Mapit tidak dapat dihapus dan hanya dapat diperbarui oleh aplikasi saat catatan dibuat atau diedit.\n\nAnda ingin melanjutkan?</string>
+    <string name="tableExists">Silakan gunakan nama - tabel yang berbeda {0} nama sudah ada.</string>
+
+
+    <!-- LICENSING START -->
+    <string name="notActive">Aplikasi ini harus diaktifkan pada perangkat ini atau lisensi yang ada harus disegarkan.\n\nSilakan hubungi penyedia perangkat lunak dengan menekan tombol\"Minta Lisensi Sekarang\".</string>
+    <string name="requestLicenceNow">Minta Lisensi Sekarang </string>
+    <string name="licenceMailSubject">Spatial Pro - Permintaan Lisensi </string>
+    <string name="emailTextLicence">Saya ingin memesan lisensi Mapit Spatial Pro. Temukan detail kontak saya di bawah ini.</string>
+
+    <string name="licenceMaintenance">Pemeliharaan lisensi </string>
+    <string name="licenceMaintenanceSub">Periksa informasi lisensi atau minta lisensi baru.</string>
+    <string name="licenceValidUntil">Berlaku hingga: {0}</string>
+    <string name="licenceValidFor">Lisensi aplikasi akan kadaluwarsa dalam {0} hari.</string>
+    <string name="requestLicenceType">Tipe Lisensi</string>
+    <string name="selectLicenceType">Jenis lisensi yang dipilih.</string>
+
+    <!-- Formulir Permintaan Lisensi -->
+    <string name="uniqueDeviceId">ID Perangkat: </string>
+    <string name="L_please_complete">Silakan lengkapi detail di bawah ini…</string>
+    <string name="L_licenceType_1">Jenis lisensi: Berlangganan Satu Tahun</string>
+    <string name="L_firstName">Nama Depan: </string>
+    <string name="L_lastName">Nama Belakang: </string>
+    <string name="L_companyName">Nama Perusahaan: </string>
+    <string name="L_email">Kontak e-mail: </string>
+    <string name="activateNowQR"> Aktifkan Sekarang dengan kode QR </string>
+
+
+
+    <!-- LICENSING END -->
+
+
+    <!-- MISSING INDONESIAN TRANSLATION BELLOW -->
+
     <string name="L_licenceType_2">Licence type: Permanent Licence (25 years)</string>
     <string name="licenceTypeLabel">Please select licence type:</string>
     <string name="L_licenceType_1a">One Year subscription</string>
@@ -806,6 +842,21 @@
     <string name="useStyleInUse">This style is being used in fields configuration - Do you wish to continue?</string>
     <string name="resetStyleAreYouSure">All styles set for the field values will be reset. Do you wish to continue?</string>
     <string name="resetStyleAreYouSureTitle">Remove \"styled\" status.</string>
+
+    <string name="wmts_add">Add WMTS service</string>
+    <string name="wmts_add_info">Service must comply with Google zoom levels.\nPlease use URL to the service capabilities e.g.\n\nhttps://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/WMTS/1.0.0/WMTSCapabilities.xml\n\nhttp://maps.wien.gv.at/wmts/1.0.0/WMTSCapabilities.xml\n\n</string>
+    <string name="wmts_error_version">Only WMTS version 1.0.0 is supported at the moment - Please contact the WMTS service provider to get more information.</string>
+    <string name="wmts_setLayer">Please select layer</string>
+    <string name="wmts_service_add">Add WMTS Layer</string>
+    <string name="wmts_service_notCompatible">This Service is not compatible with Google Maps. Please contact your service provider for more info.</string>
+    <string name="wmts_noLayers">This WMTS service does not contain any supported layers. Please contact service provider.</string>
+    <string name="wmts_service_add_URL">WMTS Service URL</string>
+    <string name="wmts_service_connecting">Connecting to service…</string>
+    <string name="wmts_add_selected">Add selected WMTS Layer</string>
+
+    <string name="txt_TianDiTu">Tianditu Basemaps</string>
+    <string name="txt_TianDiTuKey">Tianditu Basemaps Key</string>
+    <string name="txt_TianDiTuKeySub">Provide your own Tianditu Basemaps Key</string>
 
     <!-- END of missing -->
 </resources>

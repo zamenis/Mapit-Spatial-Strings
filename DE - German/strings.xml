@@ -800,6 +800,8 @@
     
     
     <!-- Mapit SPATIAL - Missing German Translation -->
+	
+	
     <string name="tableExists">Please use different name - table named {0} already exists.</string>
 
     <!-- STANDALONE LICENSING -->
@@ -852,6 +854,22 @@
     <string name="useStyleInUse">This style is being used in fields configuration - Do you wish to continue?</string>
     <string name="resetStyleAreYouSure">All styles set for the field values will be reset. Do you wish to continue?</string>
     <string name="resetStyleAreYouSureTitle">Remove \"styled\" status.</string>
+	
+	
+	<string name="wmts_add">Add WMTS service</string>
+    <string name="wmts_add_info">Service must comply with Google zoom levels.\nPlease use URL to the service capabilities e.g.\n\nhttps://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/WMTS/1.0.0/WMTSCapabilities.xml\n\nhttp://maps.wien.gv.at/wmts/1.0.0/WMTSCapabilities.xml\n\n</string>
+    <string name="wmts_error_version">Only WMTS version 1.0.0 is supported at the moment - Please contact the WMTS service provider to get more information.</string>
+    <string name="wmts_setLayer">Please select layer</string>
+    <string name="wmts_service_add">Add WMTS Layer</string>
+    <string name="wmts_service_notCompatible">This Service is not compatible with Google Maps. Please contact your service provider for more info.</string>
+    <string name="wmts_noLayers">This WMTS service does not contain any supported layers. Please contact service provider.</string>
+    <string name="wmts_service_add_URL">WMTS Service URL</string>
+    <string name="wmts_service_connecting">Connecting to service…</string>
+    <string name="wmts_add_selected">Add selected WMTS Layer</string>
+
+    <string name="txt_TianDiTu">Tianditu Basemaps</string>
+    <string name="txt_TianDiTuKey">Tianditu Basemaps Key</string>
+    <string name="txt_TianDiTuKeySub">Provide your own Tianditu Basemaps Key</string>
 
     <!-- Missing End -->
 

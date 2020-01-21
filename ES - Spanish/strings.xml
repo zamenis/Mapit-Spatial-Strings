@@ -777,7 +777,7 @@
     <string name="tableExists">Por favor utilizar un nombre de tabla diferente  a este {0}, por ya exite una tabla con ese nombre.</string>
 
 
-    <!-- STANDALONE LICENSING -->
+   <!-- STANDALONE LICENSING -->
 
     <string name="notActive">Puede activar o actualizar la licencia en este dispositivo.\n\ Contacte a su proveedor presionando botón \" Solicitar Licencia de Uso Ahora \".</string>
     <string name="requestLicenceNow">Solicitar Licencia de Uso Ahora</string>
@@ -787,49 +787,64 @@
     <string name="licenceMaintenance">Mantenimiento de Licencia</string>
     <string name="licenceMaintenanceSub">Solicite una nueva licencia \n o revise información de su licencia.</string>
     <string name="licenceValidUntil">Valida hasta: {0}</string>
-    <string name="licenceValidFor">La Suscripción vencerá en {0} dias.</string>
+    <string name="licenceValidFor">La Suscripción vencerá en {0} días.</string>
     <string name="requestLicenceType">Tipo de Licencia</string>
     <string name="selectLicenceType">Tipo Licencia Seleccionada.</string>
 
     <!-- Licence Request Form -->
     <string name="uniqueDeviceId">Identificador de dispositivo: </string>
-    <string name="L_please_complete">Por favor complete los siguientes datos...</string>
+    <string name="L_please_complete">Por favor complete los siguientes datos…</string>
     <string name="L_licenceType_1">Tipo de Licencia: Suscripción Anual</string>
     <string name="L_firstName">Nombre: </string>
     <string name="L_lastName">Apellido: </string>
     <string name="L_companyName">Empresa o Negocio: </string>
     <string name="L_email">correo electrónico: </string>
     <string name="activateNowQR">Active ya con código QR</string>
+    <string name="L_licenceType_2">Tipo de Licencia: Licencia Permanente (25 años)</string>
+    <string name="licenceTypeLabel">Por favor seleccione el tipo de licencia:</string>
+    <string name="L_licenceType_1a">Un año de suscripción</string>
+    <string name="L_licenceType_2a">Licencia Permanente</string>
 
     <!-- LICENSING END -->
 
 
-   <string name="sampleAttributeSet">Ejemplo de formulario de atributos</string>
-   <string name="sampleGeopackage">Geopaquete de muestra.gpkg</string>
+    <string name="sampleAttributeSet">Ejemplo de formulario de atributos</string>
+    <string name="sampleGeopackage">Geopaquete de muestra.gpkg</string>
+
+    <string name="manageStyles">Gestionar estilos</string>
+    <string name="addStyle">Agregar estilo</string>
+    <string name="setStyleColour">Configurar color -este color se usará para dar estilo a  las geometrías de  tipo punto y línea, así como al perímetro o contorno de polígonos</string>
+    <string name="setStyleFillColour">Configurar color para dar estilo al relleno de geometrías de tipo polígono.</string>
+    <string name="setStyleColourLabel">Configurar color</string>
+    <string name="setStyleFillColourLabel">Configurar color de relleno</string>
+    <string name="styleName">Nombre de estilo</string>
+    <string name="pressBack">Presione \'opción o botón de Retroceso\' para guar cambios de estilo.</string>
+    <string name="addStyleInfo">Para agregar un estilo por favor presionar opción o botoón de  \'Agregar\' .</string>
+    <string name="editingStyle">Editar estilo</string>
+    <string name="deleteStyleError">Borrar estilo - Error</string>
+    <string name="deletingStyleInfo">Este estilo se esta utilizando actualmente en la configuración de atributos, por lo cual la operación ha sido cancelada.</string>
+    <string name="useForStyling">Usar para configurar estilo</string>
+    <string name="useStyleInUse">Este estilo  esta en uso en la configuración de campos - ¿Desea continuar?</string>
+    <string name="resetStyleAreYouSure">Todos los estilos se restablecerán a la configuración original -  ¿Desea continuar?</string>
+    <string name="resetStyleAreYouSureTitle">Eliminar\"estado de estilo\".</string>
+
 
     <!-- Mapit SPATIAL - Missing Spanish Translation -->
 
-    <string name="L_licenceType_2">Licence type: Permanent Licence (25 years)</string>
-    <string name="licenceTypeLabel">Please select licence type:</string>
-    <string name="L_licenceType_1a">One Year subscription</string>
-    <string name="L_licenceType_2a">Permanent Licence</string>
+    <string name="wmts_add">Add WMTS service</string>
+    <string name="wmts_add_info">Service must comply with Google zoom levels.\nPlease use URL to the service capabilities e.g.\n\nhttps://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/WMTS/1.0.0/WMTSCapabilities.xml\n\nhttp://maps.wien.gv.at/wmts/1.0.0/WMTSCapabilities.xml\n\n</string>
+    <string name="wmts_error_version">Only WMTS version 1.0.0 is supported at the moment - Please contact the WMTS service provider to get more information.</string>
+    <string name="wmts_setLayer">Please select layer</string>
+    <string name="wmts_service_add">Add WMTS Layer</string>
+    <string name="wmts_service_notCompatible">This Service is not compatible with Google Maps. Please contact your service provider for more info.</string>
+    <string name="wmts_noLayers">This WMTS service does not contain any supported layers. Please contact service provider.</string>
+    <string name="wmts_service_add_URL">WMTS Service URL</string>
+    <string name="wmts_service_connecting">Connecting to service…</string>
+    <string name="wmts_add_selected">Add selected WMTS Layer</string>
 
-    <string name="manageStyles">Manage Styles</string>
-    <string name="addStyle">Add Style</string>
-    <string name="setStyleColour">Set Style Colour - this colour will be use to style point and line features as well when used with polygon layer to style the polygon outline.</string>
-    <string name="setStyleFillColour">Set Style Fill Colour - used to style the polygon fill.</string>
-    <string name="setStyleColourLabel">Set Style Colour</string>
-    <string name="setStyleFillColourLabel">Set Style Fill Colour</string>
-    <string name="styleName">Style Name</string>
-    <string name="pressBack">Press \'Back\' to save the style.</string>
-    <string name="addStyleInfo">To add the style please press the \'Add\' button.</string>
-    <string name="editingStyle">Editing Style</string>
-    <string name="deleteStyleError">Delete Style - Error</string>
-    <string name="deletingStyleInfo">This style is currently being used in the attributes configuration. Operation has been cancelled.</string>
-    <string name="useForStyling">Use for styling</string>
-    <string name="useStyleInUse">This style is being used in fields configuration - Do you wish to continue?</string>
-    <string name="resetStyleAreYouSure">All styles set for the field values will be reset. Do you wish to continue?</string>
-    <string name="resetStyleAreYouSureTitle">Remove \"styled\" status.</string>
+    <string name="txt_TianDiTu">Tianditu Basemaps</string>
+    <string name="txt_TianDiTuKey">Tianditu Basemaps Key</string>
+    <string name="txt_TianDiTuKeySub">Provide your own Tianditu Basemaps Key</string>
 
     <!-- Missing End -->
 

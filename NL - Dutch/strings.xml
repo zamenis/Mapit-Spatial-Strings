@@ -115,7 +115,6 @@
     <string name="mapBoxTokenSum">Mapbox access token is vereist als je toegang wilt tot je Mapbox kaarten.</string>
     <string name="mapBoxTokenError">Opgegeven token is niet geldig of kan niet gevalideerd worden&#8230;</string>
     <string name="mapboxTokenSettings">\nGraag jouw geldig Mapbox token opgeven in Instellingen->Cloud Accounts</string>
-    <string name="offlineMapsExt">Om offline kaarten te gebruiken en toegang te hebben tot MapBox kaarten is een uitbreiding vereist. Wil je de uitbreiding nu aanschaffen?</string>
     <string name="mapBoxMapId">Mapbox MapId (e.g. osedok.l4pfam2o):</string>
     <string name="mapBoxRequired">Naam en MapId zijn vereist.</string>
     <string name="offlineFiles">Kopieer jouw .mbtiles bestanden naar\nApparaatopslag->Mapit-Spatial->OfflineMaps folder.</string>
@@ -437,7 +436,7 @@
     <string name="wms_clear">Verwijder huidige overlay</string>
     <string name="wms_manage">Beheer overlay bronnen</string>
     <string name="wms_services">WMS Services</string>
-    <string name="ESRI_maps">esri Services</string>
+    <string name="ESRI_maps">ArcGIS</string>
     <string name="hide">Verberg</string>
     <string name="show_predefined">Zet alle voorgedefinieerde services terug</string>
     <string name="add_ags">Voeg AGS Tiled service toe</string>
@@ -731,7 +730,7 @@
     <string name="txtAppended">toegevoegd</string>
     <string name="createPostgresInfoGeneral">Beide opties zullen een nieuwe PostgreSQL tabel aanmaken met naam {0} als deze nog niet bestaat. Kies optie 1 als je gegevens wil toevoegen aan bestaande tabel of optie 2 om bestaande tabel te overschrijven en vervangen.</string>
     <string name="txtSelectOption">Kies een optie hierboven om verder te gaan.</string>
-      <string name="txtGDrive">Google Drive</string>
+    <string name="txtGDrive">Google Drive</string>
     <string name="txtGDriveLink">Verbinden met Google Drive</string>
     <string name="txtGDriveLinkSub">Druk om toe te laten dat deze app Google Drive kan gebruiken…</string>
     <string name="txtGDriveLinkRemove">Verwijder Google Drive Link</string>
@@ -744,8 +743,8 @@
     <string name="averagingPositionsSumTime">Aantal seconden voor uitmiddelen positie</string>
     <string name="secureService">Dit is een beveiligde service</string>
     <string name="gstyleSum" translatable="false">Selecteer Google Map Stijl</string>
-    
-     <!-- Mapit SPATIAL Specific Below-->
+
+    <!-- Mapit SPATIAL Specific Below-->
     <string name="spatialSubscription">Mapit Spatial Abonnement</string>
     <string name="attributeSetExported">Attributen set is geëxporteerd en opgeslaan naar:</string>
     <string name="isSelectable">Kaartobjecten kunnen op de kaart geselecteerd worden</string>
@@ -805,7 +804,7 @@
     <string name="setServerPath">Server Path</string>
     <string name="startLayerNumberingFrom">Start nummering kaartobjecten met:</string>
     <string name="startLayerNumberingFromInfo">Deze waarde kan enkel ingesteld worden als de laag leeg is.</string>
-    
+
 
     <string name="exportShapeFilesAs2D">Exporteer SHP file als 2D geometrie</string>
     <string name="setAsDefaultValue">Instellen als standaard waarde</string>
@@ -814,13 +813,6 @@
     <string name="useSxBlueSum">Mapit de locatie laten gebruiken voorzien door SXblue ToolBox app en uw SXblue GNSS ontvanger.</string>
 
 
-    
-    
-    
-       
-    
-  <!-- Mapit SPATIAL Missing in Dutch Below-->
-    
     <string name="coordinatesAsFieldsTitle">Exporteer coördinaten als velden</string>
     <string name="coordinatesAsFieldsSum">X,Y,Z (geprojecteerd) of Lat, Lon, Alt (geografisch) kolommen zullen toegevoegd worden bij de export van een PUNTEN laag.</string>
     <string name="enableMapitFieldsTitle">Inschakelen Mapit velden [aangemaakt, bijgewerkt] voor laag</string>
@@ -844,7 +836,7 @@
 
     <!-- Licence Request Form -->
     <string name="uniqueDeviceId">Toestel Id: </string>
-    <string name="L_please_complete">Vervolledig aub de details hieronder...</string>
+    <string name="L_please_complete">Vervolledig aub de details hieronder…</string>
     <string name="L_licenceType_1">Licentie type: Jaarabonnement</string>
     <string name="L_licenceType_2">Licentie type: Lange termijn Licentie (25 jaar)</string>
     <string name="L_firstName">Voornaam: </string>
@@ -852,7 +844,6 @@
     <string name="L_companyName">Naam bedrijf/organisatie: </string>
     <string name="L_email">Contact e-mail: </string>
     <string name="activateNowQR">Activeer Nu met QR code</string>
-    
     <string name="licenceTypeLabel">Kies aub type licentie:</string>
     <string name="L_licenceType_1a">Jaarabonnement</string>
     <string name="L_licenceType_2a">Permanente Licentie</string>
@@ -879,6 +870,25 @@
     <string name="useStyleInUse">Deze stijl wordt gebruikt in configuratie van velden - Wil je verdergaan?</string>
     <string name="resetStyleAreYouSure">Alle stijlen ingesteld voor de veldwaarden worden gereset. Wil je verdergaan?</string>
     <string name="resetStyleAreYouSureTitle">Verwijder status \"styled\".</string>
+
+
+
+    <!-- Mapit SPATIAL Missing in Dutch Below-->
+
+    <string name="wmts_add">Add WMTS service</string>
+    <string name="wmts_add_info">Service must comply with Google zoom levels.\nPlease use URL to the service capabilities e.g.\n\nhttps://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/WMTS/1.0.0/WMTSCapabilities.xml\n\nhttp://maps.wien.gv.at/wmts/1.0.0/WMTSCapabilities.xml\n\n</string>
+    <string name="wmts_error_version">Only WMTS version 1.0.0 is supported at the moment - Please contact the WMTS service provider to get more information.</string>
+    <string name="wmts_setLayer">Please select layer</string>
+    <string name="wmts_service_add">Add WMTS Layer</string>
+    <string name="wmts_service_notCompatible">This Service is not compatible with Google Maps. Please contact your service provider for more info.</string>
+    <string name="wmts_noLayers">This WMTS service does not contain any supported layers. Please contact service provider.</string>
+    <string name="wmts_service_add_URL">WMTS Service URL</string>
+    <string name="wmts_service_connecting">Connecting to service…</string>
+    <string name="wmts_add_selected">Add selected WMTS Layer</string>
+
+    <string name="txt_TianDiTu">Tianditu Basemaps</string>
+    <string name="txt_TianDiTuKey">Tianditu Basemaps Key</string>
+    <string name="txt_TianDiTuKeySub">Provide your own Tianditu Basemaps Key</string>
     
     <!-- END of missing -->
 
