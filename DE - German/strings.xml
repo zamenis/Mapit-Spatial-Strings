@@ -802,74 +802,74 @@
     <!-- Mapit SPATIAL - Missing German Translation -->
 	
 	
-    <string name="tableExists">Please use different name - table named {0} already exists.</string>
+    <string name="tableExists">Bitte einen anderen Namen wählen - Tabelle mit Namen {0} existiert bereits.</string>
 
-    <!-- STANDALONE LICENSING -->
+    <!-- Einzellizenz -->
 
-    <string name="notActive">This application must be activated on this device or existing licence must be refreshed.\n\nPlease contact software provider by pressing \"Request License Now\" button.</string>
-    <string name="requestLicenceNow">Request Licence Now</string>
-    <string name="licenceMailSubject">Spatial Pro - Licence Request</string>
-    <string name="emailTextLicence">I would like to order Mapit Spatial Pro licence. Please find my contact details below.</string>
+    <string name="notActive">Die App-Lizenz muss auf diesem Gerät aktiviert oder eine bestehende Lizenz erneuert werden.\n\nBitte mit \"Jetzt Lizenz anfordern\" den Anbieter kontaktieren.</string>
+    <string name="requestLicenceNow">Jetzt Lizenz anfordern</string>
+    <string name="licenceMailSubject">Spatial Pro - Lizenzanforderung</string>
+    <string name="emailTextLicence">Ich würde gerne eine Mapit Spatial Pro Lizenz ordern. Bitte meine Kontaktdaten unten nutzen.</string>
 
-    <string name="licenceMaintenance">Licence maintenance</string>
-    <string name="licenceMaintenanceSub">Check licence information or request new licence.</string>
-    <string name="licenceValidUntil">Valid until: {0}</string>
-    <string name="licenceValidFor">The application licence will expire in {0} days.</string>
-    <string name="requestLicenceType">Licence type</string>
-    <string name="selectLicenceType">Selected Licence type.</string>
+    <string name="licenceMaintenance">Lizenz-Wartung</string>
+    <string name="licenceMaintenanceSub">Bitte die Lizenz-Informationen prüfen oder eine neue Lizenz beantragen.</string>
+    <string name="licenceValidUntil">Gültig bis: {0}</string>
+    <string name="licenceValidFor">Die App-Lizenz läuft in {0} Tagen aus.</string>
+    <string name="requestLicenceType">Lizenz-Typ</string>
+    <string name="selectLicenceType">Bitte Lizenz-Typ wählen.</string>
 
-    <!-- Licence Request Form -->
-    <string name="uniqueDeviceId">Device Id: </string>
-    <string name="L_please_complete">Please complete the details below…</string>
-    <string name="L_licenceType_1">Licence type: One Year subscription</string>
-    <string name="L_licenceType_2">Licence type: Long Term Licence (25 years)</string>
-    <string name="L_firstName">First Name: </string>
-    <string name="L_lastName">Last Name: </string>
-    <string name="L_companyName">Company Name: </string>
-    <string name="L_email">Contact e-mail: </string>
-    <string name="activateNowQR">Activate Now with QR code</string>
+    <!-- Lizenz-Anforderungsformular -->
+    <string name="uniqueDeviceId">Geräte-Id: </string>
+    <string name="L_please_complete">Bitte folgende Details ergänzen.</string>
+    <string name="L_licenceType_1">Lizenz-Typ: 1-Jahreslizenz</string>
+    <string name="L_licenceType_2">Lizenz-Typ: Langzeit-Lizenz (25 Jahre)</string>
+    <string name="L_firstName">Vorname: </string>
+    <string name="L_lastName">Nachname: </string>
+    <string name="L_companyName">Firmenname: </string>
+    <string name="L_email">Kontakt E-Mail: </string>
+    <string name="activateNowQR">Jetzt mit QR-Code aktivieren</string>
     
-    <string name="licenceTypeLabel">Please select licence type:</string>
-    <string name="L_licenceType_1a">One Year subscription</string>
-    <string name="L_licenceType_2a">Permanent Licence</string>
+    <string name="licenceTypeLabel">Bitte Lizenz-Typ wählen:</string>
+    <string name="L_licenceType_1a">1-Jahreslizenz</string>
+    <string name="L_licenceType_2a">Dauerlizenz</string>
 
     <!-- LICENSING END -->
 
-    <string name="sampleAttributeSet">Sample attribute set</string>
-    <string name="sampleGeopackage">Sample geopackage.gpkg</string>
+    <string name="sampleAttributeSet">Beispiel Attribute-Set</string>
+    <string name="sampleGeopackage">Beispiel Geopackage.gpkg</string>
 
-    <string name="manageStyles">Manage Styles</string>
-    <string name="addStyle">Add Style</string>
-    <string name="setStyleColour">Set Style Colour - this colour will be use to style point and line features as well when used with polygon layer to style the polygon outline.</string>
-    <string name="setStyleFillColour">Set Style Fill Colour - used to style the polygon fill.</string>
-    <string name="setStyleColourLabel">Set Style Colour</string>
-    <string name="setStyleFillColourLabel">Set Style Fill Colour</string>
-    <string name="styleName">Style Name</string>
-    <string name="pressBack">Press \'Back\' to save the style.</string>
-    <string name="addStyleInfo">To add the style please press the \'Add\' button.</string>
-    <string name="editingStyle">Editing Style</string>
-    <string name="deleteStyleError">Delete Style - Error</string>
-    <string name="deletingStyleInfo">This style is currently being used in the attributes configuration. Operation has been cancelled.</string>
-    <string name="useForStyling">Use for styling</string>
-    <string name="useStyleInUse">This style is being used in fields configuration - Do you wish to continue?</string>
-    <string name="resetStyleAreYouSure">All styles set for the field values will be reset. Do you wish to continue?</string>
-    <string name="resetStyleAreYouSureTitle">Remove \"styled\" status.</string>
+    <string name="manageStyles">Stile verwalten</string>
+    <string name="addStyle">Stil hinzufügen</string>
+    <string name="setStyleColour">Stil-Farbe wählen - diese Farbe wird für Punkte, Linien und Polygonumrisse verwendet.</string>
+    <string name="setStyleFillColour">Stil-Füllfarbe wählen - wird für die Farbe der Polygonfläche verwendet.</string>
+    <string name="setStyleColourLabel">Stil-Farbe wählen</string>
+    <string name="setStyleFillColourLabel">Stil-Füllfarbe wählen</string>
+    <string name="styleName">Stil-Name</string>
+    <string name="pressBack">Auf \'Zurück\' tippen, um den Stil zu speichern.</string>
+    <string name="addStyleInfo">Auf \'Hinzufügen\' tippen, um den Stil zu verwenden.</string>
+    <string name="editingStyle">Stil bearbeiten</string>
+    <string name="deleteStyleError">Stil löschen - Fehler</string>
+    <string name="deletingStyleInfo">Dieser Stil wird momentan für die Attribut-Konfiguration verwendet. Die Operation wurde angehalten.</string>
+    <string name="useForStyling">Stil nutzen</string>
+    <string name="useStyleInUse">Dieser Stil wird momentan für die Feld-Konfiguration verwendet. - Soll trotzdem fortgefahren werden?</string>
+    <string name="resetStyleAreYouSure">Alle Stileinstellungen für Feldwerte werden zurückgesetzt. - Soll fortgefahren werden?</string>
+    <string name="resetStyleAreYouSureTitle">Den \"Stil\" Status zurücksetzen.</string>
 	
 	
-	<string name="wmts_add">Add WMTS service</string>
-    <string name="wmts_add_info">Service must comply with Google zoom levels.\nPlease use URL to the service capabilities e.g.\n\nhttps://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/WMTS/1.0.0/WMTSCapabilities.xml\n\nhttp://maps.wien.gv.at/wmts/1.0.0/WMTSCapabilities.xml\n\n</string>
-    <string name="wmts_error_version">Only WMTS version 1.0.0 is supported at the moment - Please contact the WMTS service provider to get more information.</string>
-    <string name="wmts_setLayer">Please select layer</string>
-    <string name="wmts_service_add">Add WMTS Layer</string>
-    <string name="wmts_service_notCompatible">This Service is not compatible with Google Maps. Please contact your service provider for more info.</string>
-    <string name="wmts_noLayers">This WMTS service does not contain any supported layers. Please contact service provider.</string>
-    <string name="wmts_service_add_URL">WMTS Service URL</string>
-    <string name="wmts_service_connecting">Connecting to service…</string>
-    <string name="wmts_add_selected">Add selected WMTS Layer</string>
+	<string name="wmts_add">WMTS-Dienst hinzufügen</string>
+    <string name="wmts_add_info">Der Dienst muss mit den Google-Zoomstufen zurechtkommen.\nBitte die entsprechende URL nutzen, um die Dienst-Capabilities einzusehen z.B.\n\nhttps://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/WMTS/1.0.0/WMTSCapabilities.xml\n\nhttp://maps.wien.gv.at/wmts/1.0.0/WMTSCapabilities.xml\n\n</string>
+    <string name="wmts_error_version">Nur die WMTS-Version 1.0.0 wird momentan unterstützt. - Bitte für nähere Informationen den WMTS-Dienst-Anbieter kontaktiern.</string>
+    <string name="wmts_setLayer">Bitte Layer auswählen</string>
+    <string name="wmts_service_add">WMTS-Layer hinzufügen</string>
+    <string name="wmts_service_notCompatible">Dieser Dienst ist mit Google Maps nicht kompatibel. Bitte für nähere Informationen den Dienst-Anbieter kontaktiern.</string>
+    <string name="wmts_noLayers">Dieser WMTS-Dienst enthält keine unterstützten Layer. Bitte für nähere Informationen den Dienst-Anbieter kontaktiern.</string>
+    <string name="wmts_service_add_URL">WMTS-Dienst-URL</string>
+    <string name="wmts_service_connecting">Mit dem Dienst verbinden.</string>
+    <string name="wmts_add_selected">Ausgewählten WMTS-Layer hinzufügen</string>
 
-    <string name="txt_TianDiTu">Tianditu Basemaps</string>
-    <string name="txt_TianDiTuKey">Tianditu Basemaps Key</string>
-    <string name="txt_TianDiTuKeySub">Provide your own Tianditu Basemaps Key</string>
+    <string name="txt_TianDiTu">Tianditu Hintergrundkarten</string>
+    <string name="txt_TianDiTuKey">Tianditu Hintergrundkarten-Schlüssel</string>
+    <string name="txt_TianDiTuKeySub">Den eigenen Tianditu Hintergrundkarten-Schlüssel eingeben</string>
 
     <!-- Missing End -->
 
