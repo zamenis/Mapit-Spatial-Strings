@@ -794,13 +794,6 @@
     <string name="exportShapeFilesAs2D">Export des SHP-File als 2D-Geometrie</string>
     <string name="setAsDefaultValue">Als Standard-Wert setzen</string>
     <string name="removeGeopackage">Diese Operation kann nicht rückgängig gemacht werden. Das Geopackage-File und alle Daten und Attribute werden entfernt. Soll fortgefahren werden?</string>
-
- 
-    
-    
-    
-    <!-- Mapit SPATIAL - Missing German Translation -->
-	
 	
     <string name="tableExists">Bitte einen anderen Namen wählen - Tabelle mit Namen {0} existiert bereits.</string>
 
@@ -856,7 +849,7 @@
     <string name="resetStyleAreYouSureTitle">Den \"Stil\" Status zurücksetzen.</string>
 	
 	
-	<string name="wmts_add">WMTS-Dienst hinzufügen</string>
+    <string name="wmts_add">WMTS-Dienst hinzufügen</string>
     <string name="wmts_add_info">Der Dienst muss mit den Google-Zoomstufen zurechtkommen.\nBitte die entsprechende URL nutzen, um die Dienst-Capabilities einzusehen z.B.\n\nhttps://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/WMTS/1.0.0/WMTSCapabilities.xml\n\nhttp://maps.wien.gv.at/wmts/1.0.0/WMTSCapabilities.xml\n\n</string>
     <string name="wmts_error_version">Nur die WMTS-Version 1.0.0 wird momentan unterstützt. - Bitte für nähere Informationen den WMTS-Dienst-Anbieter kontaktiern.</string>
     <string name="wmts_setLayer">Bitte Layer auswählen</string>
@@ -871,6 +864,7 @@
     <string name="txt_TianDiTuKey">Tianditu Hintergrundkarten-Schlüssel</string>
     <string name="txt_TianDiTuKeySub">Den eigenen Tianditu Hintergrundkarten-Schlüssel eingeben</string>
 
+    <!-- Mapit SPATIAL - Missing German Translation -->
     <!-- Missing End -->
 
 </resources>
