@@ -2,8 +2,8 @@
 <resources>
 
     <string-array name="accuracyUnit">
-        <item>Metres</item>
-        <item>Centimetres</item>
+        <item>Metry</item>
+        <item>Centimetry</item>
     </string-array>
     <string-array name="accuracyUnitValue">
         <item>0</item>
@@ -27,16 +27,16 @@
         <item>2147483646</item>
     </string-array>
      <string-array name="areaUnits">
-        <item>Square meters - [ m2 ]</item>
-        <item>Hectars - [ ha ]</item>
-        <item>Ares - [ a ]</item>
-        <item>Square kilometers - [ km2 ]</item>
-        <item>Square miles - [ mi2 ]</item>
-        <item>Acres - [ ac ]</item>
-        <item>Square feet - [ ft2 ]</item>
-        <item>Square nautical mile - [ nmi2 ]</item>
-        <item>Square sazhen - [ saz2 ]</item>
-        <item>Chinese Mu - [ Mu ]</item>
+        <item>Metry čtvereční - [ m2 ]</item>
+        <item>Hektar - [ ha ]</item>
+        <item>Ar - [ a ]</item>
+        <item>Kilometr čtvereční - [ km2 ]</item>
+        <item>Čtvereční míle - [ mi2 ]</item>
+        <item>Akr - [ ac ]</item>
+        <item>Čtvereční stopa - [ ft2 ]</item>
+        <item>Čtvereční námořní míle - [ nmi2 ]</item>
+        <item>Čtvereční sazhen - [ saz2 ]</item>
+        <item>Čínský akr - [ Mu ]</item>
     </string-array>
     <string-array name="areaUnitsValues">
         <item>0</item>
@@ -51,12 +51,12 @@
         <item>9</item>
     </string-array>
 	 <string-array name="lengthUnits">
-        <item>Meters - [ m ]</item>
-        <item>Yards - [ yd ]</item>
-        <item>Kilometers - [ km ]</item>
-        <item>Miles - [ mi ]</item>
-        <item>Feet - [ ft ]</item>
-        <item>Nautical Mile - [ nmi ]</item>
+        <item>Metry - [ m ]</item>
+        <item>Yardy - [ yd ]</item>
+        <item>Kilometry - [ km ]</item>
+        <item>Míle - [ mi ]</item>
+        <item>Stopa - [ ft ]</item>
+        <item>Námořní míle - [ nmi ]</item>
         <item>Sazhen - [ saz ]</item>
     </string-array>
     <string-array name="lengthUnitsValues">
@@ -69,9 +69,9 @@
         <item>6</item>
     </string-array>
     <string-array name="measureMethod">
-        <item>Tap on the map</item>
-        <item>GPS points</item>
-        <item>Map cursor</item>
+        <item>Klepnutí do mapy</item>
+        <item>GPS body</item>
+        <item>Mapový kurzor</item>
     </string-array>
     <string-array name="measureMethodValues">
         <item>0</item>
@@ -79,16 +79,16 @@
         <item>2</item>
     </string-array>
      <string-array name="measureType">
-        <item>Measure Length</item>
-        <item>Measure Area</item>
+        <item>Měření vzdálenosti</item>
+        <item>Měření plochy</item>
     </string-array>
     <string-array name="measureTypeValues">
         <item>0</item>
         <item>1</item>
     </string-array>
     <string-array name="layer_types_array">
-        <item>Point</item>
-        <item>Line</item>
+        <item>Body</item>
+        <item>Linie</item>
         <item>Polygon</item>
     </string-array>
     <string-array name="picture_format">
@@ -102,4 +102,3 @@
     
     
 </resources>
-
