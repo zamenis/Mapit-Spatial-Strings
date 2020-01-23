@@ -718,72 +718,72 @@
     <string name="antenna_height_title">GNSS-Antennen-Höhe: {0} m</string>
 
     <!-- Mapit SPATIAL Specific Below-->
-     <string name="spatialSubscription">Mapit Spatial Aboplan</string>
-     <string name="attributeSetExported">Das Attribut-Set wurde exportiert und gespeichert in:</string>
-     <string name="isSelectable">Features können in der Karte ausgewählt werden map</string>
-     <string name="spatialSubscriptionInfo">Diese Mapit Spatial-Funktion benötigt eine gültige Google-Lizenz. Das Abo läuft ein Kalenderjahr und schaltet alle Software-Funktionen frei. Einfach OK drücken, um die 7-tägige KOSTENFREIE Testversion zu starten.</string>
-     <string name="type_tinyInt">Wertebereich: -127 bis 127</string>
-     <string name="type_smallInt">Wertebereich: -32767 bis 32767</string>
-     <string name="type_integer">Wertebereich: -2147483647 bis 2147483647</string>
-     <string name="type_long">Wertebereich: -9223372036854775807 bis 9223372036854775807</string>
-     <string name="selectBasemap" >Hintergrundkarte auswählen</string>
-     <string name="basemaps" >Hintergrundkarten verwalten</string>
-     <string name="geopackages" >Geopackages</string>
-     <string name="noGooglePlayServices">Diese Gerät wird nicht unterstützt. Bitte versuchen, Google Play zu installieren oder upzudaten.</string>
-     <string name="permissionsError">Folgende Rechte müssen gewährt werden, um Mapit ausführen zu können.  Bitte die App neu starten und die geforderten Rechte akzeptieren.</string>
-     <string name="geopackegesFiles">Bitte die .gpkg-Files in den \nGeräte-Ordner → Mapit-Spatial → Geopackages kopieren.</string>
-     <string name="setActiveGeopackage">Bitte ein Geopackage im "Geopackages" Tab aktiv schalten, um die enthaltenen Layer zu sehen.</string>
-     <string name="geopackageNoLayers">Das gewählte Geopackage enthält keine Layer.</string>
-     <string name="geoType">Geometrie-Typ</string>
-     <string name="txtLayer">Layer</string>
-     <string name="txtLinkField">Link</string>
-     <string name="createLayerSR">Das räumliche Bezugssystem ist standardmässig WGS84 EPSG:4326). Bitte hier das Koordinatensystem umstellen auf {0}.</string>
-     <string name="enableZ">Z-Dimension hinzufügen</string>
-     <string name="featuresCount">Feature-Anzahl</string>
-     <string name="createGeopackage">Geopackage erstellen</string>
-     <string name="valueOutOfRange">Der Wert entspricht nicht dem gewählten Daten-Typ des Feldes.</string>
-     <string name="linkFieldTitle">Feld mit einem Attribut-Set verknüpfen</string>
-     <string name="linkedFieldTitle">Verknüpftes Attribut-Set Feld</string>
-     <string name="linkFieldRemove">Link löschen</string>
-     <string name="dbFieldRequired">Bitte einen Standard-Wert für das NOT NULL-Feld wählen.</string>
-     <string name="selectAttSet">Attribut-Set auswählen:</string>
-     <string name="selectAttField">Attribut-Set Feld auswählen:</string>
-     <string name="selectedAttSet">Gewähltes Attribut-Set:</string>
-     <string name="selectedAttField">Gewähltes Attribut-Set Feld:</string>
-     <string name="selectedAttFieldDelete">Das ausgewählte Feld wird aus dem Layer gelöscht. Diese Aktion kann
+    <string name="spatialSubscription">Mapit Spatial Aboplan</string>
+    <string name="attributeSetExported">Das Attribut-Set wurde exportiert und gespeichert in:</string>
+    <string name="isSelectable">Features können in der Karte ausgewählt werden map</string>
+    <string name="spatialSubscriptionInfo">Diese Mapit Spatial-Funktion benötigt eine gültige Google-Lizenz. Das Abo läuft ein Kalenderjahr und schaltet alle Software-Funktionen frei. Einfach OK drücken, um die 7-tägige KOSTENFREIE Testversion zu starten.</string>
+    <string name="type_tinyInt">Wertebereich: -127 bis 127</string>
+    <string name="type_smallInt">Wertebereich: -32767 bis 32767</string>
+    <string name="type_integer">Wertebereich: -2147483647 bis 2147483647</string>
+    <string name="type_long">Wertebereich: -9223372036854775807 bis 9223372036854775807</string>
+    <string name="selectBasemap" >Hintergrundkarte auswählen</string>
+    <string name="basemaps" >Hintergrundkarten verwalten</string>
+    <string name="geopackages" >Geopackages</string>
+    <string name="noGooglePlayServices">Diese Gerät wird nicht unterstützt. Bitte versuchen, Google Play zu installieren oder upzudaten.</string>
+    <string name="permissionsError">Folgende Rechte müssen gewährt werden, um Mapit ausführen zu können.  Bitte die App neu starten und die geforderten Rechte akzeptieren.</string>
+    <string name="geopackegesFiles">Bitte die .gpkg-Files in den \nGeräte-Ordner → Mapit-Spatial → Geopackages kopieren.</string>
+    <string name="setActiveGeopackage">Bitte ein Geopackage im "Geopackages" Tab aktiv schalten, um die enthaltenen Layer zu sehen.</string>
+    <string name="geopackageNoLayers">Das gewählte Geopackage enthält keine Layer.</string>
+    <string name="geoType">Geometrie-Typ</string>
+    <string name="txtLayer">Layer</string>
+    <string name="txtLinkField">Link</string>
+    <string name="createLayerSR">Das räumliche Bezugssystem ist standardmässig WGS84 EPSG:4326). Bitte hier das Koordinatensystem umstellen auf {0}.</string>
+    <string name="enableZ">Z-Dimension hinzufügen</string>
+    <string name="featuresCount">Feature-Anzahl</string>
+    <string name="createGeopackage">Geopackage erstellen</string>
+    <string name="valueOutOfRange">Der Wert entspricht nicht dem gewählten Daten-Typ des Feldes.</string>
+    <string name="linkFieldTitle">Feld mit einem Attribut-Set verknüpfen</string>
+    <string name="linkedFieldTitle">Verknüpftes Attribut-Set Feld</string>
+    <string name="linkFieldRemove">Link löschen</string>
+    <string name="dbFieldRequired">Bitte einen Standard-Wert für das NOT NULL-Feld wählen.</string>
+    <string name="selectAttSet">Attribut-Set auswählen:</string>
+    <string name="selectAttField">Attribut-Set Feld auswählen:</string>
+    <string name="selectedAttSet">Gewähltes Attribut-Set:</string>
+    <string name="selectedAttField">Gewähltes Attribut-Set Feld:</string>
+    <string name="selectedAttFieldDelete">Das ausgewählte Feld wird aus dem Layer gelöscht. Diese Aktion kann
          nicht rückgängig gemacht werden. Sind Sie sicher?</string>
-     <string name="removeAttributeSetFieldError">Diese Feld kann nicht gelöscht werden, da es momentan mit
+    <string name="removeAttributeSetFieldError">Diese Feld kann nicht gelöscht werden, da es momentan mit
      folgenden Layern verknüpft ist:\n\n</string>
-     <string name="removeAttributeSetError">Bitte alle Felder löschen, bevor das Attribut-Set gelöscht werden kann.</string>
-     <string name="selectAttFieldLinkNotPossible">Der Feld-Datentyp des gewählten Attribut-Sets entspricht nicht dem
+    <string name="removeAttributeSetError">Bitte alle Felder löschen, bevor das Attribut-Set gelöscht werden kann.</string>
+    <string name="selectAttFieldLinkNotPossible">Der Feld-Datentyp des gewählten Attribut-Sets entspricht nicht dem
                zugeordneten Datenbank-Feldtyp. Bitte ein anderes Feld auswählen, oder ein neues Feld unter \'Attribute-Verwaltung\'  erstellen.\nDieser Link kann nicht gespeichert werden.</string>
-     <string name="geopackageNoAttributeSets">Das gewählte Geopackage enthält keine definierten Attribut-Sets. Bitte
+    <string name="geopackageNoAttributeSets">Das gewählte Geopackage enthält keine definierten Attribut-Sets. Bitte
           in der \'Attribute-Verwaltung\' ein neues Attribut-Set mit definierten Feldern erstellen, um diese dann hier zu verlinken.</string>
-     <string name="geopackageAttributeSetsNoFields">Es kann kein gültiges Attribut-Set gefunden werden. Bitte
+    <string name="geopackageAttributeSetsNoFields">Es kann kein gültiges Attribut-Set gefunden werden. Bitte
      sicherstellen, dass ein Attribut-Set erstellt wurde und dieses gültige Felder definiert hat.</string>
 
-     <string name="geopackageAttributeSetsEmpty">Bis jetzt wurde noch kein Attribut-Set für das gewählte Geopackage
+    <string name="geopackageAttributeSetsEmpty">Bis jetzt wurde noch kein Attribut-Set für das gewählte Geopackage
      erstellt. Bitte unten auf \'Hinzufügen\' oder \'Importieren\' (Knopf mit Pfeil) drücken.</string>
-     <string name="shareGeopackage">Geopackage teilen</string>
-     <string name="geopackage_table_index_features_createIndex">Wiederherstellen</string>
+    <string name="shareGeopackage">Geopackage teilen</string>
+    <string name="geopackage_table_index_features_createIndex">Wiederherstellen</string>
 
-     <string  name="geopackage_table_index_features_index_create_label">Erstellen</string>
+    <string  name="geopackage_table_index_features_index_create_label">Erstellen</string>
 
-     <string name="geopackage_table_index_features_index_title">Index</string>
+    <string name="geopackage_table_index_features_index_title">Index</string>
 
-     <string name="geopackage_table_index_features_index">Index wiederherstellen</string>
-     <string name="updating_layer_metadata"> Layer-Metadaten updaten</string>
-     <string name="updating_layer_indicies">Layer-Indizes updaten</string>
+    <string name="geopackage_table_index_features_index">Index wiederherstellen</string>
+    <string name="updating_layer_metadata"> Layer-Metadaten updaten</string>
+    <string name="updating_layer_indicies">Layer-Indizes updaten</string>
 
-     <string name="gettingFeaturesToImport">Features importieren…</string>
-     <string name="positionInfo">Positions-Information</string>
+    <string name="gettingFeaturesToImport">Features importieren…</string>
+    <string name="positionInfo">Positions-Information</string>
 
-     <string name="projectionNotSupported">Die gewählte Projektion wird nicht unterstützt - das Koordinatensystem wird  auf WGS84 zurückgestellt.</string>
+    <string name="projectionNotSupported">Die gewählte Projektion wird nicht unterstützt - das Koordinatensystem wird  auf WGS84 zurückgestellt.</string>
 
 
-     <string name="deleteField">Feld löschen</string>
+    <string name="deleteField">Feld löschen</string>
 
-     <string name="deleteFieldProblem">Das Feld kann aus der Tabelle nicht gelöscht werden. Es gab
+    <string name="deleteFieldProblem">Das Feld kann aus der Tabelle nicht gelöscht werden. Es gab
      ein Problem mit dem Primär-Schlüssel und der Geometrie-Feld Spalten-Index-ID.</string>
 
     <string name="geoid_bin">Eigenes geoid*.bin Format</string> <!--US National Geodetic Survey (*.bin) format -->
@@ -794,7 +794,14 @@
     <string name="exportShapeFilesAs2D">Export des SHP-File als 2D-Geometrie</string>
     <string name="setAsDefaultValue">Als Standard-Wert setzen</string>
     <string name="removeGeopackage">Diese Operation kann nicht rückgängig gemacht werden. Das Geopackage-File und alle Daten und Attribute werden entfernt. Soll fortgefahren werden?</string>
-	
+
+    <string name="useSxBlueTitle">SXblue ToolBox</string>
+    <string name="useSxBlueSum">Standortdaten aus der SXblue ToolBox in Mapit verwenden.</string>
+    <string name="coordinatesAsFieldsTitle">Punkt-Koordinaten als Attribute einbinden.</string>
+    <string name="coordinatesAsFieldsSum">X,Y,Z (projiziert) oder Lat, Lon, Alt (geographisch) werden als Spalten zum POINT-Layer Export hinzugefügt.</string>
+    <string name="enableMapitFieldsTitle">Mapit-Felder [erstellt, upgedated] für den Layer freigeben.</string>
+    <string name="enableMapitFieldsSum">Folgende Felder:\n\n- mapit_erstellt_datum\n- mapit_upgedated_datum\n\nwerden zum Layer hinzugefügt.\n\nDiese Option kann nicht abgeschaltet werden.\n\nMapit Felder können nicht entfernt werden und können von der App nur upgedated werden, wenn Einträge erstellt oder bearbeitet werden.\n\nSoll fortgefahren werden?</string>
+
     <string name="tableExists">Bitte einen anderen Namen wählen - Tabelle mit Namen {0} existiert bereits.</string>
 
     <!-- Einzellizenz -->
@@ -821,7 +828,7 @@
     <string name="L_companyName">Firmenname: </string>
     <string name="L_email">Kontakt E-Mail: </string>
     <string name="activateNowQR">Jetzt mit QR-Code aktivieren</string>
-    
+
     <string name="licenceTypeLabel">Bitte Lizenz-Typ wählen:</string>
     <string name="L_licenceType_1a">1-Jahreslizenz</string>
     <string name="L_licenceType_2a">Dauerlizenz</string>
@@ -847,8 +854,8 @@
     <string name="useStyleInUse">Dieser Stil wird momentan für die Feld-Konfiguration verwendet. - Soll trotzdem fortgefahren werden?</string>
     <string name="resetStyleAreYouSure">Alle Stileinstellungen für Feldwerte werden zurückgesetzt. - Soll fortgefahren werden?</string>
     <string name="resetStyleAreYouSureTitle">Den \"Stil\" Status zurücksetzen.</string>
-	
-	
+
+
     <string name="wmts_add">WMTS-Dienst hinzufügen</string>
     <string name="wmts_add_info">Der Dienst muss mit den Google-Zoomstufen zurechtkommen.\nBitte die entsprechende URL nutzen, um die Dienst-Capabilities einzusehen z.B.\n\nhttps://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/WMTS/1.0.0/WMTSCapabilities.xml\n\nhttp://maps.wien.gv.at/wmts/1.0.0/WMTSCapabilities.xml\n\n</string>
     <string name="wmts_error_version">Nur die WMTS-Version 1.0.0 wird momentan unterstützt. - Bitte für nähere Informationen den WMTS-Dienst-Anbieter kontaktiern.</string>
@@ -863,7 +870,7 @@
     <string name="txt_TianDiTu">Tianditu Hintergrundkarten</string>
     <string name="txt_TianDiTuKey">Tianditu Hintergrundkarten-Schlüssel</string>
     <string name="txt_TianDiTuKeySub">Den eigenen Tianditu Hintergrundkarten-Schlüssel eingeben</string>
-	
+
     <string name="new_layer_sr">Koordinatensystem für neue Layer</string>
     <string name="new_layer_srSum">Neue Layer erhalten automatisch das eingestellte lokale Koordinatensystem.</string>
 
