@@ -866,14 +866,12 @@
     <string name="editingStyle">Wijzigen van Stijl</string>
     <string name="deleteStyleError">Verwijder Stijl - Fout</string>
     <string name="deletingStyleInfo">Deze stijl wordt momenteel gebruikt in de attributen configuratie. Handeling is geannuleerd.</string>
+
     <string name="useForStyling">Gebruik voor styling</string>
     <string name="useStyleInUse">Deze stijl wordt gebruikt in configuratie van velden - Wil je verdergaan?</string>
     <string name="resetStyleAreYouSure">Alle stijlen ingesteld voor de veldwaarden worden gereset. Wil je verdergaan?</string>
     <string name="resetStyleAreYouSureTitle">Verwijder status \"styled\".</string>
-
-
-
-    <!-- Mapit SPATIAL Missing in Dutch Below-->
+  
 
     <string name="wmts_add">WMTS service toevoegen</string>
     <string name="wmts_add_info">Service moet in overeenstemming zijn met Google zoom levels.\nGebruik de URL naar de service 'capabilities' Bvb..\n\nhttps://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/WMTS/1.0.0/WMTSCapabilities.xml\n\nhttp://maps.wien.gv.at/wmts/1.0.0/WMTSCapabilities.xml\n\n</string>
@@ -889,7 +887,9 @@
     <string name="txt_TianDiTu">Tianditu Basemaps</string>
     <string name="txt_TianDiTuKey">Tianditu Basemaps Key</string>
     <string name="txt_TianDiTuKeySub">Voorzie uw eigen Tianditu Basemaps Key</string>
-    
+
+    <!-- Mapit SPATIAL Missing in Dutch Below-->
+
     <!-- END of missing -->
 
 </resources>
