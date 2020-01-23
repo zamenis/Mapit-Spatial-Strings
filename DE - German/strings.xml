@@ -863,6 +863,10 @@
     <string name="txt_TianDiTu">Tianditu Hintergrundkarten</string>
     <string name="txt_TianDiTuKey">Tianditu Hintergrundkarten-Schlüssel</string>
     <string name="txt_TianDiTuKeySub">Den eigenen Tianditu Hintergrundkarten-Schlüssel eingeben</string>
+	
+    <string name="new_layer_sr">Koordinatensystem für neue Layer</string>
+    <string name="new_layer_srSum">Neue Layer erhalten automatisch das eingestellte lokale Koordinatensystem.</string>
+
 
     <!-- Mapit SPATIAL - Missing German Translation -->
     <!-- Missing End -->
