@@ -888,10 +888,12 @@
     <string name="txt_TianDiTuKey">Tianditu Basemaps Key</string>
     <string name="txt_TianDiTuKeySub">Voorzie uw eigen Tianditu Basemaps Key</string>
 
-    <!-- Mapit SPATIAL Missing in Dutch Below-->
-    
+   
     <string name="new_layer_sr">Coördinatensysteem voor Nieuwe Laag</string>
     <string name="new_layer_srSum">Inschakelen om standaard het lokaal coördinatensysteem te gebruiken bij de aanmaak van een nieuwe laag.</string>
+  
+  
+    <!-- Mapit SPATIAL Missing in Dutch Below-->
     
     <!-- END of missing -->
 
