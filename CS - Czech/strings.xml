@@ -865,5 +865,11 @@
     <string name="txt_TianDiTu">Podkladové mapy Tianditu</string>
     <string name="txt_TianDiTuKey">Klíč pro Tianditu podkladové mapy</string>
     <string name="txt_TianDiTuKeySub">Vložte váš vlastní klíč pro Tianditu podkladové mapy</string>
+    <string name="new_layer_sr">Nová vrstva prostorové reference</string>
+    <string name="new_layer_srSum">Pří vytváření nové vrstvy povolit lokální prostorovou referenci jako výchozí.</string>
+
+    <!-- Mapit SPATIAL - Missing Czech Translation -->
+
+    <!-- Missing End -->
     
 </resources>
