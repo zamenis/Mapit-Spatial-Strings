@@ -890,8 +890,8 @@
 
     <!-- Mapit SPATIAL Missing in Dutch Below-->
     
-    <string name="new_layer_sr">New Layer Spatial Reference</string>
-    <string name="new_layer_srSum">Enable to set local SR as default when creating new layer.</string>
+    <string name="new_layer_sr">Coördinatensysteem voor Nieuwe Laag</string>
+    <string name="new_layer_srSum">Inschakelen om lokaal coördinatensysteem steeds te gebruiken bij de aanmaak van een nieuwe laag.</string>
     
     <!-- END of missing -->
 
