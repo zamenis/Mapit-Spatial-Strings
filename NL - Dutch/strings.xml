@@ -889,7 +889,10 @@
     <string name="txt_TianDiTuKeySub">Voorzie uw eigen Tianditu Basemaps Key</string>
 
     <!-- Mapit SPATIAL Missing in Dutch Below-->
-
+    
+    <string name="new_layer_sr">New Layer Spatial Reference</string>
+    <string name="new_layer_srSum">Enable to set local SR as default when creating new layer.</string>
+    
     <!-- END of missing -->
 
 </resources>

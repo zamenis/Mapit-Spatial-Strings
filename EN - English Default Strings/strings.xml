@@ -867,4 +867,7 @@
     <string name="txt_TianDiTuKey">Tianditu Basemaps Key</string>
     <string name="txt_TianDiTuKeySub">Provide your own Tianditu Basemaps Key</string>
     
+    <string name="new_layer_sr">New Layer Spatial Reference</string>
+    <string name="new_layer_srSum">Enable to set local SR as default when creating new layer.</string>
+    
 </resources>
