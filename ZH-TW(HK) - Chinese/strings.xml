@@ -859,5 +859,18 @@
     <string name="txt_TianDiTuKeySub">提供你自己的天地圖授權Key</string>
 
     <!-- MISSING CHINESE TRANSLATION -->
+	
+    <string name="new_layer_sr">New Layer Spatial Reference</string>
+    <string name="new_layer_srSum">Enable to set local spatial reference as default when creating new layer.</string>
+
+    <string name="gdriveRemove">Remove Google Drive access</string>
+    <string name="gdriveRemoveSettings">Press to remove access to Google Drive.</string>
+    <string name="gdriveRemoveAlert">Do you want to clear current Google Drive access settings?</string>
+    <string name="gdriveDownloadProblem">Problem occurred during file download from Gdrive.</string>
+    <string name="uploadingGeneral">"Uploading files, please wait…"</string>
+    <string name="importGeopackage">Import Geopackage</string>
+    <string name="importGeopackageExists">Already exist in Geopackages folder - please remove existing geopackage first before importing.\n\nFor security reasons Mapit do not override the data automatically.</string>
+    <string name="featureGeometryInvalid">Feature geometry is invalid and it will be removed when you stop edit session now. Do you wish to continue?</string>
+	
     <!-- END OF MISSING CHINESE TRANSLATION -->
 </resources>
