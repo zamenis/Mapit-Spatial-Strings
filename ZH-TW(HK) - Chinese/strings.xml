@@ -39,7 +39,7 @@
     <string name="map_problem">此地圖無法被載入</string>
     <string name="drawer_newLayer">創建新圖層</string>
     <string name="fields">欄位</string>
-     <string name="field">欄位</string>
+    <string name="field">欄位</string>
     <string name="activeLayer">活動圖層</string>
     <string name="fieldValues">域值:</string>
     <string name="fieldsList">欄位清單</string>
@@ -160,7 +160,7 @@
     <string name="gpsWaiting">等待GPS位置</string>
     <string name="export_full_path_to_pictures">匯出完整的圖片路徑</string>
     <string name="miscellaneous_settings">雜項設置</string>
-   <string name="miscellaneous_settings_sum">與應用程式的不同部分相關的混合設置</string>
+    <string name="miscellaneous_settings_sum">與應用程式的不同部分相關的混合設置</string>
     <string name="txt_sort_active_first">首先啟動</string>
     <string name="txt_newPointAsDistanceAndBearing">距離與方位的方式</string>
     <string name="txt_newPointAsDistanceAndBearingSum">從當前的GPS，基準點或游標位置添加新的點提供距離與方位.</string>
@@ -181,13 +181,13 @@
     <string name="LabelField">基於此欄位的標籤:</string>
     <string name="defaultText">默認</string>
     <string name="stop">停止</string>
-     <string name="notificationTitle">Mapit - 正在記錄軌跡</string>
+    <string name="notificationTitle">Mapit - 正在記錄軌跡</string>
     <string name="showTrackRecordingButton">顯示“正在記錄軌跡”按鈕</string>
     <string name="notificationText">Mapit正在跟蹤軌跡.</string>
-     <string name="showBasePoints">在地圖上顯示基準點</string>
+    <string name="showBasePoints">在地圖上顯示基準點</string>
     <string name="inludeBasePointsLayer">基準點層管理</string>
     <string name="inludeBasePointsLayerSum">“基準點圖層”將在“管理圖層”部分中顯示.</string>
-   <string name="basePoints">基準點</string>
+    <string name="basePoints">基準點</string>
     <string name="basePointsDesc">當使用“方位與距離”方式時，此圖層中的點將作為基準點下拉清單的資料來源.</string>
     <string name="baseName">基準</string>
     <string name="rememberLastName">默認為上一個名稱</string>
@@ -200,7 +200,7 @@
     <string name="exportToDxf">DXF - 只有幾何圖形</string>
     <string name="defaultPointFeaturePrefixText">點特徵的預設首碼</string>
     <string name="defaultLineFeaturePrefixText">線特徵的預設首碼</string>
-     <string name="defaultPolygonFeaturePrefixText">面特徵的預設首碼</string>
+    <string name="defaultPolygonFeaturePrefixText">面特徵的預設首碼</string>
     <string name="importAttributeSetText">導入屬性集</string>
     <string name="txt_import_no_files_AS">要導入屬性集表格檔請拷貝要導入的檔到:\n\nSD Card->Mapit-Spatial->Import->AttributeSets 資料夾.\n\n屬性集可以從結構化的JSON檔中被導入.\n\n請訪問我們的網站獲取更多關於導入屬性集的資訊.</string>
     <string name="importAttributeSetNoName">檔未包含名稱屬性.</string>
@@ -220,14 +220,14 @@
     <string name="navigatetoDistance">距離: {0}</string>
     <string name="navigatetoBearing">{0}</string>
     <string name="navigatetoWaiting">正在等待準確的位置詳細資訊以開始導航…</string>
-     <string name="addOSMTypeServiceInfo">要添加Open Street Map類型服務，請在下面的欄位中填寫名稱和網址屬性。 該服務必須位於Web Mercator投影（ESPG：3857）中。OSM類型服務磁貼的示例網址如下所示：\n\nhttp://b.tile.openstreetmap.org/17/63963/40837.png  \n\n其中URL的最後部分包含縮放級別以及圖塊的x，y座標。\n\n要添加服務，您只需提供URL的第一部分 - 應該像如下所示：\n\nhttp://b.tile.openstreetmap.org 或\nhttp://tile.waymarkedtrails.org/hiking \n\n可在我們的網站上找到更多資訊.</string>
-   <string name="selectActiveOnly">地圖選擇 - 只選活動圖層</string>
+    <string name="addOSMTypeServiceInfo">要添加Open Street Map類型服務，請在下面的欄位中填寫名稱和網址屬性。 該服務必須位於Web Mercator投影（ESPG：3857）中。OSM類型服務磁貼的示例網址如下所示：\n\nhttp://b.tile.openstreetmap.org/17/63963/40837.png  \n\n其中URL的最後部分包含縮放級別以及圖塊的x，y座標。\n\n要添加服務，您只需提供URL的第一部分 - 應該像如下所示：\n\nhttp://b.tile.openstreetmap.org 或\nhttp://tile.waymarkedtrails.org/hiking \n\n可在我們的網站上找到更多資訊.</string>
+    <string name="selectActiveOnly">地圖選擇 - 只選活動圖層</string>
     <string name="selectActiveOnlySum">地圖上只能選擇活動圖層的特徵</string>
     <string name="measureModeLine">測量模式 - 距離</string>
     <string name="measureModeArea">測量模式 - 面積</string>
     <string name="pref_measureModeButton">顯示測量按鍵</string>
     <string name="unitsSettings">單位與座標</string>
-     <string name="unitsSettingsSum">測量單位與地圖座標</string>
+    <string name="unitsSettingsSum">測量單位與地圖座標</string>
     <string name="measureInfo">長按改變測量模式(距離/面積)</string>
     <string name="mapscreenshot">地圖截屏</string>
     <string name="mapscreenshotInfo">地圖截屏正在處理中…</string>
@@ -236,10 +236,10 @@
     <string name="useRangeFinderTitle">藍牙測距儀</string>
     <string name="useRangeFinderToAddPoints">使用配對的鐳射測距儀添加點</string>
     <string name="generalError">錯誤</string>
-   <string name="generalBusy">工作中…</string>
+    <string name="generalBusy">工作中…</string>
     <string name="generalRequired">必須的</string>
     <string name="generalInvalid">無效的</string>
-   <string name="generalBTConnected">連接到: </string>
+    <string name="generalBTConnected">連接到: </string>
     <string name="generalBTDisConnected">斷開連接: </string>
     <string name="noPairedDevices">請在系統設置中將您的測距儀與此設備配對,然後再繼續.</string>
 
@@ -256,16 +256,16 @@
     <string name="externalBTGPSSum">配置外部藍牙GNSS接收機.</string>
     <string name="enableBTGPS">直接連接到外部GNSS接收機</string>
     <string name="enableBTGPSSum">點擊啟用外部GNSS接收機，並從配對的設備中選擇位置信號源。 接收機必須通過藍牙傳輸NMEA語句.</string>
-     <string name="notAvailableExternalGPS">選定的外部GNSS接收機不可用。 請檢查您的設置或打開外部接收機開關並重新開機應用程式.</string>
+    <string name="notAvailableExternalGPS">選定的外部GNSS接收機不可用。 請檢查您的設置或打開外部接收機開關並重新開機應用程式.</string>
     <string name="forceMockLoc">強制模擬位置</string>
     <string name="forceMockLocSum">默認應為關閉。但您如果遇到連接問題，可以嘗試打開.</string>
-   <string name="errorMockLoc">看起來模擬位置在Android設置中未啟用。\n無法從外部GNSS接收機獲取當前位置。\n\n請啟用類比位置並重新開機應用程式以使用外部GNSS接收機作為位置來源.</string>
+    <string name="errorMockLoc">看起來模擬位置在Android設置中未啟用。\n無法從外部GNSS接收機獲取當前位置。\n\n請啟用類比位置並重新開機應用程式以使用外部GNSS接收機作為位置來源.</string>
     <string name="externalGPSInstruction">說明</string>
-   <string name="externalGPSInstructionSum">1.確保設備（外部GNSS接收機）在Android藍牙設置中配對。\n2. 在Android“開發者選項”設置中啟用“允許模擬位置”（在Android 6中，請將Mapit設置為類比位置應用程式）\n3. 打開上面的外部GNSS接收機開關並選擇外部GNSS接收機。\n4. 返回地圖時，位置資訊源將自動切換到外部GNSS接收機，您可能需要重新開機應用程式.</string>
+    <string name="externalGPSInstructionSum">1.確保設備（外部GNSS接收機）在Android藍牙設置中配對。\n2. 在Android“開發者選項”設置中啟用“允許模擬位置”（在Android 6中，請將Mapit設置為類比位置應用程式）\n3. 打開上面的外部GNSS接收機開關並選擇外部GNSS接收機。\n4. 返回地圖時，位置資訊源將自動切換到外部GNSS接收機，您可能需要重新開機應用程式.</string>
     <string name="customEPSGCodeTxt">使用下面提供的EPSG Code</string>
     <string name="customEPSGCodeTxt1">EPSG Code</string>
     <string name="customEPSGCodeTxt2">請輸入您的EPSG Code，比如 EPSG:3007</string>
-   <string name="customEPSGCodeSum">請從上面的下拉清單中選擇 “Custom: EPSG code” 啟動下麵的文本欄位.</string>
+    <string name="customEPSGCodeSum">請從上面的下拉清單中選擇 “Custom: EPSG code” 啟動下麵的文本欄位.</string>
     <string name="gpsLock">GNSS鎖定</string>
     <string name="generalNMEAdevice">支援NMEA語句的通用設備</string>
     <string name="sattelitesTxt">衛星</string>
@@ -304,7 +304,7 @@
     <string name="blockPointsShifting">阻止點的拖動</string>
     <string name="blockPointsShiftingSum">阻止拖動點特徵的可能性（需要重新開機）.</string>
 
-     <string name="addVideo">增加視頻</string>
+    <string name="addVideo">增加視頻</string>
     <string name="addAudio">增加音訊記錄</string>
     <string name="addAttachment">增加附件</string>
 
@@ -355,7 +355,7 @@
     <string name="pref_4">預設長度單位</string>
     <string name="pref_5">預設面積單位</string>
     <string name="pref_6">預設單位</string>
-     <string name="txt_remember_map">退出時提醒地圖類型</string>
+    <string name="txt_remember_map">退出時提醒地圖類型</string>
     <string name="txt_restart">重啟應用程式以應用此更改。</string>
     <string name="txt_ok">OK</string>
     <string name="txt_no">No</string>
@@ -371,7 +371,7 @@
     <string name="txt_cancel">取消</string>
     <string  name="notAbleToPurchase">購買不能處理。請檢查您的互聯網連接或Google帳戶設置.</string>
     <string name="show_pictures">顯示圖片</string>
-   <string name="txt_name">名稱</string>
+    <string name="txt_name">名稱</string>
     <string name="txt_desc">描述</string>
     <string name="pm_Name_Error">“名稱”參數不能為空.</string>
     <string name="pm_add_v">添加值</string>
@@ -406,7 +406,7 @@
     <string name="gps_device_time">設備時間</string>
     <string name="gps_insky">可見衛星數</string>
     <string name="gps_infix">參與定位的衛星數</string>
-   <string name="gps_time_firs_fix">首次定位時間TTFF</string>
+    <string name="gps_time_firs_fix">首次定位時間TTFF</string>
     <string name="gps_time_last_fix">最後一次定位</string>
     <string name="noGPSSignal">GNSS信號</string>
     <string name="noGPSSignalText">目前無法定位，請等待定位信號，或者檢查Android定位設置。</string>
@@ -437,7 +437,7 @@
     <string name="please_provide">請提供:</string>
     <string name="add_ags_url">服務連結</string>
     <string name="add_ags_info">只能添加ArcGIS 伺服器分塊服務。服務的空間參考坐標系必須是Web Mercator投影（ESPG：3857）\n示例服務網址：\nhttp：//services.arcgisonline.com/ArcGIS/rest/services/USA_Topo_Maps/MapServer \n \n若出現問題，請訪問我們的網站瞭解更多詳情或聯繫我們。\n目前不支援安全服務.</string>
-     <string name="add_no_url">必須有服務的連結</string>
+    <string name="add_no_url">必須有服務的連結</string>
     <string name="add_no_name">必須有名稱</string>
 
     <string name="time">時間</string>
@@ -449,18 +449,18 @@
     <string name="available_layers">選擇一個或多個圖層:</string>
     <string name="save_wms_details">將此服務加入MapPad</string>
     <string name="overlay_transparency">重疊層的透明度</string>
-     <string name="wms_info">服務資訊</string>
+    <string name="wms_info">服務資訊</string>
     <string name="contact_point">聯繫點: </string>
     <string name="contact_org">組織: </string>
     <string name="contact_address">地址: </string>
     <string name="contact_city">城市: </string>
-     <string name="contact_province">州或省:</string>
+    <string name="contact_province">州或省:</string>
     <string name="contact_post_code">郵編:</string>
     <string name="contact_country">國家:</string>
     <string name="contact_phone">電話:</string>
     <string name="contact_email">電子郵件:</string>
     <string name="wms_fees">費用:</string>
-   <string name="wms_access">訪問限制:</string>
+    <string name="wms_access">訪問限制:</string>
     <string name="wms_connect">獲取WMS細節 - 請稍等…</string>
 
     <string name="edit_wms">編輯WMS服務</string>
@@ -567,7 +567,7 @@
     <string name="averagingPositionsSum">設置用於平均的位置數.</string>
     <string name="maxHDOPAllowedText">最大 HDOP 值</string>
     <string name="maxHDOPAllowedSum">當HDOP小於此值時才計數位置 </string>
-     <string name="minAccuracyAllowedText">最小準確度</string>
+    <string name="minAccuracyAllowedText">最小準確度</string>
     <string name="minAccuracyAllowedSum">當準確度大於此值時才計數位置</string>
     <string name="horizontalAccuracyRMS">水準RMS</string>
     <string name="verticalAccuracyRMS">垂直RMS</string>
@@ -575,7 +575,7 @@
     <string name="stationID">基準站ID</string>
     <string name="correctionAge">數據齡期</string>
     <string name="importWMS">導入WMS</string>
-   <string name="WMSShareText">或者，您可以下載附件中的JSON檔，並使用WMS服務功能表上的“導入”選項將其導入到{0}應用程式中.</string>
+    <string name="WMSShareText">或者，您可以下載附件中的JSON檔，並使用WMS服務功能表上的“導入”選項將其導入到{0}應用程式中.</string>
     <string name="noWMSFiles">沒有WMS設定檔可用於導入。請確保包含WMS配置的JSON檔存在於Android Download資料夾或{0}->Import資料夾中。 檔案名應以“WMS”開頭，副檔名應為“.json”。  </string>
     <string name="exportToFTPInfo">匯出到FTP包括所有圖層附件，可能需要很長時間。大量的資料可能通過網路傳輸，建議使用Wi-Fi連接.</string>
     <string name="exportToFTPInfoLayerOnly">正在匯出到FTP…</string>
@@ -592,7 +592,7 @@
     <string name="solopt_geoid_model_dialog_title">選擇大地水準面模型</string>
     <string name="EGM2008Info"> 1.2014年8月起，請從國家地理空間情報局模型下載檔案。檔可以在http://earth-info.nga.mil/GandG/wgs84/gravitymod/egm2008/Small_Endian/Und_min2.5x2.5_egm2008_isw=82_WGS84_TideFree_SE.gz 找到\n\n2. 提取下載的文件：\n\nUnd_min2.5x2.5_egm2008_isw=82_WGS84_TideFree_SE \n\n並將其重命名為：\n\nEGM2008_M25.geoid \n\n3. 將此模型置於{0}->資源檔夾中。</string>
     <string name="testConnection">測試連接</string>
-   <string name="testConnectionSuccess">連接到 {0} 成功!</string>
+    <string name="testConnectionSuccess">連接到 {0} 成功!</string>
     <string name="testConnectionError">錯誤: \n連接到 {0} 失敗! \n請檢查您的設置…</string>
 
     <string name="antenna_height_title">天線高: {0} 米</string>
@@ -621,7 +621,7 @@
     <string name="txtNorthing">向北</string>
     <string name="txtUtmZone">UTM 區</string>
 
-     <string name="ImportWithAttributes">導入附帶所有已有屬性的圖層.\n屬性集將自動被創建，但所有欄位都將被定義為自由輸入的文字方塊。\n如果要將現有幾何圖形導入到定義了屬性集的圖層中，請從列表中選擇圖層並將幾何圖形導入圖層.</string>
+    <string name="ImportWithAttributes">導入附帶所有已有屬性的圖層.\n屬性集將自動被創建，但所有欄位都將被定義為自由輸入的文字方塊。\n如果要將現有幾何圖形導入到定義了屬性集的圖層中，請從列表中選擇圖層並將幾何圖形導入圖層.</string>
 
     <string name="dropboxConnect">連接到Dropbox</string>
     <string name="dropboxConnectSum">按此授權此應用程式使用DropBox…</string>
@@ -840,9 +840,9 @@
     <string name="useStyleInUse">該樣式已使用在欄位配置中 - 是否繼續?</string>
     <string name="resetStyleAreYouSure">所有的樣式會被重置. 是否繼續?</string>
     <string name="resetStyleAreYouSureTitle">移除 \"styled\" 狀態.</string>
-	
 
-   
+
+
     <string name="wmts_add">添加 WMTS 服務</string>
     <string name="wmts_add_info">服務必須符合Google縮放級別.\n請輸入服務說明配置xml檔的url e.g.\n\nhttps://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/WMTS/1.0.0/WMTSCapabilities.xml\n\nhttp://maps.wien.gv.at/wmts/1.0.0/WMTSCapabilities.xml\n\n</string>
     <string name="wmts_error_version">目前僅支持 WMTS version 1.0.0 - 請聯繫服務商獲得更多資訊.</string>
@@ -858,19 +858,18 @@
     <string name="txt_TianDiTuKey">天地圖授權Key</string>
     <string name="txt_TianDiTuKeySub">提供你自己的天地圖授權Key</string>
 
-    <!-- MISSING CHINESE TRANSLATION -->
-	
-    <string name="new_layer_sr">New Layer Spatial Reference</string>
-    <string name="new_layer_srSum">Enable to set local spatial reference as default when creating new layer.</string>
 
-    <string name="gdriveRemove">Remove Google Drive access</string>
-    <string name="gdriveRemoveSettings">Press to remove access to Google Drive.</string>
-    <string name="gdriveRemoveAlert">Do you want to clear current Google Drive access settings?</string>
-    <string name="gdriveDownloadProblem">Problem occurred during file download from Gdrive.</string>
-    <string name="uploadingGeneral">"Uploading files, please wait…"</string>
-    <string name="importGeopackage">Import Geopackage</string>
-    <string name="importGeopackageExists">Already exist in Geopackages folder - please remove existing geopackage first before importing.\n\nFor security reasons Mapit do not override the data automatically.</string>
-    <string name="featureGeometryInvalid">Feature geometry is invalid and it will be removed when you stop edit session now. Do you wish to continue?</string>
-	
+    <string name="txt_imported_info">{0} 已經導入到 {1} 圖層</string>
+    <string name="new_layer_sr">新圖層的空間基準</string>
+    <string name="new_layer_srSum">設置本地空間基準為新建圖層的缺省值.</string>
+    <string name="gdriveRemoveAlert">您是否要清除當前的Google雲端硬碟訪問設置？</string>
+    <string name="gdriveDownloadProblem">從Gdrive下載檔案時發生問題。</string>
+    <string name="uploadingGeneral">"正在上傳文件，清稍等…"</string>
+    <string name="importGeopackage">導入 Geopackage</string>
+    <string name="importGeopackageExists">要導入的 Geopackages 檔已存在 —— 請先移除已經存在的 Geopackages 資料.\n\n基於資料安全考慮，不會自動覆蓋這些資料.</string>
+    <string name="featureGeometryInvalid">要素幾何無效，當您停止編輯會話時，將會被刪除。 你想繼續嗎？</string>
+
+    <!-- MISSING CHINESE TRANSLATION -->
+
     <!-- END OF MISSING CHINESE TRANSLATION -->
 </resources>
