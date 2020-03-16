@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name_short" translatable="false">Mapit</string>
-    <string name="about_message">Mapit Spatial - Geopackage专业版 {0}\n\n联系我们\n\n邮箱:\nfeedback@mapitgis.com \n\n中文用户联系\n\n邮箱:\ninfo@datagnss.com</string>
+    <string name="about_message">Mapit Spatial - Geopackage专业版 {0}\n\n联系我们\n\n邮箱:\nfeedback@mapitgis.com\n\n中文用户联系\n\n邮箱:\ninfo@datagnss.com</string>
     <string name="pm_list_empty3">此字段不能为空，请提供一个名称，并增加一个或多个值，才能保存此项.\n请按 “增加” 按钮将设定值加入列表中.</string>
     <string name="field_value_blank">此字段不能为空.</string>
     <string name="deleteAttWarning">有 {0} 个图层正在使用此属性集 - 操作无法完成.</string>
@@ -857,6 +857,15 @@
     <string name="txt_TianDiTuKey">天地图授权Key</string>
     <string name="txt_TianDiTuKeySub">提供你自己的天地图授权Key</string>
 
+    <string name="txt_imported_info">{0} 已经导入到 {1} 图层</string>
+    <string name="new_layer_sr">新图层的空间基准</string>
+    <string name="new_layer_srSum">设置本地空间基准为新建图层的缺省值.</string>
+    <string name="gdriveRemoveAlert">您是否要清除当前的Google云端硬盘访问设置？</string>
+    <string name="gdriveDownloadProblem">从Gdrive下载文件时发生问题。</string>
+    <string name="uploadingGeneral">"正在上传文件，清稍等…"</string>
+    <string name="importGeopackage">导入 Geopackage</string>
+    <string name="importGeopackageExists">要导入的 Geopackages 文件已存在 —— 请先移除已经存在的 Geopackages 数据.\n\n基于数据安全考虑，不会自动覆盖这些数据.</string>
+    <string name="featureGeometryInvalid">要素几何无效，当您停止编辑会话时，将会被删除。 你想继续吗？</string>
 
     <!-- MISSING CHINESE TRANSLATION -->
     <!-- END OF MISSING CHINESE TRANSLATION -->
