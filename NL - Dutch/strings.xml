@@ -892,8 +892,6 @@
     <string name="new_layer_sr">Coördinatensysteem voor Nieuwe Laag</string>
     <string name="new_layer_srSum">Inschakelen om standaard het lokaal coördinatensysteem te gebruiken bij de aanmaak van een nieuwe laag.</string>
   
-  
-    <!-- Mapit SPATIAL Missing in Dutch Below-->
     <string name="gdriveRemove">Verwijder toegang tot Google Drive</string>
     <string name="gdriveRemoveSettings">Tik om toegang tot Google Drive te verwijderen.</string>
     <string name="gdriveRemoveAlert">Wil je de huidige instellingen voor toegang tot Google Drive verwijderen?</string>
@@ -902,6 +900,11 @@
     <string name="importGeopackage">Importeer Geopackage</string>
     <string name="importGeopackageExists">Bestaat al in Geopackages map - verwijder bestaande geopackage vooraleer te importeren.\n\nUit voorzorg zal Mapit de gegevens niet automatisch overschrijven.</string>
     <string name="featureGeometryInvalid">De geometrie van het object is ongeldig en zal verwijderd worden als je de editeer-sessie nu stopt. Wil je verdergaan?</string>
+
+  
+    <!-- Mapit SPATIAL Missing in Dutch Below-->
+
+   
     <!-- END of missing -->
 
 </resources>
