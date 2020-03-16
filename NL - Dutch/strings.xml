@@ -894,14 +894,14 @@
   
   
     <!-- Mapit SPATIAL Missing in Dutch Below-->
-    <string name="gdriveRemove">Remove Google Drive access</string>
-    <string name="gdriveRemoveSettings">Press to remove access to Google Drive.</string>
-    <string name="gdriveRemoveAlert">Do you want to clear current Google Drive access settings?</string>
-    <string name="gdriveDownloadProblem">Problem occurred during file download from Gdrive.</string>
-    <string name="uploadingGeneral">"Uploading files, please wait…"</string>
-    <string name="importGeopackage">Import Geopackage</string>
-    <string name="importGeopackageExists">Already exist in Geopackages folder - please remove existing geopackage first before importing.\n\nFor security reasons Mapit do not override the data automatically.</string>
-    <string name="featureGeometryInvalid">Feature geometry is invalid and it will be removed when you stop edit session now. Do you wish to continue?</string>
+    <string name="gdriveRemove">Verwijder toegang tot Google Drive</string>
+    <string name="gdriveRemoveSettings">Tik om toegang tot Google Drive te verwijderen.</string>
+    <string name="gdriveRemoveAlert">Wil je de huidige instellingen voor toegang tot Google Drive verwijderen?</string>
+    <string name="gdriveDownloadProblem">Er is een probleem opgetreden bij het downloaden van Google Drive.</string>
+    <string name="uploadingGeneral">"Bestanden opladen, even geduld…"</string>
+    <string name="importGeopackage">Importeer Geopackage</string>
+    <string name="importGeopackageExists">Bestaat al in Geopackages map - verwijder bestaande geopackage vooraleer te importeren.\n\nUit voorzorg zal Mapit de gegevens niet automatisch overschrijven.</string>
+    <string name="featureGeometryInvalid">De geometrie van het object is ongeldig en zal verwijderd worden als je de editeer-sessie nu stopt. Wil je verdergaan?</string>
     <!-- END of missing -->
 
 </resources>
