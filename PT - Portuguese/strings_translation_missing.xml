@@ -157,7 +157,7 @@
     <string name="enableNTRIPConnectionSum">Click to enable Mapit NTRIP Client as location source.</string>
     <string name="enableNTRIPConnection">Mapit NTRIP Client</string>
     <string name="enableNTRIPConnectionLost">Mapit is not able to detect NTRIP Client Output Stream. Please STOP and START NTRIP Service to reconnect.</string>
-    <string name="ntripClientNotInstalled">Mapit GIS NTRIP Client application is not installed. It is a separate application allowing you to use RTK corrected locations in Mapit. If you want to try it out for free for 7 days please install the app now.\n\nMore information:\nhttps://mapitgis.com/mapit-gis-ntrip-client</string>
+    <string name="ntripClientNotInstalled">Mapit GIS NTRIP Client application is not installed. It is a separate application allowing you to use RTK corrected locations in Mapit. If you want to try it out for free for 3 days please install the app now.\n\nMore information:\nhttps://mapitgis.com/mapit-gis-ntrip-client</string>
     <string name="clearPicturesOnClear">Remove pictures when \"Clear Layer\" pressed</string>
     <string name="rmsMultiplayerForAccuracy">Accuracy as multiplication of HRMS: {0}</string>
     <string name="accuracyAsHRMS">Accuracy as HRMS</string>
@@ -194,7 +194,6 @@
     <string name="spatialSubscription">Mapit Spatial Subscription</string>
     <string name="attributeSetExported">Attribute set has been exported and saved to:</string>
     <string name="isSelectable">Features can be selected on the map</string>
-    <string name="spatialSubscriptionInfo">This function of Mapit Spatial does require a valid Google subscription to run. The subscription is valid for a period of 1 calendar year and provides access to all software functionality. Please press \'OK\' to continue and start 7 days FREE trial period.</string>
     <string name="type_tinyInt">Values range: -127 to 127</string>
     <string name="type_smallInt">Values range: -32767 to 32767</string>
     <string name="type_integer">Values range: -2147483647 to 2147483647</string>
@@ -324,5 +323,21 @@
     <string name="txt_TianDiTu">Tianditu Basemaps</string>
     <string name="txt_TianDiTuKey">Tianditu Basemaps Key</string>
     <string name="txt_TianDiTuKeySub">Provide your own Tianditu Basemaps Key</string>
+
+    <string name="new_layer_sr">New Layer Spatial Reference</string>
+    <string name="new_layer_srSum">Enable to set local spatial reference as default when creating new layer.</string>
+
+    <string name="gdriveRemove">Remove Google Drive access</string>
+    <string name="gdriveRemoveSettings">Press to remove access to Google Drive.</string>
+    <string name="gdriveRemoveAlert">Do you want to clear current Google Drive access settings?</string>
+    <string name="gdriveDownloadProblem">Problem occurred during file download from Gdrive.</string>
+    <string name="uploadingGeneral">Uploading files, please wait…</string>
+    <string name="importGeopackage">Import Geopackage</string>
+    <string name="importGeopackageExists">Already exist in Geopackages folder - please remove existing geopackage first before importing.\n\nFor security reasons Mapit do not override the data automatically.</string>
+    <string name="featureGeometryInvalid">Feature geometry is invalid and it will be removed when you stop edit session now. Do you wish to continue?</string>
+    <string name="voiceInputTitle">Enable voice input for Text fields.</string>
+    <string name="licenceDeviceIDDoesNotMatch">On some occasions the device Id may change.\n\nLooks like your licence is not expired but the device Id {0} does not match the one from time of activation.\n\nDo you want to send request to the licensing server to update the licence information and download new activation file?\n\nYour current device Id is:\n{1}</string>
+    <string name="resetLicenceNow">Reset Licence Now</string>
+
 
 </resources>
