@@ -869,5 +869,24 @@
     
     <string name="new_layer_sr">New Layer Spatial Reference</string>
     <string name="new_layer_srSum">Enable to set local SR as default when creating new layer.</string>
+	
+	
+	<string name="gdriveRemove">Remove Google Drive access</string>
+    <string name="gdriveRemoveSettings">Press to remove access to Google Drive.</string>
+    <string name="gdriveRemoveAlert">Do you want to clear current Google Drive access settings?</string>
+    <string name="gdriveDownloadProblem">Problem occurred during file download from Gdrive.</string>
+    <string name="uploadingGeneral">Uploading files, please wait…</string>
+    <string name="importGeopackage">Import Geopackage</string>
+    <string name="importGeopackageExists">Already exist in Geopackages folder - please remove existing geopackage first before importing.\n\nFor security reasons Mapit do not override the data automatically.</string>
+    <string name="featureGeometryInvalid">Feature geometry is invalid and it will be removed when you stop edit session now. Do you wish to continue?</string>
+	<string name="voiceInputTitle">Enable voice input for Text fields.</string>
+    <string name="licenceDeviceIDDoesNotMatch">On some occasions the device Id may change.\n\nLooks like your licence is not expired but the device Id does not match the one from time of activation {0}.\n\nDo you want to send request to the licensing server to update the licence information and download new activation file?\n\nYour current device Id is:\n{1}</string>
+    <string name="resetLicenceNow">Reset Licence Now</string>
+    <string name="saveAs">Save As</string>
+    <string name="newFolder">New Folder</string>
+    <string name="newFolderName">New Folder Name</string>
+    <string name="newLayerActive">Set newly created layer as active</string>
+    <string name="navigateToFeatureOnToolbar">Show \'Navigate to feature\' option on map toolbar.</string>
+    <string name="file_type_txt">TXT Files</string>
     
 </resources>
