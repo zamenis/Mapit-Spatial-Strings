@@ -719,7 +719,7 @@
     <string name="spatialSubscription">Mapit Spatial訂閱</string>
     <string name="attributeSetExported">屬性庫匯出成功，保存在:</string>
     <string name="isSelectable">特徵點在地圖上可選</string>
-    <string name="spatialSubscriptionInfo">該功能需要訂閱才可使用. 訂閱後所有功能可用，一年有效. 請按 \'確定\'按鈕繼續，試用7天.</string>
+    <string name="spatialSubscriptionInfo">" Mapit Spatial的此功能确实需要有效的Google订阅才能运行。该订阅的有效期为1个日历年，并提供对所有软件功能的访问。请按“确定”继续。"</string>
     <string name="type_tinyInt">資料範圍: -127 to 127</string>
     <string name="type_smallInt">資料範圍: -32767 to 32767</string>
     <string name="type_integer">資料範圍: -2147483647 to 2147483647</string>
@@ -864,12 +864,22 @@
     <string name="new_layer_srSum">設置本地空間基準為新建圖層的缺省值.</string>
     <string name="gdriveRemoveAlert">您是否要清除當前的Google雲端硬碟訪問設置？</string>
     <string name="gdriveDownloadProblem">從Gdrive下載檔案時發生問題。</string>
-    <string name="uploadingGeneral">"正在上傳文件，清稍等…"</string>
+    <string name="uploadingGeneral">正在上傳文件，清稍等…</string>
     <string name="importGeopackage">導入 Geopackage</string>
     <string name="importGeopackageExists">要導入的 Geopackages 檔已存在 —— 請先移除已經存在的 Geopackages 資料.\n\n基於資料安全考慮，不會自動覆蓋這些資料.</string>
     <string name="featureGeometryInvalid">要素幾何無效，當您停止編輯會話時，將會被刪除。 你想繼續嗎？</string>
 
     <!-- MISSING CHINESE TRANSLATION -->
-
+    <string name="gdriveRemove">Remove Google Drive access</string>
+    <string name="gdriveRemoveSettings">Press to remove access to Google Drive.</string>
+    <string name="voiceInputTitle">Enable voice input for Text fields.</string>
+    <string name="licenceDeviceIDDoesNotMatch">On some occasions the device Id may change.\n\nLooks like your licence is not expired but the device Id does not match the one from time of activation {0}.\n\nDo you want to send request to the licensing server to update the licence information and download new activation file?\n\nYour current device Id is:\n{1}</string>
+    <string name="resetLicenceNow">Reset Licence Now</string>
+    <string name="saveAs">Save As</string>
+    <string name="newFolder">New Folder</string>
+    <string name="newFolderName">New Folder Name</string>
+    <string name="newLayerActive">Set newly created layer as active</string>
+    <string name="navigateToFeatureOnToolbar">Show \'Navigate to feature\' option on map toolbar.</string>
+    <string name="file_type_txt">TXT Files</string>
     <!-- END OF MISSING CHINESE TRANSLATION -->
 </resources>

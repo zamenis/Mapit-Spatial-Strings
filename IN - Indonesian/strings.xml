@@ -2,7 +2,7 @@
     <string name="about_message">Versi Mapit Spatial {0}\n\nIni versi yang stabil, namun jika anda
         mengalami masalah beritahu kami.\n\nMasalah terkait aplikasi dapat
         dilaporkan kesini:\nhttps://spatial.mapitgis.id/contact\n\nJika anda ingin menghubungi
-        lewat email kirimkan ke:\nlayanan.pelanggan@mapitgis.id
+        lewat email kirimkan ke:\feedback@mapitgis.com
     </string>
     <string name="pm_list_empty3">Untuk menyimpan kolom anda harus mengisi nama atau nilai.\nSilahkan tekan tombol \'Tambah\' untuk mengisi nilai .</string>
     <string name="field_value_blank">Nilai Kolom tidak boleh kosong.</string>
@@ -58,7 +58,6 @@
     <string name="addAttributeSet">Tambah Atribut\</string>
     <string name="pm_add_info">Simpan nama dan deskripsi atribut untuk membuat ID. Ketika\ tersimpan silahkan pilih dari daftar dan tekan \'Ubah\' untuk mendefinisikan atribut\ kolom.</string>
     <string name="noFeatures">Layer ini belum mempunyai fitur.\nUntuk menambahkan fitur silahkan aktifkan layer dan rekam data pada peta.</string>
-    <string name="whatsNewText">Log Perubahan:\nhttps://spatial.mapitgis.com/changelog\n\n</string>
     <string name="txt_aboutMapIt">Tentang Mapit Spatial</string>
     <string name="txt_aboutMapItSum">Informasi Versi dan Detail Kontak</string>
 
@@ -602,7 +601,7 @@
     <string name="enableNTRIPConnectionSum">Klik untuk aktifasi Mapit NTRIP Client sebagai sumber titik lokasi.</string>
     <string name="enableNTRIPConnection">Mapit NTRIP Client</string>
     <string name="enableNTRIPConnectionLost">Mapit tidak dapat mendeteksi NTRIP Client. Silahkan STOP dan START NTRIP Service untuk menyambungkan kembali.</string>
-    <string name="ntripClientNotInstalled">Aplikasi Mapit GIS NTRIP Client belum di instal. ini adalah aplikasi terpisah untuk menggunakan posisi terkoreksi RTK dalam Mapit. jika kamu ingin mencoba gratis 7 hari silahkan instal palikasi sekarang.\n\nMore information:\nhttp://mapitgis.com/mapit-gis-ntrip-client</string>
+    <string name="ntripClientNotInstalled">Aplikasi Mapit GIS NTRIP Client belum di instal. ini adalah aplikasi terpisah untuk menggunakan posisi terkoreksi RTK dalam Mapit. jika kamu ingin mencoba gratis 3 hari silahkan instal palikasi sekarang.\n\nMore information:\nhttp://mapitgis.com/mapit-gis-ntrip-client</string>
     <string name="clearPicturesOnClear">Hapus gambar ketika "Clear Layer" ditekan</string>
     <string name="rmsMultiplayerForAccuracy">Akurasi sebagai akumulasi HRMS: {0}</string>
     <string name="accuracyAsHRMS">Akurasi sebagai HRMS</string>
@@ -717,7 +716,6 @@
     <string name="spatialSubscription">Berlangganan Mapit Spatial</string>
     <string name="attributeSetExported">set Attribute sudah di export dan disimpan:</string>
     <string name="isSelectable">Features dapat dipilih dalam peta</string>
-    <string name="spatialSubscriptionInfo">Fungsi ini dari Mapit Spatial membutuhkan langganan layanan google yang valid untuk bisa dijalankan. Berlangganan valid untuk periode 1 tahun dan tersedia akses untuk keseluruhan fungsi aplikasi. Silahkan tekan \'OK\' untuk melanjutkan dan mulai 7 hari masa percobaan gratis.</string>
     <string name="type_tinyInt">Rentang Nilai: -127 to 127</string>
     <string name="type_smallInt">Rentang Nilai: -32767 to 32767</string>
     <string name="type_integer">Rentang Nilai: -2147483647 to 2147483647</string>
@@ -857,6 +855,30 @@
     <string name="txt_TianDiTu">Tianditu Basemaps</string>
     <string name="txt_TianDiTuKey">Tianditu Basemaps Key</string>
     <string name="txt_TianDiTuKeySub">Provide your own Tianditu Basemaps Key</string>
+
+    <string name="new_layer_sr">New Layer Spatial Reference</string>
+    <string name="new_layer_srSum">Enable to set local SR as default when creating new layer.</string>
+
+    <string name="gdriveRemove">Remove Google Drive access</string>
+    <string name="gdriveRemoveSettings">Press to remove access to Google Drive.</string>
+    <string name="gdriveRemoveAlert">Do you want to clear current Google Drive access settings?</string>
+    <string name="gdriveDownloadProblem">Problem occurred during file download from Gdrive.</string>
+    <string name="uploadingGeneral">Uploading files, please wait…</string>
+    <string name="importGeopackage">Import Geopackage</string>
+    <string name="importGeopackageExists">Already exist in Geopackages folder - please remove existing geopackage first before importing.\n\nFor security reasons Mapit do not override the data automatically.</string>
+    <string name="featureGeometryInvalid">Feature geometry is invalid and it will be removed when you stop edit session now. Do you wish to continue?</string>
+    <string name="spatialSubscriptionInfo">Fungsi ini dari Mapit Spatial membutuhkan langganan layanan google yang valid untuk bisa dijalankan. Berlangganan valid untuk periode 1 tahun dan tersedia akses untuk keseluruhan fungsi aplikasi. Silakan tekan \'OK\' untuk melanjutkan.</string>
+
+    <string name="voiceInputTitle">Enable voice input for Text fields.</string>
+
+    <string name="licenceDeviceIDDoesNotMatch">On some occasions the device Id may change.\n\nLooks like your licence is not expired but the device Id does not match the one from time of activation {0}.\n\nDo you want to send request to the licensing server to update the licence information and download new activation file?\n\nYour current device Id is:\n{1}</string>
+    <string name="resetLicenceNow">Reset Licence Now</string>
+    <string name="saveAs">Save As</string>
+    <string name="newFolder">New Folder</string>
+    <string name="newFolderName">New Folder Name</string>
+    <string name="newLayerActive">Set newly created layer as active</string>
+    <string name="navigateToFeatureOnToolbar">Show \'Navigate to feature\' option on map toolbar.</string>
+    <string name="file_type_txt">TXT Files</string>
 
     <!-- END of missing -->
 </resources>

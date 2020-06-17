@@ -904,6 +904,15 @@
   
     <!-- Mapit SPATIAL Missing in Dutch Below-->
 
+	<string name="voiceInputTitle">Enable voice input for Text fields.</string>
+    <string name="licenceDeviceIDDoesNotMatch">On some occasions the device Id may change.\n\nLooks like your licence is not expired but the device Id does not match the one from time of activation {0}.\n\nDo you want to send request to the licensing server to update the licence information and download new activation file?\n\nYour current device Id is:\n{1}</string>
+    <string name="resetLicenceNow">Reset Licence Now</string>
+    <string name="saveAs">Save As</string>
+    <string name="newFolder">New Folder</string>
+    <string name="newFolderName">New Folder Name</string>
+    <string name="newLayerActive">Set newly created layer as active</string>
+    <string name="navigateToFeatureOnToolbar">Show \'Navigate to feature\' option on map toolbar.</string>
+    <string name="file_type_txt">TXT Files</string>
    
     <!-- END of missing -->
 

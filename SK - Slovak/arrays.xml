@@ -71,6 +71,21 @@
         <item>8</item>
         <item>9</item>
     </string-array>
+
+    <string-array name="areaUnitsGeotech">
+        <item>Štvorcové metre - [ m2 ]</item>
+        <item>Hektáre - [ ha ]</item>
+        <item>Áre - [ a ]</item>
+        <item>Štvorcové kilometre - [ km2 ]</item>
+    </string-array>
+    <string-array name="areaUnitsValuesGeotech">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+
 	 <string-array name="lengthUnits">
         <item>Metre - [ m ]</item>
         <item>Yards - [ yd ]</item>
@@ -89,6 +104,19 @@
         <item>5</item>
         <item>6</item>
     </string-array>
+
+
+    <string-array name="lengthUnitsGeotech">
+        <item>Metre - [ m ]</item>
+        <item>Kilometre - [ km ]</item>
+
+    </string-array>
+    <string-array name="lengthUnitsValuesGeotech">
+        <item>0</item>
+        <item>2</item>
+
+    </string-array>
+
     <string-array name="measureMethod">
         <item>Kliknúť na mapu</item>
         <item>GPS body</item>

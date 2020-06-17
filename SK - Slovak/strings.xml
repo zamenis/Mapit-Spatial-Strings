@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name_short" translatable="false">Mapuj</string>
-    <string name="about_message">Mapuj Spatial - verzia {0}\n\nTáto verzia by mala byť stabilná, ak však
+    <string name="about_message">Mapuj Pro - verzia {0}\n\nTáto verzia by mala byť stabilná, ak však
          zistíte akýkoľvek problém, prosím dajte nám vedieť.\n\nProsím pošlite svoj e-mail
          na gps@geotech.sk
     </string>
 
-    <string name="app_name">Mapuj Spatial</string>
+    <string name="app_name">Mapuj Pro</string>
     <string name="pm_list_empty3">Pre uloženie poľa je potrebné zadať názov a pridať jednu alebo viac hodnôt.\nProsím, stlačte \'Pridať\' tlačidlo pre pridanie hodnôt do zoznamu.</string>
     <string name="field_value_blank">Hodnota poľa nemôže byť prázdna.</string>
     <string name="deleteAttWarning">Existuje {0} vrstva(y) používajúce zoznam atribútov - Operácia nemôže byť dokončená.</string>
@@ -83,7 +83,7 @@
     <string name="deleteAreYouSure">Ste si istý, že chcete vymazať tieto údaje?\nTúto akciu nebude možné vrátiť späť!\n</string>
     <string name="deleteAreYouSureValue">Ste si istý, že chcete vymazať túto hodnotu?\nDáta uložené v tomto projekte budú ovplyvnené!\n</string>
     <string name="deleteAreYouSureAttribute">Ste si istý, že chcete vymazať tento atribút a podkladové hodnoty?\nDáta uložené v tomto projekte budú ovplyvnené!\n</string>
-    <string name="txt_import_no_files">Pre import dát zo súboru ich prosím skopírujte do \n\nSDCARD>Mapit-Spatial>Import priečinku.\n\nV súčasnosti podporované typy súborov sú:\n\n-CSV (Šírka,Dĺžka,názov) pre body, KML a geojson pre body, línie a polygóny.</string>
+    <string name="txt_import_no_files">Pre import dát zo súboru ich prosím skopírujte do \n\nSDCARD>Mapuj-Pro->Import priečinku.\n\nV súčasnosti podporované typy súborov sú:\n\n-CSV (Šírka,Dĺžka,názov) pre body, KML a geojson pre body, línie a polygóny.</string>
     <string name="txt_imported_info">{0} bolo importovaných do vrstvy {1}</string>
     <string name="txt_loading_info">Obnova prvkov na mape, prosím počkajte&#8230;</string>
     <string name="txt_use_overlay">Použiť túto mapovú vrstvu</string>
@@ -94,7 +94,7 @@
     <string name="importValues">Import hodnôt</string>
     <string name="importValuesOK">Hodnoty úspešne importované.</string>
     <string name="importValuesError">Vyskytla sa chyba - hodnoty neboli importované!</string>
-    <string name="txt_import_no_files_att">Pre import dát zo súboru ich prosím skopírujte do priečinku\n\nSDCARD>Mapit-Spatial>AttributeSets.\n\nV súčasnosti podporované typy formátov sú:\n\n-TXT (každá hodnota v novom riadku).</string>
+    <string name="txt_import_no_files_att">Pre import dát zo súboru ich prosím skopírujte do priečinku\n\nSDCARD>Mapuj-Pro>AttributeSets.\n\nV súčasnosti podporované typy formátov sú:\n\n-TXT (každá hodnota v novom riadku).</string>
     <string name="xyzServices">Iné</string>
     <string name="addPolyline">Nový líniový prvok</string>
     <string name="addPolygon">Nový plošný prvok</string>
@@ -125,7 +125,7 @@
     <string name="mapboxTokenSettings">\nProsím, nastavte váš platný Mapbox token v Nastaveniach->Cloud účty</string>
     <string name="mapBoxMapId">Mapbox MapId (e.g. o.l4pfam2o):</string>
     <string name="mapBoxRequired">Vyžaduje sa názov a MapId.</string>
-    <string name="offlineFiles">Prosím, skopírujte vaše .mbtiles súbory do\nSDCard->Mapit-Spatial->OfflineMaps priečinku.</string>
+    <string name="offlineFiles">Prosím, skopírujte vaše .mbtiles súbory do\nSDCard->Mapuj-Pro->OfflineMaps priečinku.</string>
     <string name="file_type_Geo_JSON">Geojson súbory</string>
     <string name="importError">Chyba: Problém s importom prvkov zo súboru.</string>
     <string name="importNull">Tento súbor neobsahuje žiadne{0} prvky pre import.\nProsím, skontrolujte váš vstupný súbor, alebo vyberte inú vrstvu.</string>
@@ -207,7 +207,7 @@
     <string name="defaultLineFeaturePrefixText">Predvolená predpona pre líniové prvky</string>
     <string name="defaultPolygonFeaturePrefixText">Predvolená predpona pre plošné prvky</string>
     <string name="importAttributeSetText">Import setu atribútov</string>
-    <string name="txt_import_no_files_AS">Pre import setu atribútov zo súboru, skopírujte prosím, vstupný súbor do:&lt;br>&lt;br>SDCARD>Mapit-Spatial->AttributeSets priečinka.&lt;br>&lt;br>Attribute Set môže byť importovaný zo štruktúrovaného JSON súboru.</string>
+    <string name="txt_import_no_files_AS">Pre import setu atribútov zo súboru, skopírujte prosím, vstupný súbor do:&lt;br>&lt;br>SDCARD>Mapuj-Pro->AttributeSets priečinka.&lt;br>&lt;br>Attribute Set môže byť importovaný zo štruktúrovaného JSON súboru.</string>
     <string name="importAttributeSetNoName">Súbor neobsahuje názov vlastností.</string>
     <string name="importAttributeSetNoFields">Súbor neobsahuje žiadne polia pre import.</string>
     <string name="importAttributeSetNoFieldName">Jednému, alebo viacerým poliam chýba názov vlastností.</string>
@@ -567,7 +567,7 @@
     <string name="gps_time_last_fix">Čas od posledného fixu</string>
     <string name="noGPSSignal">GPS signál sa stratil</string>
     <string name="noGPSSignalText">Súčasná poloha nemôže byť určená. Počkajte prosím na
-	    GPS signál alebo skontrolujte androidové nastavenia polohy. 
+	    GPS signál alebo skontrolujte androidové nastavenia polohy.
     </string>
 
     <string name="gpsinfoOption">GPS Info</string>
@@ -642,7 +642,7 @@
     <string name="txt_bingkeycheck">Kontrola zadaného kľúča.</string>
     <string name="txt_bingkeyerror">Poskytnutý kľúč nie správny, alebo nie je internetové pripojenie pre skontrolovanie kľúča.</string>
     <string name="txt_bingkeyrequired">Bing Map kľúč je potrebný pre použitie Bing Maps vrstiev. Nastavte prosím jeden v sekcii Všeobecné nastavenia.</string>
-  
+
     <string name="txt_import_cat">Importované</string>
 
     <string name="dragModeActive">Posuňte ukazovateľ na požadované miesto.</string>
@@ -676,224 +676,243 @@
     <string name="intermediateDistance">Dĺžka úseku</string>
     <string name="intermediateDistanceSumOn">Zobraziť dĺžky úsekov</string>
     <string name="intermediateDistanceSumOff">Skryť dĺžky úsekov</string>
-    
-    
-     
-    
-    
-    
-    <!-- MISSING SKLOVAK TRANSLATION BELOW -->
-    
 
-    <string name="customEPSGCodeTxt">Use EPSG code provided below</string>
-    <string name="customEPSGCodeTxt1">EPSG Code</string>
-    <string name="customEPSGCodeTxt2">Please type your EPSG code e.g. EPSG:3007</string>
 
-    <string name="customEPSGCodeSum">Please select \'Custom: EPSG code\' from the dropdown above to activate text field below.</string>
-    <string name="receivedLocation">Location acquired</string>
-    <string name="importErrorCRS">Import cancelled:\nThe file you are trying to import is not in WGS84 (EPSG:4326) projection.</string>
-    <string name="file_type_arcjson">ArcJSON Files</string>
+
+    <string name="customEPSGCodeTxt">Použite jeden z EPSG kódov nižšie</string>
+    <string name="customEPSGCodeTxt1">EPSG kód</string>
+    <string name="customEPSGCodeTxt2">Prosím, zadajte váš EPSG kód napr. EPSG:3007</string>
+
+
+
+    <string name="customEPSGCodeSum">Prosím vyberte \'Užívateľský: EPSG kód\' zo zoznamu hore na aktiváciu textového poľa dole.</string>
+    <string name="receivedLocation">Vyžaduje sa poloha</string>
+    <string name="importErrorCRS">Import zrušený:\nSúbor, ktorý sa snažíte importovať nie je vo WGS84.</string>
+    <string name="file_type_arcjson">ArcJSON súbory</string>
     <string name="txtInfo">Info</string>
-    <string name="featureProperties">Properties</string>
-    <string name="minElevation">Min elevation</string>
-    <string name="maxElevation">Max elevation</string>
-    <string name="nVertices">Number of vertices</string>
-    <string name="trackLength">Track length</string>
-    <string name="currentElevation">Last elevation</string>
-    <string name="featureInfoError">Properties of this feature are not available.</string>
-   <string name="blockPointsShifting">Block drag for Points</string>
-    <string name="blockPointsShiftingSum">Blocks possibility to drag point features (restart required).</string>
+    <string name="featureProperties">Vlastnosti</string>
+    <string name="minElevation">Min výška</string>
+    <string name="maxElevation">Max výška</string>
+    <string name="nVertices">Počet vrcholov</string>
+    <string name="trackLength">Dĺžka trasy</string>
+    <string name="currentElevation">Posledná výška</string>
+    <string name="featureInfoError">Vlastnosti tohto prvku nie sú k dispozícii.</string>
+    <string name="blockPointsShifting">Zakázať presúvanie prvkov</string>
+    <string name="blockPointsShiftingSum">Zakázať možnosť presúvať bodové prvky (vyžaduje sa reštart).</string>
 
-    <string name="addVideo">Add Video</string>
-    <string name="addAudio">Add Audio Recording</string>
-    <string name="addAttachment">Add Attachment</string>
+    <string name="addVideo">Pridať video</string>
+    <string name="addAudio">Pridať audio záznam</string>
+    <string name="addAttachment">Pridať prílohu</string>
 
     <string name="zeroto360" translatable="false">0&#8211;359</string>
-    <string name="dropboxConnect">Connect to Dropbox</string>
-    <string name="dropboxConnectSum">Press to authorize this app use Dropbox…</string>
-    <string name="dropboxTokenProblem">Not authorized. Please go to "Cloud Settings" and press "Connect to Dropbox" option.</string>
-    <string name="exportSuccess">The data has been successfully uploaded to Dropbox APPS folder.</string>
+    <string name="dropboxConnect">Pripojiť na Dropbox</string>
+    <string name="dropboxConnectSum">Stlačením súhlasíte s používaním Dropbox touto aplikáciou…</string>
+    <string name="dropboxTokenProblem">Nepovolené. Prosím choďte do "Cloud Nastavení" a stlačte voľbu "Pripojiť do Dropbox".</string>
+    <string name="exportSuccess">Dáta boli úspešne nahraté do adresára Dropbox.</string>
 
-    <string name="WMSShareText">Alternatively you can download the JSON file attached and import it into {0} application using \'Import\' option on WMS Services menu.</string>
-    <string name="noWMSFiles">No WMS config files are available for import. Please make sure the JSON files containing WMS configuration are present in Android Download or {0} -> Import folder. The file name should start with "WMS" and the extension should be ".json".  </string>
-    <string name="exportToFTPInfo">Export to FTP includes all the layer attachments and may take long time. Large number of data might be transferred over the network and it is recommended to do it using the Wi-Fi connection. </string>
+    <string name="WMSShareText">Alternatívne môžete stiahnuť pripojený JSON súbor a importovať ho do {0} aplikácie pomocou voľby \'Import\' v menu WMS služieb.</string>
+    <string name="noWMSFiles">Nie sú dostupné konfiguračné súbory WMS pre import. Prosím uistite sa, že JSON súbory obsahujúce WMS konfiguráciu sú dostupné cez Android Download alebo {0} -> Import adresári. Názov súboru má začínať s "WMS" a prípona má byť ".json".  </string>
+    <string name="exportToFTPInfo">Export do FTP obsahuje všetky prílohy vrstvy a môže trvať dlho. Cez internet sa môže prenášať veľké množstvo dát, preto odporúčame použiť Wi-Fi pripojenie. </string>
 
-    <string name="useEOSConnectSum">Feed Mapit with location provided by Eos Tools Pro app and your Eos Arrow GNSS receiver.</string>
-    <string name="geoid_custom">To use local geoid model in Mapit you need to have a file available in binary (little-endian) format compatible with US National Geodetic Survey (*.bin) format.\n\nCompatible file should be renamed to LOCAL_GEOID.bin and placed in {0}->Resources folder.\n\nPlease check http://mapit-gis.com/geoid-height-extension to get more details.</string>
+    <string name="useEOSConnectSum">Poskytnúť pre Mapuj Pro polohu z aplikácie Eos Tools a vášho GNSS prijímača Eos Arrow.</string>
+    <string name="geoid_custom">Ak chcete použiť model geoidu v Mapuj Pro, musíte mať vhodný binárny súbor (*.bin).\n\nKompatibilný súbor by mal byť premenovaný na LOCAL_GEOID.bin a umiestnený do {0}->adresára Zdroje.\n\nProsím, kontaktujte nás pre viac informácií.</string>
 
-    <string name="enableNTRIPMenu">NTRIP Client</string>
-    <string name="enableNTRIPConnectionSum">Click to enable Mapit NTRIP Client as location source.</string>
-    <string name="enableNTRIPConnection">Mapit NTRIP Client</string>
-    <string name="enableNTRIPConnectionLost">Mapit is not able to detect NTRIP Client Output Stream. Please STOP and START NTRIP Service to reconnect.</string>
-    <string name="ntripClientNotInstalled">Mapit GIS NTRIP Client application is not installed. It is a separate application allowing you to use RTK corrected locations in Mapit. If you want to try it out for free for 3 days please install the app now.\n\nMore information:\nhttp://mapit-gis.com/mapit-gis-ntrip-client</string>
-    <string name="txtExportToPostgres">Export to PostgreSQL</string>
-    <string name="txtpgAppend">Create new or Append existing table</string>
-    <string name="txtpgOverwrite">Create new or Overwrite existing table</string>
-    <string name="createAppenddPgTable">Data has been exported.\nTable {0} has been successfully {1} in PostgreSQL database.</string>
-    <string name="txtCreated">created</string>
-    <string name="txtAppended">appended</string>
-    <string name="createPostgresInfoGeneral">Both options will create new PostgreSQL table named {0} if it does not exist yet. Please select option one if you would like to append existing data or option two to overwrite and replace existing table.</string>
-    <string name="txtSelectOption">Please select option above to continue.</string>
-    <string name="displayGNSSInfoOnTheMap">Accuracy &amp; GPS Quality on the map.</string>
-    <string name="secureService">This is secure service</string>
-  
-    <string name="gstyleSum" >Select Google Map Style</string>
-    <string name="spatialSubscription">Mapit Spatial Subscription</string>
-    <string name="attributeSetExported">Attribute set has been exported and saved to:</string>
-    <string name="isSelectable">Features can be selected on the map</string>
-    <string name="spatialSubscriptionInfo">This function of Mapit Spatial does require a valid Google subscription to run. The subscription is valid for a period of 1 calendar year and provides access to all software functionality. Please press \'OK\' to continue.</string>
-    <string name="type_tinyInt">Values range: -127 to 127</string>
-    <string name="type_smallInt">Values range: -32767 to 32767</string>
-    <string name="type_integer">Values range: -2147483647 to 2147483647</string>
-    <string name="type_long">Values range: -9223372036854775807 to 9223372036854775807</string>
-    <string name="selectBasemap" >Select Basemap</string>
-    <string name="basemaps" >Basemap Management</string>
-    <string name="geopackages" >Geopackages</string>
-    <string name="noGooglePlayServices">This device is not supported. Try to install or update Google Play Services.</string>
-    <string name="permissionsError">You need to accept permissions to get MapIt running.
-        Please restart the app and accept required permissions…</string>
-    <string name="geopackegesFiles">Please copy your .gpkg files to\nDevice Memory->Mapit-Spatial->Geopackages folder.</string>
-    <string name="setActiveGeopackage">Please set active geopackage on \"Geopackages\" tab to see the layers listed here.</string>
-    <string name="geopackageNoLayers">Selected geopackage does not contains any layers.</string>
-    <string name="geoType">Geometry Type</string>
-    <string name="txtLayer">Layer</string>
-    <string name="txtLinkField">Link</string>
-    <string name="createLayerSR">Spatial reference will be set as WGS84(EPSG:4326), please check this option to set layer coordinate system as {0}.</string>
-    <string name="enableZ">Include Z dimension</string>
-    <string name="featuresCount">Number of Features</string>
-    <string name="createGeopackage">Create Geopackage</string>
-    <string name="valueOutOfRange">Provided value doesn\'t match selected field type.</string>
-    <string name="linkFieldTitle">Link field with Attribute Set</string>
-    <string name="linkedFieldTitle">Linked Attribute Set Field</string>
-    <string name="linkFieldRemove">Remove link</string>
-    <string name="dbFieldRequired">Please set default value for NOT NULL field.</string>
-    <string name="selectAttSet">Select Attribute Set:</string>
-    <string name="selectAttField">Select Attribute Set Field:</string>
-    <string name="selectedAttSet">Selected Attribute Set:</string>
-    <string name="selectedAttField">Selected Attribute Set Field:</string>
-    <string name="selectedAttFieldDelete">Selected Field will be removed from layer. This cannot be undone.\nAre you sure?</string>
-    <string name="removeAttributeSetFieldError">This field cannot be removed - it is currently linked in following layers:\n\n</string>
-    <string name="removeAttributeSetError">Please remove all fields before removing the attribute set.</string>
-    <string name="selectAttFieldLinkNotPossible">Selected Attribute Set field data type does not match the underlying Database field type. Please select another field or create valid field in \'Attributes Management\'. \nThis link cannot be saved!</string>
-    <string name="geopackageNoAttributeSets">Selected geopackage does not contain any Attribute Sets defined, please use \'Attributes Management\' to create new attribute set and define fields, which then can be linked in here.</string>
-    <string name="geopackageAttributeSetsNoFields">Not able to find valid attribute set. Please make sure you have created the attribute set and it contains valid fields defined.</string>
-    <string name="geopackageAttributeSetsEmpty">You have not yet created any \'Attribute Set\' for selected geopackage. Please press the \'Add\' or \'Import\' (button with arrow) below.</string>
-    <string name="shareGeopackage">Share geopackage</string>
-    <string name="geopackage_table_index_features_createIndex">Rebuild</string>
-    <string name="geopackage_table_index_features_index_create_label">Create</string>
+    <string name="enableNTRIPMenu">NTRIP klient</string>
+    <string name="enableNTRIPConnectionSum">Kliknutím aktivujte NTRIP klienta ako zdroj polohy.</string>
+    <string name="enableNTRIPConnection">Mapuj Pro - NTRIP klient</string>
+    <string name="enableNTRIPConnectionLost">Mapuj Pro nedokáže detekovať dáta z NTRIP klienta. Prosím STOP a START NTRIP službu pre nové pripojenie.</string>
+    <string name="ntripClientNotInstalled">Mapuj GIS NTRIP Client application is not installed. It is a separate application allowing you to use RTK corrected locations in MAPUJ.</string>
+    <string name="txtExportToPostgres">Export do PostgreSQL</string>
+    <string name="txtpgAppend">Vytvoriť novú alebo Pridať do existujúcej tabuľky</string>
+    <string name="txtpgOverwrite">Vytvoriť novú alebo Prepísať existujúcu tabuľku </string>
+    <string name="createAppenddPgTable">Dáta boli exportované.\nTabuľka {0} bola úspešne {1} do PostgreSQL databázy.</string>
+    <string name="txtCreated">vytvorená</string>
+    <string name="txtAppended">pridaná</string>
+    <string name="createPostgresInfoGeneral">Obidve voľby vytvoria novú PostgreSQL tabuľku s názvom {0} ak taká ešte neexistuje. Prosím vyberte voľbu 1, ak chcete pridať k existujúcim dátam alebo voľbu 2, ak chcete prepísať na nahradiť existujúcu tabuľku.</string>
+    <string name="txtSelectOption">Prosím, vyberte jednu z volieb hore pre pokračovanie.</string>
+    <string name="displayGNSSInfoOnTheMap">Presnosť &amp; GPS kvalita na mape.</string>
+    <string name="secureService">Toto je zabezpečená služba</string>
+
+    <string name="gstyleSum" >Vyberte typ Google Mapy</string>
+    <string name="spatialSubscription">Ročná licencia Mapuj Pro</string>
+    <string name="attributeSetExported">Zoznam atribútov bol exportovaný a uložený do:</string>
+    <string name="isSelectable">Prvky môžu byť vybrané z mapy</string>
+    <string name="spatialSubscriptionInfo">Táto funkcia Mapuj Pro vyžaduje pre fungovanie platnú licenciu Google. Licencia je platná na obdobie 1 kalendárneho roka a poskytuje prístup k plnej softvérovej funkcionalite. Prosím stlačte \'OK\' pre pokračovanie.</string>
+    <string name="type_tinyInt">Rozsah hodnôt: -127 až 127</string>
+    <string name="type_smallInt">Rozsah hodnôt: -32767 až 32767</string>
+    <string name="type_integer">Rozsah hodnôt: -2147483647 až 2147483647</string>
+    <string name="type_long">Rozsah hodnôt: -9223372036854775807 až 9223372036854775807</string>
+    <string name="selectBasemap" >Vyberte podkladovú mapu</string>
+    <string name="basemaps" >Správa podkladových máp</string>
+    <string name="geopackages" >Geo-Projekty</string>
+    <string name="noGooglePlayServices">Toto zariadenie nie je podporované. Skúste nainštalovať alebo aktualizovať služby Google Play.</string>
+    <string name="permissionsError">Musíte súhlasiť s povoleniami, aby ste mohli používať Mapuj Pro.
+        Prosím reštartujte aplikáciu a potvrďte súhlas s požadovanými povoleniami…</string>
+    <string name="geopackegesFiles">Prosím, skopírujte vaše .gpkg do\nPamäť zariadenia->Mapuj-Pro->Adresár Geopackages.</string>
+    <string name="setActiveGeopackage">Prosím, aktivujte projekt v záložke \"Geo-Projekty\", aby ste tu uvideli zoznam vrstiev.</string>
+    <string name="geopackageNoLayers">Vybraný Geo-Projekt neobsahuje žiadne vrstvy.</string>
+    <string name="geoType">Typ geometrie</string>
+    <string name="txtLayer">Vrstva</string>
+    <string name="txtLinkField">Prepojenie</string>
+    <string name="createLayerSR">Referenčný systém bude nastavený ako WGS84. Prosím, skontrolujte túto voľbu pre nastavenie súradnicového systému vrstvy ako {0}.</string>
+    <string name="enableZ">Vrátane súradnice Z (výška)</string>
+    <string name="featuresCount">Počet prvkov</string>
+    <string name="createGeopackage">Vytvoriť Geo-Projekt</string>
+    <string name="valueOutOfRange">Zvolená hodnota nezodpovedá vybranému typu poľa.</string>
+    <string name="linkFieldTitle">Prepojte pole so Zoznamom atribútov</string>
+    <string name="linkedFieldTitle">Pole s pripojeným Zoznam atribútov</string>
+    <string name="linkFieldRemove">Odstráňte prepojenie</string>
+    <string name="dbFieldRequired">Prosím, zadajte štandardnú hodnotu pre NENULOVÉ pole.</string>
+    <string name="selectAttSet">Vyberte Zoznam atribútov:</string>
+    <string name="selectAttField">Vyberte pole Zoznamu atribútov:</string>
+    <string name="selectedAttSet">Vybraný Zoznam atribútov:</string>
+    <string name="selectedAttField">Vybrané pole Zoznamu atribútov:</string>
+    <string name="selectedAttFieldDelete">Vybrané pole bude odstránené z vrstvy. Toto nie je možné vrátiť späť.\nSte si istý?</string>
+    <string name="removeAttributeSetFieldError">Toto pole nemôže byť odstránené – práve je pripojené k nasledovným vrstvám:\n\n</string>
+    <string name="removeAttributeSetError">Prosím odstráňte všetky polia pred odstránením Zoznamu atribútov.</string>
+    <string name="selectAttFieldLinkNotPossible">Vybraný typ dátového poľa Zoznamu atribútov nezodpovedá príslušnému typu poľa Databázy. Prosím, vyberte iné pole alebo vytvorte platné pole v \'Správa Atribútov\'. \nToto prepojenie nemôže byť uložené!</string>
+    <string name="geopackageNoAttributeSets">Vybraný Geo-Projekt neobsahuje žiadny Zoznam atribútov. Prosím, použite \'Správa Atribútov\' na vytvorenie nového Zoznamu atribútov a definovanie polí, ktoré tu potom môžu byť prepojené.</string>
+    <string name="geopackageAttributeSetsNoFields">Nenájdený platný Zoznam atribútov. Prosím, uistite sa, že máte vytvorený Zoznam atribútov, ktorý obsahuje platné definície polí.</string>
+    <string name="geopackageAttributeSetsEmpty">Ešte nemáte vytvorený žiadny \'Zoznam atribútov\' pre zvolený Geo-Projekt. Prosím kliknite na \'Pridať\' alebo \'Import\' (tlačidlo so šípkou) nižšie.</string>
+    <string name="shareGeopackage">Zdieľať Geo-Projekt</string>
+    <string name="geopackage_table_index_features_createIndex">Znovu vytvoriť</string>
+    <string name="geopackage_table_index_features_index_create_label">Vytvoriť</string>
     <string name="geopackage_table_index_features_index_title">index</string>
-    <string name="geopackage_table_index_features_index">Rebuild Index</string>
-    <string name="updating_layer_metadata">Updating layer metadata</string>
-    <string name="updating_layer_indicies">Updating layer indices</string>
-    <string name="gettingFeaturesToImport">Getting features to import…</string>
-    <string name="positionInfo">Position Information</string>
-    <string name="projectionNotSupported">Selected projection is not supported - the coordinate system will be reset to WGS84</string>
-    <string name="deleteField">Delete Field</string>
-    <string name="deleteFieldProblem">Field cannot be removed for this table. There was a problem with primary key and geometry field column index id.</string>
-    <string name="deviceMemory">Device</string>
-    <string name="setServerPath">Server Path</string>
-    <string name="startLayerNumberingFrom">Feature\'s numbering start:</string>
-    <string name="startLayerNumberingFromInfo">This value can be set only when the layer is empty.</string>
-    <string name="exportShapeFilesAs2D">Export SHP file as 2D geometry</string>
-    <string name="setAsDefaultValue">Set as default value</string>
-    <string name="removeGeopackage">This operation cannot be undone. Geopackage file, all underlying data (layers) and attributes will be removed. Are you sure you want to proceed?</string>
+    <string name="geopackage_table_index_features_index">Znovu vytvoriť Index</string>
+    <string name="updating_layer_metadata">Aktualizácia metadát vrstvy</string>
+    <string name="updating_layer_indicies">Aktualizácia indexov vrstvy </string>
+    <string name="gettingFeaturesToImport">Získavajú sa prvky pre import…</string>
+    <string name="positionInfo">Polohové informácie</string>
+    <string name="projectionNotSupported">Zvolený súradnicový systém nie je podporovaný – súradnicový systém bude nastavený na WGS84</string>
+    <string name="deleteField">Zmazať pole</string>
+    <string name="deleteFieldProblem">Pole nemôže byť odstránené z tejto tabuľky. Vyskytol sa problém s primárnym kľúčom a indexom stĺpca poľa geometrie.</string>
+    <string name="deviceMemory">Zariadenie</string>
+    <string name="setServerPath">Cesta k serveru</string>
+    <string name="startLayerNumberingFrom">Počiatočné číslo prvku:</string>
+    <string name="startLayerNumberingFromInfo">Táto hodnota môže byť zadaná, len ak je vrstva prázdna.</string>
+    <string name="exportShapeFilesAs2D">Exportovať SHP súbor ako 2D geometriu</string>
+    <string name="setAsDefaultValue">Nastaviť ako východziu hodnotu</string>
+    <string name="removeGeopackage">Túto operáciu nebude možné vrátiť. Súbor Geo-Projektu, všetky pripojené dáta (vrstvy) a atribúty budú odstránené. Ste si istý, že chcete pokračovať?</string>
 
     <string name="useSxBlueTitle">SXblue ToolBox</string>
-    <string name="useSxBlueSum">Feed Mapit with location provided by SXblue ToolBox application.</string>
-    <string name="coordinatesAsFieldsTitle">Export coordinates as fields</string>
-    <string name="coordinatesAsFieldsSum">X,Y,Z (projected) or Lat, Lon, Alt (geographic) columns will be added to POINT layers export.</string>
-    <string name="enableMapitFieldsTitle">Enable Mapit fields [created, updated] for layer</string>
-    <string name="enableMapitFieldsSum">Following fields:\n\n- mapit_created_date\n- mapit_updated_date\n\nwill be added to the layer.\n\nThis option cannot be disabled.\n\nMapit fields cannot be removed and will be updated only by the application when records are created or edited.\n\nDo you wish to continue?</string>
-    <string name="tableExists">Please use different name - table named {0} already exists.</string>
+    <string name="useSxBlueSum">Použiť v Mapuj Pro polohu z aplikácie SXblue ToolBox.</string>
+    <string name="coordinatesAsFieldsTitle">Exportovať súradnice ako polia</string>
+    <string name="coordinatesAsFieldsSum"> Stĺpce s X,Y,Z (mapové) alebo Šírka, Dĺžka, Výška (zemepisné) súradnicami budú pridané do exportu BODOVÝCH vrstiev.</string>
+    <string name="enableMapitFieldsTitle">Povoliť polia Mapuj Pro [vytvorené, aktualizované] pre vrstvu</string>
+    <string name="enableMapitFieldsSum">Nasledujúce polia:\n\n- mapit_created_date\n- mapit_updated_date\n\n budú pridané do vrstvy.\n\nTáto voľba nemôže byť vypnutá.\n\nPolia Mapuj Pro nemôžu byť odstránené a budú len aktualizované aplikáciou keď sa vytvoria alebo editujú záznamy.\n\nChcete pokračovať?</string>
+    <string name="tableExists">Prosím, použite iný názov – tabuľka s názvom {0} už existuje.</string>
+
+
 
     <!-- STANDALONE LICENSING -->
 
-    <string name="notActive">This application must be activated on this device or existing licence must be refreshed.\n\nPlease contact software provider by pressing \"Request License Now\" button.</string>
-    <string name="requestLicenceNow">Request Licence Now</string>
-    <string name="resetLicence">Reset Licence</string>
-    <string name="expiryDate">Expiry Date</string>
-    <string name="licenceMailSubject">Spatial Pro - Licence Request</string>
+    <string name="notActive">Táto aplikácia musí byť aktivovaná na tomto zariadení, alebo sa musí obnoviť existujúca licencia.\n\nProsím kontaktujte dodávateľa aplikácie stlačením tlačidla \"Vyžiadať licenciu teraz\".</string>
+    <string name="requestLicenceNow">Vyžiadať licenciu teraz</string>
+    <string name="resetLicence">Resetovať licenciu</string>
+    <string name="expiryDate">Dátum expirácie</string>
+    <string name="licenceMailSubject">Mapuj Pro – Vyžiadanie licencie</string>
 
-    <string name="licenceMaintenance">Licence maintenance</string>
-    <string name="licenceMaintenanceSub">Check licence information or request new licence.</string>
-    <string name="licenceValidUntil">Valid until: {0}</string>
-    <string name="licenceValidFor">The application licence will expire in {0} days.</string>
-    <string name="requestLicenceType">Licence type</string>
-    <string name="selectLicenceType">Selected Licence type.</string>
+    <string name="licenceMaintenance">Aktuálnosť licencie</string>
+    <string name="licenceMaintenanceSub">Skontrolujte informáciu o licencii alebo vyžiadajte novú licenciu.</string>
+    <string name="licenceValidUntil">Platnosť do: {0}</string>
+    <string name="licenceValidFor">Licencia aplikácie expiruje o {0} dní.</string>
+    <string name="requestLicenceType">Typ licencie</string>
+    <string name="selectLicenceType">Vybraný typ licencie.</string>
+
 
     <!-- Licence Request Form -->
-    <string name="L_please_complete">Please complete the details below…</string>
-    <string name="L_licenceType_1">Licence type: One Year subscription</string>
-    <string name="L_licenceType_2">Licence type: Permanent Licence</string>
-    <string name="L_firstName">First Name: </string>
-    <string name="L_lastName">Last Name: </string>
-    <string name="L_companyName">Company Name: </string>
-    <string name="L_email">Contact e-mail: </string>
-    <string name="activateNowQR">Activate Now with QR code</string>
+    <string name="L_please_complete">Prosím vyplňte údaje  nižšie…</string>
+    <string name="L_licenceType_1">Typ licencie: Ročná licencia</string>
+    <string name="L_licenceType_2"> Typ licencie: Permanentná licencia</string>
+    <string name="L_firstName">Meno: </string>
+    <string name="L_lastName">Priezvisko: </string>
+    <string name="L_companyName">Názov firmy: </string>
+    <string name="L_email">Kontaktný e-mail: </string>
+    <string name="activateNowQR">Aktivovať teraz s QR kódom</string>
 
-    <string name="licenceTypeLabel">Please select licence type:</string>
-    <string name="L_licenceType_1a">One Year subscription</string>
-    <string name="L_licenceType_2a">Permanent Licence</string>
+
+
+    <string name="licenceTypeLabel">Prosím vyberte typ licencie:</string>
+    <string name="L_licenceType_1a">Ročná licencia</string>
+    <string name="L_licenceType_2a">Permanentná licencia</string>
+
+
 
     <!-- LICENSING END -->
 
-    <string name="sampleAttributeSet">Sample attribute set</string>
-    <string name="sampleGeopackage">Sample geopackage.gpkg</string>
 
-    <string name="manageStyles">Manage Styles</string>
-    <string name="addStyle">Add Style</string>
-    <string name="setStyleColour">Set Style Colour - this colour will be use to style point and line features as well when used with polygon layer to style the polygon outline.</string>
-    <string name="setStyleFillColour">Set Style Fill Colour - used to style the polygon fill.</string>
-    <string name="setStyleColourLabel">Set Style Colour</string>
-    <string name="setStyleFillColourLabel">Set Style Fill Colour</string>
-    <string name="styleName">Style Name</string>
-    <string name="pressBack">Press \'Back\' to save the style.</string>
-    <string name="addStyleInfo">To add the style please press the \'Add\' button.</string>
-    <string name="editingStyle">Editing Style</string>
-    <string name="deleteStyleError">Delete Style - Error</string>
-    <string name="deletingStyleInfo">This style is currently being used in the attributes configuration. Operation has been cancelled.</string>
-    <string name="useForStyling">Use for styling</string>
-    <string name="useStyleInUse">This style is being used in fields configuration - Do you wish to continue?</string>
-    <string name="resetStyleAreYouSure">All styles set for the field values will be reset. Do you wish to continue?</string>
-    <string name="resetStyleAreYouSureTitle">Remove \"styled\" status.</string>
 
-    <string name="wmts_add">Add WMTS service</string>
-    <string name="wmts_add_info">Service must comply with Google zoom levels.\nPlease use URL to the service capabilities e.g.\n\nhttps://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/WMTS/1.0.0/WMTSCapabilities.xml\n\nhttp://maps.wien.gv.at/wmts/1.0.0/WMTSCapabilities.xml\n\n</string>
-    <string name="wmts_error_version">Only WMTS version 1.0.0 is supported at the moment - Please contact the WMTS service provider to get more information.</string>
-    <string name="wmts_setLayer">Please select layer</string>
-    <string name="wmts_service_add">Add WMTS Layer</string>
-    <string name="wmts_service_notCompatible">This Service is not compatible with Google Maps. Please contact your service provider for more info.</string>
-    <string name="wmts_noLayers">This WMTS service does not contain any supported layers. Please contact service provider.</string>
-    <string name="wmts_service_add_URL">WMTS Service URL</string>
-    <string name="wmts_service_connecting">Connecting to service…</string>
-    <string name="wmts_add_selected">Add selected WMTS Layer</string>
+    <string name="sampleAttributeSet">Vzorový Zoznam atribútov</string>
+    <string name="sampleGeopackage">Vzorový Geo-Projekt.gpkg</string>
+
+
+
+    <string name="manageStyles">Správa Štýlov</string>
+    <string name="addStyle">Pridať Štýl</string>
+    <string name="setStyleColour">Nastaviť farbu Štýlu – táto farba bude použitá pre bodové a líniové prvky pri použití s plošným prvkom ako farba hranice plochy.</string>
+    <string name="setStyleFillColour">Nastaviť farbu výplne – použije sa pre výplň plôch.</string>
+    <string name="setStyleColourLabel">Nastaviť farbu pre Štýl</string>
+    <string name="setStyleFillColourLabel">Nastaviť farbu výplne pre Štýl</string>
+    <string name="styleName">Názov Štýlu</string>
+    <string name="pressBack">Stlačením \'Späť\' uložíte Štýl.</string>
+    <string name="addStyleInfo">Pre pridanie Štýlu stlačte tlačidlo \'Pridať\'.</string>
+    <string name="editingStyle">Editovanie Štýlu</string>
+    <string name="deleteStyleError">Zmazanie Štýlu - Chyba</string>
+    <string name="deletingStyleInfo">Tento Štýl sa práve používa v konfigurácii Atribútov. Operácia bola zrušená.</string>
+    <string name="useForStyling">Použiť pre určenie Štýlu</string>
+    <string name="useStyleInUse">Tento Štýl sa používa v konfigurácii polí – Chcete pokračovať?</string>
+    <string name="resetStyleAreYouSure">Všetky zoznamy Štýlov budú pre hodnoty polí zresetované. Chcete pokračovať?</string>
+    <string name="resetStyleAreYouSureTitle">Odstrániť stav \"Použitý Štýl\".</string>
+
+
+    <string name="wmts_add">Pridať WMTS službu</string>
+    <string name="wmts_add_info">Služba musí zodpovedať zoomovacím úrovniam Google máp.\nProsím použite URL pre prístup k možnostiam služby napr.\n\nhttps://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/WMTS/1.0.0/WMTSCapabilities.xml\n\nhttp://maps.wien.gv.at/wmts/1.0.0/WMTSCapabilities.xml\n\n</string>
+    <string name="wmts_error_version">Podporované sú momentálne len WMTS verzia 1.0.0 – Prosím kontaktujte poskytovateľa WMTS služby pre viac informácií.</string>
+    <string name="wmts_setLayer">Prosím vyberte vrstvu</string>
+    <string name="wmts_service_add">Pridať WMTS vrstvu</string>
+    <string name="wmts_service_notCompatible">Táto služba nie je kompatibilná s Google mapami. Prosím kontaktujte vášho poskytovateľa služby pre viac informácií.</string>
+    <string name="wmts_noLayers">Táto WMTS služba neobsahuje žiadne podporované vrstvy. Prosím, kontaktujte poskytovateľa služby.</string>
+    <string name="wmts_service_add_URL">URL WMTS služby</string>
+    <string name="wmts_service_connecting">Pripájanie k službe…</string>
+    <string name="wmts_add_selected">Pridať vybranú WMTS vrstvu</string>
 
     <string name="txt_TianDiTu">Tianditu Basemaps</string>
     <string name="txt_TianDiTuKey">Tianditu Basemaps Key</string>
     <string name="txt_TianDiTuKeySub">Provide your own Tianditu Basemaps Key</string>
 
-    <string name="new_layer_sr">New Layer Spatial Reference</string>
-    <string name="new_layer_srSum">Enable to set local spatial reference as default when creating new layer.</string>
+    <string name="new_layer_sr">Nová vrstva podkladovej mapy</string>
+    <string name="new_layer_srSum">Umožní nastaviť lokálnu podkladovú mapu ako východziu pri vytváraní novej vrstvy.</string>
 
-    <string name="gdriveRemove">Remove Google Drive access</string>
-    <string name="gdriveRemoveSettings">Press to remove access to Google Drive.</string>
-    <string name="gdriveRemoveAlert">Do you want to clear current Google Drive access settings?</string>
-    <string name="gdriveDownloadProblem">Problem occurred during file download from Gdrive.</string>
-    <string name="uploadingGeneral">Uploading files, please wait…</string>
-    <string name="importGeopackage">Import Geopackage</string>
-    <string name="importGeopackageExists">Already exist in Geopackages folder - please remove existing geopackage first before importing.\n\nFor security reasons Mapit do not override the data automatically.</string>
-    <string name="featureGeometryInvalid">Feature geometry is invalid and it will be removed when you stop edit session now. Do you wish to continue?</string>
-    <string name="voiceInputTitle">Enable voice input for Text fields.</string>
+    <string name="gdriveRemove">Odstrániť prístup k Google Drive</string>
+    <string name="gdriveRemoveSettings">Stlačením odstrániť prístup k Google Drive.</string>
+    <string name="gdriveRemoveAlert">Chcete vymazať aktuálne nastavenia prístupu k Google Drive?</string>
+    <string name="gdriveDownloadProblem">Vyskytol sa problém pri sťahovaní súboru z Gdrive.</string>
+    <string name="uploadingGeneral">Nahrávanie súborov, prosím čakajte…</string>
+    <string name="importGeopackage">Importovať Geo-Projekt</string>
+    <string name="importGeopackageExists">Už existuje v adresári Geo-Projektov – prosím odstráňte najskôr existujúci Geo-Projekt pred importovaním.\n\nZ dôvodu bezpečnosti Mapuj Pro neprepisuje dáta automaticky.</string>
+    <string name="featureGeometryInvalid">Geometria prvku je chybná a bude odstránená, ak teraz ukončíte editovanie prvku. Chcete pokračovať?</string>
+    <string name="voiceInputTitle">Umožniť hlasový vstup pre Textové polia.</string>
 
-    <string name="licenceDeviceIDDoesNotMatch">On some occasions the device Id may change.\n\nLooks like your licence is not expired but the device Id does not match the one from time of activation {0}.\n\nDo you want to send request to the licensing server to update the licence information and download new activation file?\n\nYour current device Id is:\n{1}</string>
-    <string name="resetLicenceNow">Reset Licence Now</string>
-    <string name="saveAs">Save As</string>
-    <string name="newFolder">New Folder</string>
-    <string name="newFolderName">New Folder Name</string>
-    <string name="newLayerActive">Set newly created layer as active</string>
-    <string name="navigateToFeatureOnToolbar">Show \'Navigate to feature\' option on map toolbar.</string>
+    <string name="licenceDeviceIDDoesNotMatch">Za určitých okolností sa môže zmeniť ID zariadenia.\n\nZdá sa, že vaša licencia neexpirovala, ale ID zariadenia sa nezhoduje s tým, ktoré bolo použité na aktiváciu {0}.\n\nChcete poslať žiadosť do licenčného servera na aktualizovanie informácie o licencii a stiahnutie nového aktivačného súboru?\n\nAktuálne ID vášho zariadenia je:\n{1}</string>
+    <string name="resetLicenceNow">Zresetovať licenciu teraz</string>
+    <string name="saveAs">Uložiť ako</string>
+    <string name="newFolder">Nový adresár</string>
+    <string name="newFolderName">Názov nového adresára</string>
+    <string name="newLayerActive">Nastaviť novovytvorený adresár ako aktívny</string>
+    <string name="navigateToFeatureOnToolbar">Zobraziť voľbu \'Navigovať k prvku\' na paneli na mape.</string>
 
-<!-- END OF MISSING SLOVAK TRANSLATION -->
+
+
+
+
+
+    <!-- MISSING SKLOVAK TRANSLATION BELOW -->
+
+
+    <!-- END OF MISSING SLOVAK TRANSLATION -->
+
+
+
 
 
 </resources>

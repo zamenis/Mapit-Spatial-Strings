@@ -39,7 +39,7 @@
     <string name="map_problem">Mapa nemůže být nahrána&#8230;</string>
     <string name="drawer_newLayer">Vytvořit novou vrstvu</string>
     <string name="fields">Pole</string>
-     <string name="field">Pole</string>
+    <string name="field">Pole</string>
     <string name="activeLayer">Aktivní vrstva</string>
     <string name="fieldValues">Hodnoty pole:</string>
     <string name="fieldsList">Seznam polí</string>
@@ -55,7 +55,6 @@
     <string name="addAttributeSet">Přidat sadu atributů</string>
     <string name="pm_add_info">Uložte název a popis souboru atributů a vytvořte ID. Když je nový název uložen, vyberte jej ze seznamu a stiskem \'Upravit\' definujte pole atributů.</string>
     <string name="noFeatures">Tato vrstva zatím nemá žádné prvky.\nPro přidání prosím aktivujte tuto vrstvu a zaznamenejte na mapě nějaká data.</string>
-    <string name="whatsNewText">Upřednostňujete MapIt ve vašem vlastním jazyce? Pak prosím navštivte http://mapit-gis.com/translations pro více detailů.\n\nChangelog:\nhttp://mapit-gis.com/changelog\n\n</string>
     <string name="txt_aboutMapIt">O aplikaci MapIt</string>
     <string name="txt_aboutMapItSum">Informace o verzi a kontaktní údaje</string>
     <string name="addAttributeAsFreeText">Toto pole můžete také přidat jako textové - v tomto případě nejsou hodnoty vyžadovány.</string>
@@ -694,7 +693,7 @@
     <string name="enableNTRIPConnectionSum">Kliknutím povolíte Mapit NTRIP Client jako zdroj polohy.</string>
     <string name="enableNTRIPConnection">Mapit NTRIP Client</string>
     <string name="enableNTRIPConnectionLost">Mapit není schopen rozpoznat výstupní data klienta NTRIP. Prosím zvolte STOP a START služby NTRIP pro připojení.</string>
-    <string name="ntripClientNotInstalled">Aplikace Mapit GIS NTRIP Client není nainstalována. Jedná se o samostatnou aplikaci, která umožňuje používat v Mapitu korekce RTK. Chcete-li ji vyzkoušet zdarma po dobu 7 dní, nainstalujte prosím aplikaci.\n\nDalší informace:\nhttps://mapit-gis.com/mapit-gis-ntrip-client</string>
+    <string name="ntripClientNotInstalled">Aplikace Mapit GIS NTRIP Client není nainstalována. Jedná se o samostatnou aplikaci, která umožňuje používat v Mapitu korekce RTK. Chcete-li ji vyzkoušet zdarma po dobu 3 dní, nainstalujte prosím aplikaci.\n\nDalší informace:\nhttps://mapit-gis.com/mapit-gis-ntrip-client</string>
     <string name="clearPicturesOnClear">Snímky odstraníte stisknutím tlačítka "Vyčistit vrstvu"</string>
     <string name="rmsMultiplayerForAccuracy">Přesnost jako násobení HRMS: {0}</string>
     <string name="accuracyAsHRMS">Přesnost HRMS</string>
@@ -728,7 +727,7 @@
     <string name="spatialSubscription">Předplatné Mapit Spatial</string>
     <string name="attributeSetExported">Atributy byly exportovány a uloženy do:</string>
     <string name="isSelectable">Prvky mohou být vybrány na mapě</string>
-    <string name="spatialSubscriptionInfo">Tato funkce Mapit Spatial vyžaduje platné předplatné u společnosti Google. Předplatné je platné 1 kalendářní rok a poskytuje přístup ke všem funkcionalitám softwaru. Stiskněte \'OK\' pro zahájení 7 denní bezplatné zkušební doby.</string>
+    <string name="spatialSubscriptionInfo">" Tato funkce Mapit Spatial vyžaduje spuštění platného předplatného Google. Předplatné je platné po dobu 1 kalendářního roku a poskytuje přístup ke všem funkcím softwaru. Pokračujte stisknutím tlačítka „OK“."</string>
     <string name="type_tinyInt">Rozsah hodnot: -127 to 127</string>
     <string name="type_smallInt">Rozsah hodnot: -32767 to 32767</string>
     <string name="type_integer">Rozsah hodnot: -2147483647 to 2147483647</string>
@@ -816,7 +815,7 @@
 
     <!-- Licence Request Form -->
     <string name="uniqueDeviceId">Id zařízení: </string>
-    <string name="L_please_complete">Prosím vyplňte údaje níže...</string>
+    <string name="L_please_complete">Prosím vyplňte údaje níže…</string>
     <string name="L_licenceType_1">Typ licence: Předplatné na 1 rok</string>
     <string name="L_licenceType_2">Typ licence: Permanentní licence</string>
     <string name="L_firstName">Jméno: </string>
@@ -850,8 +849,8 @@
     <string name="useStyleInUse">Tento styl je používán v nastavení polí - Chcete pokračovat ?</string>
     <string name="resetStyleAreYouSure">Všechny styly nastavení pro pole hodnot budou resetovány. Chcete pokračovat ?</string>
     <string name="resetStyleAreYouSureTitle">Odstranit stav použití \"stylu\".</string>
-    
-     <string name="wmts_add">Přidat službu WMTS</string>
+
+    <string name="wmts_add">Přidat službu WMTS</string>
     <string name="wmts_add_info">Služba se musí řídit úrovněmi přiblížení Google.\nProsím použijte např. URL \n\nhttps://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/WMTS/1.0.0/WMTSCapabilities.xml\n\nhttp://maps.wien.gv.at/wmts/1.0.0/WMTSCapabilities.xml\n\n</string>
     <string name="wmts_error_version">Pouze WMTS verze 1.0.0 je momentálně podporována - Prosím kontaktujte poskytovatele služby WMTS pro více informací.</string>
     <string name="wmts_setLayer">Prosím vyberte vrstvu</string>
@@ -865,11 +864,30 @@
     <string name="txt_TianDiTu">Podkladové mapy Tianditu</string>
     <string name="txt_TianDiTuKey">Klíč pro Tianditu podkladové mapy</string>
     <string name="txt_TianDiTuKeySub">Vložte váš vlastní klíč pro Tianditu podkladové mapy</string>
+
     <string name="new_layer_sr">Nová vrstva prostorové reference</string>
     <string name="new_layer_srSum">Pří vytváření nové vrstvy povolit lokální prostorovou referenci jako výchozí.</string>
 
     <!-- Mapit SPATIAL - Missing Czech Translation -->
 
+    <string name="gdriveRemove">Remove Google Drive access</string>
+    <string name="gdriveRemoveSettings">Press to remove access to Google Drive.</string>
+    <string name="gdriveRemoveAlert">Do you want to clear current Google Drive access settings?</string>
+    <string name="gdriveDownloadProblem">Problem occurred during file download from Gdrive.</string>
+    <string name="uploadingGeneral">Uploading files, please wait…</string>
+    <string name="importGeopackage">Import Geopackage</string>
+    <string name="importGeopackageExists">Already exist in Geopackages folder - please remove existing geopackage first before importing.\n\nFor security reasons Mapit do not override the data automatically.</string>
+    <string name="featureGeometryInvalid">Feature geometry is invalid and it will be removed when you stop edit session now. Do you wish to continue?</string>
+    <string name="voiceInputTitle">Enable voice input for Text fields.</string>
+    <string name="licenceDeviceIDDoesNotMatch">On some occasions the device Id may change.\n\nLooks like your licence is not expired but the device Id does not match the one from time of activation {0}.\n\nDo you want to send request to the licensing server to update the licence information and download new activation file?\n\nYour current device Id is:\n{1}</string>
+    <string name="resetLicenceNow">Reset Licence Now</string>
+    <string name="saveAs">Save As</string>
+    <string name="newFolder">New Folder</string>
+    <string name="newFolderName">New Folder Name</string>
+    <string name="newLayerActive">Set newly created layer as active</string>
+    <string name="navigateToFeatureOnToolbar">Show \'Navigate to feature\' option on map toolbar.</string>
+    <string name="file_type_txt">TXT Files</string>
+
+
     <!-- Missing End -->
-    
 </resources>

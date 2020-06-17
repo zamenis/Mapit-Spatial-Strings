@@ -17,7 +17,7 @@
     <string name="navigation_drawer_open">Abre el cajón de navegación</string>
     <string name="navigation_drawer_close">Cierra el cajón de navegación</string>
     <string name="action_example">Ejemplo de acción</string>
-    <string name="generalSum">Ajustes generales relacionados con la interfaz de usuario</string>
+    <string name="generalSum">Ajustes generales relacionados con\n la interfaz de usuario</string>
     <string name="action_settings">Ajustes</string>
     <string name="deleteLayer">Borrar capa</string>
     <string name="deleteLayerInfo">La capa seleccionada tiene {0} características subyacentes.\n\nEstás seguro que quieres eliminar esta capa y sus datos subyacentes?</string>
@@ -31,7 +31,7 @@
     <string name="surveySettings">Estudio</string>
     <string name="surveySettingsSum">Ajustes de estudio relacionados</string>
     <string name="rememberLast">Último añadido por defecto</string>
-    <string name="rememberLastSum">Muestra las características del último atributo añadido por defecto</string>
+    <string name="rememberLastSum">Muestra las características del\ último atributo añadido</string>
     <string name="layerPoly">Polígonos</string>
     <string name="editFeature">Edición de características</string>
     <string name="map_problem">El mapa no se puede cargar…</string>
@@ -53,7 +53,6 @@
     <string name="addAttributeSet">Añadir conjunto de atributos</string>
     <string name="pm_add_info">Guarda el nombre del conjunto de atributos y la descripción para crear un ID. Después de guardar, selecciónalo en la lista y pulse \'Editar \' para definir los atributos.</string>
     <string name="noFeatures">Esta capa no tiene ninguna característica todavía.\nPara añadir características, activa esta capa y registra algunos datos en el mapa.</string>
-    <string name="whatsNewText">Prefieres Mapit en tu idioma? Por favor, visita https://mapitgis.com/translations para mas detalles.\n\n - Cambios:\n https://spatial.mapitgis.com/changelog\n\n</string>
     <string name="txt_aboutMapIt">Sobre Mapit Spatial</string>
     <string name="txt_aboutMapItSum">Información dela version y detalles de contacto.</string>
 
@@ -67,7 +66,11 @@
     <string name="noAttributesDesc"> Seleccione esta opción para crear características solamente con un nombre y la descripción.</string>
     <string name="sampleSurvey">Estudio de árboles 2018 - Ejemplo</string>
     <string name="sampleSurveyDesc"> Ejemplo de conjunto de atributos - contiene una lista desplegable para las especies y la altura.</string>
+
     <string name="samplePointLayer">Ejemplo de capa de puntos</string>
+    <string name="sampleLineLayer">Ejemplo de capa tipo Línea</string>
+    <string name="samplePolygonLayer">Ejemplo de capa tipo Polígono</string>
+
     <string name="samplePointLayerDesc"> Ejemplo de capa de puntos con atributos en listas desplegables.</string>
     <string name="sampleNoAttributesLayer">Ejemplo de capa sin atributos</string>
     <string name="sampleNoAttributesLayerDesc"> Sólo se adjuntarán el nombre y la descripción a las funciones creadas.</string>
@@ -101,13 +104,12 @@
     <string name="stopEditing">Parar edición</string>
     <string name="end">FIN</string>
     <string name="removeLast">Eliminar el último </string>
-    <string name="sampleLineLayer">Ejemplo de capa tipo Línea</string>
-    <string name="samplePolygonLayer">Ejemplo de capa tipo Polígono</string>
+
     <string name="editFeatureEnd">¿Quieres dejar de editar esta característica?</string>
     <string name="deleteFeature">¿Quieres eliminar esta característica?</string>
 
-    <string name="offlineMapsMapBox">MapBox &amp; Mapas offline</string>
-    <string name="offlineMaps">Mapas offline </string>
+    <string name="offlineMapsMapBox">MapBox &amp; Usar mapas MapBox\n sin internet</string>
+    <string name="offlineMaps">Usar mapas\n sin internet </string>
     <string name="mapBox">Mapbox</string>
     <string name="mapBoxToken">Token de acceso a Mapbox</string>
     <string name="goToSettings">Ir a ajustes</string>
@@ -147,7 +149,7 @@
     <string name="setActiveLayerNoLayers">Por favor, crea algunas capas para conseguir que figuren en esta lista.</string>
     <string name="themeTypeInfo">El cambio de tema se aplicará cuando se reinicie la aplicación de nuevo.</string>
     <string name="geoidHeight">Altura del geoide para GPS</string>
-    <string name="geoidHeightSum">EGM96 - se aproxima a nivel medio del mar</string>
+    <string name="geoidHeightSum">Uso de modelo EGM96\n - aproxima elevación al\n nivel medio del mar</string>
     <string name="downloadError">Ocurrió un error durante la descarga, por favor inténtalo de nuevo.</string>
     <string name="txt_showWaypointsLabels">Etiquetas de puntos</string>
     <string name="txt_LinesAndPolysLabels">Etiquetas de líneas y polígonos</string>
@@ -162,10 +164,10 @@
     <string name="gpsWaiting">A la espera de localización GPS&#8230;</string>
     <string name="export_full_path_to_pictures">Exportar ruta completa de las imágenes</string>
     <string name="miscellaneous_settings">Varios ajustes</string>
-    <string name="miscellaneous_settings_sum">Mezcla de configuraciones relacionados con diferentes partes de la aplicación</string>
+    <string name="miscellaneous_settings_sum">Mezcla de configuraciones relacionados con\n diferentes partes de la aplicación</string>
     <string name="txt_sort_active_first">Activa primero</string>
     <string name="txt_newPointAsDistanceAndBearing">Distancia &amp; Método de anillos</string>
-    <string name="txt_newPointAsDistanceAndBearingSum">Añadir nuevos puntos que proporcionan Distancia &amp; Anillo de GPS actual, base o posición del cursor.</string>
+    <string name="txt_newPointAsDistanceAndBearingSum">Añadir nuevos puntos, proporcionando:\n Distancia y Azimut &amp; \desde punto de GPS actual o\n posición del cursor.</string>
     <string name="txt_currentGPSLocation">Ubicación GPS actual</string>
     <string name="txt_currentCursorLocation">Localización del cursor en el mapa</string>
     <string name="txt_or">o</string>
@@ -197,9 +199,9 @@
     <string name="checkNameOnSaveTextSum">Compruebe si el nombre ya existe cuando guarde la característica.</string>
     <string name="duplicatedName">La característica llamada {0} ya existe. Por favor elige un nombre diferente o desactiva la opción de chequear el nombre en los ajustes.</string>
     <string name="exportToDxf">DXF - Solo geometría</string>
-    <string name="defaultPointFeaturePrefixText">Prefijo predeterminado para la función de punto</string>
-    <string name="defaultLineFeaturePrefixText">Prefijo predeterminado para la función de Línea</string>
-    <string name="defaultPolygonFeaturePrefixText">Prefijo predeterminado para la función Polígono</string>
+    <string name="defaultPointFeaturePrefixText">Usar en los nombres de\n puntos el prefijo:</string>
+    <string name="defaultLineFeaturePrefixText">Usar en los nombres de\n líneas el prefijo:</string>
+    <string name="defaultPolygonFeaturePrefixText">Usar en los nombres de\n polígonos el prefijo:</string>
     <string name="importAttributeSetText">Importar el conjunto de atributos</string>
     <string name="txt_import_no_files_AS">Para importar el conjunto de atributos de un archivo, por favor copie el archivo a importar en:&lt;br>&lt;br>La memoria del Dispositivo>Mapit-Spatial->AttributeSets folder.&lt;br>&lt;br>Los conjuntos de atributos se pueden importar desde archivos JSON.&lt;br></string>
     <string name="importAttributeSetNoName">El archivo no contiene el nombre de propiedades.</string>
@@ -231,8 +233,8 @@
     <string name="unitsSettingsSum">Unidades de medición &amp; coordenadas del mapa</string>
     <string name="measureInfo">Mantenga pulsado para cambiar el modo (Distancia/Área)</string>
 
-    <string name="mapscreenshot">Toma una captura de pantalla del mapa</string> finder
-    <string name="mapscreenshotInfo">La captura de pantalla del mapa se está preparando&#8230;</string>
+    <string name="mapscreenshot">Capturar imagen de pantalla del mapa</string> finder
+    <string name="mapscreenshotInfo">La captura de pantalla del mapa se está realizando&#8230;</string>
     <string name="removeVertex">Elimina el vértice seleccionado</string>
     <string name="insertVertex">Insertar vértices</string>
     <string name="useRangeFinderTitle">Telémetro Laser Bluetooth</string>
@@ -252,8 +254,8 @@
     <string name="trackPointsSum">Todos los puntos registrados tendrán los mismos atributos que el primer punto guardado.</string>
     <string name="externalBTGPS">GPS externo</string>
     <string name="externalBTGPSSum">Configura el receptor GPS externo bluethooth.</string>
-    <string name="enableBTGPS">Habilita el GPS (Bluetooth) externo</string>
-    <string name="enableBTGPSSum"> Habilita el GPS externo y selecciona la fuente de los dispositivos vinculados.</string>
+    <string name="enableBTGPS">Habilita el GPS externo\n vía Bluetooth </string>
+    <string name="enableBTGPSSum"> Habilita el GPS externo y selecciona\n la fuente de los\n dispositivos vinculados.</string>
     <string name="notAvailableExternalGPS">El receptor GPS externo no está disponible. Por favor, comprueba los ajustes, enciende el dispositivo externo y reinicia la aplicación.</string>
     <string name="forceMockLoc">Forzar ubicación simulada</string>
     <string name="forceMockLocSum">Debería estar apagado por defecto. Sin embargo es posible usarlo cuando se tienen problemas con la conexión.</string>
@@ -429,7 +431,7 @@
     <string name="wms_clear">Borrar la actual superposición</string>
     <string name="wms_manage">Gestionar fuentes de superposición</string>
     <string name="wms_services">WMS</string>
-    <string name="ESRI_maps">Servicos ESRI</string>
+    <string name="ESRI_maps">ArcGIS</string>
     <string name="hide">Ocultar</string>
     <string name="show_predefined">Restaurar todos los servicios predefinidos</string>
     <string name="add_ags">Añadir servicios ArcGIS Tiled</string>
@@ -534,8 +536,8 @@
     <string name="resetLicence">Restablecer Licencia</string>
     <string name="expiryDate">Fecha de expiración</string>
     <string name="remoteExport">Conexiones remotas</string>
-    <string name="remoteExportSum">Establezca los parámetros necesarios para habilitar la exportación a la base de datos\n PostgreSQL o la ubicación FTP\"</string>
-    <string name="remoteExportSum1">Establezca los parámetros necesarios para habilitar la exportación a la ubicación FTP\"</string>
+    <string name="remoteExportSum">Establezca los parámetros necesarios para\n habilitar la exportación a la base de datos\n PostgreSQL o la ubicación FTP\"</string>
+    <string name="remoteExportSum1">Establezca los parámetros necesarios para\n habilitar la exportación a la ubicación FTP\"</string>
 
     <string name="postgresSettings">Configuración de PostgreSQL</string>
     <string name="ftpSettings">Configuración FTP</string>
@@ -569,7 +571,7 @@
     <string name="noWMSFiles">No hay archivos de configuración de WMS disponibles para la importación. \nAsegúrese de que los archivos JSON que contienen la configuración de WMS\nestén guardados en la carpeta \"descarga\" (\"Download\") de Android o \nen la carpeta {0} ->\n Importar. \n El nombre de archivo debe comenzar con \"WMS\" y la extensión debe ser \".json\"</string>
 
     <string name="includeGPSInfoText">Exportar información GPS</string>
-    <string name="includeGPSInfoSummary">Incluir HDOP, VDOP, PDOP, HRMS, VRMS… en los puntos exportados.</string>
+    <string name="includeGPSInfoSummary">Incluir columnas:\n HDOP, VDOP, PDOP, HRMS, VRMS\n en los datos de puntos exportados.</string>
     <string name="positionBelowMinAccuracy">La precisión de la posición está por debajo de la configuración de precisión mínima…</string>
 
     <!-- Geoid model -->
@@ -612,9 +614,9 @@
     <string name="dropboxTokenProblem">Autorización denegada.  Por favor revise configuración de Dropbox en cuentas Cloud.</string>
 
     <string name="useEOSConnectTitle">Eos Tools Pro - Receptor Eos Arrow</string>
-    <string name="useEOSConnectSum">Alimentar Maptrack con la ubicación proporcionada por Eos Tools Pro y su receptor Eos Arrow GNSS</string>
+    <string name="useEOSConnectSum">Alimentar Maptrack con la ubicación\n proporcionada por Eos Tools Pro\n y su receptor Eos Arrow GNSS</string>
     <string name="useZenoConnectTitle">Conector Zeno - Receptor Leica Zeno</string>
-    <string name="useZenoConnectSum">Alimentar Maptrack con la ubicación proporcionada por la aplicacion Conector Zeno y su Receptor Leica Zeno </string>
+    <string name="useZenoConnectSum">Alimentar Maptrack con la ubicación\n proporcionada por la aplicacion\n Conector Zeno y\n su Receptor Leica Zeno </string>
     <string name="internalGPS">GPS interno</string>
     <string name="mockProvider">Proveedor simulado</string>
     <string name="printPDF">Compartir como PDF</string>
@@ -623,7 +625,7 @@
     <string name="geoidHeightInfo">Altura del geoide</string>
     <string name="orthometric">Ortometrico</string>
     <string name="externalGNSSTCP">Conexion directa sobre TCP</string>
-    <string name="externalGNSSTCPSum">Haga clic para activar el receptor GNSS externo y acceder a la fuente de ubicación a través del protocolo TCP. El receptor debe transmitir salidas NMEA sobre TCP</string>
+    <string name="externalGNSSTCPSum">Haga clic para activar el receptor GNSS\n externo y acceder a la fuente de\n ubicación a través del\n protocolo TCP.\n El receptor debe transmitir salidas\n NMEA sobre TCP</string>
     <string name="externalGNSSTCPInfo">TCP GNSS</string>
     <string name="newPointsAddCoordinates">Agregar punto usando coordenadas</string>
     <string name="newPointsAddCoordinatesSum">Crear nuevas entidades puntuales o vertices de línea o poligono</string>
@@ -653,7 +655,7 @@
     <string name="wfs_no_WGS84Layers">Este servicio WFS no contiene ninguna capa con la proyección predeterminada establecida en WGS84. Por favor, póngase en contacto con el proveedor de servicios.</string>
 
     <string name="useTrimbleMMConnectTitle">Trimble Mobile Manager</string>
-    <string name="useTrimbleMMConnectSum">Alimente Mapit con la ubicación proporcionada por la aplicación TMM y su antena Trimble, por ejemplo. Trimble Catalyst</string>
+    <string name="useTrimbleMMConnectSum">Alimente Mapit con la ubicación\n proporcionada por la aplicación TMM\n y su antena Trimble, \n como Trimble Catalyst</string>
 
     <string name="geoImagesEmpty">Copie sus imágenes georeferenciadas en la carpeta \nLa memoria del Dispositivo->Mapit-Spatial->OfflineMaps folder.\n Asegúrese de que los archivos con la georeferenciación que describen los límites de la imagen se coloquen en la misma carpeta con el mismo nombre que tiene la imagen. \n\n</string>
     <string name="txtRequired">Este campo es requerido.</string>
@@ -665,15 +667,15 @@
     <string name="barcodeScanner">Escáner de código de barras</string>
 
     <string name="enableNTRIPMenu">Cliente NTRIP</string>
-    <string name="enableNTRIPConnectionSum">Haga clic para habilitar Cliente de Mapit NTRIP como fuente de ubicación.</string>
+    <string name="enableNTRIPConnectionSum">Haga clic para habilitar Cliente de\n Mapit NTRIP como fuente de ubicación.</string>
     <string name="enableNTRIPConnection">Cliente de Mapit NTRIP</string>
     <string name="enableNTRIPConnectionLost">Mapit no puede detectar el flujo de salida del cliente NTRIP. Por favor, detenga y comience el servicio NTRIP para volver a conectarse.</string>
-    <string name="ntripClientNotInstalled">La aplicación Cliente de Mapit GIS NTRIP no está instalada. Esta es una aplicación  que se instala por aparte y le permite usar ubicaciones con corrección RTK en Mapit. Si desea probarlo gratis por 7 días, instale la aplicación ahora. \n\n Más información: \n https://mapitgis.com/mapit-gis-ntrip-client</string>
+    <string name="ntripClientNotInstalled">La aplicación Cliente de Mapit GIS NTRIP no está instalada. Esta es una aplicación  que se instala por aparte y le permite usar ubicaciones con corrección RTK en Mapit. Si desea probarlo gratis por 3 días, instale la aplicación ahora. \n\n Más información: \n https://mapitgis.com/mapit-gis-ntrip-client</string>
     <string name="clearPicturesOnClear">Eliminar imágenes cuando se presiona "Borrar capa"</string>
     <string name="rmsMultiplayerForAccuracy">La precisión como multiplicación de HRMS: {0}</string>
     <string name="accuracyAsHRMS">La precisión como HRMS</string>
     <string name="enableMultiplayerForAccuracy">Establecer la precisión como HRMS</string>
-    <string name="enableMultiplayerForAccuracySum">Establecer la precisión como HRMS cuando esté disponible.</string>
+    <string name="enableMultiplayerForAccuracySum">Establecer la precisión como HRMS\n cuando esté disponible.</string>
     <string name="exportDistanceBearingDetailsTitle">Detalles de medición del telémetro laser</string>
 
     <string name="txtExportToPostgres">Exportar a PostgreSQL</string>
@@ -696,14 +698,13 @@
 
     <string name="displayGNSSInfoOnTheMap">Precisión &amp; calidad de ubicación GPS en el mapa.</string>
     <string name="averagingPositionsTime">Tiempo promediando</string>
-    <string name="averagingPositionsSumTime">Establecer el número de segundos utilizados para promediar.</string>
+    <string name="averagingPositionsSumTime">Establecer el número de segundos\ utilizados para promediar posición.</string>
     <string name="secureService">Este es un servicio seguro.</string>
 
     <string name="gstyleSum" >Seleccione Google Map Style</string>
     <string name="spatialSubscription">Suscripción a Mapit Spatial</string>
     <string name="attributeSetExported">El conjunto de atributos se ha exportado y guardado en:</string>
     <string name="isSelectable">Los objetos se pueden seleccionar en el mapa</string>
-    <string name="spatialSubscriptionInfo">Esta función de Mapit Spatial requiere una suscripción válida de Google para ejecutarse. La suscripción es válida por un período de 1 año calendario y proporciona acceso a todas las funciones del software. Presione \'Aceptar\' para continuar y comenzar el período de prueba GRATUITO de 7 días.</string>
     <string name="type_tinyInt">Rango de valores: -127 a 127</string>
     <string name="type_smallInt">Rango de valores: -32767 a 32767</string>
     <string name="type_integer">Rango de valores: -2147483647 a 2147483647</string>
@@ -770,14 +771,14 @@
     <string name="useSxBlueTitle">Herramientas receptor GPS SXblue</string>
     <string name="useSxBlueSum">Provea localización a Mapit provista receptor GPS SXblue.</string>
     <string name="coordinatesAsFieldsTitle">Incluya como campos de datos las coordenadas GNSS.</string>
-    <string name="coordinatesAsFieldsSum">Puede exportar en capas de puntos valores X,Y,Z (coordenadas métricas) o \n Latitud, Longitud y Altitud (coordenadas geográficas.</string>
+    <string name="coordinatesAsFieldsSum">Puede exportar en capas de puntos\n con valores X,Y,Z\n (coordenadas métricas) o\n Latitud, Longitud y Altitud\n (coordenadas geográficas).</string>
     <string name="enableMapitFieldsTitle">Active en Mapit opciones [creación y actualización] de campos para una capa</string>
     <string name="enableMapitFieldsSum">Los siguientes campos :\n\n- fecha de creación,\n- fecha de actualización,\n\n pueden ser agregados a una capa en Mapit.\n\n Pero una vez agregados no pueden ser desabilitados.\n\n Los campos obligatorios en capas agregados por  Mapit no se pueden eliminar y solo la aplicación puede actualizarlos cuando se crean o editan registros.
         .\n\n Tiene seguridad para continuar?</string>
     <string name="tableExists">Por favor utilizar un nombre de tabla diferente  a este {0}, por ya exite una tabla con ese nombre.</string>
 
 
-   <!-- STANDALONE LICENSING -->
+    <!-- STANDALONE LICENSING -->
 
     <string name="notActive">Puede activar o actualizar la licencia en este dispositivo.\n\ Contacte a su proveedor presionando botón \" Solicitar Licencia de Uso Ahora \".</string>
     <string name="requestLicenceNow">Solicitar Licencia de Uso Ahora</string>
@@ -805,6 +806,9 @@
     <string name="L_licenceType_1a">Un año de suscripción</string>
     <string name="L_licenceType_2a">Licencia Permanente</string>
 
+    <string name="spatialSubscriptionInfo">Esta función de Mapit Spatial requiere una suscripción válida de Google para ejecutarse. La suscripción es válida por un período de 1 año calendario y proporciona acceso a todas las funciones del software. Presione \'Aceptar\' para continuar.</string>
+
+
     <!-- LICENSING END -->
 
 
@@ -829,23 +833,49 @@
     <string name="resetStyleAreYouSureTitle">Eliminar\"estado de estilo\".</string>
 
 
+
+    <string name="wmts_add">Agregar servicio WMTS</string>
+    <string name="wmts_add_info">El servicio debe cumplir con los niveles de zoom de GoogleService must comply with Google zoom levels.\nPor favor usar URL como referencia de capacidades de servicio e.g.\n\nhttps://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/WMTS/1.0.0/WMTSCapabilities.xml\n\nhttp://maps.wien.gv.at/wmts/1.0.0/WMTSCapabilities.xml\n\n</string>
+    <string name="wmts_error_version">Por el momento, solo se admite la versión 1.0.0 de WMTS. Póngase en contacto con el proveedor de servicios de WMTS para obtener más información.</string>
+    <string name="wmts_setLayer">Seleccione una capa por favor</string>
+    <string name="wmts_service_add">Aagregar  capa WMTS</string>
+    <string name="wmts_service_notCompatible">Este servicio no es compatible con Google Maps. Póngase en contacto con el proveedor de servicios para mas información.</string>
+    <string name="wmts_noLayers">El servicio WMTS no contiene ninguna capa. Póngase en contacto con el proveedor de servicios para mas información.</string>
+    <string name="wmts_service_add_URL">Dirección URL de servicio WMTS</string>
+    <string name="wmts_service_connecting">Conectando el servicio…</string>
+    <string name="wmts_add_selected">Seleccionar capa WMTS</string>
+
+    <string name="txt_TianDiTu">Mapa Base Tianditu</string>
+    <string name="txt_TianDiTuKey">Llave Mapa Base Tianditu</string>
+    <string name="txt_TianDiTuKeySub">Proveer su llave Mapa Base Tianditu</string>
+
+
+    <string name="new_layer_sr"> Sistemas de Referencia de Coordenadas, capa nueva</string>
+    <string name="new_layer_srSum">Configurar por defecto Sistemas de Referencia de Coordenadas Local al crear capa nueva.</string>
+    <string name="gdriveRemove">Quitar accesos a Google Drive</string>
+    <string name="gdriveRemoveSettings">Presione para quitar accesos a Google Drive.</string>
+    <string name="gdriveRemoveAlert">¿Quiere usted eliminar los credenciales de accesos predeterminados de  Google Drive?</string>
+    <string name="gdriveDownloadProblem">Se presento un problema durante descarga de archivos desde Gdrive.</string>
+    <string name="uploadingGeneral">Cargando archivos,  por favor espere…</string>
+    <string name="importGeopackage">Importar Geopaquete</string>
+    <string name="importGeopackageExists">Existe una carpeta con el nombre del Geopaquete - por favor borrar antes de importar.\n\nPor razones de seguridad Mapit no sobrescribe datos automáticamente.</string>
+    <string name="featureGeometryInvalid">Uno o varios objetos tienen geometrías invalidas y estas deben ser eliminadas o corregidas cuando detenga la sección de edición. ¿Desea continuar?</string>
+
+
     <!-- Mapit SPATIAL - Missing Spanish Translation -->
 
-    <string name="wmts_add">Add WMTS service</string>
-    <string name="wmts_add_info">Service must comply with Google zoom levels.\nPlease use URL to the service capabilities e.g.\n\nhttps://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/WMTS/1.0.0/WMTSCapabilities.xml\n\nhttp://maps.wien.gv.at/wmts/1.0.0/WMTSCapabilities.xml\n\n</string>
-    <string name="wmts_error_version">Only WMTS version 1.0.0 is supported at the moment - Please contact the WMTS service provider to get more information.</string>
-    <string name="wmts_setLayer">Please select layer</string>
-    <string name="wmts_service_add">Add WMTS Layer</string>
-    <string name="wmts_service_notCompatible">This Service is not compatible with Google Maps. Please contact your service provider for more info.</string>
-    <string name="wmts_noLayers">This WMTS service does not contain any supported layers. Please contact service provider.</string>
-    <string name="wmts_service_add_URL">WMTS Service URL</string>
-    <string name="wmts_service_connecting">Connecting to service…</string>
-    <string name="wmts_add_selected">Add selected WMTS Layer</string>
-
-    <string name="txt_TianDiTu">Tianditu Basemaps</string>
-    <string name="txt_TianDiTuKey">Tianditu Basemaps Key</string>
-    <string name="txt_TianDiTuKeySub">Provide your own Tianditu Basemaps Key</string>
+    <string name="voiceInputTitle">Enable voice input for Text fields.</string>
+    <string name="licenceDeviceIDDoesNotMatch">On some occasions the device Id may change.\n\nLooks like your licence is not expired but the device Id does not match the one from time of activation {0}.\n\nDo you want to send request to the licensing server to update the licence information and download new activation file?\n\nYour current device Id is:\n{1}</string>
+    <string name="resetLicenceNow">Reset Licence Now</string>
+    <string name="saveAs">Save As</string>
+    <string name="newFolder">New Folder</string>
+    <string name="newFolderName">New Folder Name</string>
+    <string name="newLayerActive">Set newly created layer as active</string>
+    <string name="navigateToFeatureOnToolbar">Show \'Navigate to feature\' option on map toolbar.</string>
+    <string name="file_type_txt">TXT Files</string>
 
     <!-- Missing End -->
 
 </resources>
+
+
