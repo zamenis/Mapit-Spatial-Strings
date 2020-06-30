@@ -800,6 +800,7 @@
     <string name="selectLicenceType">Jenis lisensi yang dipilih.</string>
 
     <!-- Formulir Permintaan Lisensi -->
+
     <string name="uniqueDeviceId">ID Perangkat: </string>
     <string name="L_please_complete">Silakan lengkapi detail di bawah ini…</string>
     <string name="L_licenceType_1">Jenis lisensi: Berlangganan Satu Tahun</string>
@@ -808,77 +809,75 @@
     <string name="L_companyName">Nama Perusahaan: </string>
     <string name="L_email">Kontak e-mail: </string>
     <string name="activateNowQR"> Aktifkan Sekarang dengan kode QR </string>
-
-
+    <string name="L_licenceType_2">Licence type: Lisensi Permanen (25 tahun)</string>
+    <string name="licenceTypeLabel">Silahkan pilih tipe lisensi :</string>
+    <string name="L_licenceType_1a">Satu tahun berlangganan</string>
+    <string name="L_licenceType_2a">Lisensi Permanen</string>
 
     <!-- LICENSING END -->
+
+    <string name="sampleAttributeSet">Contoh kumpulan atribut</string>
+    <string name="sampleGeopackage">Contoh geopackage.gpkg</string>
+
+    <string name="manageStyles">Kelola Style</string>
+    <string name="addStyle">Tambah Style</string>
+    <string name="setStyleColour">Terapkan warna style - warna ini akan digunakan pada style layer titik, garis dan garis tepi poligon.</string>
+    <string name="setStyleFillColour">Set Style Warna Area - pola ini digunakan untuk area poligon.</string>
+    <string name="setStyleColourLabel">Set Style Warna</string>
+    <string name="setStyleFillColourLabel">Set Style Warna Area</string>
+    <string name="styleName">Nama Style</string>
+    <string name="pressBack">Tekan \'Kembali\' untuk menyimpan style.</string>
+    <string name="addStyleInfo">Untuk menambah Style silahkan tekan Tombol\'Tambah\'.</string>
+    <string name="editingStyle">Memperbaharui Style</string>
+    <string name="deleteStyleError">Hapus Style - Bermasalah</string>
+    <string name="deletingStyleInfo">Style ini sedang digunakan dalam konfigurasi atribut. Operasi telah dibatalkan.</string>
+    <string name="useForStyling">Gunakan untuk styling</string>
+    <string name="useStyleInUse">Pola ini akan digunakan dalam konfigurasi field - Apakah kamu ingin melanjutkan?</string>
+    <string name="resetStyleAreYouSure">Semua setelan pola untuk semua nilai akan dilakukan penyetalan ulang. Apakah kamu ingin melanjutkan?</string>
+    <string name="resetStyleAreYouSureTitle">Hapus \"styled\" status.</string>
+
+    <string name="wmts_add">Tambah layanan WMTS</string>
+    <string name="wmts_add_info">Layanan harus cocok dengan tingkat perbesaran Google.\nSilahkan gunakan URL ini mengetahui kecocokan layanan e.g.\n\nhttps://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/WMTS/1.0.0/WMTSCapabilities.xml\n\nhttp://maps.wien.gv.at/wmts/1.0.0/WMTSCapabilities.xml\n\n</string>
+    <string name="wmts_error_version">Hanya didukung WMTS version 1.0.0 - Untuk informasi lebih lanjut, silahkan kontak penyedia layanan WMTS.</string>
+    <string name="wmts_setLayer">Silahkan pilih layer</string>
+    <string name="wmts_service_add">Tambah Layer WMTS</string>
+    <string name="wmts_service_notCompatible">Layanan ini tidak cocok dengan Google Maps. Untuk informasi lebih lanjut silahkan kontak penyedia layanan.</string>
+    <string name="wmts_noLayers">Layanan WMTS ini tidak memiliki dukungan layer. Silahkan kontak penyedia layanan.</string>
+    <string name="wmts_service_add_URL">URL Layanan WMTS</string>
+    <string name="wmts_service_connecting">Menghubungkan ke layanan.....</string>
+    <string name="wmts_add_selected">Tambakan Layer WMTS Terpilih</string>
+
+    <string name="txt_TianDiTu">Tianditu Basemaps</string>
+    <string name="txt_TianDiTuKey">Tianditu Basemaps Key</string>
+    <string name="txt_TianDiTuKeySub">Siapkan Tianditu Basemaps Key</string>
+
+    <string name="new_layer_sr">Referensi Spasial Layer Baru</string>
+    <string name="new_layer_srSum">Gunakan Spasial Referensi Lokal ketika membuat layer baru.</string>
+
+    <string name="gdriveRemove">Hapus hak akses Google Drive </string>
+    <string name="gdriveRemoveSettings">Press to remove access to Google Drive.</string>
+    <string name="gdriveRemoveAlert">Apakah anda ingin menghapus pengaturan hak akses Google Drive ?</string>
+    <string name="gdriveDownloadProblem">Terjadi masalah saat unduh berkas dari Gdrive.</string>
+    <string name="uploadingGeneral">Unggah berkas, silahkan tunggu…</string>
+    <string name="importGeopackage">Impor Geopackage</string>
+    <string name="importGeopackageExists">Telah ada pada folder Geopackages - silahkan hapus dahulu sebelum proses impor dilakukan.\n\nUntuk alasan keamanan, Mapit tidak menimpa data secara otomatis.</string>
+    <string name="featureGeometryInvalid">Geometri Fitur tidak valid dan akan dihapus bila sesi edit dihentikan. Apakah ingin dilanjukan?</string>
+    <string name="spatialSubscriptionInfo">Fungsi ini dari Mapit Spatial membutuhkan langganan layanan google yang valid untuk bisa dijalankan. Berlangganan valid untuk periode 1 tahun dan tersedia akses untuk keseluruhan fungsi aplikasi. Silakan tekan \'OK\' untuk melanjutkan.</string>
+
+    <string name="voiceInputTitle">Aktifkan Input Suara untuk field Text.</string>
+
+    <string name="licenceDeviceIDDoesNotMatch">Pada beberapa kasus Id perangkat bisa berubah.\n\nSeperti lisensi belum habis tapi sewaktu-waktu Id perangkat tidak cocok{0}.\n\nApakah akan mengirim permintaan lisensi server untuk memperbaharui informasi lisensi dan mengunduh file aktivasi yang baru?\n\nUntuk ID perangkatmu:\n{1}</string>
+    <string name="resetLicenceNow">Reset Lisensi Sekarang</string>
+    <string name="saveAs">Simpan Sebagai</string>
+    <string name="newFolder">Folder Baru</string>
+    <string name="newFolderName">Nama Folder Baru</string>
+    <string name="newLayerActive">Aktifkan Layer</string>
+    <string name="navigateToFeatureOnToolbar">Show \'Arahkan ke Fitur\' option on map toolbar.</string>
+    <string name="file_type_txt">Berkas TXT</string>
 
 
     <!-- MISSING INDONESIAN TRANSLATION BELLOW -->
 
-    <string name="L_licenceType_2">Licence type: Permanent Licence (25 years)</string>
-    <string name="licenceTypeLabel">Please select licence type:</string>
-    <string name="L_licenceType_1a">One Year subscription</string>
-    <string name="L_licenceType_2a">Permanent Licence</string>
-
-    <string name="sampleAttributeSet">Sample attribute set</string>
-    <string name="sampleGeopackage">Sample geopackage.gpkg</string>
-
-    <string name="manageStyles">Manage Styles</string>
-    <string name="addStyle">Add Style</string>
-    <string name="setStyleColour">Set Style Colour - this colour will be use to style point and line features as well when used with polygon layer to style the polygon outline.</string>
-    <string name="setStyleFillColour">Set Style Fill Colour - used to style the polygon fill.</string>
-    <string name="setStyleColourLabel">Set Style Colour</string>
-    <string name="setStyleFillColourLabel">Set Style Fill Colour</string>
-    <string name="styleName">Style Name</string>
-    <string name="pressBack">Press \'Back\' to save the style.</string>
-    <string name="addStyleInfo">To add the style please press the \'Add\' button.</string>
-    <string name="editingStyle">Editing Style</string>
-    <string name="deleteStyleError">Delete Style - Error</string>
-    <string name="deletingStyleInfo">This style is currently being used in the attributes configuration. Operation has been cancelled.</string>
-    <string name="useForStyling">Use for styling</string>
-    <string name="useStyleInUse">This style is being used in fields configuration - Do you wish to continue?</string>
-    <string name="resetStyleAreYouSure">All styles set for the field values will be reset. Do you wish to continue?</string>
-    <string name="resetStyleAreYouSureTitle">Remove \"styled\" status.</string>
-
-    <string name="wmts_add">Add WMTS service</string>
-    <string name="wmts_add_info">Service must comply with Google zoom levels.\nPlease use URL to the service capabilities e.g.\n\nhttps://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/WMTS/1.0.0/WMTSCapabilities.xml\n\nhttp://maps.wien.gv.at/wmts/1.0.0/WMTSCapabilities.xml\n\n</string>
-    <string name="wmts_error_version">Only WMTS version 1.0.0 is supported at the moment - Please contact the WMTS service provider to get more information.</string>
-    <string name="wmts_setLayer">Please select layer</string>
-    <string name="wmts_service_add">Add WMTS Layer</string>
-    <string name="wmts_service_notCompatible">This Service is not compatible with Google Maps. Please contact your service provider for more info.</string>
-    <string name="wmts_noLayers">This WMTS service does not contain any supported layers. Please contact service provider.</string>
-    <string name="wmts_service_add_URL">WMTS Service URL</string>
-    <string name="wmts_service_connecting">Connecting to service…</string>
-    <string name="wmts_add_selected">Add selected WMTS Layer</string>
-
-    <string name="txt_TianDiTu">Tianditu Basemaps</string>
-    <string name="txt_TianDiTuKey">Tianditu Basemaps Key</string>
-    <string name="txt_TianDiTuKeySub">Provide your own Tianditu Basemaps Key</string>
-
-    <string name="new_layer_sr">New Layer Spatial Reference</string>
-    <string name="new_layer_srSum">Enable to set local SR as default when creating new layer.</string>
-
-    <string name="gdriveRemove">Remove Google Drive access</string>
-    <string name="gdriveRemoveSettings">Press to remove access to Google Drive.</string>
-    <string name="gdriveRemoveAlert">Do you want to clear current Google Drive access settings?</string>
-    <string name="gdriveDownloadProblem">Problem occurred during file download from Gdrive.</string>
-    <string name="uploadingGeneral">Uploading files, please wait…</string>
-    <string name="importGeopackage">Import Geopackage</string>
-    <string name="importGeopackageExists">Already exist in Geopackages folder - please remove existing geopackage first before importing.\n\nFor security reasons Mapit do not override the data automatically.</string>
-    <string name="featureGeometryInvalid">Feature geometry is invalid and it will be removed when you stop edit session now. Do you wish to continue?</string>
-    <string name="spatialSubscriptionInfo">Fungsi ini dari Mapit Spatial membutuhkan langganan layanan google yang valid untuk bisa dijalankan. Berlangganan valid untuk periode 1 tahun dan tersedia akses untuk keseluruhan fungsi aplikasi. Silakan tekan \'OK\' untuk melanjutkan.</string>
-
-    <string name="voiceInputTitle">Enable voice input for Text fields.</string>
-
-    <string name="licenceDeviceIDDoesNotMatch">On some occasions the device Id may change.\n\nLooks like your licence is not expired but the device Id does not match the one from time of activation {0}.\n\nDo you want to send request to the licensing server to update the licence information and download new activation file?\n\nYour current device Id is:\n{1}</string>
-    <string name="resetLicenceNow">Reset Licence Now</string>
-    <string name="saveAs">Save As</string>
-    <string name="newFolder">New Folder</string>
-    <string name="newFolderName">New Folder Name</string>
-    <string name="newLayerActive">Set newly created layer as active</string>
-    <string name="navigateToFeatureOnToolbar">Show \'Navigate to feature\' option on map toolbar.</string>
-    <string name="file_type_txt">TXT Files</string>
 
     <!-- END of missing -->
 </resources>
