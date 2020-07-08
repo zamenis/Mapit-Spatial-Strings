@@ -819,72 +819,96 @@
     <string name="tableExists">Merci d\'utiliser un autre nom - la table nommée {0} existe déjà.</string> 
 
 
-    <!-- STANDALONE LICENSING -->
+ <!-- STANDALONE LICENSING -->
 
-    <string name="notActive">This application must be activated on this device or existing licence must be refreshed.\n\nPlease contact software provider by pressing \"Request License Now\" button.</string>
-    <string name="requestLicenceNow">Request Licence Now</string>
-    <string name="licenceMailSubject">Spatial Pro - Licence Request</string>
+    <string name="notActive">Cette application doit être activée sur cet appareil ou la licence existante doit être mise à jour.\n\nContacter le fournisseur du programme en cliquant sur  le bouton \"Demander une licence maintenant\".</string>
+    <string name="requestLicenceNow">Demander une licence maintenant</string>
+    <string name="licenceMailSubject">Spatial Pro - Demander une licence</string>
     <string name="emailTextLicence">I would like to order Mapit Spatial Pro licence. Please find my contact details below.</string>
 
     <string name="licenceMaintenance">Licence maintenance</string>
-    <string name="licenceMaintenanceSub">Check licence information or request new licence.</string>
-    <string name="licenceValidUntil">Valid until: {0}</string>
-    <string name="licenceValidFor">The application licence will expire in {0} days.</string>
-    <string name="requestLicenceType">Licence type</string>
-    <string name="selectLicenceType">Selected Licence type.</string>
+    <string name="licenceMaintenanceSub">Vérifier les informations de licence ou commander une nouvelle licence.</string>
+    <string name="licenceValidUntil">Valable jusqu\'au: {0}</string>
+    <string name="licenceValidFor">cette licence expirera dans {0} jours.</string>
+    <string name="requestLicenceType">Type de licence</string>
+    <string name="selectLicenceType">Type de licence sélectionnée.</string>
 
     <!-- Licence Request Form -->
-    <string name="uniqueDeviceId">Device Id: </string>
-    <string name="L_please_complete">Please complete the details below…</string>
-    <string name="L_licenceType_1">Licence type: One Year subscription</string>
-    <string name="L_licenceType_2">Licence type: Permanent Licence (25 years)</string>
-    <string name="L_firstName">First Name: </string>
-    <string name="L_lastName">Last Name: </string>
-    <string name="L_companyName">Company Name: </string>
-    <string name="L_email">Contact e-mail: </string>
-    <string name="activateNowQR">Activate Now with QR code</string>
+    <string name="uniqueDeviceId">Id appareil: </string>
+    <string name="L_please_complete">veuillez compléter les informations ci-dessous…</string>
+    <string name="L_licenceType_1">Type de licence: abonnement 1 an</string>
+    <string name="L_licenceType_2">Type de licence: licence perpétuelle (25 ans)</string>
+    <string name="L_firstName">Prénom: </string>
+    <string name="L_lastName">nom: </string>
+    <string name="L_companyName">Société: </string>
+    <string name="L_email">e-mail de contact: </string>
+    <string name="activateNowQR">Activer maintenant avec un QR code</string>
 
-    <string name="licenceTypeLabel">Please select licence type:</string>
-    <string name="L_licenceType_1a">One Year subscription</string>
-    <string name="L_licenceType_2a">Permanent Licence</string>
+    <string name="licenceTypeLabel">Veuillez sélectionner le type de licence:</string>
+    <string name="L_licenceType_1a">Abonnement 1 an</string>
+    <string name="L_licenceType_2a">Licence perpétuelle</string>
 
     <!-- LICENSING END -->
 
-    <string name="sampleAttributeSet">Sample attribute set</string>
+    <string name="sampleAttributeSet">Exemple de jeu d\'attributs</string>
     <string name="sampleGeopackage">Sample geopackage.gpkg</string>
 
-    <string name="manageStyles">Manage Styles</string>
-    <string name="addStyle">Add Style</string>
-    <string name="setStyleColour">Set Style Colour - this colour will be use to style point and line features as well when used with polygon layer to style the polygon outline.</string>
-    <string name="setStyleFillColour">Set Style Fill Colour - used to style the polygon fill.</string>
-    <string name="setStyleColourLabel">Set Style Colour</string>
-    <string name="setStyleFillColourLabel">Set Style Fill Colour</string>
-    <string name="styleName">Style Name</string>
-    <string name="pressBack">Press \'Back\' to save the style.</string>
-    <string name="addStyleInfo">To add the style please press the \'Add\' button.</string>
-    <string name="editingStyle">Editing Style</string>
-    <string name="deleteStyleError">Delete Style - Error</string>
-    <string name="deletingStyleInfo">This style is currently being used in the attributes configuration. Operation has been cancelled.</string>
-    <string name="useForStyling">Use for styling</string>
-    <string name="useStyleInUse">This style is being used in fields configuration - Do you wish to continue?</string>
-    <string name="resetStyleAreYouSure">All styles set for the field values will be reset. Do you wish to continue?</string>
-    <string name="resetStyleAreYouSureTitle">Remove \"styled\" status.</string>
+    <string name="manageStyles">Gérer les modèles de style</string>
+    <string name="addStyle">Ajouter un modèle de style</string>
+    <string name="setStyleColour">Définir la couleur du modèle de style. Cette couleur sera utilisée pour les points et les lignes ainsi que pour le contour des polygones.</string>
+    <string name="setStyleFillColour">Définir la couleur de remplissage des polygones.</string>
+    <string name="setStyleColourLabel">Définir la couleur du modèle</string>
+    <string name="setStyleFillColourLabel">Définir la couleur de remplissage</string>
+    <string name="styleName">nom du modèle de style</string>
+    <string name="pressBack">Cliquer sur le bouton \'Retour\' pour sauver le modèle de style.</string>
+    <string name="addStyleInfo">Pour ajouter le modèle de style, cliquer sur le bouton \'Ajouter\' .</string>
+    <string name="editingStyle">Editer les modèles de style</string>
+    <string name="deleteStyleError">Supprimer modèle de style- Erreur</string>
+    <string name="deletingStyleInfo">Ce modèle de style est actuellement utilisé dans la configuration. L\'opération a été annulée.</string>
+    <string name="useForStyling">Utiliser ce modèle de style</string>
+    <string name="useStyleInUse">Ce modèle de style va être utilisé dans votre configuration - Voulez-vous continuer?</string>
+    <string name="resetStyleAreYouSure">tous les modèles de style seront remis à zéro pour ces champs. Voulez-vous continuer?</string>
+    <string name="resetStyleAreYouSureTitle">Supprimer le statut des styles \"styled\".</string>
 
 
-    <string name="wmts_add">Add WMTS service</string>
-    <string name="wmts_add_info">Service must comply with Google zoom levels.\nPlease use URL to the service capabilities e.g.\n\nhttps://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/WMTS/1.0.0/WMTSCapabilities.xml\n\nhttp://maps.wien.gv.at/wmts/1.0.0/WMTSCapabilities.xml\n\n</string>
-    <string name="wmts_error_version">Only WMTS version 1.0.0 is supported at the moment - Please contact the WMTS service provider to get more information.</string>
-    <string name="wmts_setLayer">Please select layer</string>
-    <string name="wmts_service_add">Add WMTS Layer</string>
-    <string name="wmts_service_notCompatible">This Service is not compatible with Google Maps. Please contact your service provider for more info.</string>
-    <string name="wmts_noLayers">This WMTS service does not contain any supported layers. Please contact service provider.</string>
-    <string name="wmts_service_add_URL">WMTS Service URL</string>
-    <string name="wmts_service_connecting">Connecting to service…</string>
-    <string name="wmts_add_selected">Add selected WMTS Layer</string>
+    <string name="wmts_add">Ajouter un service WMTS</string>
+    <string name="wmts_add_info">Le service doit respecter les niveaux de zoom Google.\nVeuillez utiliser l\'URL d\'accès au service, par exemple \n\nhttps://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/WMTS/1.0.0/WMTSCapabilities.xml\n\nhttp://maps.wien.gv.at/wmts/1.0.0/WMTSCapabilities.xml\n\n</string>
+    <string name="wmts_error_version">Seule la version WMTS 1.0.0 est supportée pour le moment. Veuillez contacter votre fournisseur WMTS pour plus d\'informations.</string>
+    <string name="wmts_setLayer">Veuillez choisir la couche</string>
+    <string name="wmts_service_add">Ajouter une couche WMTS</string>
+    <string name="wmts_service_notCompatible">Ce service n\'est pas compatible avec Google Maps. Veuillez contacter votre fournisseur de service pour plus d\'informations.</string>
+    <string name="wmts_noLayers">Ce service WMTS ne contient aucune couche supportée. Veuillez contacter votre fournisseur de service.</string>
+    <string name="wmts_service_add_URL">URL du service WMTS</string>
+    <string name="wmts_service_connecting">Connexion au service…</string>
+    <string name="wmts_add_selected">Ajouter la couche WMTS sélectionnée</string>
 
-    <string name="txt_TianDiTu">Tianditu Basemaps</string>
-    <string name="txt_TianDiTuKey">Tianditu Basemaps Key</string>
-    <string name="txt_TianDiTuKeySub">Provide your own Tianditu Basemaps Key</string>
+    <string name="txt_TianDiTu">Fond de carte Tianditu</string>
+    <string name="txt_TianDiTuKey">Clé de fond de carte Tianditu</string>
+    <string name="txt_TianDiTuKeySub">Fournir votre propre clé d\'acès au fond de carte Tianditu</string>
+
+    <string name="new_layer_sr">Nouvelle couche de référence spatiale</string>
+    <string name="new_layer_srSum">Activer pour définir cette référence spatiale par défaut quand vous créez une nouvelle couhe.</string>
+    <string name="gdriveRemove">Revoquer l\'accès Google Drive</string>
+    <string name="gdriveRemoveSettings">Cliquez pour révoquer l\'accès à Google Drive.</string>
+    <string name="gdriveRemoveAlert">Voulez-vous effacer les paramètres actuels d\'accès à Google Drive ?</string>
+    <string name="gdriveDownloadProblem">Un problème est survenu durant le téléchargement du fichier depuis Google Drive.</string>
+    <string name="uploadingGeneral">"Envoi des fichiers, veuillez patienter…"</string>
+    <string name="importGeopackage">Importer un Geopackage</string>
+    <string name="importGeopackageExists">un geopackage existe déjà dans le dossier - veuillez supprimer le geopackage existant avant d\'importer le vôtre.\n\nPour des raisons de sécurité, Mapit ne peut pas écraser automatiquement vos données.</string>
+    <string name="featureGeometryInvalid">La géométrie de l\'entité est invalide et sera supprimée quand vous stopperez l\'édition. Voulez-vous continuer?</string>
+
+    <!-- Mapit SPATIAL - Missing Translation -->
+
+    <string name="voiceInputTitle">Enable voice input for Text fields.</string>
+    <string name="licenceDeviceIDDoesNotMatch">On some occasions the device Id may change.\n\nLooks like your licence is not expired but the device Id does not match the one from time of activation {0}.\n\nDo you want to send request to the licensing server to update the licence information and download new activation file?\n\nYour current device Id is:\n{1}</string>
+    <string name="resetLicenceNow">Reset Licence Now</string>
+    <string name="saveAs">Save As</string>
+    <string name="newFolder">New Folder</string>
+    <string name="newFolderName">New Folder Name</string>
+    <string name="newLayerActive">Set newly created layer as active</string>
+    <string name="navigateToFeatureOnToolbar">Show \'Navigate to feature\' option on map toolbar.</string>
+    <string name="file_type_txt">TXT Files</string>
+
 
     <!-- Missing End -->
     
