@@ -16,7 +16,7 @@
         <item>WGS84(lat,lon) - D\u00b0M\'S.ss</item>
         <item>Web mercator</item>
         <item>British National Grid</item>
-        <item>Custom: EPSG code</item>
+        <item>Personnalisé: code EPSG</item>
     </string-array>
     <string-array name="cords_sr_values">
         <item>4326</item>
@@ -31,11 +31,11 @@
         <item>Mètres carrés - [ m2 ]</item>
         <item>Hectares - [ ha ]</item>
         <item>Ares - [ a ]</item>
-        <item>Kilometers carrés- [ km2 ]</item>
-        <item>Miles carrées - [ mi2 ]</item>
+        <item>Kilomètres carrés- [ km2 ]</item>
+        <item>Miles carrés - [ mi2 ]</item>
         <item>Acres - [ ac ]</item>
         <item>Pieds carrés - [ ft2 ]</item>
-        <item>Miles nautiques carrées - [ nmi2 ]</item>
+        <item>Miles nautiques carrés - [ nmi2 ]</item>
         <item>Square sazhen - [ saz2 ]</item>
     </string-array>
     <string-array name="areaUnitsValues">
