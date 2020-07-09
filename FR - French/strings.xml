@@ -440,14 +440,14 @@
     <string name="add_ags">Ajouter AGS Tiled service</string>
     <string name="please_provide">Merci de fournir:</string>
     <string name="add_ags_url">Service URL</string>
-    <string name="add_ags_info">Only ArcGIS Server tiled services can be added. Service spatial reference must be Web Mercator (ESPG:3857)\nSample service URL: \nhttp://services.arcgisonline.com/ArcGIS/rest/services/USA_Topo_Maps/MapServer\n\nPlease visit our website for more details or contact us directly in case of problems.\nAt the moment secure services are not supported&#8230;</string>
+    <string name="add_ags_info">Only ArcGIS Server tiled services can be added. La référence spatiale doit être Web Mercator (ESPG:3857)\nSample service URL: \nhttp://services.arcgisonline.com/ArcGIS/rest/services/USA_Topo_Maps/MapServer\n\nPlease visit our website for more details or contact us directly in case of problems.\nAt the moment secure services are not supported&#8230;</string>
     <string name="add_no_url">Service URL requis</string>
     <string name="add_no_name">Nom requis</string>
 
     <string name="time">Heure</string>
     <string name="layers">Couches</string>
-    <string name="add_wms">Ajouter WMS service</string>
-    <string name="add_wms_info">Service must be available in spatial reference Web Mercator (ESPG:3857)\nSample WMS URL: \n\nhttps://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer\n\nPlease visit our website for more details or contact us directly in case of problems.\nAt the moment secure services are not supported&#8230;</string>
+    <string name="add_wms">Ajouter service WMS</string>
+    <string name="add_wms_info">Le service doit être disponible dans la référence spatiale Web Mercator (ESPG:3857)\nSample WMS URL: \n\nhttps://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer\n\nPlease visit our website for more details or contact us directly in case of problems.\nAt the moment secure services are not supported&#8230;</string>
     <string name="connect">Connecter</string>
     <string name="connect_error">Service non disponible</string>
     <string name="available_layers">Sélectionner une ou plusieurs couches:</string>
@@ -465,7 +465,7 @@
     <string name="contact_email">E-mail:</string>
     <string name="wms_fees">Frais:</string>
     <string name="wms_access">Contraintes d\'accès:</string>
-    <string name="wms_connect">Réupération des détails WMS - patientez&#8230;</string>
+    <string name="wms_connect">Récupération des détails WMS - patientez&#8230;</string>
 
     <string name="edit_wms">Editer WMS service</string>
     <string name="share_wms_url">Service URL</string>
@@ -809,7 +809,7 @@
     <string name="startLayerNumberingFromInfo">Cette valeur ne peut être définie que si la couche est vide.</string>
     <string name="exportShapeFilesAs2D">Exporter les fichiers SHP en géométrie 2D</string>
     <string name="setAsDefaultValue">Utiliser comme valeur par défaut</string>
-    <string name="removeGeopackage">This operation cannot be undone. Geopackage file, all underlying data (layers) and attributes will be removed. Are you sure you want to proceed?</string>
+    <string name="removeGeopackage">Cette opération ne peut pas être annulée. Le fichier geopackage, les données contenues (couches) et les attributs seront supprimés. Etes-vous certain de vouloir poursuivre?</string>
     <string name="useSxBlueTitle">Xblue ToolBox</string>
     <string name="useSxBlueSum">Fournir à Mapit la localisation fournie par l'application SXblue ToolBox.</string>
     <string name="coordinatesAsFieldsTitle">Inclure les coordonnées comme champs.</string>
@@ -899,15 +899,15 @@
 
     <!-- Mapit SPATIAL - Missing Translation -->
 
-    <string name="voiceInputTitle">Enable voice input for Text fields.</string>
-    <string name="licenceDeviceIDDoesNotMatch">On some occasions the device Id may change.\n\nLooks like your licence is not expired but the device Id does not match the one from time of activation {0}.\n\nDo you want to send request to the licensing server to update the licence information and download new activation file?\n\nYour current device Id is:\n{1}</string>
-    <string name="resetLicenceNow">Reset Licence Now</string>
-    <string name="saveAs">Save As</string>
-    <string name="newFolder">New Folder</string>
-    <string name="newFolderName">New Folder Name</string>
-    <string name="newLayerActive">Set newly created layer as active</string>
-    <string name="navigateToFeatureOnToolbar">Show \'Navigate to feature\' option on map toolbar.</string>
-    <string name="file_type_txt">TXT Files</string>
+    <string name="voiceInputTitle">Activer la saisie vocale pour les champs textuels.</string>
+    <string name="licenceDeviceIDDoesNotMatch">L\'identifiant de l'appareil peut varier à certaines occasions.\n\nIl semble que votre licence ne soit pas expirée, mais que l\'identifiant de l\'appareil ne corresponde plus à celui définit lors de l\'activation {0}.\n\nSouhaitez-vous envoyer une requête au serveur de licence pour mettre à jour les informations de licence et télécharger un nouveau fichier d\'activation ?\n\nL\'identifiant actuel de votre appareil est:\n{1}</string>
+    <string name="resetLicenceNow">Réinitialiser immédiatement la licence</string>
+    <string name="saveAs">Sauvegarder sous</string>
+    <string name="newFolder">Nouveau dossier</string>
+    <string name="newFolderName">Nom du nouveau dossier</string>
+    <string name="newLayerActive">Définir la couche comme active après sa création</string>
+    <string name="navigateToFeatureOnToolbar">Montrer l\'option \'Naviguer vers l\'objet\' sur la barre d'outils de la carte.</string>
+    <string name="file_type_txt">Fichiers TXT</string>
 
 
     <!-- Missing End -->
